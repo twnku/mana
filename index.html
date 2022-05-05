@@ -1,5 +1,5 @@
 <h1>Hello World</h1>
-<div id="sample"></div>
+<textarea id="sample"></textarea>
 
 <script>
 var sample = {
@@ -69,5 +69,5 @@ var sample = {
                         }
                     }
                 };
-document.getElementById('sample').innerHTML = JSON.stringify(sample, null, '\t');
+$('#sample').html(JSON.stringify(sample, null, '\t'));
 </script>
