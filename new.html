@@ -934,7 +934,7 @@
             $.each(itemData, function(key, val) {
                 loadCounts++;
             });
-            $('#itemid') = loadCounts;
+            $('#itemid').val(loadCounts);
             var enchantsurvival = $('#enchantsurvival').repeater({
                 initEmpty: false,
                 show: function () {
