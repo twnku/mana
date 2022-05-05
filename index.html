@@ -222,15 +222,9 @@
         <script src="/mana/Assets/lib/OrbitControls.js"></script>
         <script src="/mana/Assets/repeater/formrepeater.bundle.js"></script>
     <script>
-      $.ajax({
-        type: 'GET',
-        url: "/mana/itemList.json",
-        dataType: "json",
-        success: function(data) {
-          alert(data.name);
-          $('#output_container').html(JSON.stringify(data, null, '\t'));
-        }
-    });
+		$.get("https://twnku.github.io/mana/itemList.json", function(data, status){
+			$('#output_container').html(JSON.stringify(data, null, '\t'));
+		});
     </script>
 		<!--end::Javascript-->
 	</body>
