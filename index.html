@@ -223,6 +223,12 @@
         <script src="/mana/Assets/repeater/formrepeater.bundle.js"></script>
 		<script src="/mana/Assets/list_item.js"></script>
 		<script>
+			$.each(itemData, function(key, val) {
+				val.stats.data["lore"] = "Exclusive";
+				val.stats.data["isWardrobe"] = false;
+				val.stats.data["wardrobeType"] = null;
+				val.stats.data["isFurniture"] = false;
+			});
 			$('#output_container').html(JSON.stringify(itemData, null, '\t'));
 		</script>
 		<!--end::Javascript-->
