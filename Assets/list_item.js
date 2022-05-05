@@ -16990,5 +16990,945 @@ var itemData = [{
             "z": 25
         }
     }
+},{
+    "id": 182,
+    "type": "axe",
+    "name": "Chainsaw Axe",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Diamond Axe",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Halloween Axe",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Efficiency": 13
+                },
+                {
+                    "Sharpness": 5
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "skyblock": [{
+                    "Efficiency": 13
+                },
+                {
+                    "Sharpness": 5
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "earth": [{
+                    "Efficiency": 13
+                },
+                {
+                    "Sharpness": 5
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Efficiency": 13
+                },
+                {
+                    "Sharpness": 5
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Night Vision",
+                "Inflict Instant Damage"
+            ],
+            "skyblock": [
+                "Night Vision",
+                "Inflict Instant Damage"
+            ],
+            "earth": [
+                "Night Vision",
+                "Inflict Instant Damage"
+            ],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Night Vision",
+                "Inflict Instant Damage"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[2.5,2.5,0]},\"firstperson_righthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[2.5,2.5,0]},\"fixed\":{\"rotation\":[90,-45,90],\"scale\":[0.45,0.45,0.45],\"translation\":[-0.25,-1.5,-0.75]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.25,0.25,0.25]},\"gui\":{\"rotation\":[63,45,112],\"scale\":[0.45,-0.45,0.45],\"translation\":[0.25,1.25,0]},\"thirdperson_lefthand\":{\"scale\":[0.65,0.65,0.65],\"translation\":[0,4.25,1.5]},\"thirdperson_righthand\":{\"scale\":[0.65,0.65,0.65],\"translation\":[0,4.25,1.5]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.75,9.75,0,10.5]},\"east\":{\"texture\":\"#0\",\"uv\":[7.5,8,8.25,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[7.75,0,8.5,1.25]},\"south\":{\"texture\":\"#0\",\"uv\":[0,8.25,0.75,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10,10.25,9.25,9.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1,8.25,1.75,9.5]}},\"from\":[6.5,-16,6.5],\"to\":[9.5,-11,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,9.75,5.75,10.5]},\"east\":{\"texture\":\"#0\",\"uv\":[1,5.5,1.75,8]},\"north\":{\"texture\":\"#0\",\"uv\":[0,5.5,0.75,8]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,0,6.5,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.75,10.5,1,9.75]},\"west\":{\"texture\":\"#0\",\"uv\":[5.75,2.75,6.5,5.25]}},\"from\":[6.5,8,6.5],\"to\":[9.5,18,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.75,1.75,10,2.5]},\"east\":{\"texture\":\"#0\",\"uv\":[8.25,3,9,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,1.5,9,2.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,8.25,6.5,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10.75,1.5,10,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[8.5,8,9.25,9.25]}},\"from\":[6.5,21,7.75],\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[8,23.5,9.25]},\"to\":[9.5,26,10.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.75,4.5,10.25,5]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,0,4,9.75]},\"north\":{\"texture\":\"#0\",\"uv\":[2.75,0,3.25,9.75]},\"south\":{\"texture\":\"#0\",\"uv\":[4.25,0,4.75,9.75]},\"up\":{\"texture\":\"#0\",\"uv\":[10.75,4.25,10.25,3.75]},\"west\":{\"texture\":\"#0\",\"uv\":[5,0,5.5,9.75]}},\"from\":[7,-11,7],\"to\":[9,28,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.75,7.25,10.25,7.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,2.25,9.75,3.5]},\"north\":{\"texture\":\"#0\",\"uv\":[9.25,0.75,9.75,2]},\"south\":{\"texture\":\"#0\",\"uv\":[7.5,9.5,8,10.75]},\"up\":{\"texture\":\"#0\",\"uv\":[7.25,10.75,6.75,10.25]},\"west\":{\"texture\":\"#0\",\"uv\":[9.5,7.75,10,9]}},\"from\":[7,19,5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,0,-2]},\"to\":[9,24,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.25,10,3.75,10.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,3.75,10,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[10.25,8,10.75,8.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10.25,8.75,10.75,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,3.5,10,2.75]},\"west\":{\"texture\":\"#0\",\"uv\":[2.75,10,3.5,10.5]}},\"from\":[7,21,2],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,1,-4]},\"to\":[9,23,5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.75,10.25,10.25,10.75]},\"east\":{\"texture\":\"#0\",\"uv\":[6.75,2.75,7.25,5.25]},\"north\":{\"texture\":\"#0\",\"uv\":[2,5.5,2.5,8]},\"south\":{\"texture\":\"#0\",\"uv\":[6.75,5.5,7.25,8]},\"up\":{\"texture\":\"#0\",\"uv\":[10.75,10,10.25,9.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,2.75,8,5.25]}},\"from\":[7,18,0],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,1,-7]},\"to\":[9,28,2]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.25,8.25,6.75,10]},\"east\":{\"texture\":\"#0\",\"uv\":[8.25,4.5,10,5]},\"north\":{\"texture\":\"#0\",\"uv\":[10.75,0,11.25,0.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0.75,10.75,1.25,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[2.5,10,2,8.25]},\"west\":{\"texture\":\"#0\",\"uv\":[8.75,0,10.5,0.5]}},\"from\":[7,28,-3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,1,-7]},\"to\":[9,30,4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,11,4,13.5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,2.5,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10,10.5,10,13]},\"south\":{\"texture\":\"#0\",\"uv\":[3.5,10.75,3.5,13.25]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,13.5,3.75,11]},\"west\":{\"texture\":\"#0\",\"uv\":[0,2.75,2.5,5.25]}},\"from\":[8,18,-6.75],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,23,-1.75]},\"to\":[8,28,3.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,11,4.75,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[7.5,5.5,8.75,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[11,3.5,11,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4.25,11,4.25,12]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,12.25,4.5,11]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,6.75,8.75,7.75]}},\"from\":[8,12.5,-4.5],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,11.5,0.5]},\"to\":[8,16.5,0.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.25,1.5,11,2]},\"east\":{\"texture\":\"#0\",\"uv\":[2.75,10.75,3.25,11.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.75,0.75,9,1.25]},\"south\":{\"texture\":\"#0\",\"uv\":[10.75,6.25,11,6.75]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,1.25,11,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[10.75,2.75,11.25,3.25]}},\"from\":[7.5,28,-5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[-0.5,1,-14]},\"to\":[8.5,30,-3]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,5.25,10.75,6]},\"east\":{\"texture\":\"#0\",\"uv\":[5.75,5.5,6.5,8]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,9.5,8.5,12]},\"south\":{\"texture\":\"#0\",\"uv\":[8.75,9.5,9,12]},\"up\":{\"texture\":\"#0\",\"uv\":[1.75,11.5,1.5,10.75]},\"west\":{\"texture\":\"#0\",\"uv\":[6.75,0,7.5,2.5]}},\"from\":[7.5,18,-3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[-0.5,-1,-11]},\"to\":[8.5,28,0]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,10.75,6.25,11.5]},\"east\":{\"texture\":\"#0\",\"uv\":[9,5.25,9.75,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[7.75,1.5,8,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.25,10,5.5,11]},\"up\":{\"texture\":\"#0\",\"uv\":[6,11.5,5.75,10.75]},\"west\":{\"texture\":\"#0\",\"uv\":[9,6.5,9.75,7.5]}},\"from\":[7.5,13.14603,8.70678],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[-0.5,-11.85397,0.70678]},\"to\":[8.5,17.14603,11.70678]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.5,10.75,0,11.25]},\"east\":{\"texture\":\"#0\",\"uv\":[10,5.25,10.5,6]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,10,5,10.75]},\"south\":{\"texture\":\"#0\",\"uv\":[10,6.25,10.5,7]},\"up\":{\"texture\":\"#0\",\"uv\":[9.75,11,9.25,10.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2,10.25,2.5,11]}},\"from\":[7,14.52871,11.63066],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[0,-11.47129,4.63066]},\"to\":[9,17.52871,13.63066]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"halloween21_crate/chainsaw_axe\",\"particle\":\"halloween21_crate/chainsaw_axe\"}}",
+        "texture": [{
+            "name": "chainsaw_axe",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAALVBMVEVHcEz1+PjY4eL/6Um9yMz/vE75m06jr7bjeEDNXkZBRGUvMk4fIDURER0JCRMjn1TaAAAAAXRSTlMAQObYZgAAAglJREFUeNp81DGM0zAYBeCXts6FxLFyjLAcMwszYp8toXYAhhsZ2OdOzB0ZO1OGCImFZrA4Wk6NK2U6QKSVJQQT7T5ik1L8tw1P3vzpxY6dABmArnwcyYGoz77GRaL1MsnxL+cUPBLb7VYYDwQZHGB/wJf4GY5y7oHr+EXclRuVg1awHehdx0UaDet8TCss0HZYMAcQDUsF0Ip9w7zDi2gEGNAKtttFZx44sFEHINiDdxYA6xwHISCUpToGfTvgwgt+NB3sAF+nZgOEUsc5XaMPRB0OV6mhu6QgGmkcFOwBN79EDRpb4IGqFjXX7PKggALW70pS4IGk+nbqsD2gylTrkvkNWVPTD7IGuAvlAE1wca+X3ebrWC1AQwCaPL14w7y5iSrHugG3PgvjQNYO0grInmSTFhA5EOBhBrSATxa4THkL+MgVgPtSt4CwAXelRjvIgDsSbeCDMIEFD6LRacDe7hbZDpr7Ovjfqy7HpdLksDaqqFZ/D0uYKwsGBHxXV5WOVSnU0oGZBS/h54ea+eDGglek4ae6Mbr5BTlQ56XCwRrWPsDJTJtHAML0zxhfka9zaZZmCri4hn6PJZqAWVVU4DoaaZYsAQviAn4KNVGL8LkDcRFeWgBwBZoF4ADQlRZwRcDrtJLvkzEAxroAOhbQHQgjISo4EcMBHEWiCQsIaMnvUaRgFIwCAMLWHsPq767oAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 183,
+    "type": "sword",
+    "name": "Jasons Machete",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Diamond Sword",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Halloween Sword",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 8
+                },
+                {
+                    "Fire Aspect": 4
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 8
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 8
+                },
+                {
+                    "Fire Aspect": 4
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 8
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 8
+                },
+                {
+                    "Fire Aspect": 4
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 8
+                }
+            ],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 8
+                },
+                {
+                    "Fire Aspect": 4
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 8
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Strength II",
+                "Haste I",
+                "Blood Particles On Hit"
+            ],
+            "skyblock": [
+                "Strength II",
+                "Haste I",
+                "Blood Particles On Hit"
+            ],
+            "earth": [
+                "Strength II",
+                "Haste I",
+                "Blood Particles On Hit"
+            ],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Strength II",
+                "Haste I",
+                "Blood Particles On Hit"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[0,8.75,0]},\"firstperson_righthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[0,8.75,0]},\"fixed\":{\"rotation\":[90,-45,90],\"scale\":[0.7,0.7,0.7],\"translation\":[-4,4,-0.5]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.3,0.3,0.3],\"translation\":[0,0,2]},\"gui\":{\"rotation\":[74,-135,93],\"scale\":[0.65,0.65,-0.65],\"translation\":[3.75,3.25,0]},\"head\":{\"rotation\":[-157,33,19],\"translation\":[4.75,7,2.25]},\"thirdperson_lefthand\":{\"scale\":[0.75,0.75,0.75],\"translation\":[0,13.5,1.75]},\"thirdperson_righthand\":{\"scale\":[0.75,0.75,0.75],\"translation\":[0,13.5,1.75]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,5.25,5.75,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[5,0,5.5,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.75,0,6,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,1.75,6,3.25]},\"up\":{\"texture\":\"#0\",\"uv\":[6,5,5.75,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5,1.75,5.5,3.25]}},\"from\":[7.5,-16,7],\"to\":[8.5,-10,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,6,4.5,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,0,3,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[4,0,4.25,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,0,4.75,5.75]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,6.5,4,6]},\"west\":{\"texture\":\"#0\",\"uv\":[3.25,0,3.75,5.75]}},\"from\":[7.5,-9,7.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[-0.5,-0.2,0.75]},\"to\":[8.5,14,9.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.25,1.25,6.25,2.25]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,1,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[5.75,6,5.75,12.25]},\"south\":{\"texture\":\"#0\",\"uv\":[6,6,6,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[6.25,1,6.25,0]},\"west\":{\"texture\":\"#0\",\"uv\":[1.25,0,2.25,6.25]}},\"from\":[8,-9.3,5.25],\"to\":[8,15.7,9.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,5,5,6.25]},\"east\":{\"texture\":\"#0\",\"uv\":[5.75,3.5,7,3.75]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,6,3,6.25]},\"south\":{\"texture\":\"#0\",\"uv\":[3.25,6,3.75,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,4.75,5,3.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5.75,4,7,4.25]}},\"from\":[7,-10,5],\"to\":[9,-9,10]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"halloween21_crate/jason_machete\",\"particle\":\"halloween21_crate/jason_machete\"}}",
+        "texture": [{
+            "name": "jason_machete",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAALVBMVEVHcEz1+PjY4eK9yMyjr7aLlqHXXVHJKjOiGz5BRGV7D0EvMk4fIDURER0JCRMpw45RAAAAAXRSTlMAQObYZgAAANpJREFUeNrtkCFMQzEURW9LwiY68v+8uKsXCwb7AgZZr2BelAn0gsFrEAsKiU+9Abxh8wZv4aH/a33o0Senrxcj4IZzv6Z8LzDFasDISy+UrzApxAFLXp0Ik1GIo1vyev4rWIWViyrYBRVe5/tsFu7cli9+z4Rp4v3pVn+R03FhFy5m65w+jSdu3YY6lBbMHVTQQk3IUivoDWIVbrBRgQLYwuNsl6WEj3dLePA7SkHjhhIOh4pAea7c8LfDU2gMhZZwREs4qwvVqaFYTwCeJbyRKlQg8Q/pdDqdH1uRP/5E44/lAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 184,
+    "type": "pickaxe",
+    "name": "Pumpkin Pickaxe",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Diamond Pickaxe",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Halloween Pickaxe",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Saturation II"
+            ],
+            "skyblock": [
+                "Saturation II"
+            ],
+            "earth": [
+                "Saturation II"
+            ],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Saturation II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,1.5,0]},\"firstperson_righthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,1.5,0]},\"fixed\":{\"rotation\":[90,-45,90],\"scale\":[0.65,0.65,0.65],\"translation\":[0.5,-0.75,-1]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.25,0.25,0.25]},\"gui\":{\"rotation\":[59,45,116],\"scale\":[0.6,-0.6,0.6],\"translation\":[0,1,0]},\"head\":{\"translation\":[0,0.5,-0.25]},\"thirdperson_lefthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,4.75,1.5]},\"thirdperson_righthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,4.75,1.5]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.125,0,5.875,0.25]},\"east\":{\"texture\":\"#0\",\"uv\":[4.875,3.875,5.125,4.875]},\"north\":{\"texture\":\"#0\",\"uv\":[2.625,4.875,2.875,5.875]},\"south\":{\"texture\":\"#0\",\"uv\":[5,0,5.25,1]},\"up\":{\"texture\":\"#0\",\"uv\":[6,4.375,5.75,4.125]},\"west\":{\"texture\":\"#0\",\"uv\":[1.125,5,1.375,6]}},\"from\":[7,-5,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,8,0]},\"to\":[9,3,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.25,5.875,3,6.125]},\"east\":{\"texture\":\"#0\",\"uv\":[4.125,4.625,4.375,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,4.625,4,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,4.625,4.75,5.75]},\"up\":{\"texture\":\"#0\",\"uv\":[0.75,6.125,0.5,5.875]},\"west\":{\"texture\":\"#0\",\"uv\":[2.25,4.875,2.5,6]}},\"from\":[7,9,7],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[0,8,0]},\"to\":[9,18,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.875,5.875,0.875,8.5]},\"east\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0,0,2,2.625]},\"north\":{\"rotation\":180,\"texture\":\"#0\",\"uv\":[3.5,5.875,3.5,7.875]},\"south\":{\"texture\":\"#0\",\"uv\":[3.375,7.875,3.375,5.875]},\"up\":{\"rotation\":180,\"texture\":\"#0\",\"uv\":[1,5.75,1,8.375]},\"west\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2.125,0,4.125,2.625]}},\"from\":[8,11.29359,0.88338],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,17.79359,11.63338]},\"to\":[8,27.29359,21.88338]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.375,5,4.875,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[1.5,5,2,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5,1.125,5.5,1.625]},\"south\":{\"texture\":\"#0\",\"uv\":[5,1.75,5.5,2.25]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,3.5,5,3]},\"west\":{\"texture\":\"#0\",\"uv\":[5,2.375,5.5,2.875]}},\"from\":[6,-9,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,8,0]},\"to\":[10,-5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.875,5.625,1.5,6]},\"east\":{\"texture\":\"#0\",\"uv\":[5.25,4.125,5.625,4.625]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,5.25,0.875,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.375,0,5.75,0.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6,1.75,5.625,1.375]},\"west\":{\"texture\":\"#0\",\"uv\":[5.5,4.75,5.875,5.25]}},\"from\":[6.5,3,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,8,0]},\"to\":[9.5,7,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.625,0,4.25,0.875]},\"east\":{\"texture\":\"#0\",\"uv\":[3.875,3.875,4.75,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3,5.125,3.375,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[0,5.25,0.375,5.875]},\"up\":{\"texture\":\"#0\",\"uv\":[3.625,5,3.25,4.125]},\"west\":{\"texture\":\"#0\",\"uv\":[2.25,4.125,3.125,4.75]}},\"from\":[6.5,17,2],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[0,8,0]},\"to\":[9.5,22,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.875,0.625,5.625,1.25]},\"east\":{\"texture\":\"#0\",\"uv\":[4.25,1,4.875,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.625,1.875,5.875,2.375]},\"south\":{\"texture\":\"#0\",\"uv\":[5.625,2.5,5.875,3]},\"up\":{\"texture\":\"#0\",\"uv\":[5.75,6,5.5,5.375]},\"west\":{\"texture\":\"#0\",\"uv\":[4.25,1.625,4.875,2.125]}},\"from\":[7,18.683,2.43369],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[0,8.683,6.43369]},\"to\":[9,22.683,7.43369]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.625,5.125,3.5,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[4.25,2.25,4.875,2.625]},\"north\":{\"texture\":\"#0\",\"uv\":[5.375,0.625,5.5,1]},\"south\":{\"texture\":\"#0\",\"uv\":[2,5.625,2.125,6]},\"up\":{\"texture\":\"#0\",\"uv\":[4.875,0.625,4.75,0]},\"west\":{\"texture\":\"#0\",\"uv\":[5.25,3.625,5.875,4]}},\"from\":[7.5,20.47998,2.57299],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[0,9.47998,6.57299]},\"to\":[8.5,23.47998,7.57299]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.375,5.625,5.375,6]},\"east\":{\"texture\":\"#0\",\"uv\":[5.625,3.125,6,3.375]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,4.125,3.75,4.375]},\"south\":{\"texture\":\"#0\",\"uv\":[2.125,5,2.125,5.25]},\"up\":{\"texture\":\"#0\",\"uv\":[1,5.625,1,5.25]},\"west\":{\"texture\":\"#0\",\"uv\":[4.875,5.625,5.25,5.875]}},\"from\":[8,21.47998,-0.42701],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[0,9.47998,6.57299]},\"to\":[8,23.47998,2.57299]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1,3.875,0,5.125]},\"east\":{\"texture\":\"#0\",\"uv\":[0,2.75,1.25,3.75]},\"north\":{\"texture\":\"#0\",\"uv\":[1.125,3.875,2.125,4.875]},\"south\":{\"texture\":\"#0\",\"uv\":[3.875,2.75,4.875,3.75]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,4,2.75,2.75]},\"west\":{\"texture\":\"#0\",\"uv\":[1.375,2.75,2.625,3.75]}},\"from\":[4,15,7],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,20,9]},\"to\":[12,23,17]}],\"gui_light\":\"front\",\"texture_size\":[128,128],\"textures\":{\"0\":\"halloween21_crate/pumpkin_pickaxe\",\"particle\":\"halloween21_crate/pumpkin_pickaxe\"}}",
+        "texture": [{
+            "name": "pumpkin_pickaxe",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAM1BMVEVHcEz/6UnJydX/vE75m07jeECJiqjNXka2TUZVWXyUNjpBRGVmKykvMk4fIDURER0JCROGPRoUAAAAAXRSTlMAQObYZgAAAqxJREFUeNrEmIGKrDwMhY/Tc0ymauz7P+3f1isdZoH/ArfrR7Y6EfBrE8Ii/p+IwIkSEIkI/DpNIJqA6WEBN2IWLnwjx8W2bX8E3DCL/GNztIyL9/a+BKaS9ZVQxocAmsA2swOyfSVsCLz/CKz1Fo9RBV54r3iAo7Khsz4iUM4KSPEhgYh6BGCi8AxRu3CFKAMlPAVlhmdOYTsq6CyJDwiclQKKxDPU/UdATMS24QHW2oQBE4XzxGOYiTgOPMBWeXQSnpUViXqsCdf19QIXChF4DFE2RUBGSwsXJiTWazKaYOaSm/Vcf0jZHAGjic1AUHs/mxHcZSb3lkupPWxMEXC5yEXJYEkLqZqByVSj58j2kDJhBrkUkakUh5eSSJWS4SarUXM01vCrB7b1hX9N0RlknCwovG5VIJq5UXA1ATmYKLymnECWmKyfgCVKNYN2NTEhX92Y582BHOUsNcLh920GRdUgsmezumAaliNHeLigukbU34YlsZIWePZcw8dI/h3I1AMfrGdlQgny7r7nPEZOY1nYA9E5UOP1WtcD/5x9b2e8718j5yZKpwlMohW4Rh4j54gO2l9dzrP/OKCUZozC/eqyfYyc0gmcpQDROHoJjFME3HLes/kYOdF3PQRq77+7gIgJyFoFTGPkHEc0EOXETRNwEyZgbl7Dxsh51y3fAluvfunrJCiriGPk3PwUSElT/tvtMTLR39uuHwKdRJsx86xHey/FNAQqQ4AytQXziBPiwlvgaONvCIgyyHzOV8AlLf29JuoWKFHwGgLzPg80gcR0CZh4C7T8pwDVqjRJ4N54Z5TgU6AxUUCXgOeMuAT6x7lboB3Guk0U6PQSDIEfvIbABIlLQOZNIO7cN3MF/iL3X3twIAMAAAAwyN/6Hl8FAAAAAAAAAAAALAV46SVG2TG4ugAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 185,
+    "type": "sword",
+    "name": "Lucille",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Diamond Sword",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Halloween Sword",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 6
+                },
+                {
+                    "Knockback": 5
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Smite": 6
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 6
+                },
+                {
+                    "Knockback": 5
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Smite": 6
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 6
+                },
+                {
+                    "Knockback": 5
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Smite": 6
+                }
+            ],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Bane of Arthropods": 6
+                },
+                {
+                    "Knockback": 5
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Smite": 6
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Blood Particle On Hit",
+                "Inflict Slowness",
+                "Strength I"
+            ],
+            "skyblock": [
+                "Blood Particle On Hit",
+                "Inflict Slowness",
+                "Strength I"
+            ],
+            "earth": [
+                "Blood Particle On Hit",
+                "Inflict Slowness",
+                "Strength I"
+            ],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Blood Particle On Hit",
+                "Inflict Slowness",
+                "Strength I"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,9.25,0]},\"firstperson_righthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,9.25,0]},\"fixed\":{\"rotation\":[90,-45,90],\"scale\":[0.75,0.75,0.75],\"translation\":[-4.25,4.25,0]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.25,0.25,0.25]},\"gui\":{\"rotation\":[50,45,111],\"scale\":[0.6,-0.6,0.6],\"translation\":[3.5,3.5,0]},\"head\":{\"rotation\":[-45,0,0],\"translation\":[0,8.75,-15]},\"thirdperson_lefthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,11.25,1]},\"thirdperson_righthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,11.25,1]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.75,6.5,7,7.25]},\"east\":{\"texture\":\"#0\",\"uv\":[1,5.5,1.75,8]},\"north\":{\"texture\":\"#0\",\"uv\":[0,5.5,0.75,8]},\"south\":{\"texture\":\"#0\",\"uv\":[2,5.5,2.75,8]},\"up\":{\"texture\":\"#0\",\"uv\":[7.75,6.25,7,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3,5.5,3.75,8]}},\"from\":[6.5,5,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-15.5,8]},\"to\":[9.5,15,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,4.25,7.5,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0.75,0,1.25,5.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0.5,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,0,2,5.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8,4,7.5,3.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2.25,0,2.75,5.25]}},\"from\":[7,-5,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-15.5,8]},\"to\":[9,16,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.25,8.25,0,8.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,5.5,6.75,8]},\"north\":{\"texture\":\"#0\",\"uv\":[6,5.5,6.25,8]},\"south\":{\"texture\":\"#0\",\"uv\":[7,0,7.25,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,7.25,8,7]},\"west\":{\"texture\":\"#0\",\"uv\":[7,2.75,7.25,5.25]}},\"from\":[7.5,-15,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-15.5,8]},\"to\":[8.5,-5,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,2.75,7.5,3.25]},\"east\":{\"texture\":\"#0\",\"uv\":[8,5.5,8.5,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.5,5,8,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[8,6,8.5,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8,2.5,7.5,2]},\"west\":{\"texture\":\"#0\",\"uv\":[8,6.5,8.5,6.75]}},\"from\":[7,-16,7],\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[8,-15.5,8]},\"to\":[9,-15,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,1,7.5,1.75]},\"east\":{\"texture\":\"#0\",\"uv\":[5,5.5,5.75,8]},\"north\":{\"texture\":\"#0\",\"uv\":[4,5.5,4.75,8]},\"south\":{\"texture\":\"#0\",\"uv\":[6,0,6.75,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,0.75,7.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[6,2.75,6.75,5.25]}},\"from\":[6.25,4.95,6.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-15.5,8]},\"to\":[9.75,14.95,9.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,7.5,7.75,8]},\"east\":{\"texture\":\"#0\",\"uv\":[3.75,0,4.25,5.25]},\"north\":{\"texture\":\"#0\",\"uv\":[3,0,3.5,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,0,5,5.25]},\"up\":{\"texture\":\"#0\",\"uv\":[7.5,8,7,7.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5.25,0,5.75,5.25]}},\"from\":[6.75,-11,6.75],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-15.5,8]},\"to\":[9.25,16,9.25]}],\"groups\":[{\"children\":[0,1,2,3],\"color\":0,\"name\":\"group\",\"origin\":[8,-15.5,8]},{\"children\":[4,5],\"color\":0,\"name\":\"group\",\"origin\":[8,-15.5,8]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"halloween21_crate/lucille_bat\",\"particle\":\"halloween21_crate/lucille_bat\"}}",
+        "texture": [{
+            "name": "lucille_bat",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEVHcEzG7P/H1v+WstnYn3XHgmyGkLKua2B6d5mKUlhaPEWBs5CHAAAAAXRSTlMAQObYZgAAANdJREFUeNrtkIFmxEAQhj+GBOD0CZa+wFAOQOEUIEAA7hEGIg4IpQAWKAUL1L1lLxaIzI4WoPmEwOf/JuGtH777DAAdpWPL3NvjoaKFpvBBJlgIhIVA6DRrO8HfEydS/Yq7IwgsomievAVJwi71VxcB5Ar26QiQ3qFTm/aF/CzAVTEcAdIigN3YMlahojY2hTNGS4gT5ygBcWLi11xser3brQAMj/fsCU9oGmzM/oIKg13sy0+sC4CfWBdm/wZUad5wQtJ6g7kJheYNEAovu0KM8T85ODj4AYT0cuS5GGb2AAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 186,
+    "type": "misc",
+    "name": "Witch Staff",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Blaze Rod",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Halloween Wand",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Shoots Powerful Magic that damages all mobs",
+                "Jump Boost II"
+            ],
+            "skyblock": [
+                "Shoots Powerful Magic that damages all mobs",
+                "Jump Boost II"
+            ],
+            "earth": [
+                "Shoots Powerful Magic that damages all mobs",
+                "Jump Boost II"
+            ],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Shoots Powerful Magic that damages all mobs",
+                "Jump Boost II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"ambientocclusion\":false,\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[0,4.5,0]},\"firstperson_righthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[0,4.5,0]},\"fixed\":{\"rotation\":[90,-45,90],\"scale\":[0.7,0.7,0.7],\"translation\":[-1,2.5,-0.75]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.25,0.25,0.25]},\"gui\":{\"rotation\":[75,45,117],\"scale\":[0.65,-0.65,0.65],\"translation\":[1,3.5,0]},\"head\":{\"translation\":[0,11.5,0]},\"thirdperson_lefthand\":{\"scale\":[0.8,0.8,0.8],\"translation\":[0,4.5,1.5]},\"thirdperson_righthand\":{\"scale\":[0.8,0.8,0.8],\"translation\":[0,4.5,1.5]}},\"elements\":[{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[8.5,7.25,8,7.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,5,4,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5,2.75,5.5,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[4.25,5,4.75,7.5]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[8.5,7,8,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5,0,5.5,2.5]}},\"from\":[7.05,-4,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,0,16]},\"to\":[8.95,6,9]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[8.75,1.5,8.25,2]},\"east\":{\"texture\":\"#0\",\"uv\":[5.75,2,6.25,3.75]},\"north\":{\"texture\":\"#0\",\"uv\":[5.75,0,6.25,1.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,4,6.25,5.75]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[8.75,1.25,8.25,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[5,5.5,5.5,7.25]}},\"from\":[7.025,2.25137,7.84565],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[0,6.25137,16.84565]},\"to\":[8.975,9.25137,9.84565]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[7.25,7.5,6.25,8]},\"east\":{\"texture\":\"#0\",\"uv\":[7.25,3.75,8.25,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,2.25,8.75,2.75]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,8.25,5,8.75]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[6,8,5,7.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7.25,3,8.25,3.5]}},\"from\":[7,10.00419,13.3513],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[0,3.00419,10.3513]},\"to\":[9,12.00419,17.3513]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[10.25,0.75,9,0.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,2.5,4.75,4.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.25,8.25,7.25,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,8.75,8.5,11]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[10.25,0.5,9,0.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3.5,0,4.75,2.25]}},\"from\":[8,2.34462,10.59011],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,6.84462,13.09011]},\"to\":[8,11.34462,15.59011]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[8,2,7.25,2.75]},\"east\":{\"texture\":\"#0\",\"uv\":[2,7,2.75,7.75]},\"north\":{\"texture\":\"#0\",\"uv\":[1,7,1.75,7.75]},\"south\":{\"texture\":\"#0\",\"uv\":[7.25,0,8,0.75]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[8,1.75,7.25,1]},\"west\":{\"texture\":\"#0\",\"uv\":[0,7,0.75,7.75]}},\"from\":[6.5,13.18118,6.99111],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,14.68118,8.49111]},\"to\":[9.5,16.18118,9.99111]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6.5,8.25,6,8.75]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,1.5,7,2.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,0,7,1.25]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,3,7,4.25]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[5.75,8.75,5.25,8.25]},\"west\":{\"texture\":\"#0\",\"uv\":[5.75,6,6.25,7.25]}},\"from\":[7,17.28772,12.91339],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[0,14.28772,21.91339]},\"to\":[9,22.28772,14.91339]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[9.25,5,8,5.25]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,5.25,7.75,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.75,7.5,9,8]},\"south\":{\"texture\":\"#0\",\"uv\":[8,8.75,8.25,9.25]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[9.25,4.75,8,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6.5,4.5,7.75,5]}},\"from\":[7.5,15.31908,9.83519],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[0,24.31908,17.83519]},\"to\":[8.5,17.31908,14.83519]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[9.25,6,8,6.25]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,6.75,7.75,7.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.75,8.25,9,8.75]},\"south\":{\"texture\":\"#0\",\"uv\":[0,9,0.25,9.5]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[9.25,5.75,8,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6.5,6,7.75,6.5]}},\"from\":[7.525,18.98446,-3.06306],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[0,27.98446,4.93694]},\"to\":[8.475,20.98446,1.93694]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[0.75,9,0.5,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[3,8.75,3.25,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,3,8.75,3.75]},\"south\":{\"texture\":\"#0\",\"uv\":[8.75,6.5,9,7.25]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[9.25,0.25,9,0]},\"west\":{\"texture\":\"#0\",\"uv\":[6.75,8.25,7,9]}},\"from\":[7.55,16.82828,5.91073],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[0,22.82828,-1.08927]},\"to\":[8.45,19.82828,6.91073]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[8.75,4,8.5,4.25]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,7.75,3.75,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[7.5,7.5,7.75,9]},\"south\":{\"texture\":\"#0\",\"uv\":[4,7.75,4.25,9.25]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[4.75,8,4.5,7.75]},\"west\":{\"texture\":\"#0\",\"uv\":[3,7,3.25,8.5]}},\"from\":[7.5,-12.06645,10.19325],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7,-10.30317,10.69325]},\"to\":[8.5,-6.06645,11.19325]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[8.75,0,8.25,0.5]},\"east\":{\"texture\":\"#0\",\"uv\":[1.5,8,2,8.75]},\"north\":{\"texture\":\"#0\",\"uv\":[0.75,8,1.25,8.75]},\"south\":{\"texture\":\"#0\",\"uv\":[2.25,8,2.75,8.75]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[8.5,8.5,8,8]},\"west\":{\"texture\":\"#0\",\"uv\":[0,8,0.5,8.75]}},\"from\":[7.075,-6.06645,9.69325],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7,-10.30317,10.69325]},\"to\":[8.925,-3.06645,11.69325]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12.5,1,9.25,1]},\"east\":{\"texture\":\"#0\",\"uv\":[0,3.5,3.25,6.75]},\"north\":{\"texture\":\"#0\",\"uv\":[1,9,1,12.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9,1,9,4.25]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12,9,8.75,9]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,3.25,3.25]}},\"from\":[8,8.18118,1.99111],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,14.68118,8.49111]},\"to\":[8,21.18118,14.99111]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"halloween21_crate/witch_wand\",\"particle\":\"halloween21_crate/witch_wand\"}}",
+        "texture": [{
+            "name": "witch_wand",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAANlBMVEVHcEz39L//6UnsxYH/vE75m07Yn3XHgmzjeECua2DNXkaJTYuKUlhiNGxaPEVJLl80KFIkI0V/2T06AAAAAXRSTlMAQObYZgAAAXBJREFUeNrs1cGOqzAMRuFDJon5ixvg/V/2goUQdxbThjWfku58VDeL8ss8AWpU4U5OCQnxveV9BuSUnFGjxzoAcqr2M46FTjlNl8BOokeZ35dATkNvYF2GKQIWuZy4s4OcH8PFmDISXcryRg4gA+gOsM7IUUXGOGbuUMMNGa/Sv8I0szsCY+kOvBf4iembhhVqBFxIckSPKWWoQhUX3lrrDLznEgGvNBFEh2lY1ggATcis0r1BBFoc3+B9b1DOwC3zyhkwSY52dIpAPIHoc/z41xXk7uoI2DHahNuGToqAPD7lLrS7EbjrDDTHJDN8oxsBOe7eRLgXCEj4zYDtPgdyGii5kFLGOQKNaEgCPgRKzoxlJOeCcMPFlcTfXmPZ7ouyXRGotQptqH1/zkI0jtm2oQIfAmrU46sfgStDgi8CugSaUBw7ApW/yI9AEyCcJtxRQ2AAzrcsAqcIiA+uI/X/QPgiwMl4PB6Px+PfhjoAABOTEVZAB6HLAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 187,
+    "type": "legging",
+    "name": "Skeleton Leggings",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Leather Leggings",
+            "slot": "Armor",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Halloween Leggings",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "skyblock": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "earth": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAFVBMVEUAAAC6rqGjnI6Vi4I4ODguLi4gICAgMD4+AAAAAXRSTlMAQObYZgAAAFFJREFUeNpjQAAmIyUlJQMgQ1BRUFBQEchwVAtxcVQDMVTCUiAM1QRWMCNQDYIZlIxAGKwLhKFSYDUhQgEsQmFABqtQAotQAoTBisFgAzLgAAC8FQ0hu2x5tAAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 188,
+    "type": "chestplate",
+    "name": "Skeleton Chestplate",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Leather Chestplate",
+            "slot": "Armor",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Halloween Chestplate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "skyblock": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "earth": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Speed II",
+                "Health Boost I during night time",
+                "Absorption I during night time"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEUAAAC6rqGjnI6Vi4KLgW58cmQ4ODguLi4gICC3EpOSAAAAAXRSTlMAQObYZgAAAGNJREFUeNpjgAO2tA4GhrT0Aga2ciGLRqWyBgaONLGU8KR2ICOjychQA8TokGiJaOooYGBnB4k0FAD1gUTABoBEwIy0log0MKMtySwdzChPCSuDMIwMKyC2lYQ3MEC0WTAgAQAjzhl7g9TAuAAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 189,
+    "type": "legging",
+    "name": "Halloween Leggings",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2021",
+            "crates": "Halloween Crates",
+            "type": "Diamond Leggings",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": false,
+            "rarity": "Rare",
+            "lore": "Exclusive Halloween Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                    "Unbreaking": null
+                },
+                {
+                    "Protection": null
+                }
+            ],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on KitPVP"
+            ],
+            "skyblock": [
+                "Only Available on KitPVP"
+            ],
+            "earth": [
+                "Only Available on KitPVP"
+            ],
+            "prison": [
+                "Only Available on KitPVP"
+            ],
+            "parkour": [
+                "Only Available on KitPVP"
+            ],
+            "kitpvp": [
+                "Only Available on KitPVP"
+            ],
+            "island": [
+                "Only Available on KitPVP"
+            ],
+            "faction": [
+                "Only Available on KitPVP"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAABK7dkOPzYIJSAgxbWh++gaqqf///9z4YboAAAAAXRSTlMAQObYZgAAAFZJREFUGFeFjTsWACEIAw0EvP+Nl4/7sHMakqHIWm8kuYNsQ4sTxABGEEYoAcAowrgtnNhm8QY9hap3BVy1dvR0dA2BFhzRjKgBcISz8F8cMz2nk+k3H8SrAYCTsqIdAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
 }
 ];
