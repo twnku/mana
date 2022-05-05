@@ -3,7 +3,71 @@
 
 <script>
 var sample = {
-  "d": "xx" 
-};
+                    "id": 0,
+                    "type": "helmet",
+                    "name": "Mystic Armor",
+                    "stats": {
+                        "data": {
+                            "releaseDate": "October 2018",
+                            "crates": "Halloween Anniversary Bundle",
+                            "type": "Diamond Helmet",
+                            "slot": "Armor",
+                            "customTexture": false,
+                            "customEffect": true,
+                            "rarity": "Rare"
+                        },
+                        "enchant": {
+                            "survival": [{
+                                "Protection": 4
+                            }, {
+                                "Unbreaking": 5
+                            }],
+                            "skyblock": [{
+                                "Protection": 4
+                            }, {
+                                "Unbreaking": 5
+                            }],
+                            "earth": [{"Unknown": 0}],
+                            "olympus": [{
+                                "Protection": 4
+                            }, {
+                                "Unbreaking": 5
+                            }]
+                        },
+                        "effects": {
+                            "survival": ["When the helmet, chestplate, leggings, and boots of the Mystic set are all equipped, the player receives 2x more exp from mobs they have killed."],
+                            "skyblock": ["When the helmet, chestplate, leggings, and boots of the Mystic set are all equipped, the player receives 2x more exp from mobs they have killed."],
+                            "earth": ["Unknown"],
+                            "olympus": ["When the helmet, chestplate, leggings, and boots of the Mystic set are all equipped, the player receives 2x more exp from mobs they have killed."]
+                        }
+                    },
+                    "model": {
+                        "model": `{
+                            "textures": {
+                                "top": "blocks/texture"
+                            },
+                            "elements": [{
+                                "from": [1, 0, 1],
+                                "to": [15, 15, 15],
+                                "faces": {
+                                    
+                                    "south": {
+                                        "uv": [0, 0, 15, 15], 
+                                        "texture": "#top"
+                                    }
+                                }
+                            }]
+                        }`,
+                        "texture": [{
+                            "name": "texture",
+                            "texture": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbUaqqeh++j\/\/\/\/FmGLLAAAAAXRSTlMAQObYZgAAAD5JREFUGFeljDESACAIw4BW\/P+PBQbxzk0zNRkq8ogVhxPB0HafDnAXg6eTHRAPOo5gmlyhP1jeQayWbv9lAXcuAMVFqT2nAAAAAElFTkSuQmCC"
+                        }],
+                        "viewer": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 25
+                        }
+                    }
+                };
 document.getElementById('sample').innerHTML = JSON.stringify(sample, null, '\t');
 </script>
