@@ -1,0 +1,2038 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--begin::Head-->
+	<head><base href="/">
+		<title>Mana Item List | Add New</title>
+		<meta name="description" content="Mana Item List | Add New" />
+		<meta name="keywords" content="Mana Item List | Add New" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website">
+    <meta property="og:url" content="https://twnku.github.io/mana/">
+    <meta property="og:title" content="Manacube Item List">
+    <meta property="og:description" content="Manacube Item List">
+    <meta property="og:image" content="https://static.wikia.nocookie.net/096880af-6699-4fbf-a8a4-10de57cda9d4">
+		<link rel="canonical" href="https://mana.mfes.me" />
+		<link rel="shortcut icon" href="https://manacube.com/api/serverstatus/favicon.png" />
+		<!--begin::Fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Global Stylesheets Bundle(used by all pages)-->
+		<link href="/Assets/vendor/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="/Assets/vendor/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="/Assets/vendor/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+	</head>
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled aside-enabled">
+		<!--begin::Main-->
+		<!--begin::Root-->
+		<div class="d-flex flex-column flex-root">
+			<!--begin::Page-->
+			<div class="page d-flex flex-row flex-column-fluid">
+				<!--begin::Wrapper-->
+				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+					<!--begin::Header-->
+					<div id="kt_header" class="header">
+						<!--begin::Container-->
+						<div class="container-xxl d-flex flex-grow-1 flex-stack">
+							<!--begin::Header Logo-->
+							<div class="d-flex align-items-center me-5">
+								<a href="/">
+									<img alt="Logo" src="https://manacube.com/styles/ndzn/manacube/img/logo-text.png" class="h-50px h-lg-50px" />
+								</a>
+							</div>
+							<!--end::Header Logo-->
+							<!--begin::Topbar-->
+							<div class="d-flex align-items-center">
+								<!--begin::Topbar-->
+								<div class="d-flex align-items-center flex-shrink-0">
+									<!--begin::Chat-->
+									<div class="d-flex align-items-center ms-3 ms-lg-4">
+										<!--begin::Drawer wrapper-->
+										<div class="btn btn-icon btn-light-warning position-relative w-30px h-30px w-lg-40px h-lg-40px" id="kt_drawer_chat_toggle">
+										    <span class="svg-icon svg-icon-1">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path d="M6.28548 15.0861C7.34369 13.1814 9.35142 12 11.5304 12H12.4696C14.6486 12 16.6563 13.1814 17.7145 15.0861L19.3493 18.0287C20.0899 19.3618 19.1259 21 17.601 21H6.39903C4.87406 21 3.91012 19.3618 4.65071 18.0287L6.28548 15.0861Z" fill="black"></path>
+													<rect opacity="0.3" x="8" y="3" width="8" height="8" rx="4" fill="black"></rect>
+												</svg>
+											</span>
+										</div>
+										<!--end::Drawer wrapper-->
+									</div>
+									<!--end::Chat-->
+								</div>
+								<!--end::Topbar-->
+							</div>
+							<!--end::Topbar-->
+						</div>
+						<!--end::Container-->
+						<!--begin::Separator-->
+						<div class="separator"></div>
+						<!--end::Separator-->
+						<!--begin::Container-->
+						<div class="header-menu-container container-xxl d-flex flex-stack h-lg-75px" id="kt_header_nav">
+						</div>
+						<!--end::Container-->
+					</div>
+					<!--end::Header-->
+					<!--begin::Container-->
+					<div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
+						<!--begin::Post-->
+						<div class="content flex-row-fluid" id="kt_content">
+							<div class="row g-2 g-xl-2">
+							    <div class="col-12">
+							        <div class="card">
+							            <div class="card-body">
+							                <button onclick="saveDataAll(); $('#hdiedas').addClass('d-none');" class="btn btn-primary w-100">Save</button>
+							                <button id="hdiedas" onclick="$('#outputcontainer').removeClass('d-none'); $(this).addClass('d-none');" class="btn btn-sm btn-light w-100 pb-1 pt-1 mt-1">Show Output</button>
+							             </div>
+							        </div>
+							    </div>
+							    <div id="outputcontainer" class="col-12 d-none">
+							        <div class="card">
+							            <div class="card-body">
+							                <!--begin::Code-->
+										<div class="py-5">
+											<!--begin::Highlight-->
+											<button class="btn btn-sm btn-danger pb-1 pt-1 mb-1" data-bs-toggle="tooltip" title="Clear" onclick="$('#output_container').empty(); outputDataAll = [];">clear</button>
+											<button class="btn btn-sm btn-warning pb-1 pt-1 mb-1" data-bs-toggle="tooltip" title="Hide" onclick="$('#hdiedas').removeClass('d-none'); $('#outputcontainer').addClass('d-none');">hide</button>
+											<div class="highlight">
+												<div class="highlight-code">
+												    <button class="highlight-copy btn" data-bs-toggle="tooltip" title="Copy code">copy</button>
+															<pre class="language-json" style="height:300px">
+<code class="language-json" id="output_container">null</code>
+</pre>
+														</div>
+											</div>
+											<!--end::Highlight-->
+										</div>
+										<!--end::Code-->
+							             </div>
+							        </div>
+							    </div>
+							    <div id="texturemodelcontainer" class="col-12 d-none">
+							        <div class="row">
+							            <div class="col-6">
+    							            <div class="card">
+        							            <div class="card-body" style="height: 200px;">
+        							                <div class="col-12 mb-3">
+        							                    <p class="mb-0 text-muted">Model (json)</p>
+        							                    <input type="file" accept=".json" id="loadmodel" onchange="loadjson(this.files[0])">
+        							                    <table>
+                    <tbody id="models">
+
+                    </tbody>
+                  </table>
+        							                </div>
+        							                <div class="col-12 mb-3">
+        							                    <p class="mb-0 text-muted">Texture (png)</p>
+        							                    <input type="file" accept=".png" id="loadtexture" onchange="loadtexture(this.files)" multiple>
+        							                    <table>
+                                                        <tbody id="textures">
+                                
+                                                        </tbody>
+                                                      </table>
+        							                </div>
+        							                
+        							                <div class="col-12"> 
+            							                <div class="row">
+            							                    <div class="col-6">
+            							                        <button class="btn btn-sm btn-primary w-100" onclick="loadthing()">Load Texture</button>
+            							                    </div>
+            							                    <div class="col-6">
+            							                        <button class="btn btn-sm btn-primary w-100" onclick="loadInput()">Load Input</button>
+            							                    </div>
+            							                </div>
+        							                </div>
+                                                </div>
+        							        </div>
+    							        </div>
+    							        <div class="col-6">
+    							            <div class="card">
+        							            <div class="card-body text-center" style="height: 200px;">
+                                                    <div id="wrapper">
+                                                                
+                                                    </div>
+                                                </div>
+        							        </div>
+    							        </div>
+							        </div>
+							    </div>
+							    <form novalidate="novalidate" method="post" id="forms" action="">
+							    <div class="col-12">
+							        <div class="card">
+							            <div class="card-body">
+							                <div class="col-12 mb-6">
+							                    <div class="form-check form-switch form-check-custom form-check-solid">
+                                                    <input onclick="($(this).is(':checked')) ? $('#texturemodelcontainer').removeClass('d-none') : $('#texturemodelcontainer').addClass('d-none')" class="form-check-input" type="checkbox" value="" id="customtexture"/>
+                                                    <label class="form-check-label" for="customtexture">
+                                                        Custom Texture
+                                                    </label>
+                                                </div>
+							                </div>
+							                <div class="col-12 mb-6"> 
+							                    <div class="form-check form-switch form-check-custom form-check-solid">
+                                                    <input onclick="($(this).is(':checked')) ? $('#customeffectcontainer').removeClass('d-none') : $('#customeffectcontainer').addClass('d-none')" class="form-check-input" type="checkbox" value="" id="customeffect"/>
+                                                    <label class="form-check-label" for="customeffect">
+                                                        Custom Effects
+                                                    </label>
+                                                </div>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemname" class="form-control" placeholder="Name"/>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemlore" class="form-control" placeholder="Lores" value="Exclusive "/>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="number" id="itemid" class="form-control" placeholder="ID" value="167"/>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemcat" class="form-control" placeholder="Category" value="helmet"/>
+							                    <div class="col-12 mt-2 d-flex justify-content-start">
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">helmet</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">chestplate</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">legging</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">boot</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">sword</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">axe</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">pickaxe</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">shovel</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">hoe</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">fishingrod</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">bow</span>
+							                        <span onclick="$('#itemcat').val($(this).html());" class="text-muted fs-6 badge badge-light">misc</span>
+							                    </div>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemdate" class="form-control" placeholder="Release Date"/>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemcrate" class="form-control" placeholder="Crates Name"/>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemtype" class="form-control" placeholder="Type" value="Diamond Helmet"/>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemslot" class="form-control" placeholder="Slot" value="Armor"/>
+							                    <div class="col-12 mt-2 d-flex justify-content-start">
+							                        <span onclick="$('#itemslot').val($(this).html());" class="text-muted fs-6 badge badge-light">Armor</span>
+							                        <span onclick="$('#itemslot').val($(this).html());" class="text-muted fs-6 badge badge-light">Tools</span>
+							                        <span onclick="$('#itemslot').val($(this).html());" class="text-muted fs-6 badge badge-light">Others</span>
+							                        <span onclick="$('#itemslot').val($(this).html());" class="text-muted fs-6 badge badge-light">Wardrobe</span>
+							                        <span onclick="$('#itemslot').val($(this).html());" class="text-muted fs-6 badge badge-light">Furniture</span>
+							                    </div>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <input type="text" id="itemrare" class="form-control" placeholder="Rarity" value="Rare"/>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <!--begin::Repeater-->
+                                                <div id="enchantsurvival">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantsurvivalname" name="enchantsurvivalname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantsurvivallvl" name="enchantsurvivallvl" class="form-control" placeholder="Enchantment Level"/>
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Survival)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+							                </div>
+							                <div class="separator my-1"></div>
+							                <div class="col-12 mb-6">
+							                    <!--begin::Repeater-->
+                                                <div id="enchantskyblock">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantskyblockname" name="enchantskyblockname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantskyblocklvl" name="enchantskyblocklvl" class="form-control" placeholder="Enchantment Level"/>
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Skyblock)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+							                </div>
+							                <div class="separator my-1"></div>
+							                <div class="col-12 mb-6">
+							                    <!--begin::Repeater-->
+                                                <div id="enchantolympus">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantolympusname" name="enchantolympusname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantolympuslvl" name="enchantolympuslvl" class="form-control" placeholder="Enchantment Level"/>
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Olympus)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+							                </div>
+							                <div class="separator my-1"></div>
+							                <div class="col-12 mb-6">
+							                    <!--begin::Repeater-->
+                                                <div id="enchantearth">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantearthname" name="enchantearthname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantearthlvl" name="enchantearthlvl" class="form-control" placeholder="Enchantment Level"/>
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Earth)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+							                </div>
+							                <div id="customeffectcontainer" class="d-none">
+							                    <div class="separator my-5"></div>
+        							                <div class="col-12 mb-6">
+        							                    <!--begin::Repeater-->
+                                                        <div id="effectsurvival">
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group">
+                                                                <div data-repeater-list>
+                                                                    <div data-repeater-item>
+                                                                        <div class="form-group row">
+                                                                            <div class="col-10">
+                                                                                <input type="text" id="effectnamesurvival" name="effectnamesurvival" class="form-control" placeholder="Effects" />
+                                                                            </div>
+                                                                            <div class="col-2">
+                                                                                <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                    <i class="la la-trash-o"></i>Delete
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group mt-5">
+                                                                <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                    <i class="la la-plus"></i>Add Custom Effects (Survival)
+                                                                </a>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        </div>
+                                                        <!--end::Repeater-->
+        							                </div>
+        							                <div class="separator my-2"></div>
+        							                <div class="col-12 mb-6">
+        							                    <!--begin::Repeater-->
+                                                        <div id="effectskyblock">
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group">
+                                                                <div data-repeater-list>
+                                                                    <div data-repeater-item>
+                                                                        <div class="form-group row">
+                                                                            <div class="col-10">
+                                                                                <input type="text" id="effectnameskyblock" name="effectnameskyblock" class="form-control" placeholder="Effects" />
+                                                                            </div>
+                                                                            <div class="col-2">
+                                                                                <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                    <i class="la la-trash-o"></i>Delete
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group mt-5">
+                                                                <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                    <i class="la la-plus"></i>Add Custom Effects (Skyblock)
+                                                                </a>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        </div>
+                                                        <!--end::Repeater-->
+        							                </div>
+        							                <div class="separator my-2"></div>
+        							                <div class="col-12 mb-6">
+        							                    <!--begin::Repeater-->
+                                                        <div id="effectolympus">
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group">
+                                                                <div data-repeater-list>
+                                                                    <div data-repeater-item>
+                                                                        <div class="form-group row">
+                                                                            <div class="col-10">
+                                                                                <input type="text" id="effectnameolympus" name="effectnameolympus" class="form-control" placeholder="Effects" />
+                                                                            </div>
+                                                                            <div class="col-2">
+                                                                                <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                    <i class="la la-trash-o"></i>Delete
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group mt-5">
+                                                                <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                    <i class="la la-plus"></i>Add Custom Effects (Olympus)
+                                                                </a>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        </div>
+                                                        <!--end::Repeater-->
+        							                </div>
+        							                <div class="separator my-2"></div>
+        							                <div class="col-12 mb-6">
+        							                    <!--begin::Repeater-->
+                                                        <div id="effectearth">
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group">
+                                                                <div data-repeater-list>
+                                                                    <div data-repeater-item>
+                                                                        <div class="form-group row">
+                                                                            <div class="col-10">
+                                                                                <input type="text" id="effectnameearth" name="effectnameearth" class="form-control" placeholder="Effects" />
+                                                                            </div>
+                                                                            <div class="col-2">
+                                                                                <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                    <i class="la la-trash-o"></i>Delete
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        
+                                                            <!--begin::Form group-->
+                                                            <div class="form-group mt-5">
+                                                                <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                    <i class="la la-plus"></i>Add Custom Effects (Earth)
+                                                                </a>
+                                                            </div>
+                                                            <!--end::Form group-->
+                                                        </div>
+                                                        <!--end::Repeater-->
+        							                </div>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <textarea type="number" id="customjson" class="form-control" placeholder="Custom Model json"/>{"textures":{"top": "blocks/texture"}, "elements": [{"from": [1, 0, 1], "to": [15, 15, 15], "faces":{"south":{"uv": [0, 0, 15, 15], "texture": "#top"}}}]}</textarea>
+							                    <div class="col-12 mt-2 d-flex justify-content-start">
+							                        <textarea id="defaultss" hidden>{"textures":{"top": "blocks/texture"}, "elements": [{"from": [1, 0, 1], "to": [15, 15, 15], "faces":{"south":{"uv": [0, 0, 15, 15], "texture": "#top"}}}]}</textarea>
+							                        <span onclick="$('#customjson').val($('#defaultss').html());" class="text-muted fs-6 badge badge-light">Default</span>
+							                    </div>
+							                </div>
+							                <div class="col-12 mb-6">
+							                    <textarea type="number" id="customb64" class="form-control" placeholder="Custom Model base64"/>[{"name": "texture", "texture": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbUaqqeh++j\/\/\/\/FmGLLAAAAAXRSTlMAQObYZgAAAD5JREFUGFeljDESACAIw4BW\/P+PBQbxzk0zNRkq8ogVhxPB0HafDnAXg6eTHRAPOo5gmlyhP1jeQayWbv9lAXcuAMVFqT2nAAAAAElFTkSuQmCC"}]</textarea>
+							                    <input class="mt-2" type="file" accept=".png" id="uploadTextures" onchange="loadUpload(this.files)" >
+							                </div>
+							                
+							            </div>
+							        </div>
+							    </div>
+							    </form>
+							</div>
+						</div>
+						<!--end::Post-->
+					</div>
+					<!--end::Container-->
+					<!--begin::Footer-->
+					<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+						<!--begin::Container-->
+						<div class="container-xxl d-flex flex-column flex-md-row align-items-center justify-content-between">
+							<!--begin::Copyright-->
+							<div class="text-dark order-2 order-md-1">
+								<span class="text-muted fw-bold me-1">2022©</span>
+								<a href="https://manacube.com/members/developer.76533/" target="_blank" class="text-gray-800 text-hover-primary">twnku</a>
+							</div>
+							<!--end::Copyright-->
+							<!--begin::Menu-->
+							<ul class="menu menu-gray-600 menu-hover-primary fw-bold order-1">
+								<li class="menu-item">
+									<a href="https://manacube.com/members/developer.76533/" target="_blank" class="menu-link px-2">Manacube</a>
+								</li>
+								<li class="menu-item">
+									<a href="https://manacube.com/support/" target="_blank" class="menu-link px-2">Tickets</a>
+								</li>
+							</ul>
+							<!--end::Menu-->
+						</div>
+						<!--end::Container-->
+					</div>
+					<!--end::Footer-->
+				</div>
+				<!--end::Wrapper-->
+			</div>
+			<!--end::Page-->
+		</div>
+		<!--end::Root-->
+		<!--begin::Drawers-->
+		<!--begin::Chat drawer-->
+		<div id="kt_drawer_chat" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="chat" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'md': '500px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_drawer_chat_toggle" data-kt-drawer-close="#kt_drawer_chat_close">
+			<!--begin::Messenger-->
+			<div class="card w-100 rounded-0" id="kt_drawer_chat_messenger">
+				<!--begin::Card header-->
+				<div class="card-header pe-5" id="kt_drawer_chat_messenger_header">
+					<!--begin::Title-->
+					<div class="card-title">
+						<!--begin::User-->
+						<div class="d-flex justify-content-center flex-column me-3">
+							<span class="fs-4 fw-bolder text-gray-900 text-hover-warning me-1 mb-2 lh-1">About</span>
+						</div>
+						<!--end::User-->
+					</div>
+					<!--end::Title-->
+					<!--begin::Card toolbar-->
+					<div class="card-toolbar">
+						<!--begin::Close-->
+						<div class="btn btn-sm btn-icon btn-active-light-warning" id="kt_drawer_chat_close">
+							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+							<span class="svg-icon svg-icon-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+								</svg>
+							</span>
+							<!--end::Svg Icon-->
+						</div>
+						<!--end::Close-->
+					</div>
+					<!--end::Card toolbar-->
+				</div>
+				<!--end::Card header-->
+				<!--begin::Card body-->
+				<div class="card-body" id="kt_drawer_chat_messenger_body">
+					<!--begin::Messages-->
+					<div class="scroll-y me-n5 pe-5" data-kt-element="messages" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_drawer_chat_messenger_header, #kt_drawer_chat_messenger_footer" data-kt-scroll-wrappers="#kt_drawer_chat_messenger_body" data-kt-scroll-offset="0px">
+						<!--begin::Message(in)-->
+						<div class="d-flex justify-content-start mb-10">
+							<!--begin::Wrapper-->
+							<div class="d-flex flex-column align-items-start">
+								<!--begin::Text-->
+								<div class="p-5 rounded bg-light-info text-dark fw-bold mw-lg-400px text-start" data-kt-element="message-text">...</div>
+								<!--end::Text-->
+							</div>
+							<!--end::Wrapper-->
+						</div>
+						<!--end::Message(in)-->
+					</div>
+					<!--end::Messages-->
+				</div>
+				<!--end::Card body-->
+			</div>
+			<!--end::Messenger-->
+		</div>
+		<!--end::Chat drawer-->
+		<!--end::Drawers-->
+		<!--begin::Scrolltop-->
+		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+			<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
+			<span class="svg-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="black" />
+					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="black" />
+				</svg>
+			</span>
+			<!--end::Svg Icon-->
+		</div>
+		<!--end::Scrolltop-->
+		<!--end::Main-->
+		<script>var hostUrl = "/Assets/vendor/";</script>
+		<!--begin::Javascript-->
+		<!--begin::Global Javascript Bundle(used by all pages)-->
+		<script src="/Assets/vendor/plugins/global/plugins.bundle.js"></script>
+		<script src="/Assets/vendor/js/scripts.bundle.js"></script>
+		<script src="/Assets/vendor/js/custom/documentation/documentation.js"></script>
+		<script src="/Assets/vendor/plugins/custom/prismjs/prismjs.bundle.js"></script>
+		<!--end::Global Javascript Bundle-->
+		<!-- Requires three.js and OrbitControls.js -->
+        <script src="/Assets/lib/three.min.js"></script>
+        <script src="/Assets/lib/OrbitControls.js"></script>
+        <script src="/Assets/repeater/formrepeater.bundle.js"></script>
+        
+        <script>
+            var enchantsurvival = $('#enchantsurvival').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            
+            var enchantskyblock = $('#enchantskyblock').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            
+            var enchantolympus = $('#enchantolympus').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            
+            var enchantearth = $('#enchantearth').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            
+            var effectsurvival = $('#effectsurvival').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            
+            var effectskyblock = $('#effectskyblock').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            
+            var effectolympus = $('#effectolympus').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            
+            var effectearth = $('#effectearth').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            var outputDataAll = [];
+            function saveDataAll(){
+                var outputdata = { 
+                    "id": parseInt($('#itemid').val()),
+                    "type": $('#itemcat').val(),
+                    "name": $('#itemname').val(),
+                    "stats": {
+                        "data": {
+                            "releaseDate": $('#itemdate').val(),
+                            "crates": $('#itemcrate').val(),
+                            "type": $('#itemtype').val(),
+                            "slot": $('#itemslot').val(),
+                            "customTexture": $('#customtexture').is(':checked'),
+                            "customEffect": $('#customeffect').is(':checked'),
+                            "rarity": $('#itemrare').val(),
+                            "lore": $('#itemlore').val()
+                        },
+                        "enchant": {
+                            "survival": [{"Unknown": 0}],
+                            "skyblock": [{"Unknown": 0}],
+                            "earth": [{"Unknown": 0}],
+                            "olympus": [{"Unknown": 0}]
+                        },
+                        "effects": {
+                            "survival": ["No Effects"],
+                            "skyblock": ["No Effects"],
+                            "earth": ["No Effects"],
+                            "olympus": ["No Effects"]
+                        }
+                    },
+                    "model": {
+                        "model": $('#customjson').val(),
+                        "texture": jQuery.parseJSON($('#customb64').val()),
+                        "viewer": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 25
+                        }
+                    }
+                };
+                if(outputDataAll.length > 0){
+                    outputdata.id = parseInt($('#itemid').val())+outputDataAll.length;
+                }
+                
+                $.each($('#enchantsurvival').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.survival = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantsurvivalname.length > 0){
+                                let push = {};
+                                push[val.enchantsurvivalname] = parseInt(val.enchantsurvivallvl);
+                                outputdata.stats.enchant.survival.push(push);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#enchantskyblock').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.skyblock = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantskyblockname.length > 0){
+                                let push = {};
+                                push[val.enchantskyblockname] = parseInt(val.enchantskyblocklvl);
+                                outputdata.stats.enchant.skyblock.push(push);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#enchantolympus').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.olympus = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantolympusname.length > 0){
+                                let push = {};
+                                push[val.enchantolympusname] = parseInt(val.enchantolympuslvl);
+                                outputdata.stats.enchant.olympus.push(push);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#enchantearth').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.earth = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantearthname.length > 0){
+                                let push = {};
+                                push[val.enchantearthname] = parseInt(val.enchantearthlvl);
+                                outputdata.stats.enchant.earth.push(push);
+                            }
+                        });   
+                    }
+                });
+                
+                
+                $.each($('#effectsurvival').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.survival = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnamesurvival.length > 0){
+                                outputdata.stats.effects.survival.push(val.effectnamesurvival);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#effectskyblock').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.skyblock = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnameskyblock.length > 0){
+                                outputdata.stats.effects.skyblock.push(val.effectnameskyblock);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#effectolympus').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.olympus = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnameolympus.length > 0){
+                                outputdata.stats.effects.olympus.push(val.effectnameolympus);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#effectearth').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.earth = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnameearth.length > 0){
+                                outputdata.stats.effects.earth.push(val.effectnameearth);
+                            }
+                        });   
+                    }
+                });
+                
+                outputDataAll.push(outputdata);
+                var cccJson = $('#customjson').val();
+                var cccb64 = $('#customb64').val();
+                $('#outputcontainer').removeClass('d-none');
+                $('#output_container').html(JSON.stringify(outputDataAll, null, '\t'));
+                //alert(JSON.stringify(jQuery.parseJSON(cccb64)));
+                
+            }
+        </script>
+        
+        
+        <script>
+            /**
+             *  @author Fizzy / https://github.com/fizzy81
+             */
+            
+            
+            /**
+             *  ModelViewer
+             *****************************/
+            
+            function ModelViewer(container, px, py, pz) {
+            
+            
+              // container
+            
+              this.container = container
+            
+            
+              // element
+            
+              this.element = document.createElement('div')
+              this.element.setAttribute('style', 'position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: auto; height: auto; overflow: hidden;')
+            
+              this.container.appendChild(this.element)
+            
+              // get element dimensions
+              var rect = this.element.getBoundingClientRect()
+            
+            
+              // camera
+            
+              this.camera = new THREE.PerspectiveCamera(60, rect.width / rect.height, 1, 1000)
+              this.camera.position.x = px //0 //15
+              this.camera.position.y = py //0 //7
+              this.camera.position.z = pz //35 //25
+            
+            
+              // scene
+            
+              this.scene = new THREE.Scene()
+            
+            
+              // lights
+            
+              var light
+            
+              light = new THREE.AmbientLight(0xffffff, 0.97)
+              this.scene.add(light)
+            
+              light = new THREE.DirectionalLight(0xffffff, 0.1)
+              light.position.set(4, 10, 6)
+              this.scene.add(light)
+            
+            
+              // renderer
+            
+              this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
+              this.renderer.setSize(rect.width, rect.height)
+            
+            
+              // controls
+            
+              this.controls = new THREE.OrbitControls(this.camera, this.renderer.domElement)
+              this.controls.enableDamping = true
+              this.controls.dampingFactor = 0.2
+              this.controls.zoomSpeed = 1.4
+              this.controls.rotateSpeed = 0.6
+              this.controls.enableKeys = false
+            
+            
+              // append viewer
+            
+              this.element.appendChild(this.renderer.domElement)
+            
+            
+              // view methods
+            
+              var self = this
+            
+            
+              // draw
+            
+              this.draw = function() {
+            
+                self.renderer.render(self.scene, self.camera)
+            
+              }
+            
+            
+              // animate
+            
+              this.animate = function() {
+            
+                window.requestAnimationFrame(self.animate)
+                self.controls.update()
+            
+                self.draw()
+            
+              }
+            
+            
+              // resize
+            
+              this.resize = function() {
+            
+                var rect = self.element.getBoundingClientRect()
+            
+                self.camera.aspect = rect.width / rect.height
+                self.camera.updateProjectionMatrix()
+            
+                self.renderer.setSize(rect.width, rect.height)
+            
+              }
+            
+            
+              // models
+            
+              this.models = {}
+            
+            
+              // model methods
+            
+              var self = this
+            
+            
+              // load
+            
+              this.load = function(model) {
+            
+                var name = model.modelName
+            
+                if (Object.keys(self.models).indexOf(name) >= 0)
+                  throw new Error('Model "' + name + '" is already loaded.')
+            
+                self.scene.add(model)
+                self.models[name] = model
+            
+                return self
+            
+              }
+            
+            
+              // get
+            
+              this.get = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                return self.models[name]
+            
+              }
+            
+            
+              // getAll
+            
+              this.getAll = function() {
+            
+                return Object.keys(self.models).map(function(name) {return self.models[name]})
+            
+              }
+            
+            
+              // remove
+            
+              this.remove = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                delete self.models[name]
+            
+                for (var i = 0; i < self.scene.children.length; i++) {
+                  var child = self.scene.children[i]
+                  if (child instanceof JsonModel && child.modelName == name) {
+                    child.animationLoop = false
+                    self.scene.remove(child)
+                    break
+                  }
+                }
+            
+                return self
+            
+              }
+            
+            
+              // removeAll
+            
+              this.removeAll = function() {
+            
+                for (var i = self.scene.children.length - 1; i >= 0; i--) {
+                  var child = self.scene.children[i]
+                  if (child instanceof JsonModel) {
+                    child.animationLoop = false
+                    self.scene.remove(child)
+                  }
+                }
+            
+                self.models = {}
+            
+                return self
+            
+              }
+            
+            
+              // hide
+            
+              this.hide = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                self.models[name].visible = false
+                self.draw()
+            
+              }
+            
+            
+              // hideAll
+            
+              this.hideAll = function() {
+            
+                Object.keys(self.models).forEach(function(name) {
+                  self.models[name].visible = false
+                })
+            
+                return self
+            
+              }
+            
+            
+              // show
+            
+              this.show = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                self.models[name].visible = true
+                self.draw()
+            
+              }
+            
+            
+              // showAll
+            
+              this.showAll = function() {
+            
+                Object.keys(self.models).forEach(function(name) {
+                  self.models[name].visible = true
+                })
+            
+                return self
+            
+              }
+            
+            
+              // reset
+            
+              this.reset = function() {
+            
+                self.controls.reset()
+            
+              }
+            
+            
+              // lookAt
+            
+              this.lookAt = function(name) {
+            
+                var model = self.get(name)
+                self.controls.target = model.getCenter()
+            
+            
+              }
+            
+            
+              // create grid
+            
+              var gridGeometry = new THREE.Geometry()
+              var gridMaterial = new THREE.LineBasicMaterial({color: 0xafafaf})
+            
+              for (var i = -8; i <= 8; i++) {
+            
+                  gridGeometry.vertices.push(new THREE.Vector3(-8, -8, i))
+                  gridGeometry.vertices.push(new THREE.Vector3(8, -8, i))
+            
+                  gridGeometry.vertices.push(new THREE.Vector3(i, -8, -8))
+                  gridGeometry.vertices.push(new THREE.Vector3(i, -8, 8))
+            
+              }
+            
+              // arrow
+            
+              gridGeometry.vertices.push(new THREE.Vector3(-1, -8, 9))
+              gridGeometry.vertices.push(new THREE.Vector3(1, -8, 9))
+            
+              gridGeometry.vertices.push(new THREE.Vector3(1, -8, 9))
+              gridGeometry.vertices.push(new THREE.Vector3(0, -8, 10))
+            
+              gridGeometry.vertices.push(new THREE.Vector3(0, -8, 10))
+              gridGeometry.vertices.push(new THREE.Vector3(-1, -8, 9))
+            
+              var grid = new THREE.LineSegments(gridGeometry, gridMaterial)
+              grid.visible = true
+            
+              this.scene.add(grid)
+              this.grid = grid
+            
+            
+              // grid methods
+            
+              var self = this
+            
+            
+              // showGrid
+            
+              this.showGrid = function() {
+            
+                self.grid.visible = true
+            
+              }
+            
+            
+              // hideGrid
+            
+              this.hideGrid = function() {
+            
+                self.grid.visible = false
+            
+              }
+            
+            
+              // setGridColor
+            
+              this.setGridColor = function(color) {
+            
+                self.grid.material.color = new THREE.Color(color)
+            
+              }
+            
+            
+              this.animate()
+            
+            
+            }
+            
+            
+            
+            /**
+             *  JsonModel
+             *****************************/
+            
+            function JsonModel(name, rawModel, texturesReference, clipUVs) {
+            
+            
+              // set default clip value to true
+            
+              if (clipUVs === undefined) {
+                clipUVs = true
+              }
+            
+            
+              // parent constructor
+            
+              THREE.Object3D.call(this)
+            
+            
+              // set modelName
+            
+              this.modelName = name
+            
+            
+              // track animation
+            
+              this.animationLoop = true
+            
+            
+              // parse model or throw an error if parsing fails
+            
+              try {
+                var model = JSON.parse(rawModel)
+              } catch (e) {
+                throw new Error('Couldn\'t parse json model. ' + e.message + '.')
+              }
+            
+            
+              // get textures and handle animated textures
+            
+              var textures = {}
+              var references = []
+            
+              var animated = []
+              var animations = []
+            
+              if (model.hasOwnProperty('textures')) {
+            
+                Object.keys(model.textures).forEach(function(key, index) {
+            
+                  // get texture reference value
+                  var temp = model.textures[key].split('/')
+                  var textureName = temp[temp.length - 1]
+            
+                  // look for this value in the textures passed in parameter
+                  var reference
+                  for (var i = 0; i < texturesReference.length; i++) {
+                    reference = texturesReference[i]
+                    if (reference.name == textureName) {
+                      break
+                    }
+                  }
+            
+                  // register the texture or throw an error if the name wasn't in the textures passed in parameter
+                  if (reference.name == textureName) {
+            
+                    references.push(key)
+            
+                    // handle animated textures
+                    if (reference.hasOwnProperty('mcmeta')) {
+            
+                      // parse mcmeta
+                      try {
+                        var mcmeta = JSON.parse(reference.mcmeta)
+                      } catch (e) {
+                        throw new Error('Couldn\'t parse mcmeta for texture "' + textureName + '". ' + e.message + '.')
+                      }
+            
+                      // check property
+                      if (!mcmeta.hasOwnProperty('animation'))
+                        throw new Error('Couldn\'t find the "animation" property in mcmeta for texture "' + textureName + '"')
+            
+                      // image buffer to access width and height from dataURL
+                      var imageBuffer = new Image()
+                      imageBuffer.src = reference.texture
+            
+                      var width = imageBuffer.width
+                      var height = imageBuffer.height
+            
+                      // check if dimensions are valid
+                      if (height % width != 0)
+                        throw new Error('Image dimensions are invalid for texture "' + textureName + '".')
+            
+                      // get frames from mcmeta or generate them
+                      var frames = []
+            
+                      if (mcmeta.animation.hasOwnProperty('frames')) {
+                        frames = mcmeta.animation.frames
+                      } else {
+                        for (var k = 0; k < height/width; k++) {
+                          frames.push(k)
+                        }
+                      }
+            
+                      // default value for frametime
+                      var frametime = mcmeta.animation.frametime || 1
+            
+                      // uniform animation frames
+                      var animation = []
+            
+                      for (var i = 0; i < frames.length; i++) {
+                        frame = frames[i]
+                        if (typeof frame == 'number') {
+                          animation.push({index: frame, time:frametime})
+                        } else {
+                          if (!frame.hasOwnProperty('index'))
+                            throw new Error('Invalid animation frame at index "' + i + '" in mcmeta for texture "' + textureName + '".')
+                          animation.push({index: frame.index, time: frame.time || frametime})
+                        }
+                      }
+            
+                      // number of vertical frames
+                      var numberOfImages = height/width
+            
+                      // register animation
+                      animations.push({height: numberOfImages, frames: animation, currentFrame: 0})
+                      animated.push(references.length - 1)
+            
+                      // split frames
+                      var images = []
+            
+                      for (var i = 0; i < height/width; i++) {
+            
+                        // workspace
+                        var canvas = document.createElement('canvas')
+                        canvas.width = width
+                        canvas.height = width
+            
+                        var ctx = canvas.getContext('2d')
+                        ctx.drawImage(imageBuffer, 0, -i*width)
+            
+                        images.push(canvas.toDataURL('image/png'))
+            
+                      }
+            
+                      // register textures
+                      textures[key] = images
+            
+                    } else {
+            
+                      // register texture
+                      textures[key] = reference.texture
+            
+                    }
+            
+                  } else {
+            
+                    throw new Error('Couldn\'t find matching texture for texture reference "' + textureName + '".')
+            
+                  }
+            
+                })
+            
+              } else {
+            
+                throw new Error('Couldn\'t find "textures" property.')
+            
+              }
+            
+            
+              // access this.animationLoop
+            
+              var self = this
+            
+            
+              // generate material
+            
+              var materials = []
+            
+              // final material is made of several different materials, one for each texture
+              references.forEach(function(ref, index) {
+            
+                // if animated texture, get the first frame
+                var image = textures[ref] instanceof Array ? textures[ref][0] : textures[ref]
+            
+                // create three js texture from image
+                var loader = new THREE.TextureLoader()
+                var texture = loader.load(image)
+            
+                // sharp pixels and smooth edges
+                texture.magFilter = THREE.NearestFilter
+                texture.minFilter = THREE.LinearFilter
+            
+                // map texture to material, keep transparency and fix transparent z-fighting
+                var mat = new THREE.MeshLambertMaterial({map: texture, transparent: true, alphaTest: 0.5})
+            
+                materials.push(mat)
+            
+                // if animated texture
+                if (textures[ref] instanceof Array) {
+            
+                  // get texture array and animation frames
+                  var images = textures[ref]
+                  var animation = animations[animated.indexOf(index)]
+            
+                  // keep scope
+                  ;(function(material, images, animation) {
+            
+                    // recursively called with a setTimeout
+                    var animateTexture = function() {
+            
+                      var frame = animation.frames[animation.currentFrame]
+            
+                      // Prevent crashing with big animated textures
+                      try {
+                        material.map.image.src = images[frame.index]
+                        animation.currentFrame = animation.currentFrame < animation.frames.length - 1 ? animation.currentFrame + 1 : 0
+                      } catch (e) {
+                        console.log(e.message)
+                      }
+            
+                      window.setTimeout(function() {
+                        if (self.animationLoop)
+                          window.requestAnimationFrame(animateTexture)
+                      }, frame.time*50) // multiplied by the length of a minecraft game tick (50ms)
+            
+                    }
+            
+                    // initialize recursion
+                    window.requestAnimationFrame(animateTexture)
+            
+                  })(mat, images, animation)
+            
+                }
+            
+              })
+            
+              // extra transparent material for hidden faces
+              var transparentMaterial = new THREE.MeshBasicMaterial({transparent: true, opacity: 0, alphaTest: 0.5})
+            
+              materials.push(transparentMaterial)
+            
+              // big material list from all the other materials
+              var material = new THREE.MeshFaceMaterial(materials)
+            
+            
+              // create geometry
+            
+              // get elements or throw an error if the "elements" property can't be found
+            
+              var elements
+            
+              if (model.hasOwnProperty('elements')) {
+                elements = model.elements
+              } else {
+                throw new Error('Couldn\'t find "elements" property')
+              }
+            
+            
+              // generate mesh
+            
+              var group = new THREE.Group()
+            
+              elements.forEach(function(element, index) {
+            
+            
+                // check properties
+            
+                if (!element.hasOwnProperty('from'))
+                  throw new Error('Couldn\'t find "from" property for element "' + index + '".')
+                if (!(element['from'].length == 3))
+                  throw new Error('"from" property for element "' + index + '" is invalid.')
+            
+                if (!element.hasOwnProperty('to'))
+                  throw new Error('Couldn\'t find "to" property for element "' + index + '".')
+                if (!(element['to'].length == 3))
+                  throw new Error('"to" property for element "' + index + '" is invalid.')
+            
+                for (var i = 0; i < 3; i++) {
+                  var f = element['from'][i]
+                  var t = element['to'][i]
+                  if (typeof f != 'number' || f < -16)
+                    throw new Error('"from" property for element "' + index + '" is invalid (got "' + f + '" for coordinate "' + ['x', 'y', 'z'][i] + '").')
+                  if (typeof t != 'number' || t > 32)
+                    throw new Error('"to" property for element "' + index + '" is invalid (got "' + t + '" for coordinate "' + ['x', 'y', 'z'][i] + '").')
+                  if (t - f < 0)
+                    throw new Error('"from" property is bigger than "to" property for coordinate "' + ['x', 'y', 'z'][i] + '" in element "' + index + '".')
+                }
+            
+            
+                // get dimensions and origin
+            
+                var width = element['to'][0] - element['from'][0]
+                var height = element['to'][1] - element['from'][1]
+                var length = element['to'][2] - element['from'][2]
+            
+                var origin = {
+                  x: (element['to'][0] + element['from'][0]) / 2 - 8,
+                  y: (element['to'][1] + element['from'][1]) / 2 - 8,
+                  z: (element['to'][2] + element['from'][2]) / 2 - 8
+                }
+            
+            
+                // create geometry
+            
+                var fix = 0.001 // if a value happens to be 0, the geometry becomes a plane and will have 4 vertices instead of 12.
+            
+                var geometry = new THREE.BoxGeometry(width + fix, height + fix, length + fix)
+                geometry.faceVertexUvs[0] = []
+            
+            
+                // assign materials
+            
+                if (element.hasOwnProperty('faces')) {
+            
+                  var faces = ['east', 'west', 'up', 'down', 'south', 'north']
+            
+                  for (var i = 0; i < 6; i++) {
+            
+                    var face = faces[i]
+            
+                    if (element.faces.hasOwnProperty(face)) {
+            
+            
+                      // check properties
+            
+                      if (!element.faces[face].hasOwnProperty('texture'))
+                        throw new Error('Couldn\'t find "texture" property for "' + face + '" face in element "' + index + '".')
+                      if (!element.faces[face].hasOwnProperty('uv'))
+                        throw new Error('Couldn\'t find "uv" property for "' + face + '" face in element "' + index + '".')
+                      if (element.faces[face].uv.length != 4)
+                        throw new Error('The "uv" property for "' + face + '" face in element "' + index + '" is invalid (got "' + element.faces[face].uv + '").')
+            
+            
+                      // get texture index
+            
+                      var ref = element.faces[face].texture
+                      var textureIndex = references.indexOf(ref[0] == '#' ? ref.substring(1) : ref)
+            
+            
+                      // check if texture has been registered
+            
+                      if (textureIndex < 0)
+                        throw new Error('The "texture" property for "' + face + '" face in element "' + index + '" is invalid (got "' + ref + '").')
+            
+                      geometry.faces[i*2].materialIndex = textureIndex
+                      geometry.faces[i*2+1].materialIndex = textureIndex
+            
+            
+                      // uv map
+            
+                      var uv = element.faces[face].uv
+            
+            
+                      // check
+                      
+                      if (clipUVs) {
+                        uv.forEach(function(e, pos) {if (typeof e != 'number') throw new Error('The "uv" property for "' + face + '" face in element "' + index + '" is invalid (got "' + e + '" at index "' + pos + '").')})
+                        uv.map(function(e) {
+                          if (e + 0.00001 < 0) {
+                            return 0
+                          } else if (e - 0.00001 > 16) {
+                            return 16
+                          } else {
+                            return e
+                          }
+                        })
+                      } else {
+                        uv.forEach(function(e, pos) {if (typeof e != 'number' || e + 0.00001 < 0 || e - 0.00001 > 16) throw new Error('The "uv" property for "' + face + '" face in element "' + index + '" is invalid (got "' + e + '" at index "' + pos + '").')})
+                      }
+            
+                      uv = uv.map(function(e) {return e/16})
+            
+                      // fix edges
+                      uv[0] += 0.0005
+                      uv[1] += 0.0005
+                      uv[2] -= 0.0005
+                      uv[3] -= 0.0005
+            
+                      var map = [
+                        new THREE.Vector2(uv[0], 1-uv[1]),
+                        new THREE.Vector2(uv[0], 1-uv[3]),
+                        new THREE.Vector2(uv[2], 1-uv[3]),
+                        new THREE.Vector2(uv[2], 1-uv[1])
+                      ]
+            
+                      if (element.faces[face].hasOwnProperty('rotation')) {
+            
+                        var amount = element.faces[face].rotation
+            
+                        // check property
+            
+                        if (!([0, 90, 180, 270].indexOf(amount) >= 0))
+                          throw new Error('The "rotation" property for "' + face + '" face in element "' + index + '" is invalid (got "' + amount + '").')
+            
+                        // rotate map
+            
+                        for (var j = 0; j < amount/90; j++) {
+                          map = [map[1], map[2], map[3], map[0]]
+                        }
+            
+                      }
+            
+                      geometry.faceVertexUvs[0][i*2] = [map[0], map[1], map[3]]
+                      geometry.faceVertexUvs[0][i*2+1] = [map[1], map[2], map[3]]
+            
+            
+                    } else {
+            
+                      // transparent material
+            
+                      geometry.faces[i*2].materialIndex = references.length
+                      geometry.faces[i*2+1].materialIndex = references.length
+            
+                      var map = [
+                        new THREE.Vector2(0, 0),
+                        new THREE.Vector2(1, 0),
+                        new THREE.Vector2(1, 1),
+                        new THREE.Vector2(0, 1)
+                      ]
+            
+                      geometry.faceVertexUvs[0][i*2] = [map[0], map[1], map[3]]
+                      geometry.faceVertexUvs[0][i*2+1] = [map[1], map[2], map[3]]
+            
+                    }
+            
+                  }
+            
+                }
+            
+            
+                // create mesh
+            
+                var mesh = new THREE.Mesh(geometry, material)
+                mesh.position.x = origin.x
+                mesh.position.y = origin.y
+                mesh.position.z = origin.z
+            
+            
+                // rotate if "rotation" property is defined
+            
+                if (element.hasOwnProperty('rotation')) {
+            
+            
+                  // check properties
+            
+                  if (!element.rotation.hasOwnProperty('origin'))
+                    throw new Error('Couldn\'t find "origin" property in "rotation" for element "' + index + '".')
+                  if (!(element.rotation.origin.length == 3))
+                    throw new Error('"origin" property in "rotation" for element "' + index + '" is invalid.')
+            
+                  if (!element.rotation.hasOwnProperty('axis'))
+                    throw new Error('Couldn\'t find "axis" property in "rotation" for element "' + index + '".')
+                  if (!((['x', 'y', 'z']).indexOf(element.rotation.axis) >= 0))
+                    throw new Error('"axis" property in "rotation" for element "' + index + '" is invalid.')
+            
+                  if (!element.rotation.hasOwnProperty('angle'))
+                    throw new Error('Couldn\'t find "angle" property in "rotation" for element "' + index + '".')
+                  if (!(([45, 22.5, 0, -22.5, -45]).indexOf(element.rotation.angle) >= 0))
+                    throw new Error('"angle" property in "rotation" for element "' + index + '" is invalid.')
+            
+            
+                  // get origin, axis and angle
+            
+                  var rotationOrigin = {
+                    x: element.rotation.origin[0] - 8,
+                    y: element.rotation.origin[1] - 8,
+                    z: element.rotation.origin[2] - 8
+                  }
+            
+                  var axis = element.rotation.axis
+                  var angle = element.rotation.angle
+            
+            
+                  // create pivot
+            
+                  var pivot = new THREE.Group()
+                  pivot.position.x = rotationOrigin.x
+                  pivot.position.y = rotationOrigin.y
+                  pivot.position.z = rotationOrigin.z
+            
+                  pivot.add(mesh)
+            
+            
+                  // adjust mesh coordinates
+            
+                  mesh.position.x -= rotationOrigin.x
+                  mesh.position.y -= rotationOrigin.y
+                  mesh.position.z -= rotationOrigin.z
+            
+            
+                  // rotate pivot
+            
+                  if (axis == 'x')
+                    pivot.rotateX(angle * Math.PI/180)
+                  else if (axis == 'y')
+                    pivot.rotateY(angle * Math.PI/180)
+                  else if (axis == 'z')
+                    pivot.rotateZ(angle * Math.PI/180)
+            
+            
+                  // add pivot
+            
+                  group.add(pivot)
+            
+                } else {
+            
+                  var pivot = new THREE.Group()
+                  pivot.add(mesh)
+            
+            
+                  // add pivot
+            
+                  group.add(pivot)
+            
+                }
+            
+            
+              })
+            
+            
+              // add group
+            
+              this.add(group)
+            
+            
+              // register display options
+            
+              var keys = ['thirdperson_righthand', 'thirdperson_lefthand', 'firstperson_righthand', 'firstperson_lefthand', 'gui', 'head', 'ground', 'fixed']
+            
+              this.displayOptions = {}
+            
+              for (var i = 0; i < keys.length; i++) {
+                this.displayOptions[keys[i]] = {rotation: [0, 0, 0], translation: [0, 0, 0], scale: [1, 1, 1]}
+              }
+            
+              this.displayOptions.firstperson = this.displayOptions.firstperson_righthand
+              this.displayOptions.thirdperson = this.displayOptions.thirdperson_righthand
+            
+              if (model.hasOwnProperty('display')) {
+            
+                var display = model.display
+            
+                for (var option in display) {
+                  if (this.displayOptions.hasOwnProperty(option)) {
+            
+                    var fields = display[option]
+            
+                    for (var name in fields) {
+                      if (this.displayOptions[option].hasOwnProperty(name)) {
+            
+                        var field = fields[name]
+            
+                        // check value
+                        if (field.length != 3 || typeof field[0] != 'number' || typeof field[1] != 'number' || typeof field[2] != 'number')
+                          throw new Error('"' + name + '" property is invalid for display option "' + option + '".')
+            
+                        this.displayOptions[option][name] = field
+            
+                      }
+                    }
+            
+                  }
+                }
+            
+              }
+            
+            
+              // methods
+            
+              var self = this
+            
+            
+              // getCenter
+            
+              this.getCenter = function() {
+            
+                var group = self.children[0]
+            
+            
+                // compute absolute bounding box
+            
+                var box = {
+                  minx: 0, miny: 0, minz: 0,
+                  maxx: 0, maxy: 0, maxz: 0
+                }
+            
+                for (var i = 0; i < group.children.length; i++) {
+            
+                  var pivot = group.children[i]
+                  var mesh = pivot.children[0]
+            
+                  for (var j = 0; j < mesh.geometry.vertices.length; j++) {
+            
+                    // convert vertex coordinates to world coordinates
+            
+                    var vertex = mesh.geometry.vertices[j].clone()
+                    var abs = mesh.localToWorld(vertex)
+            
+                    // update bounding box
+            
+                    if (abs.x < box.minx) box.minx = abs.x
+                    if (abs.y < box.miny) box.miny = abs.y
+                    if (abs.z < box.minz) box.minz = abs.z
+            
+                    if (abs.x > box.maxx) box.maxx = abs.x
+                    if (abs.y > box.maxy) box.maxy = abs.y
+                    if (abs.z > box.maxz) box.maxz = abs.z
+            
+                  }
+            
+                }
+            
+                // return the center of the bounding box
+            
+                return new THREE.Vector3(
+                  (box.minx + box.maxx) / 2,
+                  (box.miny + box.maxy) / 2,
+                  (box.minz + box.maxz) / 2
+                )
+            
+              }
+            
+            
+              // applyDisplay
+            
+              this.applyDisplay = function(option) {
+            
+                var group = self.children[0]
+            
+                if (option == 'block') {
+            
+                  // reset transformations
+                  group.rotation.set(0, 0, 0)
+                  group.position.set(0, 0, 0)
+                  group.scale.set(1, 1, 1)
+            
+                } else {
+            
+                  if (!self.displayOptions.hasOwnProperty(option))
+                    throw new Error('Display option is invalid.')
+            
+                  var options = self.displayOptions[option]
+            
+                  var rot = options.rotation
+                  var pos = options.translation
+                  var scale = options.scale
+            
+                  // apply transformations
+                  group.rotation.set(rot[0] * Math.PI/180, rot[1] * Math.PI/180, rot[2] * Math.PI/180)
+                  group.position.set(pos[0], pos[1], pos[2])
+                  group.scale.set(scale[0] == 0 ? 0.00001 : scale[0], scale[1] == 0 ? 0.00001 : scale[1], scale[2] == 0 ? 0.00001 : scale[2])
+            
+                }
+            
+              }
+            }
+            
+            JsonModel.prototype = Object.create(THREE.Object3D.prototype)
+            JsonModel.prototype.constructor = JsonModel
+        </script>
+        <script>
+    var json =
+        '{"textures":{"particle":"blocks/cake_side","bottom":"blocks/cake_bottom","top":"blocks/cake_top","side":"blocks/cake_side"},"elements":[{"from":[1,0,1],"to":[15,8,15],"faces":{"down":{"texture":"#bottom","uv":[1,1,15,15],"cullface":"down"},"up":{"texture":"#top","uv":[1,1,15,15]},"north":{"texture":"#side","uv":[1,8,15,16]},"south":{"texture":"#side","uv":[1,8,15,16]},"west":{"texture":"#side","uv":[1,8,15,16]},"east":{"texture":"#side","uv":[1,8,15,16]}}}]}';
+    var textures = [{
+            name: 'cake_bottom',
+            texture: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR42mNgoAZYHqzwnxyMYsCOWPX/MBofRlaLYQC6IbjYeA3AZSM2cZK9gO4inC4gxiDaeAE9lEnyAjFRSJYXyI5GXF7Bm5BITZEEvUBSSqQoM1ECAHvFqyQXkgWpAAAAAElFTkSuQmCC'
+        },
+        {
+            name: 'cake_side',
+            texture: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGAWjAAoOHTr0//79+yRhkB4UA169fE0SxmoAiIa5hhAfwwAQXh6sAMbE8uEGTPeUgkuuj1CGs/HxQXpQDABJ7IhVB2MQmxAfwwCYJDIG2YRLDMMAcjBILwCrtTHpCEHg4gAAAABJRU5ErkJggg=='
+        },
+        {
+            name: 'cake_top',
+            texture: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42q2T3QnAIAyEXcQx3H+KPPvanyFaIkTO9LQWKwTBcl+8Mw3hjyUiV875U6mmAvTg2M+5irHsqnkAkO474vcuYEupdvBdFYpnFFDEDoBCtMoBRMS8cwB09pYsk1cLfjdLFh5m1AeQEFlGwxtYDmw+hs+I72xl12Y25ybR5TAGsCHqVANY/plW1g14oK4NJ6IuzwAAAABJRU5ErkJggg=='
+        }
+    ];
+    var defaultTexture = `[{"name": "texture", "texture": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbUaqqeh++j\/\/\/\/FmGLLAAAAAXRSTlMAQObYZgAAAD5JREFUGFeljDESACAIw4BW\/P+PBQbxzk0zNRkq8ogVhxPB0HafDnAXg6eTHRAPOo5gmlyhP1jeQayWbv9lAXcuAMVFqT2nAAAAAElFTkSuQmCC"}]`;
+    var container = document.getElementById('wrapper')
+    var viewer = new ModelViewer(container, 0, 0, 25)
+
+    container.addEventListener('click', viewer.resize);
+
+    var model = new JsonModel('demo', json, textures)
+
+    viewer.load(model)
+    var modelLoader = {
+        modelName: '',
+        json: '',
+        textures: []
+    }
+
+    function loadjson(file) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          modelLoader.modelName = file.name;
+          modelLoader.json = e.target.result;
+          document.getElementById('models').innerHTML = '<tr><td>' + file.name + '</td></tr>'
+          
+        }
+        reader.readAsText(file);
+        document.getElementById('loadmodel').value = '';
+    }
+    
+    function loadUpload(files) {
+        for (var i = 0; i < files.length; i++) {
+          var file = files[i]
+          ;(function(file) {
+            var reader = new FileReader()
+            reader.onload = function(e) {
+                let awdsdw = [];
+                awdsdw.push({name:"texture",texture:e.target.result});
+                $('#customb64').val(JSON.stringify(awdsdw))
+            }
+            reader.readAsDataURL(file)
+          })(file)
+        }
+        document.getElementById('loadtexture').value = ''
+    }
+    
+    function loadtexture(files) {
+        for (var i = 0; i < files.length; i++) {
+          var file = files[i]
+          ;(function(file) {
+            var reader = new FileReader()
+            reader.onload = function(e) {
+              modelLoader.textures.push({name:file.name.split('.png')[0],texture:e.target.result})
+              document.getElementById('textures').innerHTML += '<tr><td>' + file.name + '<label for="loadmcmeta' + modelLoader.textures.length + '" class="input incell">mcmeta</label><input type="file" accept=".mcmeta" id="loadmcmeta' + modelLoader.textures.length + '" onchange="loadmcmeta(this.files[0], ' + (modelLoader.textures.length-1) + ')"></td></tr>'
+            }
+            reader.readAsDataURL(file)
+          })(file)
+        }
+        document.getElementById('loadtexture').value = ''
+        
+    }
+    function loadmcmeta(file, index) {
+        var reader = new FileReader()
+        reader.onload = function(e) {
+          modelLoader.textures[index].mcmeta = e.target.result
+        }
+        reader.readAsText(file)
+        document.getElementById('loadmcmeta' + (index+1)).value = ''
+      }
+
+    function loadthing() {
+        if(modelLoader.json.length >= 1){
+            $('#customjson').val(modelLoader.json)
+        }
+        if(modelLoader.textures.length >= 1){
+            $.each(modelLoader.textures, function(key, val) {
+                if(modelLoader.json.length < 1){
+                    //val.name = "texture";
+                }
+            });
+            $('#customb64').val(JSON.stringify(modelLoader.textures))
+            
+        }
+        /*
+        if(modelLoader.json.length >= 1){
+            $('#customjson').val(modelLoader.json)
+        }
+        if(modelLoader.textures.length >= 1 && modelLoader.json.length < 1){
+            
+        }*/
+        //$('#output_container').html(JSON.stringify(modelLoader, null, '\t'));
+        
+        try {
+          var newmodel = new JsonModel('demo', modelLoader.json, modelLoader.textures)
+          try {
+            viewer.remove('demo')
+            
+          } catch (e) {
+            console.log(e.message)
+          }
+          model = newmodel
+          viewer.load(model)
+            
+        } catch (e) {
+            //window.alert('Error: ' + e.message)
+            
+            console.log(e.message)
+        }
+        
+        modelLoader = {
+          modelName: '',
+          json: '',
+          textures: []
+        }
+        document.getElementById('models').innerHTML = ''
+        document.getElementById('textures').innerHTML = ''
+        document.getElementById('loadmodel').value = ''
+        document.getElementById('loadtexture').value = ''
+    }
+    
+    function loadInput(){
+        try {
+            viewer.remove('demo');
+        } catch (e) {
+            console.log(e.message);
+        }
+        model = new JsonModel('demo', $('#customjson').val(), jQuery.parseJSON($('#customb64').val()))
+        viewer.load(model)
+    }
+
+</script>
+		<!--end::Javascript-->
+	</body>
+	<!--end::Body-->
+</html>
