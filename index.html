@@ -224,10 +224,33 @@
 		<script src="/mana/Assets/list_item.js"></script>
 		<script>
 			$.each(itemData, function(key, val) {
-				val.stats.data["lore"] = "Exclusive";
-				val.stats.data["isWardrobe"] = false;
-				val.stats.data["wardrobeType"] = null;
-				val.stats.data["isFurniture"] = false;
+				val.stats.enchant["parkour"] = [
+					{
+						"Unknown": 0
+					}
+				];
+				val.stats.effects["parkour"] = [];
+
+				val.stats.enchant["kitpvp"] = [
+					{
+						"Unknown": 0
+					}
+				];
+				val.stats.effects["kitpvp"] = [];
+
+				val.stats.enchant["island"] = [
+					{
+						"Unknown": 0
+					}
+				];
+				val.stats.effects["island"] = [];
+
+				val.stats.enchant["faction"] = [
+					{
+						"Unknown": 0
+					}
+				];
+				val.stats.effects["faction"] = [];
 			});
 			$('#output_container').html(JSON.stringify(itemData, null, '\t'));
 		</script>
