@@ -15856,5 +15856,1139 @@ var itemData = [{
             "z": 25
         }
     }
+},{
+    "id": 173,
+    "type": "axe",
+    "name": "Divine Axe Rhitta",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Diamond Axe",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Axe",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "skyblock": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "earth": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "prison": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Increase Damage during day time",
+                "Increase Health during day time",
+                "Decrease Damage during night time"
+            ],
+            "skyblock": [
+                "Increase Damage during day time",
+                "Increase Health during day time",
+                "Decrease Damage during night time"
+            ],
+            "earth": [
+                "Increase Damage during day time",
+                "Increase Health during day time",
+                "Decrease Damage during night time"
+            ],
+            "prison": [
+                "Increase Damage during day time",
+                "Increase Health during day time",
+                "Decrease Damage during night time"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Increase Damage during day time",
+                "Increase Health during day time",
+                "Decrease Damage during night time"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,-180,0],\"scale\":[0.5,0.5,0.5],\"translation\":[0,3.5,0]},\"firstperson_righthand\":{\"rotation\":[0,-180,0],\"scale\":[0.5,0.5,0.5],\"translation\":[0,3.5,0]},\"fixed\":{\"rotation\":[90,-44,90],\"scale\":[0.5,0.5,-0.5],\"translation\":[0,-0.75,-0.5]},\"ground\":{\"rotation\":[-45,0,0],\"scale\":[0.25,0.25,0.25]},\"gui\":{\"rotation\":[125,-140,118],\"scale\":[0.5,0.5,0.5],\"translation\":[1.5,1.25,0]},\"head\":{\"rotation\":[76,-50,-123],\"translation\":[5.75,16.75,3]},\"thirdperson_lefthand\":{\"rotation\":[0,-180,0],\"scale\":[0.7,0.7,0.7],\"translation\":[0,12,1.5]},\"thirdperson_righthand\":{\"rotation\":[0,-180,0],\"scale\":[0.7,0.7,0.7],\"translation\":[0,12,1.5]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.25,12,11,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[0.5,0,0.75,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0.25,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1,0,1.25,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10.75,3.75,10.5,3.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1.5,0,1.75,10.5]}},\"from\":[7.5,-16,7.5],\"to\":[8.5,26,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.5,8.75,10,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[9,5.25,9.5,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[9,3.25,9.5,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,9,6.25,10]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,10.5,7.75,10]},\"west\":{\"texture\":\"#0\",\"uv\":[6.5,9,7,10]}},\"from\":[7,-9,7],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[0.5,0,0]},\"to\":[9,-5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.75,9.25,11.5,9.75]},\"east\":{\"texture\":\"#0\",\"uv\":[11.5,5.5,12,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[9.25,12.25,9.5,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[9.75,12.25,10,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9.25,12,9,11.5]},\"west\":{\"texture\":\"#0\",\"uv\":[11.5,8,12,8.25]}},\"from\":[7.525,-15.5,7],\"to\":[8.475,-14.5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,9.5,5.25,10.5]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,4,10.75,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[10.25,12.25,10.5,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12.25,10.5,12.5,10.75]},\"up\":{\"texture\":\"#0\",\"uv\":[4.75,2.75,4.5,1.75]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,6,10.75,6.25]}},\"from\":[7.55,-14.93934,8.35355],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,-14.43934,9.35355]},\"to\":[8.45,-13.93934,12.35355]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.75,0,10.5,1]},\"east\":{\"texture\":\"#0\",\"uv\":[10.25,4.5,11.25,4.75]},\"north\":{\"texture\":\"#0\",\"uv\":[0,12.5,0.25,12.75]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,0,12.75,0.25]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,7.5,10.25,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5.75,10.25,6.75,10.5]}},\"from\":[7.5,-7.40381,8.35355],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,-6.90381,9.35355]},\"to\":[8.5,-6.40381,12.35355]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.75,0.5,12.5,0.75]},\"east\":{\"texture\":\"#0\",\"uv\":[10,11.5,10.25,12]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,11.5,9.75,12]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,10,11.75,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0.75,12.75,0.5,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[10.5,11.5,10.75,12]}},\"from\":[7.5,-6.40381,9.35355],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,-6.90381,9.35355]},\"to\":[8.5,-4.40381,10.35355]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.75,11.75,0.5,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11.5,10.75,12,11]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,1,12.75,1.25]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,1.5,12.75,1.75]},\"up\":{\"texture\":\"#0\",\"uv\":[0.25,12.25,0,11.75]},\"west\":{\"texture\":\"#0\",\"uv\":[11.5,11.25,12,11.5]}},\"from\":[7.575,-12.67157,12.07843],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,-10.67157,11.32843]},\"to\":[8.425,-11.67157,14.07843]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,11.75,6.75,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,1.25,12.25,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,3,12.75,3.25]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,3.5,12.75,3.75]},\"up\":{\"texture\":\"#0\",\"uv\":[12,6.5,11.75,6]},\"west\":{\"texture\":\"#0\",\"uv\":[6,11.75,6.5,12]}},\"from\":[7.55,-9.67157,12.07843],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,-10.67157,11.32843]},\"to\":[8.45,-8.67157,14.07843]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.75,11.75,5.5,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,0.75,12.25,1]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,2,12.75,2.25]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,2.5,12.75,2.75]},\"up\":{\"texture\":\"#0\",\"uv\":[5.25,12.25,5,11.75]},\"west\":{\"texture\":\"#0\",\"uv\":[1,11.75,1.5,12]}},\"from\":[7.5,-14.62868,10.81066],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,-13.37868,10.06066]},\"to\":[8.5,-13.62868,12.81066]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,12.25,12,12.5]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,10.25,3.75,11.25]},\"north\":{\"texture\":\"#0\",\"uv\":[3,10.25,3.25,11.25]},\"south\":{\"texture\":\"#0\",\"uv\":[4,10.25,4.25,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,11.25,12.25,11]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,10.25,4.75,11.25]}},\"from\":[7.525,-12.67157,10.82843],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[8,-11.67157,11.32843]},\"to\":[8.475,-8.67157,11.82843]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.25,12.25,1,12.5]},\"east\":{\"texture\":\"#0\",\"uv\":[10.5,5,10.75,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,0.75,5.75,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[9,10.5,9.25,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[12.25,12,12,11.75]},\"west\":{\"texture\":\"#0\",\"uv\":[9.5,10.5,9.75,11.25]}},\"from\":[7.575,28.2,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,-0.5,1]},\"to\":[8.425,31.2,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.25,10.75,1,11.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.5,0,5.25,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7.25,9,7.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,9,8.75,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0.75,11.5,0.5,10.75]},\"west\":{\"texture\":\"#0\",\"uv\":[5,1.75,5.75,3.25]}},\"from\":[7.55,22.2,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,-0.5,0]},\"to\":[8.45,28.2,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,5.25,7.75,7.25]},\"east\":{\"texture\":\"#0\",\"uv\":[7.25,2.75,9.25,3]},\"north\":{\"texture\":\"#0\",\"uv\":[2.75,12.25,3,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[3.25,12.25,3.5,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[7.5,8.75,7.25,6.75]},\"west\":{\"texture\":\"#0\",\"uv\":[7.25,4.75,9.25,5]}},\"from\":[7.5,16.7,-2.5],\"to\":[8.5,17.7,5.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,3,4,5]},\"east\":{\"texture\":\"#0\",\"uv\":[4,5.25,6,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.75,4,8.5,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[9,9,9.75,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,5,3,3]},\"west\":{\"texture\":\"#0\",\"uv\":[5.5,0,7.5,0.5]}},\"from\":[6.5,16.2,9.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,-0.5,12]},\"to\":[9.5,18.2,17.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.75,11,2.5,11.75]},\"east\":{\"texture\":\"#0\",\"uv\":[5,3.5,5.75,5]},\"north\":{\"texture\":\"#0\",\"uv\":[2,9.25,2.25,10.75]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,9.25,2.75,10.75]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,11.75,2,11]},\"west\":{\"texture\":\"#0\",\"uv\":[3,5.25,3.75,6.75]}},\"from\":[7.5,14.2,17.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,-0.5,12]},\"to\":[8.5,20.2,20.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.25,12.5,5.25,13.25]},\"east\":{\"texture\":\"#0\",\"uv\":[2,0,2.75,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,12.25,6.5,14.75]},\"south\":{\"texture\":\"#0\",\"uv\":[10.75,12.25,10.75,14.75]},\"up\":{\"texture\":\"#0\",\"uv\":[5,13.25,5,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2,2.75,2.75,5.25]}},\"from\":[8,12.2,19],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[7.55,17.2,20.5]},\"to\":[8,22.2,22]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,12.25,4.75,13.75]},\"east\":{\"texture\":\"#0\",\"uv\":[6,3.25,7.5,3.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,6.5,8.25,7]},\"south\":{\"texture\":\"#0\",\"uv\":[8.75,4,8.75,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,13.75,1.5,12.25]},\"west\":{\"texture\":\"#0\",\"uv\":[4,6,5.5,6.5]}},\"from\":[8,11.07696,14.82861],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[7.55,11.57696,18.82861]},\"to\":[8,13.07696,20.82861]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.25,5,11,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,6.5,10,7]},\"north\":{\"texture\":\"#0\",\"uv\":[11.5,4.75,11.75,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,7.25,11.75,7.75]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,4.25,11,3.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.25,7.25,10,7.75]}},\"from\":[7.525,12.81104,16.42807],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,11.81104,18.42807]},\"to\":[8.475,14.81104,19.42807]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,11.5,4.5,12]},\"east\":{\"texture\":\"#0\",\"uv\":[9,9.75,9.5,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,11.5,3.75,12]},\"south\":{\"texture\":\"#0\",\"uv\":[4,11.5,4.25,12]},\"up\":{\"texture\":\"#0\",\"uv\":[11.75,4.5,11.5,4]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,9.75,10.25,10.25]}},\"from\":[7.525,10.81104,16.42807],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,11.81104,18.42807]},\"to\":[8.475,12.81104,18.42807]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.75,3.25,11.5,3.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,3.25,10.25,3.75]},\"north\":{\"texture\":\"#0\",\"uv\":[11,11.25,11.25,11.75]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,0,11.75,0.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3.25,12,3,11.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,5.25,10.25,5.75]}},\"from\":[7.55,11.59427,15.75249],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,11.59427,18.75249]},\"to\":[8.45,13.59427,17.75249]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,8.5,11.25,9]},\"east\":{\"texture\":\"#0\",\"uv\":[11.25,2.25,11.75,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,12.25,8.5,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.75,12.25,9,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,7,11.25,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[11.25,2.75,11.75,3]}},\"from\":[7.55,12.09427,13.75249],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,11.59427,18.75249]},\"to\":[8.45,13.09427,15.75249]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,7.75,7,8.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11,6,11.5,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[2.75,5.5,2.75,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[2.75,6,2.75,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[7.5,6.5,7.5,6]},\"west\":{\"texture\":\"#0\",\"uv\":[11.25,1.75,11.75,2]}},\"from\":[7.95,9.57937,12.73072],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7.5,9.32937,17.73072]},\"to\":[7.95,10.57937,14.73072]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.25,9.5,11,10.25]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,8,10,8.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12,9,12.25,9.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12,9.75,12.25,10.25]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,8.25,11,7.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.5,2.5,10.25,3]}},\"from\":[7.525,19.58896,16.42807],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,22.58896,18.42807]},\"to\":[8.475,21.58896,19.42807]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,8.5,12.5,10]},\"east\":{\"texture\":\"#0\",\"uv\":[6,4,7.5,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,6.5,12.5,7]},\"south\":{\"texture\":\"#0\",\"uv\":[6.75,12.5,6.75,13]},\"up\":{\"texture\":\"#0\",\"uv\":[7,14,7,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5.75,6,7.25,6.5]}},\"from\":[8,21.32304,14.82861],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.55,22.82304,18.82861]},\"to\":[8,23.32304,20.82861]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,7.25,12,7.75]},\"east\":{\"texture\":\"#0\",\"uv\":[10.5,2,11,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12,3.25,12.25,3.75]},\"south\":{\"texture\":\"#0\",\"uv\":[12,4,12.25,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12.25,5.25,12,4.75]},\"west\":{\"texture\":\"#0\",\"uv\":[10.5,2.75,11,3.25]}},\"from\":[7.525,21.58896,16.42807],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,22.58896,18.42807]},\"to\":[8.475,23.58896,18.42807]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,2.5,12,3]},\"east\":{\"texture\":\"#0\",\"uv\":[10.25,7.75,10.75,8.25]},\"north\":{\"texture\":\"#0\",\"uv\":[1.75,12,2,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12,1.75,12.25,2.25]},\"up\":{\"texture\":\"#0\",\"uv\":[2.5,12.5,2.25,12]},\"west\":{\"texture\":\"#0\",\"uv\":[10.5,1.25,11,1.75]}},\"from\":[7.55,20.80573,15.75249],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,22.80573,18.75249]},\"to\":[8.45,22.80573,17.75249]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,0,12,0.5]},\"east\":{\"texture\":\"#0\",\"uv\":[8,11.75,8.5,12]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,4,12.75,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,4.5,12.75,4.75]},\"up\":{\"texture\":\"#0\",\"uv\":[11.75,12.25,11.5,11.75]},\"west\":{\"texture\":\"#0\",\"uv\":[11.75,8.5,12.25,8.75]}},\"from\":[7.55,21.30573,13.75249],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,22.80573,18.75249]},\"to\":[8.45,22.30573,15.75249]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.75,12.5,5.75,13]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,6.75,12.25,7]},\"north\":{\"texture\":\"#0\",\"uv\":[6,4.75,6,5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.75,6.5,2.75,6.75]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,13,5.5,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7.25,11.75,7.75,12]}},\"from\":[7.95,23.82063,12.73072],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[7.5,25.07063,17.73072]},\"to\":[7.95,24.82063,14.73072]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.25,0,9.75,0.5]},\"east\":{\"texture\":\"#0\",\"uv\":[5,8.25,5.5,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,8.25,4.75,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[8.25,5.25,8.75,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[10,5,9.5,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[8.5,6.5,9,7.5]}},\"from\":[7.025,21.58909,9.93934],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.5,21.08909,6.93934]},\"to\":[8.975,25.58909,11.93934]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.5,12.25,7.25,12.5]},\"east\":{\"texture\":\"#0\",\"uv\":[10.75,6.5,11,7.25]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,10.75,6.75,11.5]},\"south\":{\"texture\":\"#0\",\"uv\":[7,10.75,7.25,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,6.25,12.25,6]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,10.75,7.75,11.5]}},\"from\":[7.5,25.58909,9.93934],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,21.08909,6.93934]},\"to\":[8.5,28.58909,10.93934]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,8,12.25,8.25]},\"east\":{\"texture\":\"#0\",\"uv\":[8.5,10.75,8.75,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[8,10.75,8.25,11.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10.75,8.5,11,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8,12.5,7.75,12.25]},\"west\":{\"texture\":\"#0\",\"uv\":[11,0,11.25,0.75]}},\"from\":[7.5,4.3967,10.52513],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,11.8967,5.52513]},\"to\":[8.5,7.3967,11.52513]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.25,1.5,9.75,2]},\"east\":{\"texture\":\"#0\",\"uv\":[7.75,8.75,8.25,9.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,7.75,9,8.75]},\"south\":{\"texture\":\"#0\",\"uv\":[9,0,9.5,1]},\"up\":{\"texture\":\"#0\",\"uv\":[10.25,1.25,9.75,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[9,1.25,9.5,2.25]}},\"from\":[7.025,7.3967,10.52513],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[7.5,11.8967,5.52513]},\"to\":[8.975,11.3967,12.52513]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,1.75,7.25,2.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.25,6.75,7,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6.25,4.75,7,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2,7,2.75,7.75]},\"up\":{\"texture\":\"#0\",\"uv\":[8,1.5,7.25,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[3,7,3.75,7.75]}},\"from\":[6.525,15.7,11.5],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,17.2,13]},\"to\":[9.475,18.7,14.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,8.25,3.5,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[6,0.75,7,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[2,8,2.5,9]},\"south\":{\"texture\":\"#0\",\"uv\":[2.75,8,3.25,9]},\"up\":{\"texture\":\"#0\",\"uv\":[8.75,1.75,8.25,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[6,2,7,3]}},\"from\":[7,14.7,15.75],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,17.2,18.25]},\"to\":[9,18.7,19.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,7.5,7.75,8.5]},\"east\":{\"texture\":\"#0\",\"uv\":[7.75,0,8.75,0.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,9.5,4.25,10]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,9.5,5,10]},\"up\":{\"texture\":\"#0\",\"uv\":[6.75,8.75,6.25,7.75]},\"west\":{\"texture\":\"#0\",\"uv\":[7.75,3.25,8.75,3.75]}},\"from\":[7,16.2,0],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,-0.5,2.5]},\"to\":[9,18.2,4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.5,12.25,4.25,12.5]},\"east\":{\"texture\":\"#0\",\"uv\":[10,10.5,10.25,11.25]},\"north\":{\"texture\":\"#0\",\"uv\":[10.5,9.5,10.75,10.25]},\"south\":{\"texture\":\"#0\",\"uv\":[10.5,10.5,10.75,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[4,12.5,3.75,12.25]},\"west\":{\"texture\":\"#0\",\"uv\":[0,10.75,0.25,11.5]}},\"from\":[7.6,27.81836,7.41865],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,30.31836,7.91865]},\"to\":[8.4,30.69336,8.41865]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.25,12.25,6,12.5]},\"east\":{\"texture\":\"#0\",\"uv\":[5,10.75,5.25,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[1.5,10.75,1.75,11.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,10.75,5.75,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,5.75,12.25,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6,10.75,6.25,11.5]}},\"from\":[7.6,27.81836,7.58135],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,30.31836,8.08135]},\"to\":[8.4,30.69336,8.58135]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,6.75,5.5,8]},\"east\":{\"texture\":\"#0\",\"uv\":[3,0,4.25,1.25]},\"north\":{\"texture\":\"#0\",\"uv\":[2,5.5,2.5,6.75]},\"south\":{\"texture\":\"#0\",\"uv\":[4,6.75,4.5,8]},\"up\":{\"texture\":\"#0\",\"uv\":[5.25,8,4.75,6.75]},\"west\":{\"texture\":\"#0\",\"uv\":[3,1.5,4.25,2.75]}},\"from\":[7,14.7,5.5],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,17.2,8]},\"to\":[9,19.7,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,1,11.25,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[8.25,2,8.75,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7.25,5.25,7.5,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,8.25,6,8.75]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,11,11,10.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3,9.5,3.5,10]}},\"from\":[7.525,22.2,9.5],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,25.7,8]},\"to\":[8.475,24.2,11.5]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"anime21_crate/divine_axe\",\"particle\":\"anime21_crate/divine_axe\"}}",
+        "texture": [{
+            "name": "divine_axe",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEVHcEz////1+Pj39L/Y4eL/6Um9yMz/vE75m06jr7bjeEDNXka2TUZJT2A7QVEtMkCmPqZNAAAAAXRSTlMAQObYZgAAAwlJREFUeNpkkoGGM1cUx/+5ndlzJTBZhQL3G6sAllpFi7H6AJcVWy1E8VHgUHHHLhz45Ar4HmGgEgkMkLUpBmgBfYQ+Qh+hJ0lG7ugPjOvnf47/HLAyKhZP978WizAL5kOxJRZhZpw5Ce79DxUO283q5mN1EdALwjJ1bzsVcCYC4gFOhFu3X/lfnNv/RmHcBGIGCS40yq077Pyjc7sFBWIQIwM4Eb50AFRYLWwkfgNW2TWBla/dNzMGEJdA7n8nDgBkIHz/3vqv5oCNwNoKTMVIhMx9tzkK376Ot5n7pA4w6MFUPy2PwvO7jcYB2FsBEgH4edf6cv68wZHXBgD3StO0zRRHyqqOtAzTom5frHDawwcsJUpZoecVAKdCETgKcFfejW7djBhorwnSSKnCtnnjsiyzj/PZWJhb7g0RUWHmo/x1eYpJ/kW4O434k6fTqa0RbDxGtL3Aok2eBR0xfsEJ7jCoOsq26Ucg5g/pPSh3WMpal6QwmoaaZ0iahmfPjziTz3Cm6BJBAepWD/aZgrFWFsRzRg9YI2aou81qewCMHTdPtvnMS5MuOUPol6Zxs8EADTgJj+XjaDotVFjaKI85pULQEdqBKUvXv+dIl4yo+94y/DhZU04YCFAC8YGeKEM93qtg3CBBHliFrV1YgxeAvsAVPgnPchLWBKxoR0A3KGrbvMhBBYBu5qB3oLsKrEA55D5mlQqqjaUDBkVNWhwxztzMoy7JXU2pEMZNzP2nzLhRVsXJEsowwcqWeJmNihEQANiJFVz4RwlWopU1FNtCHZqgB38rAHTKhvjZ5I0LHAjgVLgcYO4fDDVu3QAQTkdwd2dcaa2sTC4OgGNGz78Kd2VW/WCJawNUe2odoxsKUAhAZqVa6xgenj134tnb/Mlnua9wRJDCHSu44IrCVSBcKJxzALOwfnhNEjfXtxqpwOxFpHLVWfhcOICGApS5m9/LPXso/P//kV4Ic5vcpBxlfWL9opGLYBZB664CJpP+y+JCGgFHE0PGAHAgmpDy35DLGKCjhgsYBQDvSVJ7h69WhwAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 174,
+    "type": "sword",
+    "name": "Yoru",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Diamond Sword",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Sword",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Fire Aspect": 5
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Fire Aspect": 5
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Fire Aspect": 5
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Fire Aspect": 5
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Fire Aspect": 5
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Strength II"
+            ],
+            "skyblock": [
+                "Strength II"
+            ],
+            "earth": [
+                "Strength II"
+            ],
+            "prison": [
+                "Strength II"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Strength II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,16,0],\"scale\":[0.7,0.7,0.7],\"translation\":[3,7.25,0]},\"firstperson_righthand\":{\"rotation\":[0,16,0],\"scale\":[0.7,0.7,0.7],\"translation\":[3,7.25,0]},\"fixed\":{\"rotation\":[90,-45,90],\"scale\":[0.7,0.7,0.7],\"translation\":[-2.75,1.25,0]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.4,0.4,0.4]},\"gui\":{\"rotation\":[127,-140,117],\"scale\":[0.7,0.7,0.7],\"translation\":[1.25,3,0]},\"head\":{\"rotation\":[90,37,90],\"scale\":[1.5,1.5,1.5],\"translation\":[-2,-21,4]},\"thirdperson_lefthand\":{\"translation\":[0,12,3.75]},\"thirdperson_righthand\":{\"translation\":[0,12.25,4]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.5,0,8.25,1]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,1,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[4,2,4.25,8.25]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,2,4.75,8.25]},\"up\":{\"texture\":\"#0\",\"uv\":[6.75,8.75,6.5,7.75]},\"west\":{\"texture\":\"#0\",\"uv\":[1.25,0,2.25,6.25]}},\"from\":[7.64801,-1.4,4.2],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.99801,-0.7,5.95]},\"to\":[8.34801,16.1,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,8.5,4.5,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[7,3.75,7.75,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[7.25,9.5,7.5,10]},\"south\":{\"texture\":\"#0\",\"uv\":[7.75,9.5,8,10]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,9.25,4,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7,4.5,7.75,5]}},\"from\":[7.66551,16.1,4.9],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.99801,7.7,5.95]},\"to\":[8.33051,17.5,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,0,9.75,0.5]},\"east\":{\"texture\":\"#0\",\"uv\":[8,4.5,8.5,5]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,7.75,9.75,8.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,8.5,9.75,9]},\"up\":{\"texture\":\"#0\",\"uv\":[0.25,10.25,0,9.75]},\"west\":{\"texture\":\"#0\",\"uv\":[1,8.5,1.5,9]}},\"from\":[7.66551,17.5,5.6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.99801,9.1,5.95]},\"to\":[8.33051,18.9,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,4.25,9.75,4.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,4.25,6.75,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,2.5,6.75,4]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,6,6.75,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6.25,8.75,6,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7,0,7.25,1.5]}},\"from\":[7.71801,18.04076,6.18093],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[7.99801,18.04076,6.53093]},\"to\":[8.29551,22.24076,6.88093]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.75,7,9.5,7.5]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,6,3,8.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0,6.5,0.25,8.75]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,0,6.75,2.25]},\"up\":{\"texture\":\"#0\",\"uv\":[0.25,9.5,0,9]},\"west\":{\"texture\":\"#0\",\"uv\":[3.25,6,3.75,8.25]}},\"from\":[7.70051,14.174,3.12952],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[7.99801,13.474,3.47952]},\"to\":[8.31301,20.474,4.52952]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.25,1.25,10,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[7.5,8.25,7.75,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[7,8.25,7.25,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[8,8.25,8.25,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[10.25,1,10,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[0.5,8.5,0.75,9.5]}},\"from\":[7.73551,19.25032,7.12613],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.99801,21.2213,7.47613]},\"to\":[8.27801,22.05032,7.82613]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,10,2,10.25]},\"east\":{\"texture\":\"#0\",\"uv\":[1,9.75,1.25,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,9.75,0.75,10.25]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,9.75,1.75,10.25]},\"up\":{\"texture\":\"#0\",\"uv\":[10.25,2,10,1.75]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,3.5,10,4]}},\"from\":[7.73551,19.07532,7.82613],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.99801,21.2213,7.47613]},\"to\":[8.27801,20.47532,8.52613]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,9.75,9.75,10]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,8.5,2.75,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,2,8.75,2.75]},\"south\":{\"texture\":\"#0\",\"uv\":[3,8.5,3.25,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,10,9.25,9.75]},\"west\":{\"texture\":\"#0\",\"uv\":[3.5,8.5,3.75,9.25]}},\"from\":[7.68301,12.50173,4.46891],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7.99801,11.80173,4.81891]},\"to\":[8.33051,14.60173,5.16891]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,8.5,1.75,9]},\"east\":{\"texture\":\"#0\",\"uv\":[5,5.25,5.5,8.25]},\"north\":{\"texture\":\"#0\",\"uv\":[5,2,5.5,5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,2,6.25,5]},\"up\":{\"texture\":\"#0\",\"uv\":[9,1.75,8.5,1.25]},\"west\":{\"texture\":\"#0\",\"uv\":[5.75,5.25,6.25,8.25]}},\"from\":[7.29801,-1.4,4.9],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.99801,-0.7,5.95]},\"to\":[8.69801,7,6.3]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,3.5,10.5,8.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,11,5.25,11.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7,1.75,7.5,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[7,2.75,7.5,3.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12.75,7.75,12.25,2.5]},\"west\":{\"texture\":\"#0\",\"uv\":[0,11,5.25,11.75]}},\"from\":[7.29801,-3.5,-1.75],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[13.24801,1.4,0]},\"to\":[8.69801,-1.4,12.95]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,6.75,7.75,7.25]},\"east\":{\"texture\":\"#0\",\"uv\":[5,9.5,5.5,9.75]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,9.5,4.75,9.75]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,5,10,5.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,6.5,7.75,6]},\"west\":{\"texture\":\"#0\",\"uv\":[9.5,5.5,10,5.75]}},\"from\":[7.31551,-2.1,-1.9075],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[7.64801,-2.1,-0.8575]},\"to\":[8.68051,-1.4,-0.5075]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.5,3.75,8,4.25]},\"east\":{\"texture\":\"#0\",\"uv\":[9.5,6,10,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[5.75,9.5,6.25,9.75]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,9.5,7,9.75]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,8,7.75,7.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.5,6.5,10,6.75]}},\"from\":[7.31551,-3.82336,-1.88394],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7.64801,-3.12336,-1.18394]},\"to\":[8.68051,-3.12336,-0.48394]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,5.25,7.75,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[2.75,9.5,3.25,9.75]},\"north\":{\"texture\":\"#0\",\"uv\":[2,9.5,2.5,9.75]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,3,10,3.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,3.5,7.75,3]},\"west\":{\"texture\":\"#0\",\"uv\":[3.5,9.5,4,9.75]}},\"from\":[7.31551,-2.1,11.7075],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7.64801,-2.1,12.0575]},\"to\":[8.68051,-1.4,13.1075]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,2.25,7.75,2.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,1.5,9.75,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[9.25,1,9.75,1.25]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,9.25,9,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,2,7.75,1.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.25,9.25,9.75,9.5]}},\"from\":[7.31551,-3.82336,11.68394],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[7.64801,-3.12336,12.38394]},\"to\":[8.68051,-3.12336,13.08394]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,9.75,8.75,10]},\"east\":{\"texture\":\"#0\",\"uv\":[1,6.5,1.25,8.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,6.5,0.75,8.25]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,6.5,1.75,8.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8.5,10,8.25,9.75]},\"west\":{\"texture\":\"#0\",\"uv\":[2,6.5,2.25,8.25]}},\"from\":[7.64801,-11.8,5.25],\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[7.99801,-11.1,5.6]},\"to\":[8.34801,-6.9,5.95]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.5,7.5,7,8]},\"east\":{\"texture\":\"#0\",\"uv\":[7,6,7.5,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7,5.25,7.5,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[7,6.75,7.5,7.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8,1.25,7.5,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,0,8,0.5]}},\"from\":[7.29801,-13.025,4.9],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.99801,-12.325,5.6]},\"to\":[8.69801,-11.625,6.3]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.5,9.75,8.25,10]},\"east\":{\"texture\":\"#0\",\"uv\":[1,8.25,1.25,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,8.25,0.75,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,8.25,1.75,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9,10,8.75,9.75]},\"west\":{\"texture\":\"#0\",\"uv\":[2,8.25,2.25,6.5]}},\"from\":[7.64801,-6.9,5.25],\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[7.99801,13.4,5.6]},\"to\":[8.34801,-2,5.95]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,3.5,8.75,3.75]},\"east\":{\"texture\":\"#0\",\"uv\":[4,10,4.25,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,8.25,9.25,8.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.75,0,9.5,0.25]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,0.75,8.75,0.5]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,10,4.75,10.25]}},\"from\":[6.94801,-2.8,4.2],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[7.99801,-2.45,4.55]},\"to\":[9.04801,-2.1,4.9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,3.5,8.75,3.75]},\"east\":{\"texture\":\"#0\",\"uv\":[4,10,4.25,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,8.25,9.25,8.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.75,0,9.5,0.25]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,0.75,8.75,0.5]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,10,4.75,10.25]}},\"from\":[6.94801,-2.8,-1.4],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[7.99801,-2.45,-1.05]},\"to\":[9.04801,-2.1,-0.7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,3.75,8.75,3.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.25,10,4,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,0,8.75,0.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.25,8.25,8.5,8.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,0.5,8.75,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[4.75,10,4.5,10.25]}},\"from\":[6.94801,-2.8,11.9],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.99801,-2.45,12.25]},\"to\":[9.04801,-2.1,12.6]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,3.75,8.75,3.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.25,10,4,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,0,8.75,0.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.25,8.25,8.5,8.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,0.5,8.75,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[4.75,10,4.5,10.25]}},\"from\":[6.94801,-2.8,6.3],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.99801,-2.45,6.65]},\"to\":[9.04801,-2.1,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,3.75,8.75,3.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.25,10,4,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,0,8.75,0.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.25,8.25,8.5,8.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,0.5,8.75,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[4.75,10,4.5,10.25]}},\"from\":[6.94801,-1.75,5.25],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[7.99801,-1.4,5.6]},\"to\":[9.04801,-1.05,5.95]}],\"groups\":[0,1,2,3,4,5,6,7,{\"children\":[8,9,10,11,12,13,14,15,16,17,18,19,20,21],\"color\":0,\"name\":\"group\",\"origin\":[0,0,0]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"anime21_crate/yoru\",\"particle\":\"anime21_crate/yoru\"}}",
+        "texture": [{
+            "name": "yoru",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAS1BMVEVHcEz/89b39L/q28n/6UnMw7H/vE67r6T5m04lyprjeEAUdsANgIwQXaIGUW4HSHwvMk4DMV8ELVMfIDUZFx4AG0AAHxYRER0JCRO5hK2aAAAAAXRSTlMAQObYZgAAAk1JREFUeNqElYmyo0oMQ/W4fj1ZSW83zv9/6ViFgRoop8Ve4INsZYH2nJFzV8g0TbLvoOi4v+zwKtxHmnszQOsz0uV6MZXL7WZniQA8i5fGgDoT0OaKS6JEJFEXAmBSozwR610fBnjUNw5aHDzt8N2CvucHHvM7mMEd1OWCUNrrjLl25QzYfrmY1hlQIt8d9FZRmwHOMzClhGmC4UKpp6DnOywVWa/GMYrwfRkzC21Vr84opWAcI2sIQN3enBLHl0GVcYwiy+NvB6jP/+BApjBGb+HjZ0rQWdMUxXgGiHDl+1kVAjxGn8EVHy9Uz/AgkQNANSOrEsCOHzsArt/yi+aVPMQxEmD9bC3wln+KD4AgxmXm1QGALgAPwVEiUYzr5+BtB64du9hPSg4Yx+gAdobuHwMHjGN0gAgI4BzgCgEeow+RMS7qh+xSGseYEmP0LxN/TvyDdHYQApYYDSDLD5rIWjUGUGCMDnC5gzDGHdDs2BijAz543df3pUsI2OUApmCAZMfCFkYOMv7ghxsynfwD2HVJYQrZSv/jZgCujPFigAtbeB1TCBz8z80dPHaAla6PaxjjwYFiJkAgBOwpxICTg7wB4A5WjWewAxJzU84gpaMDauDAAR27FIwxAETKXKBbCiLxY513M5Sbl+QNQH1iABHtAHDtDgiI1NYmHOAl3PxqoDz680TiSDGUCKZpW/1XTel9IPbcIqME/NjyrZPsAEX5Oww4QgCsdciCQpOgH9o6BCFBIAFrJxMPIK1DRAMR2kYcADAKRsEoGAUA8ssvD7l7ATsAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 175,
+    "type": "pickaxe",
+    "name": "Blaze Reap",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Diamond Pickaxe",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Pickaxe",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Efficiency": 10
+            }],
+            "skyblock": [{
+                "Efficiency": 10
+            }],
+            "earth": [{
+                "Efficiency": 10
+            }],
+            "prison": [{
+                    "Efficiency": 110
+                },
+                {
+                    "Fortune": 30
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Efficiency": 10
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Mines a 5x5 area",
+                "Haste II"
+            ],
+            "skyblock": [
+                "Mines a 5x5 area",
+                "Haste II"
+            ],
+            "earth": [
+                "Mines a 5x5 area",
+                "Haste II"
+            ],
+            "prison": [
+                "Speed II"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Mines a 5x5 area",
+                "Haste II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.4,0.4,0.4]},\"firstperson_righthand\":{\"scale\":[0.4,0.4,0.4]},\"fixed\":{\"rotation\":[90,-43,90],\"scale\":[0.44,0.44,0.44],\"translation\":[0.5,-2,-0.5]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.2,0.2,0.2]},\"gui\":{\"rotation\":[63,-131,60],\"scale\":[0.44,0.44,0.44],\"translation\":[-1.25,0,0]},\"thirdperson_lefthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,0,1.25]},\"thirdperson_righthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,0,1.25]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.75,5.25,0,6.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,0,4.25,1.75]},\"south\":{\"texture\":\"#0\",\"uv\":[3.5,2,4.25,3.75]},\"up\":{\"texture\":\"#0\",\"uv\":[5.25,6.5,4.5,5]},\"west\":{\"texture\":\"#0\",\"uv\":[1.75,0,3.25,1.75]}},\"from\":[6.5,-14,5.5],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,-10.5,8.5]},\"to\":[9.5,-7,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.25,10.75,4.75,11.5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,2,0.75,5]},\"north\":{\"texture\":\"#0\",\"uv\":[2,2,2.5,5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.75,2,3.25,5]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,3.25,10.75,2.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1,2,1.75,5]}},\"from\":[7.1,-9,6],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[8,-10.5,8.5]},\"to\":[8.9,3,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.75,4,11.25,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[8.5,6.75,9.25,7.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.75,10.5,8.25,11.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,10.5,9,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,10.25,11,9.5]},\"west\":{\"texture\":\"#0\",\"uv\":[8.75,0,9.5,1]}},\"from\":[7.075,2.15747,5.23567],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,0.65747,7.73567]},\"to\":[8.925,6.15747,8.23567]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,1,11.5,1.75]},\"east\":{\"texture\":\"#0\",\"uv\":[2,10.5,2.75,11.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0,11.5,0.5,12.25]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,0,12,0.75]},\"up\":{\"texture\":\"#0\",\"uv\":[1.25,12.25,0.75,11.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3,10.5,3.75,11.25]}},\"from\":[7.025,9.10017,4.47031],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,7.60017,6.97031]},\"to\":[8.975,12.10017,7.47031]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.75,6.75,11.25,7.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,3.5,7.25,5]},\"north\":{\"texture\":\"#0\",\"uv\":[9,1.25,9.5,2.75]},\"south\":{\"texture\":\"#0\",\"uv\":[9,3,9.5,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6.5,12,6,11.25]},\"west\":{\"texture\":\"#0\",\"uv\":[6.5,5.25,7.25,6.75]}},\"from\":[7.05,5.47031,7.91446],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,3.97031,10.41446]},\"to\":[8.95,11.47031,10.91446]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.25,1.25,10.75,2.25]},\"east\":{\"texture\":\"#0\",\"uv\":[7.25,7,8.25,8]},\"north\":{\"texture\":\"#0\",\"uv\":[9.25,10.5,9.75,11.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10,10.5,10.5,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,1,10.75,0]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,0,8.5,1]}},\"from\":[7,11.48912,6.76641],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,9.98912,9.26641]},\"to\":[9,15.48912,10.76641]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,10.5,11.5,11]},\"east\":{\"texture\":\"#0\",\"uv\":[7.5,3,8,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7.5,1.25,8,2.75]},\"south\":{\"texture\":\"#0\",\"uv\":[7.5,4.75,8,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[12,9,11.5,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[0,7.75,0.5,9.25]}},\"from\":[7.125,-5,1.5],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8.5,-10.5,9]},\"to\":[8.875,1,3.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.75,11.25,12.25,11.75]},\"east\":{\"texture\":\"#0\",\"uv\":[6,12.25,6.5,12.75]},\"north\":{\"texture\":\"#0\",\"uv\":[12.25,2.5,12.75,3]},\"south\":{\"texture\":\"#0\",\"uv\":[12.25,8.5,12.75,9]},\"up\":{\"texture\":\"#0\",\"uv\":[12.75,11,12.25,10.5]},\"west\":{\"texture\":\"#0\",\"uv\":[10.5,12.25,11,12.75]}},\"from\":[7.125,-3.5,-0.5],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8.5,-10.5,9]},\"to\":[8.875,-1.5,1.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5,11.75,4.5,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[5.25,8,5.75,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,7.75,4.25,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[8.25,1.25,8.75,2.75]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,12.25,3.75,11.75]},\"west\":{\"texture\":\"#0\",\"uv\":[8.25,3,8.75,4.5]}},\"from\":[7.15,1.52082,11.24264],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[8.5,-3.97918,18.74264]},\"to\":[8.85,7.17082,13.24264]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,11.25,11.5,11.75]},\"east\":{\"texture\":\"#0\",\"uv\":[1.5,7.75,2,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0.75,7.75,1.25,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[2.25,7.75,2.75,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,12,10.75,11.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3,7.75,3.5,9.25]}},\"from\":[7.125,-1,22.5],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8.5,-10.5,9]},\"to\":[8.875,5,24.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.75,10.75,5.5,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[10.75,3.5,12.25,3.75]},\"north\":{\"texture\":\"#0\",\"uv\":[13,6.5,13.25,6.75]},\"south\":{\"texture\":\"#0\",\"uv\":[13,7,13.25,7.25]},\"up\":{\"texture\":\"#0\",\"uv\":[3.25,6.75,3,5.25]},\"west\":{\"texture\":\"#0\",\"uv\":[10.75,8,12.25,8.25]}},\"from\":[7.5,11.92031,7.41421],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,11.42031,10.41421]},\"to\":[8.5,12.92031,13.41421]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.25,5,3.5,6.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,4,5.25,4.75]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,3,5.25,3.75]},\"south\":{\"texture\":\"#0\",\"uv\":[6,9.25,6.75,10]},\"up\":{\"texture\":\"#0\",\"uv\":[5.25,2.75,4.5,1]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,0,6.25,0.75]}},\"from\":[6.5,13,15],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[9,-10.5,8.5]},\"to\":[9.5,16,22]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.75,9.75,5,10.5]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,0,10.5,0.75]},\"north\":{\"texture\":\"#0\",\"uv\":[9,9.5,9.75,10.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.75,1,10.5,1.75]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,3.75,9.75,3]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,2,10.5,2.75]}},\"from\":[6.525,16.3774,8.97931],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[9,17.8774,8.47931]},\"to\":[9.475,19.3774,11.97931]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.75,9.5,1,10.25]},\"east\":{\"texture\":\"#0\",\"uv\":[2,5.25,2.75,6.75]},\"north\":{\"texture\":\"#0\",\"uv\":[1,5.25,1.75,6.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,1,6.25,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0.75,10.25,0,9.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5.5,2.75,6.25,4.25]}},\"from\":[6.55,16,18],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8.5,-10.5,8.5]},\"to\":[9.45,22,21]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.5,10.5,7,11.5]},\"east\":{\"texture\":\"#0\",\"uv\":[10.5,5.25,11.5,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,11.75,8.75,12.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9,11.75,9.5,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[11,7.75,10.5,6.75]},\"west\":{\"texture\":\"#0\",\"uv\":[10.5,6,11.5,6.5]}},\"from\":[7,22,20],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8.5,-10.5,8.5]},\"to\":[9,24,24]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,7,6.5,9]},\"east\":{\"texture\":\"#0\",\"uv\":[0,7,2,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[11.75,9.25,12.25,9.75]},\"south\":{\"texture\":\"#0\",\"uv\":[9.75,11.75,10.25,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[5,8.75,4.5,6.75]},\"west\":{\"texture\":\"#0\",\"uv\":[2.25,7,4.25,7.5]}},\"from\":[7.025,25.30544,6.61755],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[8.5,26.30544,11.61755]},\"to\":[8.975,27.30544,14.61755]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13.5,0,13,0.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11.25,12.75,11.5,13.25]},\"north\":{\"texture\":\"#0\",\"uv\":[12,4,12.5,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,12,12,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[13.25,4.5,12.75,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[11.75,12.75,12,13.25]}},\"from\":[7.05,27.30544,12.36755],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8.5,26.30544,11.61755]},\"to\":[8.95,29.30544,13.36755]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.75,0.75,12.25,1.25]},\"east\":{\"texture\":\"#0\",\"uv\":[13,1,13.5,1.25]},\"north\":{\"texture\":\"#0\",\"uv\":[13,0.5,13.5,0.75]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,13,2,13.25]},\"up\":{\"texture\":\"#0\",\"uv\":[12.75,0.5,12.25,0]},\"west\":{\"texture\":\"#0\",\"uv\":[13,2.5,13.5,2.75]}},\"from\":[7.05,26.30544,11.61755],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8.5,26.30544,11.61755]},\"to\":[8.95,27.30544,13.61755]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.25,10.5,10.75,11.25]},\"east\":{\"texture\":\"#0\",\"uv\":[4,12.5,4.75,12.75]},\"north\":{\"texture\":\"#0\",\"uv\":[12.75,2,13.25,2.25]},\"south\":{\"texture\":\"#0\",\"uv\":[12.75,3.75,13.25,4]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,9.25,10.75,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[12.5,4.75,13.25,5]}},\"from\":[7.05,26.80544,14.11755],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8.5,26.30544,11.61755]},\"to\":[8.95,27.80544,17.11755]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13.25,5.25,13,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3,13,3.5,13.25]},\"north\":{\"texture\":\"#0\",\"uv\":[9.75,13,10,13.25]},\"south\":{\"texture\":\"#0\",\"uv\":[13,10,13.25,10.25]},\"up\":{\"texture\":\"#0\",\"uv\":[4.75,13.5,4.5,13]},\"west\":{\"texture\":\"#0\",\"uv\":[3.75,13,4.25,13.25]}},\"from\":[7.5,26.80544,17.11755],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8.5,26.30544,11.61755]},\"to\":[8.5,27.80544,19.11755]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,6.5,12,7.5]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,10,12.75,10.25]},\"north\":{\"texture\":\"#0\",\"uv\":[13,9,13.25,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[13,9.5,13.25,9.75]},\"up\":{\"texture\":\"#0\",\"uv\":[6.25,9,6,8]},\"west\":{\"texture\":\"#0\",\"uv\":[2.5,12,3.5,12.25]}},\"from\":[7.5,26.02824,18.79225],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8.5,25.52824,16.29225]},\"to\":[8.5,27.02824,22.79225]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,13,8.75,13.25]},\"east\":{\"texture\":\"#0\",\"uv\":[7.75,13,8,13.25]},\"north\":{\"texture\":\"#0\",\"uv\":[13,7.5,13.25,7.75]},\"south\":{\"texture\":\"#0\",\"uv\":[13,8,13.25,8.25]},\"up\":{\"texture\":\"#0\",\"uv\":[13.25,8.75,13,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[8.25,13,8.5,13.25]}},\"from\":[7.5,19,21],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,-10.5,8.5]},\"to\":[8.5,20,22]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,12.5,8.5,12.75]},\"east\":{\"texture\":\"#0\",\"uv\":[7.25,12.5,7.5,13]},\"north\":{\"texture\":\"#0\",\"uv\":[11.75,5,12.25,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11.75,5.75,12.25,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,12.75,7.75,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[12.5,7.5,12.75,8]}},\"from\":[7,18.5,21.5],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,-10.5,8.5]},\"to\":[9,20.5,22.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.75,9.5,3,10.25]},\"east\":{\"texture\":\"#0\",\"uv\":[5.5,6.25,6.25,7.75]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,4.5,6.25,6]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,0,7.25,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.75,10.25,2,9.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6.5,1.75,7.25,3.25]}},\"from\":[6.575,22.37029,2.9293],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[9,25.37029,4.4293]},\"to\":[9.425,28.37029,5.9293]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,8.25,8.25,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[8.25,4.75,9.25,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10,9.5,10.75,10.25]},\"south\":{\"texture\":\"#0\",\"uv\":[6,10.25,6.75,11]},\"up\":{\"texture\":\"#0\",\"uv\":[8,9.25,7.25,8.25]},\"west\":{\"texture\":\"#0\",\"uv\":[8.25,5.75,9.25,6.5]}},\"from\":[6.575,24.37029,5.9293],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8.5,25.37029,4.4293]},\"to\":[9.425,27.37029,9.9293]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.75,12.5,12.25,12.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,12.5,9.5,13]},\"north\":{\"texture\":\"#0\",\"uv\":[6.75,11.75,7.25,12.25]},\"south\":{\"texture\":\"#0\",\"uv\":[7.5,11.75,8,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[10.25,12.75,9.75,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[12.5,9.25,12.75,9.75]}},\"from\":[7,24.87029,9.9293],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,25.37029,4.4293]},\"to\":[9,26.87029,10.9293]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13.25,3.25,12.5,3.5]},\"east\":{\"texture\":\"#0\",\"uv\":[1,12.5,1.25,13.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0,10.5,0.75,11.25]},\"south\":{\"texture\":\"#0\",\"uv\":[1,10.5,1.75,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,12.75,3,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2.5,12.5,2.75,13.25]}},\"from\":[6.575,24.37029,10.9293],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,25.37029,4.4293]},\"to\":[9.4,27.37029,11.9293]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.75,9.5,8,10.25]},\"east\":{\"texture\":\"#0\",\"uv\":[9.5,4.75,10.25,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4,9.5,4.75,10.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,5.75,10.25,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[7.75,10.25,7,9.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.5,6.75,10.25,7.5]}},\"from\":[6.6,24.87029,-0.0707],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[9,25.37029,4.4293]},\"to\":[9.4,27.87029,2.9293]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,4,10.5,5]},\"east\":{\"texture\":\"#0\",\"uv\":[11.5,2,12.5,2.25]},\"north\":{\"texture\":\"#0\",\"uv\":[7.5,6.5,8,6.75]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,9,5,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,11.5,4,10.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2.5,11.5,3.5,11.75]}},\"from\":[7,26.87029,-4.0707],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[8.5,25.37029,4.4293]},\"to\":[9,27.87029,-0.0707]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,11.5,2,12.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,8,10.5,8.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5,12.5,5.25,13]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,5.25,12.75,5.75]},\"up\":{\"texture\":\"#0\",\"uv\":[1.75,12.75,1.5,11.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.25,8.75,10.5,9.25]}},\"from\":[7.5,24.87029,-5.0707],\"rotation\":{\"angle\":0,\"axis\":\"x\",\"origin\":[8,25.37029,4.4293]},\"to\":[8.5,26.87029,-0.0707]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.75,6.75,12.5,7.25]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,4,10.25,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,12.5,5.75,13]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,6,12.75,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[7,13,6.75,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[11.5,2.5,12,3]}},\"from\":[7.525,26.70654,-6.83921],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,27.20654,-0.33921]},\"to\":[8.475,28.70654,-4.83921]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.75,12.5,0.5,13.25]},\"east\":{\"texture\":\"#0\",\"uv\":[12.25,1.5,13,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6,13,6.25,13.25]},\"south\":{\"texture\":\"#0\",\"uv\":[13,6,13.25,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[0.25,13.25,0,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[12.25,12,13,12.25]}},\"from\":[7.525,26.95654,-9.83921],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,27.20654,-0.33921]},\"to\":[8.475,27.95654,-6.83921]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"anime21_crate/blaze_reap\",\"particle\":\"anime21_crate/blaze_reap\"}}",
+        "texture": [{
+            "name": "blaze_reap",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEVHcEz1+PjY4eK9yMyjr7aLlqF4niQxjrhrhC1YcSw2a4pMXzM5TTwlRmsuPUcjMk07K6tJAAAAAXRSTlMAQObYZgAAA3hJREFUeNpk1DFo5EYUxvHP8t2xkm/Q2lzP3F4dWGKn1+Xc54qk70JK99VUQXIITOnBTqJ6wURVsJADW8Z4Ca/NwrBbhYSYYwhp1iAmMyMk+9Z/IxDWj3kjeTDqs29f5KpSMs+VVLI4jy/2zmO5YqQRappfXjSNA4Xy4HQ1unipYqmTEl1X6mpUn3lwfj0P4KcAAP0RqCu4lLy0oxUwEmCErt9UHddncz9E0x8SrtGZo8Me/vymiPOv17du+RUpOWEm3ztPSaHvrmn2muv1woGNAfaZUS+vY6mSGbZS0pq/xCEzDRBLDLXie5NHfBFG1EK7Ffx3yPN+l215aZYeFCIXtdQRV/EFHqXLSwogF06T3p06EPFZ/xY9uFsDtWkJoYhrRtgCufjV1PINM2rk9oShln9i9lPzYV04ALxNjPYfCjjKEPp3fGCOO/CDUcKt0Ixypm0/Aa+zt/xwdwqXMhvxhQMI9Zt4NT0aT9y7neWiqGrR7mQqKYe/hOsdf5Pt74yVUgJwYJe7pyqWtj8Qk/EBP3bfoVHiH7cCQg6gb5J9zg+712qqGzlJZmUuFABr8LjFfOHOBHDMNP04B/y2uz6sm2pTlbfz27mlQh6m1jTzS/0sI/MAWg/qygFzDJ+1QA/uAiAPmqqorNuDkkA0BnpQV60kfyYBB5gmJfXyeUbU766uNrL0IF8XFdwelAwj8ABqQd8JoJBqfgV00SD6llAVXDcyFzqWVKJrNptptpzNyiW0sXtK3IjfpQcnhJC1rWbaWqM9SJdiI24rBwyApyM8aAWgAXCO0KeMWmZWiRsB2LTtRyND16sOMFqmRBYupmfMakK/Qg9sWpJl96lNbYtH/cfonpmfGemUOgCAlZoRR8hN92BnjJTKAJJLHQA+AhFXz8YAW6aWWctKAIStoqmS6BsmQEklc6FkIcK96P7VKEZTGsDwczMfAHwD+NtddTgQ9bCCJsJW/gGedpy9Hm+kMlcAWmNjuRiJRWoeXvPL95/xe3FqriJurNGxbPaq1WPw1ft3fClOyQPAg1g6gCd5oKBHwgPgYQXlT1eew+XA8Jm2QPgVSEV84m4SYoSh3AOtA0AH/A50MsPQcIAthhuNvvKElyU/4Na4hZJohx+5SwPPswFMgSlcdIJkF4C/kgQYQKaRaebnlEC0G4EBjOFJJf4fTcEoAADGj1Ste08B4AAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 176,
+    "type": "bow",
+    "name": "Emiyas Bow",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Bow",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Bow",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Flame": 5
+                },
+                {
+                    "Infinity": 1
+                },
+                {
+                    "Power": 7
+                },
+                {
+                    "Punch": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Flame": 5
+                },
+                {
+                    "Infinity": 1
+                },
+                {
+                    "Power": 7
+                },
+                {
+                    "Punch": 7
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Flame": 5
+                },
+                {
+                    "Infinity": 1
+                },
+                {
+                    "Power": 7
+                },
+                {
+                    "Punch": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Flame": 5
+                },
+                {
+                    "Infinity": 1
+                },
+                {
+                    "Power ": 7
+                },
+                {
+                    "Punch": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Flame": 5
+                },
+                {
+                    "Infinity": 1
+                },
+                {
+                    "Power": 7
+                },
+                {
+                    "Punch": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Speed II"
+            ],
+            "skyblock": [
+                "Speed II"
+            ],
+            "earth": [
+                "Speed II"
+            ],
+            "prison": [
+                "Speed II"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Speed II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,90,0],\"scale\":[0.8,0.8,0.8]},\"firstperson_righthand\":{\"rotation\":[0,-90,0],\"scale\":[0.8,0.8,0.8]},\"fixed\":{\"rotation\":[0,0,-45],\"scale\":[0.5,0.5,0.5],\"translation\":[0,0,-0.5]},\"ground\":{\"scale\":[0.3,0.3,0.3]},\"gui\":{\"rotation\":[17,12,22],\"scale\":[-0.5,0.5,0.5],\"translation\":[1.5,0.75,0]},\"head\":{\"rotation\":[0,0,-90],\"translation\":[0,9.5,-1]},\"thirdperson_lefthand\":{\"rotation\":[0,90,0],\"scale\":[0.8,0.8,0.8],\"translation\":[0,-1.75,0.25]},\"thirdperson_righthand\":{\"rotation\":[0,-90,0],\"scale\":[0.8,0.8,0.8],\"translation\":[0,-1.75,0.25]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.375,6.5,6.25,6.625]},\"east\":{\"texture\":\"#0\",\"uv\":[6.125,3.5625,6.25,3.9375]},\"north\":{\"texture\":\"#0\",\"uv\":[6.125,3.125,6.25,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[6.125,4,6.25,4.375]},\"up\":{\"texture\":\"#0\",\"uv\":[3.4375,6.625,3.3125,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6.125,4.4375,6.25,4.8125]}},\"from\":[3.2,5,7],\"name\":\"bow\",\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[4.2,8,8]},\"to\":[5.2,11,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,4.9375,6.9375,5]},\"east\":{\"texture\":\"#0\",\"uv\":[1.625,6.625,1.6875,6.875]},\"north\":{\"texture\":\"#0\",\"uv\":[3.1875,6.5625,3.25,6.8125]},\"south\":{\"texture\":\"#0\",\"uv\":[4.4375,6.625,4.5,6.875]},\"up\":{\"texture\":\"#0\",\"uv\":[7,4.875,6.9375,4.8125]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5625,6.625,4.625,6.875]}},\"from\":[6.625,6,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.625,8,7.5]},\"to\":[7.625,10,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5625,6.9375,5.5,7]},\"east\":{\"texture\":\"#0\",\"uv\":[0.75,6.6875,0.8125,6.9375]},\"north\":{\"texture\":\"#0\",\"uv\":[0.625,6.6875,0.6875,6.9375]},\"south\":{\"texture\":\"#0\",\"uv\":[6.6875,0.75,6.75,1]},\"up\":{\"texture\":\"#0\",\"uv\":[7,5.4375,6.9375,5.375]},\"west\":{\"texture\":\"#0\",\"uv\":[6.6875,1.0625,6.75,1.3125]}},\"from\":[8.74632,5.87868,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[9.74632,7.87868,7.5]},\"to\":[9.74632,9.87868,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,5.6875,6.9375,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[4.9375,6.4375,5,6.75]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5625,6.3125,3.625,6.625]},\"south\":{\"texture\":\"#0\",\"uv\":[0.875,6.5,0.9375,6.8125]},\"up\":{\"texture\":\"#0\",\"uv\":[5.6875,7,5.625,6.9375]},\"west\":{\"texture\":\"#0\",\"uv\":[1,6.5,1.0625,6.8125]}},\"from\":[7.33211,9.29289,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":45,\"axis\":\"z\",\"origin\":[8.33211,11.29289,7.5]},\"to\":[8.33211,14.29289,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.9375,6.9375,5.875,7]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,1.875,6.5625,2.1875]},\"north\":{\"texture\":\"#0\",\"uv\":[1.125,6.5,1.1875,6.8125]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,2.25,6.5625,2.5625]},\"up\":{\"texture\":\"#0\",\"uv\":[5.8125,7,5.75,6.9375]},\"west\":{\"texture\":\"#0\",\"uv\":[6.5,2.625,6.5625,2.9375]}},\"from\":[7.33211,1.46447,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[8.33211,4.46447,7.5]},\"to\":[8.33211,6.46447,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,6.0625,6.9375,6.125]},\"east\":{\"texture\":\"#0\",\"uv\":[6.875,3.25,6.9375,3.375]},\"north\":{\"texture\":\"#0\",\"uv\":[3.1875,6.875,3.25,7]},\"south\":{\"texture\":\"#0\",\"uv\":[6.875,3.4375,6.9375,3.5625]},\"up\":{\"texture\":\"#0\",\"uv\":[6.0625,7,6,6.9375]},\"west\":{\"texture\":\"#0\",\"uv\":[3.6875,6.875,3.75,7]}},\"from\":[4.66219,0.81981,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[5.66219,0.81981,7.5]},\"to\":[5.66219,2.81981,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.3125,6.9375,6.25,7]},\"east\":{\"texture\":\"#0\",\"uv\":[6.875,4.125,6.9375,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[3.8125,6.875,3.875,7]},\"south\":{\"texture\":\"#0\",\"uv\":[6.875,4.3125,6.9375,4.4375]},\"up\":{\"texture\":\"#0\",\"uv\":[6.1875,7,6.125,6.9375]},\"west\":{\"texture\":\"#0\",\"uv\":[6.875,4.5,6.9375,4.625]}},\"from\":[4.66219,12.93755,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[5.66219,14.93755,7.5]},\"to\":[5.66219,14.93755,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,6.875,2.125,6.9375]},\"east\":{\"texture\":\"#0\",\"uv\":[0.875,6.875,0.9375,7]},\"north\":{\"texture\":\"#0\",\"uv\":[6.625,2.8125,6.75,2.9375]},\"south\":{\"texture\":\"#0\",\"uv\":[4.6875,6.625,4.8125,6.75]},\"up\":{\"texture\":\"#0\",\"uv\":[2.0625,6.9375,1.9375,6.875]},\"west\":{\"texture\":\"#0\",\"uv\":[1,6.875,1.0625,7]}},\"from\":[5.625,4,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.625,3,7.5]},\"to\":[7.625,6,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.9375,6.9375,6.875,7]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,6.9375,6.5625,7]},\"north\":{\"texture\":\"#0\",\"uv\":[6.375,6.9375,6.4375,7]},\"south\":{\"texture\":\"#0\",\"uv\":[6.9375,6.5625,7,6.625]},\"up\":{\"texture\":\"#0\",\"uv\":[6.8125,7,6.75,6.9375]},\"west\":{\"texture\":\"#0\",\"uv\":[6.625,6.9375,6.6875,7]}},\"from\":[5.625,3,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.625,2,7.5]},\"to\":[6.625,4,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.0625,0.75,7,0.8125]},\"east\":{\"texture\":\"#0\",\"uv\":[7,0.5,7.0625,0.5625]},\"north\":{\"texture\":\"#0\",\"uv\":[0,7,0.0625,7.0625]},\"south\":{\"texture\":\"#0\",\"uv\":[0.5625,7,0.625,7.0625]},\"up\":{\"texture\":\"#0\",\"uv\":[0.75,7.0625,0.6875,7]},\"west\":{\"texture\":\"#0\",\"uv\":[7,0.625,7.0625,0.6875]}},\"from\":[5.625,12,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.625,11,7.5]},\"to\":[6.625,13,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.125,6.875,3,6.9375]},\"east\":{\"texture\":\"#0\",\"uv\":[1.125,6.875,1.1875,7]},\"north\":{\"texture\":\"#0\",\"uv\":[6.625,5.875,6.75,6]},\"south\":{\"texture\":\"#0\",\"uv\":[6.6875,0.25,6.8125,0.375]},\"up\":{\"texture\":\"#0\",\"uv\":[2.9375,6.9375,2.8125,6.875]},\"west\":{\"texture\":\"#0\",\"uv\":[2.3125,6.875,2.375,7]}},\"from\":[5.625,10,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.625,13,7.5]},\"to\":[7.625,12,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.9375,5.0625,6.875,5.125]},\"east\":{\"texture\":\"#0\",\"uv\":[2.125,6.1875,2.1875,6.8125]},\"north\":{\"texture\":\"#0\",\"uv\":[2,6.1875,2.0625,6.8125]},\"south\":{\"texture\":\"#0\",\"uv\":[2.25,6.1875,2.3125,6.8125]},\"up\":{\"texture\":\"#0\",\"uv\":[6.9375,3.6875,6.875,3.625]},\"west\":{\"texture\":\"#0\",\"uv\":[2.375,6.1875,2.4375,6.8125]}},\"from\":[3.7,3,8],\"name\":\"bow\",\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[4.7,8,8]},\"to\":[4.7,13,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.9375,6.3125,6.875,6.375]},\"east\":{\"texture\":\"#0\",\"uv\":[6.75,4.125,6.8125,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[1.25,6.25,1.3125,6.375]},\"south\":{\"texture\":\"#0\",\"uv\":[6.75,4.3125,6.8125,4.4375]},\"up\":{\"texture\":\"#0\",\"uv\":[6.9375,6.25,6.875,6.1875]},\"west\":{\"texture\":\"#0\",\"uv\":[6.75,4.5,6.8125,4.625]}},\"from\":[2.7,7,8],\"name\":\"bow\",\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[3.7,9,8]},\"to\":[3.7,9,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.25,6.9375,0.1875,7]},\"east\":{\"texture\":\"#0\",\"uv\":[5.25,6,5.3125,7.1875]},\"north\":{\"texture\":\"#0\",\"uv\":[5.125,6,5.1875,7.1875]},\"south\":{\"texture\":\"#0\",\"uv\":[5.375,6,5.4375,7.1875]},\"up\":{\"texture\":\"#0\",\"uv\":[6.9375,6.5,6.875,6.4375]},\"west\":{\"texture\":\"#0\",\"uv\":[2.6875,6.0625,2.75,7.25]}},\"from\":[4.62464,-1.57194,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[5.12464,-3,8]},\"to\":[5.62464,17.57806,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.6875,6.375,0.625,6.4375]},\"east\":{\"texture\":\"#0\",\"uv\":[3.8125,6.0625,3.875,6.8125]},\"north\":{\"texture\":\"#0\",\"uv\":[3.6875,6.0625,3.75,6.8125]},\"south\":{\"texture\":\"#0\",\"uv\":[6.125,1.5,6.1875,2.25]},\"up\":{\"texture\":\"#0\",\"uv\":[1,5.625,0.9375,5.5625]},\"west\":{\"texture\":\"#0\",\"uv\":[6.125,2.3125,6.1875,3.0625]}},\"from\":[4.47338,-13.11615,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[4.7192,-1.34504,8]},\"to\":[5.47338,-1.34451,8.5]},{\"faces\":{\"down\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[6.5625,0.25,6.625,0.5]},\"east\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[7,0.375,6.9375,0.4375]},\"north\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6.4375,6.5,6.5,6.75]},\"south\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0.125,6.5625,0.1875,6.8125]},\"up\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0,6.5625,0.0625,6.8125]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0.375,7,0.3125,6.9375]}},\"from\":[8.69759,-14.03634,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[10.92595,-13.53634,8]},\"to\":[12.69759,-13.03634,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.875,6.0625,6.75,6.125]},\"east\":{\"texture\":\"#0\",\"uv\":[6.75,5.0625,6.8125,5.1875]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5625,0.5625,6.6875,0.6875]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5625,3.3125,6.6875,3.4375]},\"up\":{\"texture\":\"#0\",\"uv\":[6.875,4.75,6.75,4.6875]},\"west\":{\"texture\":\"#0\",\"uv\":[6,6.75,6.0625,6.875]}},\"from\":[10.82513,-13.3142,7.525],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[11.82513,-12.3142,8]},\"to\":[12.82513,-11.3142,8.475]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.9375,5.375,1.875,5.375]},\"east\":{\"texture\":\"#0\",\"uv\":[1.875,6.9375,1.875,8.375]},\"north\":{\"texture\":\"#0\",\"uv\":[3.9375,6,4,7.4375]},\"south\":{\"texture\":\"#0\",\"uv\":[4.0625,6,4.125,7.4375]},\"up\":{\"texture\":\"#0\",\"uv\":[1.8125,5.375,1.75,5.375]},\"west\":{\"texture\":\"#0\",\"uv\":[4.8125,6.9375,4.8125,8.375]}},\"from\":[11.74189,-14.43862,8],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[11.74189,-15.86668,8.5]},\"to\":[12.24189,7.96138,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.8125,6.9375,1.75,7]},\"east\":{\"texture\":\"#0\",\"uv\":[5.625,6.125,5.6875,6.875]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,6.125,5.5625,6.875]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,6.125,5.8125,6.875]},\"up\":{\"texture\":\"#0\",\"uv\":[1.6875,7,1.625,6.9375]},\"west\":{\"texture\":\"#0\",\"uv\":[5.875,6.125,5.9375,6.875]}},\"from\":[5.35195,17.23447,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[5.85195,19.23447,8]},\"to\":[6.35195,29.00611,8.5]},{\"faces\":{\"down\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2.9375,6.5625,3,6.8125]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[0.5,7,0.4375,6.9375]},\"north\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2.8125,6.5625,2.875,6.8125]},\"south\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6.5625,3,6.625,3.25]},\"up\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3.0625,6.5625,3.125,6.8125]},\"west\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[7,1.3125,6.9375,1.375]}},\"from\":[8.83034,29.17577,7.5],\"name\":\"bow\",\"rotation\":{\"angle\":45,\"axis\":\"z\",\"origin\":[11.0587,29.67577,8]},\"to\":[12.83034,30.17577,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.375,6.8125,0.25,6.875]},\"east\":{\"texture\":\"#0\",\"uv\":[6.75,6.1875,6.8125,6.3125]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5625,3.5,6.6875,3.625]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5625,3.6875,6.6875,3.8125]},\"up\":{\"texture\":\"#0\",\"uv\":[6.875,6.625,6.75,6.5625]},\"west\":{\"texture\":\"#0\",\"uv\":[6.75,6.375,6.8125,6.5]}},\"from\":[10.95788,27.44752,7.525],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[11.95788,28.44752,8]},\"to\":[12.95788,29.44752,8.475]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.1875,5.375,2.125,5.375]},\"east\":{\"texture\":\"#0\",\"uv\":[0.125,7,0.125,8.4375]},\"north\":{\"texture\":\"#0\",\"uv\":[4.1875,6,4.25,7.4375]},\"south\":{\"texture\":\"#0\",\"uv\":[4.3125,6,4.375,7.4375]},\"up\":{\"texture\":\"#0\",\"uv\":[2.0625,5.375,2,5.375]},\"west\":{\"texture\":\"#0\",\"uv\":[0.8125,7,0.8125,8.4375]}},\"from\":[11.74189,7.35,8],\"name\":\"bow\",\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[11.74189,33.53943,8.5]},\"to\":[12.24189,30.5,8]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,{\"children\":[14,{\"children\":[15,16,17],\"color\":0,\"name\":\"group\",\"origin\":[-6.12536,-16,8.5]}],\"color\":0,\"name\":\"group\",\"origin\":[-6.12536,-16,8.5]},{\"children\":[18,{\"children\":[19,20,21],\"color\":0,\"name\":\"group\",\"origin\":[-6.12536,32,8.5]}],\"color\":0,\"name\":\"group\",\"origin\":[-6.12536,32,8.5]}],\"color\":0,\"name\":\"bow\",\"origin\":[-6.04212,28.44752,8]}],\"gui_light\":\"front\",\"texture_size\":[256,256],\"textures\":{\"0\":\"anime21_crate/fate_bow\",\"particle\":\"anime21_crate/fate_bow\"}}",
+        "texture": [{
+            "name": "fate_bow",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAAYFBMVEVHcEz1+Pj39L//9k/G7P/43XL3zrLH1v+01OHo0kuWstnnmX9D6I3Rqjn0hoZbvPSGkLLXXVF6d5lhX4RTYXTJKjOiGz5BRGU6RWgHSHwvMk4oK0oDMV8fIDUAG0ARER0M4YZpAAAAAXRSTlMAQObYZgAACEFJREFUeNrsnYGWmzoOhv+741ot6k4tWtyEYnj/t9zYUWJ8XTbM7dxzTNOPU4CJSdFvSbajSYt/H6qYCL8fIoLfBbZ4K8I8DCyPPaCPzD1aglHADNi3SsDeww/8O/Q4/xM3EO8BeBbUwJzNBSwII15fG1bgF0KAPYAtF6CJLmDB9/EYQc+DCK+CwO4VACsBmLkSILKgTWy2lMX7YRgkXu3MBsIDIp75LuIwcBkRAW52aBnWgxqTFGDGDmQYUMQAq0MwgGj3haxDc1iWdfKTAdqd2ItqBpQCKN3UXUAY8eXLF7QHe89SGaMusDsHKoyafu4vYAmNeoAHBvyMweLNSHFa8fKC41DGALP9p/Mrnf4TgnrAQSgHtWI8lB23SCFADAME/OeleWPZ55/JKjEOyAyCAhl+phkqAhqFc7yLR4QLBViGWq2MZNE8S+UAMOZsdCrUaA7g3KvWr2d/XoSZZfAo8MzlIJgFGLh2AOcmlwRoF3vru+z0qkCaFGKN2ikChXkoXmHBBgEdoVmiAsLDvhWAHwYR5mQ+Fw7iowSlBnQhrggRmnYBeK99uRfvk/XeI6NeU0hAkZkIAT2hZfzwxk+H1Pi9hCMshex+BXaSJ0Jti8B2M/IZv0KeCLnJoWWYLY5PgyyI/U9X8IQEPDkBdUnoqQpDAUfFMnYirJ+BPvCA2eE4WAsw7xsQefDwnrcEOHLn8w6P0AWx97LtAVjw4QNcfzgVti/rBbHnRwI0j81nlkUG3haAmVcC4P8K0FOPAAAEOkLkx4MMw+C9cFk3Kqrhd3n4XhmTjRygfgBC+zAn+28mbVTQh7KWpK2HDQHIEBYQ4TCwrz4XBSBsUcAbhaGSBR11iBxEA3WAyiThjZGO60pCSU/9sTzAbpSKAL+vBlSw6L6nhjWwzGUEPISxl0WHwdZHv3JYewjLjuayngcQNR0FQ1EIQhXWlZWFXts1o0KAlqkLQYyIl5wXuHSB7cpQIU3AjdY18IMws4hfzwq9zX3JWMPblaFihhTgyCQ/QPOk6Z/anwPi1ssWNVIWRgZmKCL6SgBpUeBIvx9gVzaJenmFXCsjhROxFoxEBlUmmu4QcFgGZu9RO4Bs14XY+3otEMIRPMAyKgaPN1GokkNgCcAB7be/WhzRiZBCaBnezAb21wUIeJk/4ZBY5ncrDxCej9MJlCYCn+YX4FkFIIx4RlSA/poFPyOgSYQt3h/LchMgMgZ8xoJGYZZ3F5WzB0zOISz4/LQhMPc9EgsaRoTZphMogn2UN1hmEVSEEa9Y0Dosa7sZe+C1ElLd8+MHjDljCXjFMRDc2ZEdLVd3VgIQTQDwCsIRYGTElsZVV1aQ4Q0BdBQ4CoyMuvT2x0GycWflAWHBh4bro5JS4JW/bIJZRADItgCQ8la9U2/NAvT9jAPBlTqsxrFUV8DOECDSL00dldoD9uMmByI8KaaHfl9cc8BBkfpqH71DhAyOgrzvnY5gzgbOgTAeTgDWlL49cPAjAciAJkpnCDgOIhztwyOiQiyCTczpQL8cISxvCwh5/A6nrzCTAREMxsatZ/toUrDjdcuVBvcQGI/U9ftWQ5YfvZ8zzYeAsOWd/bu/DVvVwLk0EeoJBgFPCLnbRIiOJoC8SztDiHQGT8rJ4OXTf+EIYQTh+fh6SgL8IZXGAlqj28V0O8CdXWJyEXoEru3OjgjPydxHpp4ILy8teoDZxfl2AD2ij8y9HvCHFQENCkKPebc2C/5wXA/QtB+ZsDp39xbmnFNG9bbOTUTzZXdYkTSvRWaszvscAGe6MR3NA+bVo18P7sJ7vbv6hg6DrfeuChB3cBdmF1l1cdFgdgrygIkcCyqAtj4IeRyHPnv28WyUNpiqUWCi9U/bZ92JbnKli+YpzYYHZNfZEKCrOBOaouiup2TViW7uZtdNXYlzHYyhAmOmGO2TgXN93xXMXT/3U4/biglxj48fP2oSfBpugYK4TwK0yS3R5wfWk5zjUeX3/BIlNGleW1HinkAQ97jSogppla92J/ugBuUcjyq9IQVKfqkcNRKoGEe0SDXm6ckqx9cC5Je2KaYAMfzH7/j2Db8bf+lGpFExY8SCEaVvRAEa5b6ImXB34OnWw7QGo4a+xnq0MwuQ7x0RNkpgS2hzKny+rwL6SefDPyVAHVoDIqwEWDHqtqR9zLHpU2EiHIhoKWjqOpzwAwYGRAjqGD8TIOliojbqAQFLOnbdRDcBAgyaI6/X3dUKMiDEaT/ihP8uQNdV7hsQCgE66tB1hQAB6w8GFzSOujeo9IB4DecQ7g1SrisE6KmHI5eaFVskhwChOfTZkoN2jtCXsXoXAFgJQDSVAiBTCnDN//qXjEDLAmTiQ8c/X75kAT58iAL0VwEipQBxqvvtMsyPqAUopGmSJIA+f8CyLcANMmpnJUD4uwBaHVyaHQXGe2rKAiiVAJrZvuNEfxdAqQUwHfDjawofhLHBPBgQQEb7RwUgE20PVQ7QbaxHAXzXLwfnENBhkJy2bRMVQJPgeBOArgK4ySUBTjihw818/RJsOQ9IGWGpBQAAAmky+Py5TQGu5Ae/kj3g62UjIOj0LiBCxVQ4v0061aZpSwK0zZL+5f9sQ6+d1hHu9Gs3jpmdisXQgoDYxXgtBUC4CpByZJP/z1L2ygWLPryDUfsQAsJNmetpdpF6LZAEWNSLjkNObCpAPleCuoQqFa/KHKA/iagAodjydXOM+eR/7dKBBQAgAAXRPSLtv2WAKCoCfu+NcK4eQ62mA0aARALcBiihAdomwFcEEECAdwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdxgy0mrueNXMAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 177,
+    "type": "misc",
+    "name": "Legendary Shield",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Shield",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Shield",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Mending": 2
+                },
+                {
+                    "Unbreaking": 10
+                }
+            ],
+            "skyblock": [{
+                    "Mending": 2
+                },
+                {
+                    "Unbreaking": 10
+                }
+            ],
+            "earth": [{
+                    "Mending": 2
+                },
+                {
+                    "Unbreaking": 10
+                }
+            ],
+            "prison": [{
+                    "Mending": 2
+                },
+                {
+                    "Unbreaking": 10
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Mending": 2
+                },
+                {
+                    "Unbreaking": 10
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Fire Resistance I",
+                "Block hits to level up and evolve your shield"
+            ],
+            "skyblock": [
+                "Fire Resistance I",
+                "Block hits to level up and evolve your shield"
+            ],
+            "earth": [
+                "Fire Resistance I",
+                "Block hits to level up and evolve your shield"
+            ],
+            "prison": [
+                "Fire Resistance I",
+                "Block hits to level up and evolve your shield"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Fire Resistance I",
+                "Block hits to level up and evolve your shield"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,-12,0],\"scale\":[0.5,0.5,0.5],\"translation\":[-0.25,-4.5,0]},\"firstperson_righthand\":{\"rotation\":[0,-12,0],\"scale\":[0.5,0.5,0.5],\"translation\":[-0.25,-4.5,0]},\"fixed\":{\"translation\":[0,-1.75,-2]},\"ground\":{\"scale\":[0.3,0.3,0.3]},\"gui\":{\"rotation\":[17,-166,0],\"scale\":[0.65,0.65,0.65],\"translation\":[0,0.25,0]},\"head\":{\"rotation\":[0,-180,-31],\"translation\":[1.75,-21.25,5]},\"thirdperson_lefthand\":{\"rotation\":[90,-90,0],\"scale\":[0.8,0.8,0.8],\"translation\":[2.5,-1.75,1.75]},\"thirdperson_righthand\":{\"rotation\":[90,-90,0],\"scale\":[0.75,0.75,0.75],\"translation\":[2.75,-1.75,1.75]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[7.875,3.25,7.375,3.375]},\"east\":{\"texture\":\"#1\",\"uv\":[7.375,1.75,7.5,2.375]},\"north\":{\"texture\":\"#1\",\"uv\":[6.625,6.375,7.125,7]},\"south\":{\"texture\":\"#1\",\"uv\":[4,7.125,4.5,7.75]},\"up\":{\"texture\":\"#1\",\"uv\":[7,4.25,6.5,4.125]},\"west\":{\"texture\":\"#1\",\"uv\":[7.375,2.5,7.5,3.125]}},\"from\":[6.26931,2.57928,6.875],\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[14.95129,3.8973,-5.15]},\"to\":[10.26931,7.57928,7.875]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,2,7.625,2.125]},\"east\":{\"texture\":\"#1\",\"uv\":[3.25,7.5,3.375,7.875]},\"north\":{\"texture\":\"#1\",\"uv\":[7.125,4.875,7.5,5.25]},\"south\":{\"texture\":\"#1\",\"uv\":[6.75,7.125,7.125,7.5]},\"up\":{\"texture\":\"#1\",\"uv\":[8,1.875,7.625,1.75]},\"west\":{\"texture\":\"#1\",\"uv\":[7.5,7.375,7.625,7.75]}},\"from\":[3.14645,-0.76091,6.9],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[10.82843,-1.44289,-5.15]},\"to\":[6.14645,2.23909,7.9]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[3.125,7.5,2.625,7.625]},\"east\":{\"texture\":\"#1\",\"uv\":[7.375,5.625,7.5,6.25]},\"north\":{\"texture\":\"#1\",\"uv\":[7.125,4.125,7.625,4.75]},\"south\":{\"texture\":\"#1\",\"uv\":[4.625,7.125,5.125,7.75]},\"up\":{\"texture\":\"#1\",\"uv\":[2,7.625,1.5,7.5]},\"west\":{\"texture\":\"#1\",\"uv\":[7.25,7.375,7.375,8]}},\"from\":[5.73069,2.57928,6.85],\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[1.04871,3.8973,-5.15]},\"to\":[9.73069,7.57928,7.85]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[2,7.25,1,7.375]},\"east\":{\"texture\":\"#1\",\"uv\":[6.25,7.125,6.375,8.375]},\"north\":{\"texture\":\"#1\",\"uv\":[4,4.375,5,5.625]},\"south\":{\"texture\":\"#1\",\"uv\":[5.125,4.375,6.125,5.625]},\"up\":{\"texture\":\"#1\",\"uv\":[8.125,5.5,7.125,5.375]},\"west\":{\"texture\":\"#1\",\"uv\":[6.5,7.125,6.625,8.375]}},\"from\":[4.03474,9.09072,6.825],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[16.71672,5.40874,-5.175]},\"to\":[12.03474,19.09072,7.825]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[10.875,4.375,7.75,4.375]},\"east\":{\"texture\":\"#1\",\"uv\":[0.25,7.75,0.25,12]},\"north\":{\"texture\":\"#1\",\"uv\":[0,0,3.125,4.25]},\"south\":{\"texture\":\"#1\",\"uv\":[3.25,0,6.375,4.25]},\"up\":{\"texture\":\"#1\",\"uv\":[10.875,4.25,7.75,4.25]},\"west\":{\"texture\":\"#1\",\"uv\":[0.375,7.75,0.375,12]}},\"from\":[-4.5,-5,8.7],\"name\":\"flat_back\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[6.18198,5.31802,-13.75]},\"to\":[20.5,29,8.85]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[9.625,4.125,7.75,4.125]},\"east\":{\"texture\":\"#1\",\"uv\":[0,7.75,0,10.5]},\"north\":{\"texture\":\"#1\",\"uv\":[0,4.375,1.875,7.125]},\"south\":{\"texture\":\"#1\",\"uv\":[2,4.375,3.875,7.125]},\"up\":{\"texture\":\"#1\",\"uv\":[9.125,4,7.25,4]},\"west\":{\"texture\":\"#1\",\"uv\":[0.125,7.75,0.125,10.5]}},\"from\":[0.53474,0.09072,7.075],\"name\":\"flat_front\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[16.71672,5.40874,-5.175]},\"to\":[15.53474,22.09072,7.075]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,5.125,7.625,5.25]},\"east\":{\"texture\":\"#1\",\"uv\":[7.625,2.25,7.75,2.625]},\"north\":{\"texture\":\"#1\",\"uv\":[0,7.25,0.375,7.625]},\"south\":{\"texture\":\"#1\",\"uv\":[0.5,7.25,0.875,7.625]},\"up\":{\"texture\":\"#1\",\"uv\":[8,5,7.625,4.875]},\"west\":{\"texture\":\"#1\",\"uv\":[7.625,2.75,7.75,3.125]}},\"from\":[7.03474,13.09072,6.325],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[8.03474,15.09072,6.825]},\"to\":[10.03474,16.09072,7.325]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[0.875,7.75,0.75,7.75]},\"east\":{\"texture\":\"#1\",\"uv\":[0.5,7.75,0.5,8]},\"north\":{\"texture\":\"#1\",\"uv\":[7.625,5.625,7.75,5.875]},\"south\":{\"texture\":\"#1\",\"uv\":[7.625,6,7.75,6.25]},\"up\":{\"texture\":\"#1\",\"uv\":[7.25,5.625,7.125,5.625]},\"west\":{\"texture\":\"#1\",\"uv\":[0.625,7.75,0.625,8]}},\"from\":[7.53474,13.38361,6.3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8.03474,14.88361,6.8]},\"to\":[8.53474,15.38361,6.3]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,1.5,7.375,1.625]},\"east\":{\"texture\":\"#1\",\"uv\":[6.75,7.625,6.875,7.75]},\"north\":{\"texture\":\"#1\",\"uv\":[7.375,0.75,8,0.875]},\"south\":{\"texture\":\"#1\",\"uv\":[7.375,1,8,1.125]},\"up\":{\"texture\":\"#1\",\"uv\":[8,1.375,7.375,1.25]},\"west\":{\"texture\":\"#1\",\"uv\":[7,7.625,7.125,7.75]}},\"from\":[3.85355,-2.57538,7.725],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[11.53553,-0.25736,-5.25]},\"to\":[8.85355,-1.57538,8.725]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,0.5,7.375,0.625]},\"east\":{\"texture\":\"#1\",\"uv\":[1,7.5,1.125,8]},\"north\":{\"texture\":\"#1\",\"uv\":[6.5,3.5,7.125,4]},\"south\":{\"texture\":\"#1\",\"uv\":[6.625,5.75,7.25,6.25]},\"up\":{\"texture\":\"#1\",\"uv\":[8,0.375,7.375,0.25]},\"west\":{\"texture\":\"#1\",\"uv\":[1.25,7.5,1.375,8]}},\"from\":[3.85355,-1.57538,7.725],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[11.53553,-0.25736,-5.25]},\"to\":[8.85355,2.42462,8.725]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,3.5,7.25,3.625]},\"east\":{\"texture\":\"#1\",\"uv\":[2.125,7.25,2.25,8]},\"north\":{\"texture\":\"#1\",\"uv\":[6.5,0,7.25,0.75]},\"south\":{\"texture\":\"#1\",\"uv\":[6.5,0.875,7.25,1.625]},\"up\":{\"texture\":\"#1\",\"uv\":[3.375,7.375,2.625,7.25]},\"west\":{\"texture\":\"#1\",\"uv\":[2.375,7.25,2.5,8]}},\"from\":[3.92235,2.78946,7.75],\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[12.60433,-0.89252,-5.25]},\"to\":[9.92235,8.78946,8.75]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,6.875,7.25,7]},\"east\":{\"texture\":\"#1\",\"uv\":[5.25,7.125,5.375,8.375]},\"north\":{\"texture\":\"#1\",\"uv\":[4,5.75,4.75,7]},\"south\":{\"texture\":\"#1\",\"uv\":[4.875,5.75,5.625,7]},\"up\":{\"texture\":\"#1\",\"uv\":[8,6.75,7.25,6.625]},\"west\":{\"texture\":\"#1\",\"uv\":[5.5,7.125,5.625,8.375]}},\"from\":[7.83163,9.07881,7.8],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[16.51362,5.39683,-5.175]},\"to\":[13.83163,19.07881,8.8]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8.125,0,7.375,0.125]},\"east\":{\"texture\":\"#1\",\"uv\":[5.75,7.125,5.875,8.375]},\"north\":{\"texture\":\"#1\",\"uv\":[5.75,5.75,6.5,7]},\"south\":{\"texture\":\"#1\",\"uv\":[6.25,4.375,7,5.625]},\"up\":{\"texture\":\"#1\",\"uv\":[8,7.25,7.25,7.125]},\"west\":{\"texture\":\"#1\",\"uv\":[6,7.125,6.125,8.375]}},\"from\":[2.16837,9.07881,7.825],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[-0.51362,5.39683,-5.175]},\"to\":[8.16837,19.07881,8.825]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,6.375,7.25,6.5]},\"east\":{\"texture\":\"#1\",\"uv\":[3.5,7.25,3.625,8]},\"north\":{\"texture\":\"#1\",\"uv\":[6.5,1.75,7.25,2.5]},\"south\":{\"texture\":\"#1\",\"uv\":[6.5,2.625,7.25,3.375]},\"up\":{\"texture\":\"#1\",\"uv\":[8,3.875,7.25,3.75]},\"west\":{\"texture\":\"#1\",\"uv\":[3.75,7.25,3.875,8]}},\"from\":[6.07765,2.78946,7.775],\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[3.39567,-0.89252,-5.225]},\"to\":[12.07765,8.78946,8.775]}],\"groups\":[{\"children\":[0,1,2,3,{\"children\":[4,5],\"color\":0,\"name\":\"group\",\"origin\":[16.71672,5.40874,-5.175]},6,7],\"color\":0,\"name\":\"group\",\"origin\":[16.71672,5.40874,-5]},{\"children\":[8,9,10,11,12,13],\"color\":0,\"name\":\"group\",\"origin\":[3.39567,-0.89252,-5]}],\"gui_light\":\"front\",\"texture_size\":[128,128],\"textures\":{\"1\":\"anime21_crate/shield_hero_rage\"}}",
+        "texture": [{
+            "name": "shield_hero_rage",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAJ1BMVEVHcEz/zf//6Un/psX/fa/4XYDZSmmfO1LJKjOiGz57D0FUBjkvAyitR3vHAAAAAXRSTlMAQObYZgAABE5JREFUeNqklgFn5GgYxx+XlnlnFkb3sN0vkXpn1nUKPXlzLpnDkEnoLOzZTsoWgA5bCLewPXhXc6eThdRMb5sEyszsXhOAA+5L3fvmTWpwzLPbn2aePtH8/PPkiSkoOKwRqOJQqlGqAwJCLAI1DWI1QOJSCjg4Se2kDhGQrJ+UIboiAcpB4tDzhzypmneiCWTTwSYI7Vm7vZOyMsI7a27bLGEiAsMmmJope2rfWFIQvDfv2dJaWUEADjIBiUa9vXavN5rKpnk0Ysw+Gqmhbhku4g4iuzNn854dctF8tN05uxn1RUNxCcgf7Z65oCt77/spNG6WfXfJVi/Z6hYobgbE/HXmHhx0neuxBQ3z+E/v9NT3wvHP6ATz1zMqmR0nojn+yz/NfH8uGmQCmNtKkLIYYHn02Z98OvPvh3fYBPyDTUt6P3IehLZ/Mvky8d8wHohzW4YJm4iudytBO+VR0fffFkV+dtrPOeAg1KAKYx8IY3kxmZznS2YBpV2iIZ7CpelQiWtMxRBNbyI4c5kcoqsBgqhQEWRo0XgnQuC/FA2lDtEuYSMfni+opGjLTewX+WQixsCkwGhiZnC5qwT5jtjExP58nufFWW7JTWStJkaQVk9hJgRhVD3G8EoOEVoIQTqjijQBktz45SKNkwQE2hPMEJ/+RAUv2K4cIvPeZEXqD21erjIgIDtKYDyTDUuLyZfzfG5BKWigBOUiuEqQrfyTT/64SJSAoARMCoZVAtd7m5+5wypBEzODa+qKgTt7KQe4KNJRcZ6PsjzAvo1Arp+vXtNx0ZZzb8zt4uTkNGe3KgHVUbvc9V64BzlXjen5rlxrPKRNPd/Ze6Yaxjx/yKzyu1HH3UWULdyxU8gRiCFkS3c8LNKgFGAjZN3xQfLQmON+2XRkgi7uhV4Oi/quL8pGBABm6OgpFP37tTwiwFcT/09DqdbX4VGQrxMQkJtvZXmoUVo+wkaPAx6IoMkBDCvs1AKNxoCH3wHc8TpBJbgDNCQGQQK///LP37UAeaU6SEvUFoHQ6FgPCYrmFSK6+qhr/sNvWS0gGQBeEKsVmF297z0kuHySw0ZScTTF1Zm8hRgu+8t9/Ayqa6WFlAO/hwt7flsLtqIiOQQkvCoHVrhAJECifQcbmXL1WVf1H7JOqSOKEOCHmKhtcmuBKwWoKVZHSx1rAmQCkO9AXTcIMDi1oAtISCJ/HipVAlmWuEcZtaDV5HVdv4UlBwwpxHG5yqKKVTZrwZDM9K6VAYKIq/pR1k4tMJroL5bmWl2bQQu9zmS9PhoZQJcc6lTPQwc2kQRTvk/pYlvbpuLKQSkYiF+kABDk1Wu0pYFAPywFr3T9lRRwhOLfeMoHOt3XNBV9LYHw6YBC/q0mE/BKcChGwPnhgCMFul7dgrhOnRDciZMx4BNsqxkMqhP6INbl2/mNlLegw7ejC4LHCjiH/9qDYwEAAACAQf7W09hRAQAAAAMB5dawkpEsH+cAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 178,
+    "type": "helmet",
+    "name": "Naruto Headband",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Carved Pumpkin",
+            "slot": "Armor",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Helmet",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 13
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 13
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 13
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 13
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 13
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Speed II",
+                "Jump Boost I"
+            ],
+            "skyblock": [
+                "Speed II",
+                "Jump Boost I"
+            ],
+            "earth": [
+                "Speed II",
+                "Jump Boost I"
+            ],
+            "prison": [
+                "Speed II",
+                "Jump Boost I"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Speed II",
+                "Jump Boost I"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,1.75,0]},\"firstperson_righthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,1.75,0]},\"fixed\":{\"translation\":[0,0,-1.5]},\"ground\":{\"scale\":[0.3,0.3,0.3]},\"gui\":{\"rotation\":[13,-161,0],\"translation\":[0,2,0]},\"head\":{\"scale\":[1.81,1.81,1.81],\"translation\":[0,10.25,0]},\"thirdperson_lefthand\":{\"scale\":[0.4,0.4,0.4],\"translation\":[-1.25,1.25,0]},\"thirdperson_righthand\":{\"scale\":[0.4,0.4,0.4],\"translation\":[-1.25,1.25,0]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,4.5,2.5,6.75]},\"east\":{\"texture\":\"#0\",\"uv\":[8,7,10.25,7.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.25,3.25,9.5,4]},\"south\":{\"texture\":\"#0\",\"uv\":[8,8,10.25,8.75]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,6.75,0,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[0,8.25,2.25,9]}},\"from\":[3.5,5,3.5],\"to\":[12.5,8,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[15.5,6,12.25,6]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,12.25,3.5,14.25]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,0,7,2]},\"south\":{\"texture\":\"#0\",\"uv\":[3.75,2.25,7,4.25]},\"up\":{\"texture\":\"#0\",\"uv\":[15,5.75,11.75,5.75]},\"west\":{\"texture\":\"#0\",\"uv\":[12.25,3.5,12.25,5.5]}},\"from\":[1.5,5,8],\"to\":[14.5,13,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.75,8.75,12.25,8.75]},\"east\":{\"texture\":\"#0\",\"uv\":[12.25,7.5,12.25,8.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,7,2.5,8]},\"south\":{\"texture\":\"#0\",\"uv\":[2.75,7,5.25,8]},\"up\":{\"texture\":\"#0\",\"uv\":[14.75,6.25,12.25,6.25]},\"west\":{\"texture\":\"#0\",\"uv\":[1,12.5,1,13.5]}},\"from\":[3.25,-0.25,12.75],\"to\":[12.75,3.75,12.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.5,12.5,2.5,13.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6,8.25,7,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[1.25,12.5,1.25,13.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2,12.5,2,13.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,13.5,2.25,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[8.5,5.75,9.5,6.75]}},\"from\":[3.25,-0.25,8.75],\"to\":[3.25,3.75,12.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.25,12.5,4.25,13.5]},\"east\":{\"texture\":\"#0\",\"uv\":[7.25,9,8.25,10]},\"north\":{\"texture\":\"#0\",\"uv\":[2.75,12.5,2.75,13.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,3.5,12.5,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4,13.5,4,12.5]},\"west\":{\"texture\":\"#0\",\"uv\":[8.5,9,9.5,10]}},\"from\":[12.75,-0.25,8.75],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[16,0,0]},\"to\":[12.75,3.75,12.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,12.25,11.5,15.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,3.5,2]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,12.25,3.75,14.25]},\"south\":{\"texture\":\"#0\",\"uv\":[12.25,10.25,12.25,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,15.75,11.25,12.25]},\"west\":{\"texture\":\"#0\",\"uv\":[0,2.25,3.5,4.25]}},\"from\":[8,5,1.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,9,8]},\"to\":[8,13,15.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,0.5,9.75,0.75]},\"east\":{\"texture\":\"#0\",\"uv\":[10.75,5.75,11,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7.25,1.25,9.75,2]},\"south\":{\"texture\":\"#0\",\"uv\":[7.25,2.25,9.75,3]},\"up\":{\"texture\":\"#0\",\"uv\":[12.25,0.25,9.75,0]},\"west\":{\"texture\":\"#0\",\"uv\":[4,11,4.25,11.75]}},\"from\":[3,3.5,3],\"to\":[13,6.5,4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,10.25,7,10.5]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,5,12,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10,2,11,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[9.75,10,10.75,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11,3,10,2.75]},\"west\":{\"texture\":\"#0\",\"uv\":[11.75,7.5,12,8]}},\"from\":[6,4,2.75],\"to\":[10,6,3.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.25,11,6,11.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,3.25,10.5,4]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,11,4.75,11.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5,11,5.25,11.75]},\"up\":{\"texture\":\"#0\",\"uv\":[5.75,11.75,5.5,11]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,5.75,10.5,6.5]}},\"from\":[3,3.5,4],\"to\":[4,6.5,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.75,10.25,1.5,11.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,9.25,1.5,9.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.25,8.25,7.5,8.75]},\"south\":{\"texture\":\"#0\",\"uv\":[1,11.75,1.25,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[1.25,11.5,1,10]},\"west\":{\"texture\":\"#0\",\"uv\":[1.75,9.5,3.25,10]}},\"from\":[3,3.75,7],\"to\":[4,5.75,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.75,10.25,2.5,11.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,9.5,5,10]},\"north\":{\"texture\":\"#0\",\"uv\":[11.75,2,12,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11.75,2.75,12,3.25]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,11.75,2,10.25]},\"west\":{\"texture\":\"#0\",\"uv\":[5.25,9.5,6.75,10]}},\"from\":[12,3.75,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[16,0,0]},\"to\":[13,5.75,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,1.5,10,1.75]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,3.5,12,4]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,4.25,10.5,4.75]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,5,10.5,5.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12,1.25,10,1]},\"west\":{\"texture\":\"#0\",\"uv\":[11.75,4.25,12,4.75]}},\"from\":[4,3.75,12],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[16,0,0]},\"to\":[12,5.75,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,2,11.25,2.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,9,10.5,9.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,11,6.75,11.75]},\"south\":{\"texture\":\"#0\",\"uv\":[11,6.75,11.25,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11.25,10,11,9.25]},\"west\":{\"texture\":\"#0\",\"uv\":[0,10,0.75,10.75]}},\"from\":[12,3.5,4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[16,0,0]},\"to\":[13,6.5,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,4.5,6.75,6.75]},\"east\":{\"texture\":\"#0\",\"uv\":[5.5,7,7.75,8]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,8.25,4,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[4.25,8.25,5.75,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[6.5,6.75,5,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7.25,0,9.5,1]}},\"from\":[5,6.2706,3.15328],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[3.5,6.7706,3.65328]},\"to\":[11,10.2706,12.15328]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,12,2,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[8.75,10.25,9,11.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,10.25,8.5,11.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.25,10.25,9.5,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[12,8.5,11.75,8.25]},\"west\":{\"texture\":\"#0\",\"uv\":[10.5,6.75,10.75,7.75]}},\"from\":[4,3,2.75],\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[4.5,6.5,3.5]},\"to\":[5,7,3.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.25,12,5,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,10.75,10,11.75]},\"north\":{\"texture\":\"#0\",\"uv\":[10.75,8,11,9]},\"south\":{\"texture\":\"#0\",\"uv\":[10.25,10.75,10.5,11.75]},\"up\":{\"texture\":\"#0\",\"uv\":[4.75,12.25,4.5,12]},\"west\":{\"texture\":\"#0\",\"uv\":[10.75,10.75,11,11.75]}},\"from\":[3.5,1,4.75],\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[4.5,6.5,3.5]},\"to\":[4.5,5,5.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.25,12,6,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[0.5,11,0.75,12]},\"north\":{\"texture\":\"#0\",\"uv\":[0,11,0.25,12]},\"south\":{\"texture\":\"#0\",\"uv\":[3,11,3.25,12]},\"up\":{\"texture\":\"#0\",\"uv\":[5.75,12.25,5.5,12]},\"west\":{\"texture\":\"#0\",\"uv\":[3.5,11,3.75,12]}},\"from\":[11.5,1,4.75],\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[11.5,6.5,3.5]},\"to\":[12.5,5,5.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.25,12,4,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[10.75,4.5,11,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10.75,3.25,11,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[7,10.75,7.25,11.75]},\"up\":{\"texture\":\"#0\",\"uv\":[2.75,12.25,2.5,12]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,10.75,7.75,11.75]}},\"from\":[11,3,2.75],\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[11.5,6.5,3.5]},\"to\":[12,7,3.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.25,12,7,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11.25,4,11.5,4.75]},\"north\":{\"texture\":\"#0\",\"uv\":[11.25,3,11.5,3.75]},\"south\":{\"texture\":\"#0\",\"uv\":[11.25,5,11.5,5.75]},\"up\":{\"texture\":\"#0\",\"uv\":[6.75,12.25,6.5,12]},\"west\":{\"texture\":\"#0\",\"uv\":[11.25,7.75,11.5,8.5]}},\"from\":[11.75,4,4.75],\"rotation\":{\"angle\":45,\"axis\":\"z\",\"origin\":[11.5,6.5,3.5]},\"to\":[12.75,7,5.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,8.75,11.25,9]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,10.25,12,10.75]},\"north\":{\"texture\":\"#0\",\"uv\":[3,10.25,3.75,10.75]},\"south\":{\"texture\":\"#0\",\"uv\":[4,10.25,4.75,10.75]},\"up\":{\"texture\":\"#0\",\"uv\":[12,6.25,11.25,6]},\"west\":{\"texture\":\"#0\",\"uv\":[11.75,11,12,11.5]}},\"from\":[11,5.75,10.75],\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[11.5,7,7.5]},\"to\":[14,7.75,11.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.75,12,10.5,12.25]},\"east\":{\"texture\":\"#0\",\"uv\":[12,9.25,12.25,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7.5,12,7.75,12.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,12,9.75,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[10.25,12.25,10,12]},\"west\":{\"texture\":\"#0\",\"uv\":[12,9.75,12.25,10]}},\"from\":[14,6.25,10.75],\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[11.5,7,7.5]},\"to\":[15,7.25,11.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,3,12.25,3.25]},\"east\":{\"texture\":\"#0\",\"uv\":[8.5,11.5,8.75,12.25]},\"north\":{\"texture\":\"#0\",\"uv\":[8,11.5,8.25,12.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9,11.5,9.25,12.25]},\"up\":{\"texture\":\"#0\",\"uv\":[3.25,12.5,3,12.25]},\"west\":{\"texture\":\"#0\",\"uv\":[11.5,9.25,11.75,10]}},\"from\":[3.25,4,4.75],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[4.5,6.5,3.5]},\"to\":[4.25,7,5.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,7,11.5,7.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11.75,11.75,12,12.25]},\"north\":{\"texture\":\"#0\",\"uv\":[5,10.25,5.75,10.75]},\"south\":{\"texture\":\"#0\",\"uv\":[6,10.25,6.75,10.75]},\"up\":{\"texture\":\"#0\",\"uv\":[12.25,6.75,11.5,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1.5,12,1.75,12.5]}},\"from\":[2,5.75,10.75],\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[4.5,7,7.5]},\"to\":[5,7.75,11.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,2.5,12.25,2.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0.5,12.25,0.75,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,12.25,0.25,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12.25,1,12.5,1.25]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,2.25,12.25,2]},\"west\":{\"texture\":\"#0\",\"uv\":[12.25,1.5,12.5,1.75]}},\"from\":[1,6.25,10.75],\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[4.5,7,7.5]},\"to\":[2,7.25,11.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,4.25,7.75,4.25]},\"east\":{\"texture\":\"#0\",\"uv\":[10.5,8,10.5,8.75]},\"north\":{\"texture\":\"#0\",\"uv\":[11.25,10.25,11.5,11]},\"south\":{\"texture\":\"#0\",\"uv\":[11.25,11.25,11.5,12]},\"up\":{\"texture\":\"#0\",\"uv\":[7.5,4.25,7.25,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[11,12,11,12.75]}},\"from\":[3.25,4,4.75],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[4.5,6.5,3.5]},\"to\":[4.25,7,4.75]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"anime21_crate/naruto_head\",\"particle\":\"anime21_crate/naruto_head\"}}",
+        "texture": [{
+            "name": "naruto_head",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEVHcEz1+PjY4eL/6Un43XK9yMz/vE75m06LlqFhZnU7OklkSmxOAAAAAXRSTlMAQObYZgAAAjVJREFUeNp8lDGK80gQhd8/tZSwovUhNi8oaJ9kgs0KGqpTg6AV7w0mnUyxT7nVkjQte5j5ZCRQf7xqnmQhIOC4UKnu4yNYcEDKooAiGwkXd8cThHzLBgy5TgXk/i1B661mYY3sKQ3+LYHzrYCBNnw2rDwCxs5wRyDYuHwGHzgjq6BsCPbx7UTYYcOJvr9fuf43joSO9KK2hH//GUd8oWQqR1HHiBGMA05TguxFbcL1igsOKJWpKFjrXMPcobEnGGLBUObAaCp5Gh9E6Am9rYA0aELfpK4C7UXtAqMLp7Y6A+NnHgFOI+bgvp7KXIe4NIHOQq274O5NQMDo1OBJ+AyY/nRBNe0j/GsE0xsOsqraeQ94mZEiQY6dNqHky+cFnZ5QtTSB6vgYSXGggZw3yRICOp48bQlZUxNgCFTwG7Kce5hLGUqpNWaUKu6axZabYSdnT4lTytncvVqZXM1OCVS1CG45TfBA5jq7GXqTPPjdYLXwKtz3u2/4CXXPQny6kZObuvI8W6ojUpldmKk3mfJs2ROpSpERPs/VCB0vNTqaV4EMG8QTnogumsCgYu1hvbyC6PCE9rCwmJyES3wz4jUa278ygaUJghNtJbxVMLRfCD1hWfDCn+vf6IQQqGzH+zsxh8D0IrjcLFkRIAS0MzpNwI4ZN6gHQKQJZh/Ldh2Yh4HRDbMluN+XXQAQCX/RKQHrwiGISRPOIz7WHOyEAKAnBMt6z2Q7xFoKnkZY/1b/v+ENRgEASuIUfmT2pA4AAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 179,
+    "type": "chestplate",
+    "name": "Fullmetal Chestplate",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Diamond Chestplate",
+            "slot": "Armor",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Chestplate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Absorption I"
+            ],
+            "skyblock": [
+                "Absorption I"
+            ],
+            "earth": [
+                "Absorption I"
+            ],
+            "prison": [
+                "Absorption I"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Absorption I"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[76,0,53]},\"firstperson_righthand\":{\"rotation\":[76,0,53]},\"fixed\":{\"rotation\":[90,0,0],\"translation\":[0,0,7]},\"ground\":{\"scale\":[0.5,0.5,0.5]},\"gui\":{\"rotation\":[90,0,0],\"translation\":[0,-0.25,0]},\"thirdperson_lefthand\":{\"rotation\":[-49,-180,0],\"scale\":[0.5,0.5,0.5],\"translation\":[0,2.25,-3]},\"thirdperson_righthand\":{\"rotation\":[-49,-180,0],\"scale\":[0.5,0.5,0.5],\"translation\":[0,2.25,-3]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,15.5,10.5,0]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[10,0,10.5,15.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10.5,0,5.5,0.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,15,10.5,15.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,0,10.5,15.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[5.5,0,6,15.5]}},\"from\":[5.5,0,0],\"name\":\"fullmetal_armor_0\",\"to\":[10.5,0.5,15.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.5,15.5,5.5,0.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[5,0.5,5.5,15.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,0.5,4.5,1]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,15,5.5,15.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,0.5,5.5,15.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[4.5,0.5,5,15.5]}},\"from\":[4.5,0,0.5],\"name\":\"fullmetal_armor_1\",\"to\":[5.5,0.5,15.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.5,15.5,11.5,0.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[11,0.5,11.5,15.5]},\"north\":{\"texture\":\"#0\",\"uv\":[11.5,0.5,10.5,1]},\"south\":{\"texture\":\"#0\",\"uv\":[10.5,15,11.5,15.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,0.5,11.5,15.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[10.5,0.5,11,15.5]}},\"from\":[10.5,0,0.5],\"name\":\"fullmetal_armor_2\",\"to\":[11.5,0.5,15.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,11.5,2,1]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[1.5,1,2,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2,1,1.5,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,11,2,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,1,2,11.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[1.5,1,2,11.5]}},\"from\":[1.5,0,1],\"name\":\"fullmetal_armor_3\",\"to\":[2,0.5,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,15.5,4.5,1]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[4,1,4.5,15.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,1,4,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4,15,4.5,15.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4,1,4.5,15.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[4,1,4.5,15.5]}},\"from\":[4,0,1],\"name\":\"fullmetal_armor_4\",\"to\":[4.5,0.5,15.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,15.5,12,1]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[11.5,1,12,15.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12,1,11.5,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,15,12,15.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,1,12,15.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[11.5,1,12,15.5]}},\"from\":[11.5,0,1],\"name\":\"fullmetal_armor_5\",\"to\":[12,0.5,15.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14,11.5,14.5,1]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[14,1,14.5,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[14.5,1,14,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[14,11,14.5,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[14,1,14.5,11.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[14,1,14.5,11.5]}},\"from\":[14,0,1],\"name\":\"fullmetal_armor_6\",\"to\":[14.5,0.5,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.5,15,4,1.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3.5,1.5,4,15]},\"north\":{\"texture\":\"#0\",\"uv\":[4,1.5,3.5,2]},\"south\":{\"texture\":\"#0\",\"uv\":[3.5,14.5,4,15]},\"up\":{\"texture\":\"#0\",\"uv\":[3.5,1.5,4,15]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[3.5,1.5,4,15]}},\"from\":[3.5,0,1.5],\"name\":\"fullmetal_armor_7\",\"to\":[4,0.5,15]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,15,12.5,1.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12,1.5,12.5,15]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,1.5,12,2]},\"south\":{\"texture\":\"#0\",\"uv\":[12,14.5,12.5,15]},\"up\":{\"texture\":\"#0\",\"uv\":[12,1.5,12.5,15]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12,1.5,12.5,15]}},\"from\":[12,0,1.5],\"name\":\"fullmetal_armor_8\",\"to\":[12.5,0.5,15]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1,10,1.5,2]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[1,2,1.5,10]},\"north\":{\"texture\":\"#0\",\"uv\":[1.5,2,1,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1,9.5,1.5,10]},\"up\":{\"texture\":\"#0\",\"uv\":[1,2,1.5,10]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[1,2,1.5,10]}},\"from\":[1,0,2],\"name\":\"fullmetal_armor_9\",\"to\":[1.5,0.5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2,13.5,2.5,2]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2,2,2.5,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,2,2,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2,13,2.5,13.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2,2,2.5,13.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2,2,2.5,13.5]}},\"from\":[2,0,2],\"name\":\"fullmetal_armor_10\",\"to\":[2.5,0.5,13.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13.5,13.5,14,2]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[13.5,2,14,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[14,2,13.5,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[13.5,13,14,13.5]},\"up\":{\"texture\":\"#0\",\"uv\":[13.5,2,14,13.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[13.5,2,14,13.5]}},\"from\":[13.5,0,2],\"name\":\"fullmetal_armor_11\",\"to\":[14,0.5,13.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.5,10,15,2]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[14.5,2,15,10]},\"north\":{\"texture\":\"#0\",\"uv\":[15,2,14.5,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[14.5,9.5,15,10]},\"up\":{\"texture\":\"#0\",\"uv\":[14.5,2,15,10]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[14.5,2,15,10]}},\"from\":[14.5,0,2],\"name\":\"fullmetal_armor_12\",\"to\":[15,0.5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.5,8,1,3]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[0.5,3,1,8]},\"north\":{\"texture\":\"#0\",\"uv\":[1,3,0.5,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0.5,7.5,1,8]},\"up\":{\"texture\":\"#0\",\"uv\":[0.5,3,1,8]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0.5,3,1,8]}},\"from\":[0.5,0,3],\"name\":\"fullmetal_armor_13\",\"to\":[1,0.5,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.5,14.5,3.5,3]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3,3,3.5,14.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,3,2.5,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,14,3.5,14.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.5,3,3.5,14.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2.5,3,3,14.5]}},\"from\":[2.5,0,3],\"name\":\"fullmetal_armor_14\",\"to\":[3.5,0.5,14.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,14.5,13.5,3]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[13,3,13.5,14.5]},\"north\":{\"texture\":\"#0\",\"uv\":[13.5,3,12.5,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,14,13.5,14.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,3,13.5,14.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12.5,3,13,14.5]}},\"from\":[12.5,0,3],\"name\":\"fullmetal_armor_15\",\"to\":[13.5,0.5,14.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[15,8,15.5,3]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[15,3,15.5,8]},\"north\":{\"texture\":\"#0\",\"uv\":[15.5,3,15,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[15,7.5,15.5,8]},\"up\":{\"texture\":\"#0\",\"uv\":[15,3,15.5,8]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[15,3,15.5,8]}},\"from\":[15,0,3],\"name\":\"fullmetal_armor_16\",\"to\":[15.5,0.5,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,7,0.5,3.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[0,3.5,0.5,7]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,3.5,0,4]},\"south\":{\"texture\":\"#0\",\"uv\":[0,6.5,0.5,7]},\"up\":{\"texture\":\"#0\",\"uv\":[0,3.5,0.5,7]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0,3.5,0.5,7]}},\"from\":[0,0,3.5],\"name\":\"fullmetal_armor_17\",\"to\":[0.5,0.5,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[15.5,7,16,3.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[15.5,3.5,16,7]},\"north\":{\"texture\":\"#0\",\"uv\":[16,3.5,15.5,4]},\"south\":{\"texture\":\"#0\",\"uv\":[15.5,6.5,16,7]},\"up\":{\"texture\":\"#0\",\"uv\":[15.5,3.5,16,7]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[15.5,3.5,16,7]}},\"from\":[15.5,0,3.5],\"name\":\"fullmetal_armor_18\",\"to\":[16,0.5,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3,15,3.5,14.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3,14.5,3.5,15]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,14.5,3,15]},\"south\":{\"texture\":\"#0\",\"uv\":[3,14.5,3.5,15]},\"up\":{\"texture\":\"#0\",\"uv\":[3,14.5,3.5,15]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[3,14.5,3.5,15]}},\"from\":[3,0,14.5],\"name\":\"fullmetal_armor_19\",\"to\":[3.5,0.5,15]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,15,13,14.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12.5,14.5,13,15]},\"north\":{\"texture\":\"#0\",\"uv\":[13,14.5,12.5,15]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,14.5,13,15]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,14.5,13,15]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12.5,14.5,13,15]}},\"from\":[12.5,0,14.5],\"name\":\"fullmetal_armor_20\",\"to\":[13,0.5,15]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],\"color\":0,\"name\":\"fullmetal_armor\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"textures\":{\"0\":\"anime21_crate/fullmetal_armor\",\"particle\":\"anime21_crate/fullmetal_armor\"}}",
+        "texture": [{
+            "name": "fullmetal_armor",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEVHcEzG7P/H1v//zn/7qoSWstnVjWuGkLKtblF6d5maYkxhX4SIUEFzPTs6RWgoK0rNPXg4AAAAAXRSTlMAQObYZgAAAZNJREFUeNosyAFk3FAYwPEPAJZzj4Bxk+M5NRIoANjWAcwd8ZxSMABmJd6ecgcYGLSN8xYuDECZjTNTGgCqY4BhaEJUhG/PbIvb4evl5f7A/wc2B7fdQpd9KaMQze4ASjlDLIcBwK0FR6BtYizkxvE7KI0TdMA6GFtwqkfFeNB+7gZFaqDSrwu1bKFaBEKnkMcng+lVC3W8GU0zqNmA119XiCdJluSPAyhWgzsf9VBqama/P/2C+uEeSo1a06WkU8ygqPeqKvaQVJJlp1cBNKNVNQv7gku9yQ6P59BzV35UMOGK+eX6cGyg9+yzvzhyp65okibeNwB/nrC7EBUnlUZnLwDg3wE7mjAkoRtx9sqCx0vPi1V6PD1vgQ48d+YNY91wdU5b6F1PmCqYTGOhL0wLLz/0xTKfr6V6/7yFBzdPvZFarhdK7998h20/ridc6m3xxTto+/k26g/DUEjx5puF/5HnIxKtF/KjBQoR+/xLQqTJQg9LnjNNMiXTQcOZj/RXJlkHQI3HwlCqjGAX7YL7YQMAxOzxhfNkFBAAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 180,
+    "type": "chestplate",
+    "name": "Anime Chestplate",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Diamond Chestplate",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2021 Anime Chestplate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                    "Protection": 3
+                },
+                {
+                    "Unbreaking": 3
+                }
+            ],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Absorption I"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAABK7dkOPzYIJSAgxbWh++gaqqf///9z4YboAAAAAXRSTlMAQObYZgAAAFZJREFUGFeFjTsWACEIAw0EvP+Nl4/7sHMakqHIWm8kuYNsQ4sTxABGEEYoAcAowrgtnNhm8QY9hap3BVy1dvR0dA2BFhzRjKgBcISz8F8cMz2nk+k3H8SrAYCTsqIdAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 181,
+    "type": "sword",
+    "name": "Murakumogiri",
+    "stats": {
+        "data": {
+            "releaseDate": "September 2021",
+            "crates": "Anime Crates",
+            "type": "Diamond Sword",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Limited Edition",
+            "lore": "2021 Anime Auction Sword",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Fire Aspect": 7
+                },
+                {
+                    "Knockback": 6
+                },
+                {
+                    "Looting": 6
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Fire Aspect": 7
+                },
+                {
+                    "Knockback": 6
+                },
+                {
+                    "Looting": 6
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Fire Aspect": 7
+                },
+                {
+                    "Knockback": 6
+                },
+                {
+                    "Looting": 6
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Fire Aspect": 7
+                },
+                {
+                    "Knockback": 6
+                },
+                {
+                    "Looting": 6
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Fire Aspect": 7
+                },
+                {
+                    "Knockback": 6
+                },
+                {
+                    "Looting": 6
+                },
+                {
+                    "Sharpness": 7
+                },
+                {
+                    "Smite": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Super Rare Items only obtainable through the Anime 2021 Server Auction (Only 10 exist on this server)",
+                "Strength II"
+            ],
+            "skyblock": [
+                "Super Rare Items only obtainable through the Anime 2021 Server Auction (Only 10 exist on this server)",
+                "Strength II"
+            ],
+            "earth": [
+                "Super Rare Items only obtainable through the Anime 2021 Server Auction (Only 10 exist on this server)",
+                "Strength II"
+            ],
+            "prison": [
+                "Super Rare Items only obtainable through the Anime 2021 Server Auction (Only 10 exist on this server)",
+                "Strength II"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Super Rare Items only obtainable through the Anime 2021 Server Auction (Only 10 exist on this server)",
+                "Strength II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"translation\":[2.25,0,5]},\"firstperson_righthand\":{\"translation\":[2.25,0,5]},\"fixed\":{\"rotation\":[90,-45,90],\"scale\":[0.7,0.7,0.7],\"translation\":[-4.25,-1.5,-0.5]},\"ground\":{\"rotation\":[45,0,0],\"scale\":[0.25,0.25,0.25],\"translation\":[0,0,1.5]},\"gui\":{\"rotation\":[76,-131,97],\"scale\":[0.7,0.7,0.7],\"translation\":[-0.25,6.25,0]},\"head\":{\"rotation\":[0,-90,-180],\"scale\":[2,2,2],\"translation\":[-12,-18.25,-0.25]},\"thirdperson_lefthand\":{\"scale\":[1.5,1.5,1.5],\"translation\":[0,9.25,10.75]},\"thirdperson_righthand\":{\"scale\":[1.5,1.5,1.5],\"translation\":[0,9.25,10.75]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.375,5.375,2.25,6]},\"east\":{\"texture\":\"#0\",\"uv\":[8.25,0,7.625,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.625,3,7.75,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[7.25,3,7.375,5.25]},\"up\":{\"texture\":\"#0\",\"uv\":[2.375,5.25,2.25,4.625]},\"west\":{\"texture\":\"#0\",\"uv\":[7.625,0,8.25,2.25]}},\"from\":[7.8,14,1.4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.2,21.2,3.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.125,5.625,1.875,5.875]},\"east\":{\"texture\":\"#0\",\"uv\":[2.875,2.375,3.125,3.75]},\"north\":{\"texture\":\"#0\",\"uv\":[1.875,3.25,2.125,4.625]},\"south\":{\"texture\":\"#0\",\"uv\":[3.25,2.375,3.5,3.75]},\"up\":{\"texture\":\"#0\",\"uv\":[5.875,1.75,5.625,1.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3.625,0.5,3.875,1.875]}},\"from\":[7.6,4.8,1.6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.4,9.2,2.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.25,3.875,2.875,4.875]},\"east\":{\"texture\":\"#0\",\"uv\":[4,1.25,5,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2.875,5.5,3.25,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,3.25,5.875,3.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4,4.25,3.625,3.25]},\"west\":{\"texture\":\"#0\",\"uv\":[4,1.625,5,1.875]}},\"from\":[7.4,13.2,0.4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.6,14,3.6]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,5.125,5.875,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.875,0,5.25,0.375]},\"north\":{\"texture\":\"#0\",\"uv\":[5.875,3.625,6,4]},\"south\":{\"texture\":\"#0\",\"uv\":[5.875,4.125,6,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6,5,5.875,4.625]},\"west\":{\"texture\":\"#0\",\"uv\":[4.875,0.5,5.25,0.875]}},\"from\":[7.81,15.39745,0.82407],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.19,16.59745,2.02407]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,5.125,5.875,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.875,0,5.25,0.375]},\"north\":{\"texture\":\"#0\",\"uv\":[5.875,3.625,6,4]},\"south\":{\"texture\":\"#0\",\"uv\":[5.875,4.125,6,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6,5,5.875,4.625]},\"west\":{\"texture\":\"#0\",\"uv\":[4.875,0.5,5.25,0.875]}},\"from\":[7.81,14.54892,1.81402],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.19,15.74892,3.01402]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.75,6,3.625,6.375]},\"east\":{\"texture\":\"#0\",\"uv\":[5,2,5.375,2.375]},\"north\":{\"texture\":\"#0\",\"uv\":[6,1,6.125,1.375]},\"south\":{\"texture\":\"#0\",\"uv\":[1.875,6,2,6.375]},\"up\":{\"texture\":\"#0\",\"uv\":[6.125,3.375,6,3]},\"west\":{\"texture\":\"#0\",\"uv\":[5,2.5,5.375,2.875]}},\"from\":[7.81,16.31669,-0.09517],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.19,17.51669,1.10483]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.25,6,5.125,6.375]},\"east\":{\"texture\":\"#0\",\"uv\":[2.875,5,3.25,5.375]},\"north\":{\"texture\":\"#0\",\"uv\":[4.375,6,4.5,6.375]},\"south\":{\"texture\":\"#0\",\"uv\":[4.625,6,4.75,6.375]},\"up\":{\"texture\":\"#0\",\"uv\":[5,6.375,4.875,6]},\"west\":{\"texture\":\"#0\",\"uv\":[5,3,5.375,3.375]}},\"from\":[7.81,17.23593,-1.15583],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.19,18.43593,0.04417]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.25,6.125,1.125,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[5,3.5,5.375,3.875]},\"north\":{\"texture\":\"#0\",\"uv\":[5.375,6,5.5,6.375]},\"south\":{\"texture\":\"#0\",\"uv\":[5.625,6,5.75,6.375]},\"up\":{\"texture\":\"#0\",\"uv\":[6.125,6,6,5.625]},\"west\":{\"texture\":\"#0\",\"uv\":[5,4,5.375,4.375]}},\"from\":[7.81,18.32487,-2.1882],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.19,19.52487,-0.9882]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.625,6.5,3.625,7.625]},\"east\":{\"texture\":\"#0\",\"uv\":[9.125,0.125,10.25,3.25]},\"north\":{\"texture\":\"#0\",\"uv\":[1.875,6.5,1.875,9.125]},\"south\":{\"texture\":\"#0\",\"uv\":[2,6.5,2,9.125]},\"up\":{\"texture\":\"#0\",\"uv\":[6.5,2.25,6.5,1.125]},\"west\":{\"texture\":\"#0\",\"uv\":[10.375,0.125,11.5,3.25]}},\"from\":[8,14,0.2],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8,24,3.8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.25,3.5,6.125,3.875]},\"east\":{\"texture\":\"#0\",\"uv\":[5,4.5,5.375,4.875]},\"north\":{\"texture\":\"#0\",\"uv\":[1.375,6.125,1.5,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.625,6.125,1.75,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,6.5,2.125,6.125]},\"west\":{\"texture\":\"#0\",\"uv\":[5,5,5.375,5.375]}},\"from\":[7.8,21.2,2.2],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.2,22.4,3.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.25,4.5,6.125,4.875]},\"east\":{\"texture\":\"#0\",\"uv\":[5.125,1,5.5,1.375]},\"north\":{\"texture\":\"#0\",\"uv\":[3.875,6.125,4,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[6.125,4,6.25,4.375]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,6.5,4.125,6.125]},\"west\":{\"texture\":\"#0\",\"uv\":[5.125,1.5,5.5,1.875]}},\"from\":[7.82,20.52961,3.76618],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.18,21.72961,4.96618]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.375,5.75,6.25,6]},\"east\":{\"texture\":\"#0\",\"uv\":[6.25,3.25,6.5,3.375]},\"north\":{\"texture\":\"#0\",\"uv\":[4.875,1,5,1.125]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,0.875,6.625,1]},\"up\":{\"texture\":\"#0\",\"uv\":[3.5,6.5,3.375,6.25]},\"west\":{\"texture\":\"#0\",\"uv\":[6.25,5.5,6.5,5.625]}},\"from\":[7.8,22.4,2.6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.2,22.8,3.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.5,4.25,4.125,5.125]},\"east\":{\"texture\":\"#0\",\"uv\":[5.375,0.5,6.25,0.625]},\"north\":{\"texture\":\"#0\",\"uv\":[6,1.5,6.375,1.625]},\"south\":{\"texture\":\"#0\",\"uv\":[6.125,5,6.5,5.125]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,4.125,4.125,3.25]},\"west\":{\"texture\":\"#0\",\"uv\":[5.375,0.75,6.25,0.875]}},\"from\":[7.4,9.6,0.6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.6,10,3.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.875,2,4.625,2.75]},\"east\":{\"texture\":\"#0\",\"uv\":[4,0,4.75,0.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.625,5.375,3.875,5.875]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,5.5,1.75,6]},\"up\":{\"texture\":\"#0\",\"uv\":[1.75,5.375,1.5,4.625]},\"west\":{\"texture\":\"#0\",\"uv\":[4,0.625,4.75,1.125]}},\"from\":[7.6,10,0.8],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.4,11.6,3.2]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.375,4.625,1.125,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[3.625,2,4.5,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,2,5.75,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,2.625,5.75,3.125]},\"up\":{\"texture\":\"#0\",\"uv\":[3.875,5.25,3.625,4.375]},\"west\":{\"texture\":\"#0\",\"uv\":[3.625,2.625,4.5,3.125]}},\"from\":[7.6,11.6,0.6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.4,13.2,3.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.75,0,5.375,0.375]},\"east\":{\"texture\":\"#0\",\"uv\":[5.875,6.125,6.25,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[6.125,5.25,6.5,5.375]},\"south\":{\"texture\":\"#0\",\"uv\":[6.25,0,6.625,0.125]},\"up\":{\"texture\":\"#0\",\"uv\":[4.375,5.625,4,5.25]},\"west\":{\"texture\":\"#0\",\"uv\":[6.25,0.25,6.625,0.375]}},\"from\":[7.36609,9.2,1.41405],\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.56609,9.6,2.61405]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.125,0,5.875,0.25]},\"east\":{\"texture\":\"#0\",\"uv\":[4.625,3.75,4.875,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4.625,2.875,4.875,3.625]},\"south\":{\"texture\":\"#0\",\"uv\":[4.625,4.625,4.875,5.375]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,6,4,5.75]},\"west\":{\"texture\":\"#0\",\"uv\":[1.875,4.75,2.125,5.5]}},\"from\":[7.6,14,1.6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,15.86565,2.04796]},\"to\":[8.4,16.4,2.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.875,5.625,5.625,5.875]},\"east\":{\"texture\":\"#0\",\"uv\":[0,2.75,0.25,8.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,0,2.75,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[0.375,2.75,0.625,8.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,5.875,5.25,5.625]},\"west\":{\"texture\":\"#0\",\"uv\":[0.75,2.75,1,8.5]}},\"from\":[7.6,-13.6,1.6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-11.74348,2]},\"to\":[8.4,4.8,2.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.5,5.875,3.25,6.125]},\"east\":{\"texture\":\"#0\",\"uv\":[5.875,2.25,6.125,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.875,1.875,6.125,2.125]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,5.875,2.75,6.125]},\"up\":{\"texture\":\"#0\",\"uv\":[3.125,6.125,2.875,5.875]},\"west\":{\"texture\":\"#0\",\"uv\":[5.875,2.625,6.125,2.875]}},\"from\":[7.6,-14.4,1.6],\"rotation\":{\"angle\":-45,\"axis\":\"y\",\"origin\":[8,-11.74348,2]},\"to\":[8.4,-13.6,2.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.125,6.375,5.875,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[2.625,6.25,2.75,6.625]},\"north\":{\"texture\":\"#0\",\"uv\":[4.875,5.5,5.125,5.875]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,5.125,5.75,5.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6.625,4.75,6.375,4.625]},\"west\":{\"texture\":\"#0\",\"uv\":[6.25,2.75,6.375,3.125]}},\"from\":[6.85784,-13.41259,1.8],\"rotation\":{\"angle\":22.5,\"axis\":\"z\",\"origin\":[8,-11.74348,2]},\"to\":[7.65784,-12.21259,2.2]},{\"faces\":{\"down\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[6.125,6.375,5.875,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.875,5.5,5.125,5.875]},\"north\":{\"texture\":\"#0\",\"uv\":[6.25,2.75,6.375,3.125]},\"south\":{\"texture\":\"#0\",\"uv\":[2.625,6.25,2.75,6.625]},\"up\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6.625,4.75,6.375,4.625]},\"west\":{\"texture\":\"#0\",\"uv\":[5.5,5.125,5.75,5.5]}},\"from\":[7.8,-13.41259,0.85784],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,-11.74348,2]},\"to\":[8.2,-12.21259,1.65784]},{\"faces\":{\"down\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[5.875,6.375,6.125,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[5.125,5.5,4.875,5.875]},\"north\":{\"texture\":\"#0\",\"uv\":[2.75,6.25,2.625,6.625]},\"south\":{\"texture\":\"#0\",\"uv\":[6.375,2.75,6.25,3.125]},\"up\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6.375,4.75,6.625,4.625]},\"west\":{\"texture\":\"#0\",\"uv\":[5.75,5.125,5.5,5.5]}},\"from\":[7.8,-13.41259,2.34216],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,-11.74348,2]},\"to\":[8.2,-12.21259,3.14216]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,6.375,6.25,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[2.875,6.25,3,6.625]},\"north\":{\"texture\":\"#0\",\"uv\":[5.625,1,5.875,1.375]},\"south\":{\"texture\":\"#0\",\"uv\":[1.125,5.625,1.375,6]},\"up\":{\"texture\":\"#0\",\"uv\":[6.625,6.25,6.375,6.125]},\"west\":{\"texture\":\"#0\",\"uv\":[3.125,6.25,3.25,6.625]}},\"from\":[8.34216,-13.41259,1.8],\"rotation\":{\"angle\":-22.5,\"axis\":\"z\",\"origin\":[8,-11.74348,2]},\"to\":[9.14216,-12.21259,2.2]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],\"color\":0,\"name\":\"group\",\"origin\":[7,1,8]},{\"children\":[17,18,19,20,21,22],\"color\":0,\"name\":\"group\",\"origin\":[9,-13,-15]}],\"gui_light\":\"front\",\"texture_size\":[128,128],\"textures\":{\"0\":\"anime21_crate/op_halberd\",\"particle\":\"anime21_crate/op_halberd\"}}",
+        "texture": [{
+            "name": "op_halberd",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAYFBMVEVHcEz1+Pj39L/Y4eL/6UnH1v+9yMz/vE75m06Wstmjr7bHgmyLlqHjeECGkLKua2DNXkZ6d5m2TUZhZnVhX4SKUlhVWXyUNjpBRGVaPEU6RWg7Okk7MDwvMk4fIDURER38HTyEAAAAAXRSTlMAQObYZgAABI1JREFUeNrEl4Fy2zYQRNfQ2UAYgWKs2obb3vH//7LAEgNyWA/DsFSz0UwoCeI94B0gGU9PT1iEz29vUE3JyoX/+Hh1EaqKGCJEMMSAmmnUf8vlQoS5/OWC7xkglVu/fSKIOBegagghFIA5dRTz1Uz2AeS0oaV8AbjBUlLDLQP414+PALWRK5ATvEMNR23MZE8sV3zmJ8unnvMzrny59VgugvdeAr4OR23MZDcACUp9AlQFOhYFNVMPZBpx6FEzjdqYyU4AEgBgfQJQgY1FQXRZgYepomYBwFEbM9kVAlz4uQsBQAWabFLgnEjAaAon3ocQMYejNmayG4D26I0A3ysAd0Hehn7VAwlLgI2Z7ARgMkC9AhWoTgqCeO8DEsxGXO/QhYFp1MZMjgJQgU4KWlQNLz3SFsD6RodXgAAjFTif45yDqhaA9xXAeAYA0y6qAhupQKY4fBWOOgXgGwG+zQoqwELBaIbbDU7CFgBncggAQAOgAqsK3CQBploANlegzeTXAZ4BPDeAWqcocMIE9gDTPxqACvLcP9++Gv30E4DnDPB8AIDnx6wgM2QAnkKDOIhwAfyA6/1nAAAOANQDbFbw9oa/P6dzWPwEYAVgswfaTA4AEPyyVuBl4K+BAmAjfERHBftmcrwHmgIvIs7FAlAiEdcO/d6ZHO+BpgA1tQem9PtncjRNgZsVmCoGn1f3V2ayI7VS/RGm5ULXCsJ0EBLgfsUdG6k9gP1hpYKRARJra1NQt6GHcyiJHjnXUwFqpVsG0JSs1NZZQazbsH4ZRgEUHaYkQLHOCwFesD9NwUiAfJFmBaipPVCiwCYAv1ReDiggwFqBD7H+OcIeCOKgsBGM8nE8awWj/VuBlwAvHt6jZAgecxRIZwA0BZZ0rUBmAFUDo+hPXYGmgAArBdP3gLCcjuh7KAEepEB1VjDFVQBxsJEAaS5qZysgQD2IaD/BBYETBx+QUwDe57PYzlYwcgXYAzd4iQXATwBx3oazAjtbwWgLBV4+oHBOUBICMh5qD+BcgKqAAFSQKSoASmKMiL68vWpCA9K5CmyxC4K8QiECxBDx2npAgUcpYEptUMESgOqtnQM1I2BnKpDIeuAu4BFkfCGEgPzQuQcuTxXg3F0gUh5OJgUSBNZWIEZYSqsmHM9VUAGCnw+iJcCyB04GaAqEj0gFXPEKECOGAWYKJohrAHa+ghAmBao2ATDDQKLrfbUCdr4CHycotXG6vRNHgJQMXQ/DEANaTt4FOeEViu5ap8idIaiZAM5OU5AT6zbsOjgJM0Df404mZjwXoin4848CcLtBcb3ChwGAtO7vu/xWeUMBPEZB/6MBtEiAyBpAH6OgAISq4KUrFv7qkOMcliHAYxQsTvruWgDudb2h9V/i80cpYIG0mqDWV2eA4B2eLo9Q0EoosnHc0eMdxtfe+arxf+YhCmoxIBHgip7PFO9YpHTKj/4xCloI0OF4meMH0W/Jahf8/5kV/Kb80x4dUgEMRDEAK75XVjj/Pifjk8RCFChQoOC84DVrulxp8y1vudJlzWuOAAAAAAAAAMAPCFN5LMDI4d8AAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
 }
 ];
