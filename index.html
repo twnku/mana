@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 	<!--begin::Head-->
-	<head><base href="/">
-		<title>Mana</title>
-		<meta name="description" content="Manacube" />
-		<meta name="keywords" content="Manacube" />
+	<head>
+		<base href="/">
+		<title>Mana Item List</title>
+		<meta name="description" content="Mana Item List" />
+		<meta name="keywords" content="Mana Item List" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta charset="utf-8" />
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website">
-        <meta property="og:url" content="https://mana.mfes.me/">
-        <meta property="og:title" content="Manacube SVA List">
-        <meta property="og:description" content="Manacube SVA List">
-        <meta property="og:image" content="https://static.wikia.nocookie.net/096880af-6699-4fbf-a8a4-10de57cda9d4">
-		<link rel="canonical" href="https://mana.mfes.me" />
+    	<meta property="og:url" content="https://twnku.github.io/mana/">
+    	<meta property="og:title" content="Manacube Item List">
+    	<meta property="og:description" content="Manacube Item List">
+    	<meta property="og:image" content="https://static.wikia.nocookie.net/096880af-6699-4fbf-a8a4-10de57cda9d4">
+		<link rel="canonical" href="https://twnku.github.io/mana/" />
 		<link rel="shortcut icon" href="https://manacube.com/api/serverstatus/favicon.png" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -63,6 +64,19 @@
 										<!--end::Drawer wrapper-->
 									</div>
 									<!--end::Chat-->
+									<!--begin::Sidebar Toggler-->
+									<button class="d-lg-none btn btn-icon btn-active-color-warning w-30px h-30px ms-2 me-n2" id="kt_aside_toggle">
+										<!--begin::Svg Icon | path: icons/duotune/general/gen059.svg-->
+										<span class="svg-icon svg-icon-2">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+												<rect y="6" width="16" height="3" rx="1.5" fill="black" />
+												<rect opacity="0.3" y="12" width="8" height="3" rx="1.5" fill="black" />
+												<rect opacity="0.3" width="12" height="3" rx="1.5" fill="black" />
+											</svg>
+										</span>
+										<!--end::Svg Icon-->
+									</button>
+									<!--end::Sidebar Toggler-->
 								</div>
 								<!--end::Topbar-->
 							</div>
@@ -80,29 +94,508 @@
 					<!--end::Header-->
 					<!--begin::Container-->
 					<div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
+						<!--begin::Aside-->
+						<div id="kt_aside" class="aside card" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_toggle">
+							<!--begin::Aside menu-->
+							<div class="aside-menu flex-column-fluid">
+								<div class="hover-scroll-overlay-y my-5 my-lg-6" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_header, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside, #kt_aside_menu" data-kt-scroll-offset="{lg: '25px'}" style="height: 400px;">
+									<!--begin::Menu-->
+									<div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500" id="#kt_aside_menu" data-kt-menu="true">
+										<div class="menu-item">
+											<div class="menu-content pb-2">
+												<span class="menu-section text-muted text-uppercase fs-8 ls-1">Menu</span>
+											</div>
+										</div>
+										<div class="menu-item">
+											<span class="menu-link" id="catPrevC" onclick="$('.menu-accordion, .menu-sub-accordion').removeClass('show').removeClass('hover'); $('.menu-link').removeClass('active');$(this).addClass('active');">
+												<span class="menu-icon">
+													<!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
+													<span class="svg-icon svg-icon-2">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+															<rect x="2" y="2" width="9" height="9" rx="2" fill="black"></rect>
+															<rect opacity="0.3" x="13" y="2" width="9" height="9" rx="2" fill="black"></rect>
+															<rect opacity="0.3" x="13" y="13" width="9" height="9" rx="2" fill="black"></rect>
+															<rect opacity="0.3" x="2" y="13" width="9" height="9" rx="2" fill="black"></rect>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</span>
+												<span class="menu-title">Preview</span>
+											</span>
+										</div>
+										<div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1 hover show">
+											<span class="menu-link">
+												<span class="menu-icon">
+													<!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
+													<span class="svg-icon svg-icon-2">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+															<path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="black"></path>
+															<path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="black"></path>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</span>
+												<span class="menu-title fw-bolder">Armor</span>
+												<span class="menu-arrow"></span>
+											</span>
+											<div class="menu-sub menu-sub-accordion show">
+												<div class="menu-item">
+													<div class="menu-link active" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('helmet');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Helmets </span>
+														<span id="totalhelmet" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('chestplate');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Chestplates</span>
+														<span id="totalchestplate" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('legging');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Leggings</span>
+														<span id="totallegging" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('boot');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Boots</span>
+														<span id="totalboot" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
+											<span class="menu-link">
+												<span class="menu-icon">
+													<!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
+													<span class="svg-icon svg-icon-2">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+															<path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="black"></path>
+															<path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="black"></path>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</span>
+												<span class="menu-title fw-bolder">Tools</span>
+												<span class="menu-arrow"></span>
+											</span>
+											<div class="menu-sub menu-sub-accordion">
+											    <div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('sword');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Sword</span>
+														<span id="totalsword" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('axe');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Axe</span>
+														<span id="totalaxe" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('pickaxe');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Pickaxe </span>
+														<span id="totalpickaxe" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('shovel');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Shovel</span>
+														<span id="totalshovel" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('hoe');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Hoe</span>
+														<span id="totalhoe" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('bow');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Bow</span>
+														<span id="totalbow" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('fishingrod');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Fishing Rod</span>
+														<span id="totalfishingrod" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
+											<span class="menu-link">
+												<span class="menu-icon">
+													<!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
+													<span class="svg-icon svg-icon-2">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+															<path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="black"></path>
+															<path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="black"></path>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</span>
+												<span class="menu-title fw-bolder">Others</span>
+												<span class="menu-arrow"></span>
+											</span>
+											<div class="menu-sub menu-sub-accordion">
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('wardrobe');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Wardrobe </span>
+														<span id="totalwardrobe" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('furniture');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Furniture</span>
+														<span id="totalfurniture" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+												<div class="menu-item">
+													<div class="menu-link" onclick="$('.menu-link').removeClass('active');$(this).addClass('active'); loadCategory('misc');">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title fw-bolder">Misc Items</span>
+														<span id="totalmisc" class="badge badge-square badge-light-primary">0</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--end::Menu-->
+								</div>
+							</div>
+							<!--begin::Footer-->
+							<div class="aside-footer flex-column-auto pt-5 pb-7 px-5" id="kt_aside_footer">
+								<a href="https://manacube.com/" target="_blank" class="btn btn-custom btn-warning w-100">
+									<span class="btn-label">Visit Manacube</span>
+								</a>
+							</div>
+							<!--end::Footer-->
+						</div>
+						<!--end::Aside-->
 						<!--begin::Post-->
 						<div class="content flex-row-fluid" id="kt_content">
 							<div class="row g-2 g-xl-2">
-							    <div class="col-12">
-							        <div class="card">
-							            <div class="card-body">
-                            <!--begin::Code-->
-                            <div class="py-5">
-                              <!--begin::Highlight-->
-                              <div class="highlight">
-                                <div class="highlight-code">
-                                    <button class="highlight-copy btn" data-bs-toggle="tooltip" title="Copy code">copy</button>
-                                      <pre class="language-json" style="height:300px">
-        <code class="language-json" id="output_container">null</code>
-        </pre>
+							    <div id="item_container_preview" class="d-none">
+							        <div class="row g-5">
+                                        <div class="col-sm-12 col-lg-6">
+                                            <div class="card card-stretch card-bordered mb-5">
+                                                <div class="card-body">
+                                                    <div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Name</label>
+                										<div class="col-8">
+                											<span id="iiname" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                									<div class="separator separator-dashed border-gray-200"></div>
+                									<div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Release Date</label>
+                										<div class="col-8">
+                											<span id="idate" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                									<div class="separator separator-dashed border-gray-200"></div>
+                									<div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Crates</label>
+                										<div class="col-8">
+                											<span id="icname" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                									<div class="separator separator-dashed border-gray-200"></div>
+                									<div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Type</label>
+                										<div class="col-8">
+                											<span id="itype" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                									<div class="separator separator-dashed border-gray-200"></div>
+                									<div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Slot</label>
+                										<div class="col-8">
+                											<span id="islot" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                									<div class="separator separator-dashed border-gray-200"></div>
+                									<div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Custom Texture</label>
+                										<div class="col-8">
+                											<span id="itexture" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                									<div class="separator separator-dashed border-gray-200"></div>
+                									<div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Custom Effects</label>
+                										<div class="col-8">
+                											<span id="ieffect" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                									<div class="separator separator-dashed border-gray-200"></div>
+                									<div class="row mb-1">
+                										<label class="col-4 fw-bold text-muted">Rarity</label>
+                										<div class="col-8">
+                											<span id="irarity" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
+                										</div>
+                									</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-6">
+                                            <div class="card card-stretch card-bordered mb-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Left Click to Rotate, Right Click to Move, Scroll to Zoom">
+                                                <div class="card-body text-center" style="height: 300px;">
+                                                    <div id="wrapper">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                              </div>
-                              <!--end::Highlight-->
-                            </div>
-                            <!--end::Code-->
+							        <div class="row">
+							            <div class="col-12">
+							                <div class="card mb-2">
+                								<div class="card-body pt-1 pb-0">
+                									<!--begin::Navs-->
+                									<div class="d-flex overflow-auto h-55px">
+                										<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-7 fw-bolder flex-nowrap d-flex">
+                											<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#survival_stats').removeClass('d-none');" class="nav-link text-active-primary me-6 active">Survival</span>
+                											</li>
+                											<!--end::Nav item-->
+                											<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#olympus_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Olympus</span>
+                											</li>
+                											<!--end::Nav item-->
+                											<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#skyblock_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Skyblock</span>
+                											</li>
+                											<!--end::Nav item-->
+                											<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#earth_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Earth</span>
+                											</li>
+                											<!--end::Nav item-->
+                										</ul>
+                									</div>
+                									<!--begin::Navs-->
+                								</div>
+                							</div>
 							            </div>
 							        </div>
+							        <div id="survival_stats" class="cstats">
+							            <div class="row g-5">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Custom Effects</h5>
+    							                        <div id="survival_custom_effect">
+    							                            Unknown
+    							                            <br><br>
+    							                            <br><br>
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-8">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Enchantments</h5>
+    							                        <div id="survival_enchantment">
+    							                            <span class="mr-2 fw-bolder text-gray-600">Unknown <span class="badge badge-light badge-inline font-weight-bolder">0</span></span>
+                                                            <div class="progress mt-1 mb-1">
+                                                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+							        </div>
+							        <div id="olympus_stats" class="d-none cstats">
+							           <div class="row g-5">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Custom Effects</h5>
+    							                        <div id="olympus_custom_effect">
+    							                            Unknown
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-8">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Enchantments</h5>
+    							                        <div id="olympus_enchantment">
+    							                            <span class="mr-2 fw-bolder text-gray-600">Unknown <span class="badge badge-light badge-inline font-weight-bolder">0</span></span>
+                                                            <div class="progress mt-1 mb-1">
+                                                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+							        </div>
+							        <div id="skyblock_stats" class="d-none cstats">
+							            <div class="row g-5">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Custom Effects</h5>
+    							                        <div id="skyblock_custom_effect">
+    							                            Unknown
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-8">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Enchantments</h5>
+    							                        <div id="skyblock_enchantment">
+    							                            <span class="mr-2 fw-bolder text-gray-600">Unknown <span class="badge badge-light badge-inline font-weight-bolder">0</span></span>
+                                                            <div class="progress mt-1 mb-1">
+                                                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+							        </div>
+							        <div id="earth_stats" class="d-none cstats">
+							            <div class="row g-5">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Custom Effects</h5>
+    							                        <div id="earth_custom_effect">
+    							                            Unknown
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-8">
+                                                <div class="card card-stretch card-bordered mb-2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Enchantments</h5>
+    							                        <div id="earth_enchantment">
+    							                            <span class="mr-2 fw-bolder text-gray-600">Unknown <span class="badge badge-light badge-inline font-weight-bolder">0</span></span>
+                                                            <div class="progress mt-1 mb-1">
+                                                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+    							                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+							        </div>
 							    </div>
+							    <div class="row" id="item_container_list">
+							        
+							    </div>
+								<!--<div class="col-sm-6 col-lg-4">
+									<div class="card card-stretch mb-xl-8" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to Preview">
+										<div class="card-body">
+										    <div class="d-flex align-item-center">
+										        <div class="col">
+										            <span class="row fw-bolder text-gray-800 fs-7 text-hover-warning">Ugly Ass Stupid Pants Ugly Ass Stupid</span>
+    												<span class="row fw-bolder text-gray-600 fs-8">January 2022</span>
+    												<span class="row fw-bolder fs-10 badge badge-light-warning align-bottom">Custom Textured</span>
+										        </div>
+											    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/82/Diamond_Boots_JE2_BE2.png" alt="" class="align-self-center h-75px">
+										    </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4">
+									<div class="card card-stretch mb-xl-8" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to Preview">
+										<div class="card-body">
+										    <div class="d-flex align-item-center">
+										        <div class="col">
+										            <span class="row fw-bolder text-gray-800 fs-7 text-hover-warning">Ugly Ass Stupid Pants Ugly Ass Stupid Ugly Ass Stupid Pants Ugly Ass Stupid Ugly Ass Stupid Pants Ugly Ass Stupid</span>
+    												<span class="row fw-bolder text-gray-600 fs-8">January 2022</span>
+    												<span class="row fw-bolder fs-10 badge badge-light-warning align-bottom">Custom Textured</span>
+										        </div>
+											    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e0/Diamond_Chestplate_JE3_BE2.png" alt="" class="align-self-center h-75px">
+										    </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4">
+									<div class="card card-stretch mb-xl-8" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to Preview">
+										<div class="card-body">
+										    <div class="d-flex align-item-center">
+										        <div class="col">
+										            <span class="row fw-bolder text-gray-800 fs-7 text-hover-warning">Ugly Ass Stupid Pants Ugly Ass Stupid</span>
+    												<span class="row fw-bolder text-gray-600 fs-8">January 2022</span>
+    												<span class="row fw-bolder fs-10 badge badge-light-warning align-bottom">Custom Textured</span>
+										        </div>
+											    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b2/Diamond_Helmet_JE2_BE2.png" alt="" class="align-self-center h-75px">
+										    </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4">
+									<div class="card card-stretch mb-xl-8" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to Preview">
+										<div class="card-body">
+										    <div class="d-flex align-item-center">
+										        <div class="col">
+										            <span class="row fw-bolder text-gray-800 fs-7 text-hover-warning">Ugly Ass Stupid Pants Ugly Ass Stupid</span>
+    												<span class="row fw-bolder text-gray-600 fs-8">January 2022</span>
+    												<span class="row fw-bolder fs-10 badge badge-light-warning align-bottom">Custom Textured</span>
+										        </div>
+											    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fc/Diamond_Leggings_JE2_BE2.png" alt="" class="align-self-center h-75px">
+										    </div>
+										</div>
+									</div>
+								</div>-->
 							</div>
 						</div>
 						<!--end::Post-->
@@ -223,36 +716,1254 @@
         <script src="/mana/Assets/repeater/formrepeater.bundle.js"></script>
 		<script src="/mana/Assets/list_item.js"></script>
 		<script>
-			$.each(itemData, function(key, val) {
-				val.stats.enchant["parkour"] = [
-					{
-						"Unknown": 0
-					}
-				];
-				val.stats.effects["parkour"] = [];
-
-				val.stats.enchant["kitpvp"] = [
-					{
-						"Unknown": 0
-					}
-				];
-				val.stats.effects["kitpvp"] = [];
-
-				val.stats.enchant["island"] = [
-					{
-						"Unknown": 0
-					}
-				];
-				val.stats.effects["island"] = [];
-
-				val.stats.enchant["faction"] = [
-					{
-						"Unknown": 0
-					}
-				];
-				val.stats.effects["faction"] = [];
-			});
-			$('#output_container').html(JSON.stringify(itemData, null, '\t'));
+            /**
+             *  @author Fizzy / https://github.com/fizzy81
+             */
+            
+            
+            /**
+             *  ModelViewer
+             *****************************/
+            
+            function ModelViewer(container, px, py, pz) {
+            
+            
+              // container
+            
+              this.container = container
+            
+            
+              // element
+            
+              this.element = document.createElement('div')
+              this.element.setAttribute('style', 'position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: auto; height: auto; overflow: hidden;')
+            
+              this.container.appendChild(this.element)
+            
+              // get element dimensions
+              var rect = this.element.getBoundingClientRect()
+            
+            
+              // camera
+            
+              this.camera = new THREE.PerspectiveCamera(60, rect.width / rect.height, 1, 1000)
+              this.camera.position.x = px //0 //15
+              this.camera.position.y = py //0 //7
+              this.camera.position.z = pz //35 //25
+            
+            
+              // scene
+            
+              this.scene = new THREE.Scene()
+            
+            
+              // lights
+            
+              var light
+            
+              light = new THREE.AmbientLight(0xffffff, 0.97)
+              this.scene.add(light)
+            
+              light = new THREE.DirectionalLight(0xffffff, 0.1)
+              light.position.set(4, 10, 6)
+              this.scene.add(light)
+            
+            
+              // renderer
+            
+              this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
+              this.renderer.setSize(rect.width, rect.height)
+            
+            
+              // controls
+            
+              this.controls = new THREE.OrbitControls(this.camera, this.renderer.domElement)
+              this.controls.enableDamping = true
+              this.controls.dampingFactor = 0.2
+              this.controls.zoomSpeed = 1.4
+              this.controls.rotateSpeed = 0.6
+              this.controls.enableKeys = false
+            
+            
+              // append viewer
+            
+              this.element.appendChild(this.renderer.domElement)
+            
+            
+              // view methods
+            
+              var self = this
+            
+            
+              // draw
+            
+              this.draw = function() {
+            
+                self.renderer.render(self.scene, self.camera)
+            
+              }
+            
+            
+              // animate
+            
+              this.animate = function() {
+            
+                window.requestAnimationFrame(self.animate)
+                self.controls.update()
+            
+                self.draw()
+            
+              }
+            
+            
+              // resize
+            
+              this.resize = function() {
+            
+                var rect = self.element.getBoundingClientRect()
+            
+                self.camera.aspect = rect.width / rect.height
+                self.camera.updateProjectionMatrix()
+            
+                self.renderer.setSize(rect.width, rect.height)
+            
+              }
+            
+            
+              // models
+            
+              this.models = {}
+            
+            
+              // model methods
+            
+              var self = this
+            
+            
+              // load
+            
+              this.load = function(model) {
+            
+                var name = model.modelName
+            
+                if (Object.keys(self.models).indexOf(name) >= 0)
+                  throw new Error('Model "' + name + '" is already loaded.')
+            
+                self.scene.add(model)
+                self.models[name] = model
+            
+                return self
+            
+              }
+            
+            
+              // get
+            
+              this.get = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                return self.models[name]
+            
+              }
+            
+            
+              // getAll
+            
+              this.getAll = function() {
+            
+                return Object.keys(self.models).map(function(name) {return self.models[name]})
+            
+              }
+            
+            
+              // remove
+            
+              this.remove = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                delete self.models[name]
+            
+                for (var i = 0; i < self.scene.children.length; i++) {
+                  var child = self.scene.children[i]
+                  if (child instanceof JsonModel && child.modelName == name) {
+                    child.animationLoop = false
+                    self.scene.remove(child)
+                    break
+                  }
+                }
+            
+                return self
+            
+              }
+            
+            
+              // removeAll
+            
+              this.removeAll = function() {
+            
+                for (var i = self.scene.children.length - 1; i >= 0; i--) {
+                  var child = self.scene.children[i]
+                  if (child instanceof JsonModel) {
+                    child.animationLoop = false
+                    self.scene.remove(child)
+                  }
+                }
+            
+                self.models = {}
+            
+                return self
+            
+              }
+            
+            
+              // hide
+            
+              this.hide = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                self.models[name].visible = false
+                self.draw()
+            
+              }
+            
+            
+              // hideAll
+            
+              this.hideAll = function() {
+            
+                Object.keys(self.models).forEach(function(name) {
+                  self.models[name].visible = false
+                })
+            
+                return self
+            
+              }
+            
+            
+              // show
+            
+              this.show = function(name) {
+            
+                if (!(Object.keys(self.models).indexOf(name) >= 0))
+                  throw new Error('Model "' + name + '" is not loaded.')
+            
+                self.models[name].visible = true
+                self.draw()
+            
+              }
+            
+            
+              // showAll
+            
+              this.showAll = function() {
+            
+                Object.keys(self.models).forEach(function(name) {
+                  self.models[name].visible = true
+                })
+            
+                return self
+            
+              }
+            
+            
+              // reset
+            
+              this.reset = function() {
+            
+                self.controls.reset()
+            
+              }
+            
+            
+              // lookAt
+            
+              this.lookAt = function(name) {
+            
+                var model = self.get(name)
+                self.controls.target = model.getCenter()
+            
+            
+              }
+            
+            
+              // create grid
+            
+              var gridGeometry = new THREE.Geometry()
+              var gridMaterial = new THREE.LineBasicMaterial({color: 0xafafaf})
+            
+              for (var i = -8; i <= 8; i++) {
+            
+                  gridGeometry.vertices.push(new THREE.Vector3(-8, -8, i))
+                  gridGeometry.vertices.push(new THREE.Vector3(8, -8, i))
+            
+                  gridGeometry.vertices.push(new THREE.Vector3(i, -8, -8))
+                  gridGeometry.vertices.push(new THREE.Vector3(i, -8, 8))
+            
+              }
+            
+              // arrow
+            
+              gridGeometry.vertices.push(new THREE.Vector3(-1, -8, 9))
+              gridGeometry.vertices.push(new THREE.Vector3(1, -8, 9))
+            
+              gridGeometry.vertices.push(new THREE.Vector3(1, -8, 9))
+              gridGeometry.vertices.push(new THREE.Vector3(0, -8, 10))
+            
+              gridGeometry.vertices.push(new THREE.Vector3(0, -8, 10))
+              gridGeometry.vertices.push(new THREE.Vector3(-1, -8, 9))
+            
+              var grid = new THREE.LineSegments(gridGeometry, gridMaterial)
+              grid.visible = true
+            
+              this.scene.add(grid)
+              this.grid = grid
+            
+            
+              // grid methods
+            
+              var self = this
+            
+            
+              // showGrid
+            
+              this.showGrid = function() {
+            
+                self.grid.visible = true
+            
+              }
+            
+            
+              // hideGrid
+            
+              this.hideGrid = function() {
+            
+                self.grid.visible = false
+            
+              }
+            
+            
+              // setGridColor
+            
+              this.setGridColor = function(color) {
+            
+                self.grid.material.color = new THREE.Color(color)
+            
+              }
+            
+            
+              this.animate()
+            
+            
+            }
+            
+            
+            
+            /**
+             *  JsonModel
+             *****************************/
+            
+            function JsonModel(name, rawModel, texturesReference, clipUVs) {
+            
+            
+              // set default clip value to true
+            
+              if (clipUVs === undefined) {
+                clipUVs = true
+              }
+            
+            
+              // parent constructor
+            
+              THREE.Object3D.call(this)
+            
+            
+              // set modelName
+            
+              this.modelName = name
+            
+            
+              // track animation
+            
+              this.animationLoop = true
+            
+            
+              // parse model or throw an error if parsing fails
+            
+              try {
+                var model = JSON.parse(rawModel)
+              } catch (e) {
+                throw new Error('Couldn\'t parse json model. ' + e.message + '.')
+              }
+            
+            
+              // get textures and handle animated textures
+            
+              var textures = {}
+              var references = []
+            
+              var animated = []
+              var animations = []
+            
+              if (model.hasOwnProperty('textures')) {
+            
+                Object.keys(model.textures).forEach(function(key, index) {
+            
+                  // get texture reference value
+                  var temp = model.textures[key].split('/')
+                  var textureName = temp[temp.length - 1]
+            
+                  // look for this value in the textures passed in parameter
+                  var reference
+                  for (var i = 0; i < texturesReference.length; i++) {
+                    reference = texturesReference[i]
+                    if (reference.name == textureName) {
+                      break
+                    }
+                  }
+            
+                  // register the texture or throw an error if the name wasn't in the textures passed in parameter
+                  if (reference.name == textureName) {
+            
+                    references.push(key)
+            
+                    // handle animated textures
+                    if (reference.hasOwnProperty('mcmeta')) {
+            
+                      // parse mcmeta
+                      try {
+                        var mcmeta = JSON.parse(reference.mcmeta)
+                      } catch (e) {
+                        throw new Error('Couldn\'t parse mcmeta for texture "' + textureName + '". ' + e.message + '.')
+                      }
+            
+                      // check property
+                      if (!mcmeta.hasOwnProperty('animation'))
+                        throw new Error('Couldn\'t find the "animation" property in mcmeta for texture "' + textureName + '"')
+            
+                      // image buffer to access width and height from dataURL
+                      var imageBuffer = new Image()
+                      imageBuffer.src = reference.texture
+            
+                      var width = imageBuffer.width
+                      var height = imageBuffer.height
+            
+                      // check if dimensions are valid
+                      if (height % width != 0)
+                        throw new Error('Image dimensions are invalid for texture "' + textureName + '".')
+            
+                      // get frames from mcmeta or generate them
+                      var frames = []
+            
+                      if (mcmeta.animation.hasOwnProperty('frames')) {
+                        frames = mcmeta.animation.frames
+                      } else {
+                        for (var k = 0; k < height/width; k++) {
+                          frames.push(k)
+                        }
+                      }
+            
+                      // default value for frametime
+                      var frametime = mcmeta.animation.frametime || 1
+            
+                      // uniform animation frames
+                      var animation = []
+            
+                      for (var i = 0; i < frames.length; i++) {
+                        frame = frames[i]
+                        if (typeof frame == 'number') {
+                          animation.push({index: frame, time:frametime})
+                        } else {
+                          if (!frame.hasOwnProperty('index'))
+                            throw new Error('Invalid animation frame at index "' + i + '" in mcmeta for texture "' + textureName + '".')
+                          animation.push({index: frame.index, time: frame.time || frametime})
+                        }
+                      }
+            
+                      // number of vertical frames
+                      var numberOfImages = height/width
+            
+                      // register animation
+                      animations.push({height: numberOfImages, frames: animation, currentFrame: 0})
+                      animated.push(references.length - 1)
+            
+                      // split frames
+                      var images = []
+            
+                      for (var i = 0; i < height/width; i++) {
+            
+                        // workspace
+                        var canvas = document.createElement('canvas')
+                        canvas.width = width
+                        canvas.height = width
+            
+                        var ctx = canvas.getContext('2d')
+                        ctx.drawImage(imageBuffer, 0, -i*width)
+            
+                        images.push(canvas.toDataURL('image/png'))
+            
+                      }
+            
+                      // register textures
+                      textures[key] = images
+            
+                    } else {
+            
+                      // register texture
+                      textures[key] = reference.texture
+            
+                    }
+            
+                  } else {
+            
+                    throw new Error('Couldn\'t find matching texture for texture reference "' + textureName + '".')
+            
+                  }
+            
+                })
+            
+              } else {
+            
+                throw new Error('Couldn\'t find "textures" property.')
+            
+              }
+            
+            
+              // access this.animationLoop
+            
+              var self = this
+            
+            
+              // generate material
+            
+              var materials = []
+            
+              // final material is made of several different materials, one for each texture
+              references.forEach(function(ref, index) {
+            
+                // if animated texture, get the first frame
+                var image = textures[ref] instanceof Array ? textures[ref][0] : textures[ref]
+            
+                // create three js texture from image
+                var loader = new THREE.TextureLoader()
+                var texture = loader.load(image)
+            
+                // sharp pixels and smooth edges
+                texture.magFilter = THREE.NearestFilter
+                texture.minFilter = THREE.LinearFilter
+            
+                // map texture to material, keep transparency and fix transparent z-fighting
+                var mat = new THREE.MeshLambertMaterial({map: texture, transparent: true, alphaTest: 0.5})
+            
+                materials.push(mat)
+            
+                // if animated texture
+                if (textures[ref] instanceof Array) {
+            
+                  // get texture array and animation frames
+                  var images = textures[ref]
+                  var animation = animations[animated.indexOf(index)]
+            
+                  // keep scope
+                  ;(function(material, images, animation) {
+            
+                    // recursively called with a setTimeout
+                    var animateTexture = function() {
+            
+                      var frame = animation.frames[animation.currentFrame]
+            
+                      // Prevent crashing with big animated textures
+                      try {
+                        material.map.image.src = images[frame.index]
+                        animation.currentFrame = animation.currentFrame < animation.frames.length - 1 ? animation.currentFrame + 1 : 0
+                      } catch (e) {
+                        console.log(e.message)
+                      }
+            
+                      window.setTimeout(function() {
+                        if (self.animationLoop)
+                          window.requestAnimationFrame(animateTexture)
+                      }, frame.time*50) // multiplied by the length of a minecraft game tick (50ms)
+            
+                    }
+            
+                    // initialize recursion
+                    window.requestAnimationFrame(animateTexture)
+            
+                  })(mat, images, animation)
+            
+                }
+            
+              })
+            
+              // extra transparent material for hidden faces
+              var transparentMaterial = new THREE.MeshBasicMaterial({transparent: true, opacity: 0, alphaTest: 0.5})
+            
+              materials.push(transparentMaterial)
+            
+              // big material list from all the other materials
+              var material = new THREE.MeshFaceMaterial(materials)
+            
+            
+              // create geometry
+            
+              // get elements or throw an error if the "elements" property can't be found
+            
+              var elements
+            
+              if (model.hasOwnProperty('elements')) {
+                elements = model.elements
+              } else {
+                throw new Error('Couldn\'t find "elements" property')
+              }
+            
+            
+              // generate mesh
+            
+              var group = new THREE.Group()
+            
+              elements.forEach(function(element, index) {
+            
+            
+                // check properties
+            
+                if (!element.hasOwnProperty('from'))
+                  throw new Error('Couldn\'t find "from" property for element "' + index + '".')
+                if (!(element['from'].length == 3))
+                  throw new Error('"from" property for element "' + index + '" is invalid.')
+            
+                if (!element.hasOwnProperty('to'))
+                  throw new Error('Couldn\'t find "to" property for element "' + index + '".')
+                if (!(element['to'].length == 3))
+                  throw new Error('"to" property for element "' + index + '" is invalid.')
+            
+                for (var i = 0; i < 3; i++) {
+                  var f = element['from'][i]
+                  var t = element['to'][i]
+                  if (typeof f != 'number' || f < -16)
+                    throw new Error('"from" property for element "' + index + '" is invalid (got "' + f + '" for coordinate "' + ['x', 'y', 'z'][i] + '").')
+                  if (typeof t != 'number' || t > 32)
+                    throw new Error('"to" property for element "' + index + '" is invalid (got "' + t + '" for coordinate "' + ['x', 'y', 'z'][i] + '").')
+                  if (t - f < 0)
+                    throw new Error('"from" property is bigger than "to" property for coordinate "' + ['x', 'y', 'z'][i] + '" in element "' + index + '".')
+                }
+            
+            
+                // get dimensions and origin
+            
+                var width = element['to'][0] - element['from'][0]
+                var height = element['to'][1] - element['from'][1]
+                var length = element['to'][2] - element['from'][2]
+            
+                var origin = {
+                  x: (element['to'][0] + element['from'][0]) / 2 - 8,
+                  y: (element['to'][1] + element['from'][1]) / 2 - 8,
+                  z: (element['to'][2] + element['from'][2]) / 2 - 8
+                }
+            
+            
+                // create geometry
+            
+                var fix = 0.001 // if a value happens to be 0, the geometry becomes a plane and will have 4 vertices instead of 12.
+            
+                var geometry = new THREE.BoxGeometry(width + fix, height + fix, length + fix)
+                geometry.faceVertexUvs[0] = []
+            
+            
+                // assign materials
+            
+                if (element.hasOwnProperty('faces')) {
+            
+                  var faces = ['east', 'west', 'up', 'down', 'south', 'north']
+            
+                  for (var i = 0; i < 6; i++) {
+            
+                    var face = faces[i]
+            
+                    if (element.faces.hasOwnProperty(face)) {
+            
+            
+                      // check properties
+            
+                      if (!element.faces[face].hasOwnProperty('texture'))
+                        throw new Error('Couldn\'t find "texture" property for "' + face + '" face in element "' + index + '".')
+                      if (!element.faces[face].hasOwnProperty('uv'))
+                        throw new Error('Couldn\'t find "uv" property for "' + face + '" face in element "' + index + '".')
+                      if (element.faces[face].uv.length != 4)
+                        throw new Error('The "uv" property for "' + face + '" face in element "' + index + '" is invalid (got "' + element.faces[face].uv + '").')
+            
+            
+                      // get texture index
+            
+                      var ref = element.faces[face].texture
+                      var textureIndex = references.indexOf(ref[0] == '#' ? ref.substring(1) : ref)
+            
+            
+                      // check if texture has been registered
+            
+                      if (textureIndex < 0)
+                        throw new Error('The "texture" property for "' + face + '" face in element "' + index + '" is invalid (got "' + ref + '").')
+            
+                      geometry.faces[i*2].materialIndex = textureIndex
+                      geometry.faces[i*2+1].materialIndex = textureIndex
+            
+            
+                      // uv map
+            
+                      var uv = element.faces[face].uv
+            
+            
+                      // check
+                      
+                      if (clipUVs) {
+                        uv.forEach(function(e, pos) {if (typeof e != 'number') throw new Error('The "uv" property for "' + face + '" face in element "' + index + '" is invalid (got "' + e + '" at index "' + pos + '").')})
+                        uv.map(function(e) {
+                          if (e + 0.00001 < 0) {
+                            return 0
+                          } else if (e - 0.00001 > 16) {
+                            return 16
+                          } else {
+                            return e
+                          }
+                        })
+                      } else {
+                        uv.forEach(function(e, pos) {if (typeof e != 'number' || e + 0.00001 < 0 || e - 0.00001 > 16) throw new Error('The "uv" property for "' + face + '" face in element "' + index + '" is invalid (got "' + e + '" at index "' + pos + '").')})
+                      }
+            
+                      uv = uv.map(function(e) {return e/16})
+            
+                      // fix edges
+                      uv[0] += 0.0005
+                      uv[1] += 0.0005
+                      uv[2] -= 0.0005
+                      uv[3] -= 0.0005
+            
+                      var map = [
+                        new THREE.Vector2(uv[0], 1-uv[1]),
+                        new THREE.Vector2(uv[0], 1-uv[3]),
+                        new THREE.Vector2(uv[2], 1-uv[3]),
+                        new THREE.Vector2(uv[2], 1-uv[1])
+                      ]
+            
+                      if (element.faces[face].hasOwnProperty('rotation')) {
+            
+                        var amount = element.faces[face].rotation
+            
+                        // check property
+            
+                        if (!([0, 90, 180, 270].indexOf(amount) >= 0))
+                          throw new Error('The "rotation" property for "' + face + '" face in element "' + index + '" is invalid (got "' + amount + '").')
+            
+                        // rotate map
+            
+                        for (var j = 0; j < amount/90; j++) {
+                          map = [map[1], map[2], map[3], map[0]]
+                        }
+            
+                      }
+            
+                      geometry.faceVertexUvs[0][i*2] = [map[0], map[1], map[3]]
+                      geometry.faceVertexUvs[0][i*2+1] = [map[1], map[2], map[3]]
+            
+            
+                    } else {
+            
+                      // transparent material
+            
+                      geometry.faces[i*2].materialIndex = references.length
+                      geometry.faces[i*2+1].materialIndex = references.length
+            
+                      var map = [
+                        new THREE.Vector2(0, 0),
+                        new THREE.Vector2(1, 0),
+                        new THREE.Vector2(1, 1),
+                        new THREE.Vector2(0, 1)
+                      ]
+            
+                      geometry.faceVertexUvs[0][i*2] = [map[0], map[1], map[3]]
+                      geometry.faceVertexUvs[0][i*2+1] = [map[1], map[2], map[3]]
+            
+                    }
+            
+                  }
+            
+                }
+            
+            
+                // create mesh
+            
+                var mesh = new THREE.Mesh(geometry, material)
+                mesh.position.x = origin.x
+                mesh.position.y = origin.y
+                mesh.position.z = origin.z
+            
+            
+                // rotate if "rotation" property is defined
+            
+                if (element.hasOwnProperty('rotation')) {
+            
+            
+                  // check properties
+            
+                  if (!element.rotation.hasOwnProperty('origin'))
+                    throw new Error('Couldn\'t find "origin" property in "rotation" for element "' + index + '".')
+                  if (!(element.rotation.origin.length == 3))
+                    throw new Error('"origin" property in "rotation" for element "' + index + '" is invalid.')
+            
+                  if (!element.rotation.hasOwnProperty('axis'))
+                    throw new Error('Couldn\'t find "axis" property in "rotation" for element "' + index + '".')
+                  if (!((['x', 'y', 'z']).indexOf(element.rotation.axis) >= 0))
+                    throw new Error('"axis" property in "rotation" for element "' + index + '" is invalid.')
+            
+                  if (!element.rotation.hasOwnProperty('angle'))
+                    throw new Error('Couldn\'t find "angle" property in "rotation" for element "' + index + '".')
+                  if (!(([45, 22.5, 0, -22.5, -45]).indexOf(element.rotation.angle) >= 0))
+                    throw new Error('"angle" property in "rotation" for element "' + index + '" is invalid.')
+            
+            
+                  // get origin, axis and angle
+            
+                  var rotationOrigin = {
+                    x: element.rotation.origin[0] - 8,
+                    y: element.rotation.origin[1] - 8,
+                    z: element.rotation.origin[2] - 8
+                  }
+            
+                  var axis = element.rotation.axis
+                  var angle = element.rotation.angle
+            
+            
+                  // create pivot
+            
+                  var pivot = new THREE.Group()
+                  pivot.position.x = rotationOrigin.x
+                  pivot.position.y = rotationOrigin.y
+                  pivot.position.z = rotationOrigin.z
+            
+                  pivot.add(mesh)
+            
+            
+                  // adjust mesh coordinates
+            
+                  mesh.position.x -= rotationOrigin.x
+                  mesh.position.y -= rotationOrigin.y
+                  mesh.position.z -= rotationOrigin.z
+            
+            
+                  // rotate pivot
+            
+                  if (axis == 'x')
+                    pivot.rotateX(angle * Math.PI/180)
+                  else if (axis == 'y')
+                    pivot.rotateY(angle * Math.PI/180)
+                  else if (axis == 'z')
+                    pivot.rotateZ(angle * Math.PI/180)
+            
+            
+                  // add pivot
+            
+                  group.add(pivot)
+            
+                } else {
+            
+                  var pivot = new THREE.Group()
+                  pivot.add(mesh)
+            
+            
+                  // add pivot
+            
+                  group.add(pivot)
+            
+                }
+            
+            
+              })
+            
+            
+              // add group
+            
+              this.add(group)
+            
+            
+              // register display options
+            
+              var keys = ['thirdperson_righthand', 'thirdperson_lefthand', 'firstperson_righthand', 'firstperson_lefthand', 'gui', 'head', 'ground', 'fixed']
+            
+              this.displayOptions = {}
+            
+              for (var i = 0; i < keys.length; i++) {
+                this.displayOptions[keys[i]] = {rotation: [0, 0, 0], translation: [0, 0, 0], scale: [1, 1, 1]}
+              }
+            
+              this.displayOptions.firstperson = this.displayOptions.firstperson_righthand
+              this.displayOptions.thirdperson = this.displayOptions.thirdperson_righthand
+            
+              if (model.hasOwnProperty('display')) {
+            
+                var display = model.display
+            
+                for (var option in display) {
+                  if (this.displayOptions.hasOwnProperty(option)) {
+            
+                    var fields = display[option]
+            
+                    for (var name in fields) {
+                      if (this.displayOptions[option].hasOwnProperty(name)) {
+            
+                        var field = fields[name]
+            
+                        // check value
+                        if (field.length != 3 || typeof field[0] != 'number' || typeof field[1] != 'number' || typeof field[2] != 'number')
+                          throw new Error('"' + name + '" property is invalid for display option "' + option + '".')
+            
+                        this.displayOptions[option][name] = field
+            
+                      }
+                    }
+            
+                  }
+                }
+            
+              }
+            
+            
+              // methods
+            
+              var self = this
+            
+            
+              // getCenter
+            
+              this.getCenter = function() {
+            
+                var group = self.children[0]
+            
+            
+                // compute absolute bounding box
+            
+                var box = {
+                  minx: 0, miny: 0, minz: 0,
+                  maxx: 0, maxy: 0, maxz: 0
+                }
+            
+                for (var i = 0; i < group.children.length; i++) {
+            
+                  var pivot = group.children[i]
+                  var mesh = pivot.children[0]
+            
+                  for (var j = 0; j < mesh.geometry.vertices.length; j++) {
+            
+                    // convert vertex coordinates to world coordinates
+            
+                    var vertex = mesh.geometry.vertices[j].clone()
+                    var abs = mesh.localToWorld(vertex)
+            
+                    // update bounding box
+            
+                    if (abs.x < box.minx) box.minx = abs.x
+                    if (abs.y < box.miny) box.miny = abs.y
+                    if (abs.z < box.minz) box.minz = abs.z
+            
+                    if (abs.x > box.maxx) box.maxx = abs.x
+                    if (abs.y > box.maxy) box.maxy = abs.y
+                    if (abs.z > box.maxz) box.maxz = abs.z
+            
+                  }
+            
+                }
+            
+                // return the center of the bounding box
+            
+                return new THREE.Vector3(
+                  (box.minx + box.maxx) / 2,
+                  (box.miny + box.maxy) / 2,
+                  (box.minz + box.maxz) / 2
+                )
+            
+              }
+            
+            
+              // applyDisplay
+            
+              this.applyDisplay = function(option) {
+            
+                var group = self.children[0]
+            
+                if (option == 'block') {
+            
+                  // reset transformations
+                  group.rotation.set(0, 0, 0)
+                  group.position.set(0, 0, 0)
+                  group.scale.set(1, 1, 1)
+            
+                } else {
+            
+                  if (!self.displayOptions.hasOwnProperty(option))
+                    throw new Error('Display option is invalid.')
+            
+                  var options = self.displayOptions[option]
+            
+                  var rot = options.rotation
+                  var pos = options.translation
+                  var scale = options.scale
+            
+                  // apply transformations
+                  group.rotation.set(rot[0] * Math.PI/180, rot[1] * Math.PI/180, rot[2] * Math.PI/180)
+                  group.position.set(pos[0], pos[1], pos[2])
+                  group.scale.set(scale[0] == 0 ? 0.00001 : scale[0], scale[1] == 0 ? 0.00001 : scale[1], scale[2] == 0 ? 0.00001 : scale[2])
+            
+                }
+            
+              }
+            }
+            
+            JsonModel.prototype = Object.create(THREE.Object3D.prototype)
+            JsonModel.prototype.constructor = JsonModel
+        </script>
+		<script>
+            var container = document.getElementById('wrapper');
+            var viewer = new ModelViewer(container, 0, 0, 25);
+            var model = new JsonModel('preview', itemData[0].model.model, itemData[0].model.texture);
+            container.addEventListener('click', viewer.resize);
+            viewer.load(model).hideGrid();
+            
+            
+            function loadCategory(category){
+                $('#item_container_list').empty();
+                $('#item_container_preview').addClass('d-none');
+                $('#item_container_list').empty();
+                $.each(itemData, function(key, val) {
+                   if(val.type == category){
+                       if(val.stats.data.customTexture) {
+                           isTextured = `<span class="row fw-bolder fs-9 badge badge-light-warning align-bottom">Custom Textured</span>`;
+                       }else{
+                           isTextured = `<span class="row fw-bolder fs-10 badge badge-light-warning align-bottom d-none">Custom Textured</span>`;
+                       }
+                       $('#item_container_list').append(`
+                       <div class="col-sm-6 col-lg-4 mb-2">
+                            <div onclick="loadPreviewData('`+val.id+`');" class="card card-stretch mb-xl-8" data-bs-toggle="tooltip" data-bs-dismiss="click" data-bs-placement="top" title="Click to Preview">
+                                <div class="card-body">
+                                    <div class="d-flex align-item-center">
+                                        <div class="col">
+                                            <span class="row fw-bolder text-gray-800 fs-7 text-hover-warning">`+val.name+`</span>
+                                            <span class="row fw-bolder text-gray-600 fs-8">`+val.stats.data.releaseDate+`</span>
+                                            `+isTextured+`
+                                        </div>
+                                        <img src="`+itemThumbnail[val.stats.data.type]+`" alt="" class="align-self-center h-75px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       `);
+                   }
+                });
+            }
+            
+            function loadPreviewData(itemID){
+                $('#item_container_list').empty();
+                $('#item_container_preview').removeClass('d-none');
+                $('.menu-accordion, .menu-sub-accordion').removeClass('show').removeClass('hover'); $('.menu-link').removeClass('active');$('#catPrevC').addClass('active');
+                $('#iiname').html(itemData[itemID].name);$('#idate').html(itemData[itemID].stats.data.releaseDate);$('#icname').html(itemData[itemID].stats.data.crates);$('#itype').html(itemData[itemID].stats.data.type);$('#islot').html(itemData[itemID].stats.data.slot);$('#itexture').html( (itemData[itemID].stats.data.customTexture == true) ? "Yes" : "No" );$('#ieffect').html( (itemData[itemID].stats.data.customEffect == true) ? "Yes" : "No" );$('#irarity').html(itemData[itemID].stats.data.rarity);$('#widget_tab_1_enchant, #widget_tab_2_enchant, #widget_tab_3_enchant, #widget_tab_4_enchant, #widget_tab_1_effect, #widget_tab_2_effect, #widget_tab_3_effect, #widget_tab_4_effect').empty();
+                if(itemData[itemID].stats.enchant.survival.length >= 1){
+                    $('#survival_enchantment').empty();
+                    $.each(itemData[itemID].stats.enchant.survival, function(key, val) {
+                        $.each(val, function(key2, val2) {
+                           $('#survival_enchantment').append(`
+                            <span class="mr-2 fw-bolder text-gray-600">`+key2+` <span class="badge badge-light badge-inline font-weight-bolder">`+val2+`</span></span>
+                            <div class="progress mt-1 mb-1">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: `+((100/10)*val2)+`%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            `); 
+                        });
+                    });
+                }
+                if(itemData[itemID].stats.enchant.olympus.length >= 1){
+                    $('#olympus_enchantment').empty();
+                    $.each(itemData[itemID].stats.enchant.olympus, function(key, val) {
+                        $.each(val, function(key2, val2) {
+                           $('#olympus_enchantment').append(`
+                            <span class="mr-2 fw-bolder text-gray-600">`+key2+` <span class="badge badge-light badge-inline font-weight-bolder">`+val2+`</span></span>
+                            <div class="progress mt-1 mb-1">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: `+((100/10)*val2)+`%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            `); 
+                        });
+                    });
+                }
+                if(itemData[itemID].stats.enchant.skyblock.length >= 1){
+                    $('#skyblock_enchantment').empty();
+                    $.each(itemData[itemID].stats.enchant.skyblock, function(key, val) {
+                        $.each(val, function(key2, val2) {
+                           $('#skyblock_enchantment').append(`
+                            <span class="mr-2 fw-bolder text-gray-600">`+key2+` <span class="badge badge-light badge-inline font-weight-bolder">`+val2+`</span></span>
+                            <div class="progress mt-1 mb-1">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: `+((100/10)*val2)+`%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            `); 
+                        });
+                    });
+                }
+                if(itemData[itemID].stats.enchant.earth.length >= 1){
+                    $('#earth_enchantment').empty();
+                    $.each(itemData[itemID].stats.enchant.earth, function(key, val) {
+                        $.each(val, function(key2, val2) {
+                           $('#earth_enchantment').append(`
+                            <span class="mr-2 fw-bolder text-gray-600">`+key2+` <span class="badge badge-light badge-inline font-weight-bolder">`+val2+`</span></span>
+                            <div class="progress mt-1 mb-1">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: `+((100/10)*val2)+`%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            `); 
+                        });
+                    });
+                }
+                
+                if(itemData[itemID].stats.effects.survival.length >= 1){
+                    $('#survival_custom_effect').empty();
+                    $.each(itemData[itemID].stats.effects.survival, function(key, val) {
+                        $('#survival_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder">`+val+`</span></div>
+                        `);
+                    });
+                };
+                
+                if(itemData[itemID].stats.effects.olympus.length >= 1){
+                    $('#olympus_custom_effect').empty();
+                    $.each(itemData[itemID].stats.effects.olympus, function(key, val) {
+                        $('#olympus_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder">`+val+`</span></div>
+                        `);
+                    });
+                };
+                
+                if(itemData[itemID].stats.effects.skyblock.length >= 1){
+                    $('#skyblock_custom_effect').empty();
+                    $.each(itemData[itemID].stats.effects.skyblock, function(key, val) {
+                        $('#skyblock_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder">`+val+`</span></div>
+                        `);
+                    });
+                };
+                
+                if(itemData[itemID].stats.effects.earth.length >= 1){
+                    $('#earth_custom_effect').empty();
+                    $.each(itemData[itemID].stats.effects.earth, function(key, val) {
+                        $('#earth_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder">`+val+`</span></div>
+                        `);
+                    });
+                };
+                
+                try {
+                    viewer.remove('preview');
+                } catch (e) {
+                    console.log(e.message);
+                }
+                var newmodel = new JsonModel('preview', itemData[itemID].model.model, itemData[itemID].model.texture);
+                try {
+                    viewer.remove('preview');
+                } catch (e) {
+                    console.log(e.message);
+                }
+                model = newmodel;
+                viewer.load(model);
+                viewer.hideGrid();
+                
+                //alert(itemID);
+            }
+            
+            var itemCounters = {
+                "helmet": 0,
+                "boot": 0,
+                "chestplate": 0,
+                "legging": 0,
+                "bow": 0,
+                "sword": 0,
+                "fishingrod": 0,
+                "axe": 0,
+                "pickaxe": 0,
+                "shovel": 0,
+                "hoe": 0,
+                "wardrobe": 0,
+                "furniture": 0,
+                "misc": 0
+            };
+            var itemThumbnail = {
+                "Diamond Helmet": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b2/Diamond_Helmet_JE2_BE2.png",
+                "Diamond Chestplate": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e0/Diamond_Chestplate_JE3_BE2.png",
+                "Diamond Leggings": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fc/Diamond_Leggings_JE2_BE2.png",
+                "Diamond Boots": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/82/Diamond_Boots_JE2_BE2.png",
+                "Turtle Helmet": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5e/Turtle_Shell.png",
+                "Leather Helmet": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/de/Leather_Cap_JE4_BE2.png",
+                "Leather Chestplate": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b7/Leather_Tunic_JE4_BE2.png",
+                "Leather Leggings": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/06/Leather_Pants_JE4_BE2.png",
+                "Leather Boots": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/25/Leather_Boots_JE3_BE2.png",
+                "Netherite Helmet": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2f/Netherite_Helmet_JE2_BE1.png",
+                "Netherite Chestplate": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/56/Netherite_Chestplate_JE2_BE1.png",
+                "Netherite Leggings": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8d/Netherite_Leggings_JE3_BE2.png",
+                "Netherite Boots": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Netherite_Boots_JE2_BE1.png",
+                "Diamond Axe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/40/Diamond_Axe_JE3_BE3.png",
+                "Diamond Sword": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/Diamond_Sword_JE3_BE3.png",
+                "Diamond Pickaxe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e7/Diamond_Pickaxe_JE3_BE3.png",
+                "Diamond Shovel": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ec/Diamond_Shovel_JE3_BE3.png",
+                "Diamond Hoe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/04/Diamond_Hoe_JE3_BE3.png",
+                "Netherite Axe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/df/Netherite_Axe_JE2.png",
+                "Netherite Sword": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0f/Netherite_Sword_JE2_BE2.png",
+                "Netherite Pickaxe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d4/Netherite_Pickaxe_JE3.png",
+                "Netherite Shovel": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a1/Netherite_Shovel_JE2_BE1.png",
+                "Netherite Hoe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d7/Netherite_Hoe_JE2_BE2.png",
+                "Iron Hoe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/ba/Iron_Hoe_JE2_BE2.png",
+                "Golden Axe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/Golden_Axe_JE3_BE2.png",
+                "Stick": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7a/Stick_JE1_BE1.png",
+                "Fishing Rod": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7f/Fishing_Rod_JE2_BE2.png",
+                "Furniture": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/cd/Barrier_%28held%29_JE1_BE1.png",
+                "Bow": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/99/Bow_JE2_BE1.png",
+                "Wardrobe": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/cd/Barrier_%28held%29_JE1_BE1.png",
+                "Horse Armor": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Diamond_Horse_Armor_%28item%29_JE3_BE3.png",
+                "Clock": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3e/Clock_JE3_BE3.gif",
+                "Firework": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fd/Firework_Rocket_JE2_BE2.png",
+                "Blaze Rod": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/87/Blaze_Rod_JE1_BE1.png",
+                "Iron Horse Armor": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/04/Iron_Horse_Armor_%28item%29_JE1_BE1.png",
+                "Pumpkin Pie": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ac/Pumpkin_Pie_JE2_BE2.png",
+                "Music Disc": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7e/Music_Disc_Stal_JE1_BE1.png",
+                "Cooked Chicken": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/66/Cooked_Chicken_JE3_BE3.png",
+                "Shield": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c6/Shield_JE2_BE1.png",
+                "Carrot": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Carrot_JE3_BE2.png",
+                "Shears": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5a/Shears_JE2_BE2.png",
+                "Elytra": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Elytra_%28item%29_JE1_BE1.png",
+                "Blue Stained Glass": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a4/Blue_Stained_Glass_JE3_BE3.png"
+            }
+            var isTextured; 
+            $('#item_container_list').empty();
+            $.each(itemData, function(key, val) {
+               itemCounters[val.type]++;
+               $('#total'+val.type).html(itemCounters[val.type]);
+               if(val.type == "helmet"){
+                   if(val.stats.data.customTexture) {
+                       isTextured = `<span class="row fw-bolder fs-9 badge badge-light-warning align-bottom">Custom Textured</span>`;
+                   }else{
+                       isTextured = `<span class="row fw-bolder fs-10 badge badge-light-warning align-bottom d-none">Custom Textured</span>`;
+                   }
+                   $('#item_container_list').append(`
+                   <div class="col-sm-6 col-lg-4 mb-2">
+                        <div onclick="loadPreviewData('`+val.id+`');" class="card card-stretch mb-xl-8" data-bs-toggle="tooltip" data-bs-dismiss="click" data-bs-placement="top" title="Click to Preview">
+                            <div class="card-body">
+                                <div class="d-flex align-item-center">
+                                    <div class="col">
+                                        <span class="row fw-bolder text-gray-800 fs-7 text-hover-warning">`+val.name+`</span>
+                                        <span class="row fw-bolder text-gray-600 fs-8">`+val.stats.data.releaseDate+`</span>
+                                        `+isTextured+`
+                                    </div>
+                                    <img src="`+itemThumbnail[val.stats.data.type]+`" alt="" class="align-self-center h-75px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   `);
+               }
+            });
+		    
+		    
 		</script>
 		<!--end::Javascript-->
 	</body>
