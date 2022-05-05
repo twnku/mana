@@ -187,7 +187,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Easter 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -302,7 +302,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -408,7 +408,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pride Month 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -523,7 +523,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Mystery Chest",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -656,7 +656,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -771,7 +771,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 2019 Christmas",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -983,7 +983,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -1101,7 +1101,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -1216,7 +1216,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -1619,7 +1619,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Easter 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -1734,7 +1734,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive June 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -1840,7 +1840,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive TeamTrees 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -1955,7 +1955,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 2019 Christmas",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -2061,7 +2061,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -2185,7 +2185,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Star Wars 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -2388,7 +2388,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -2506,7 +2506,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -2630,7 +2630,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3033,7 +3033,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3148,7 +3148,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive June 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3254,7 +3254,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive TeamTrees 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3369,7 +3369,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 2019 Christmas",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3475,7 +3475,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3599,7 +3599,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Star Wars 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3802,7 +3802,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -3920,7 +3920,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -4035,7 +4035,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -4147,7 +4147,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Dr Seuss Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -4429,7 +4429,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -4562,7 +4562,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 10 Year Anniversary",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -4695,7 +4695,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pride Month 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -4810,7 +4810,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -4925,7 +4925,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 2019 Christmas",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5031,7 +5031,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5155,7 +5155,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Easter 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5261,7 +5261,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Star Wars 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5464,7 +5464,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5582,7 +5582,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5697,7 +5697,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Arcade Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5803,7 +5803,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -5918,7 +5918,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6039,7 +6039,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6125,7 +6125,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive July 4th 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6211,7 +6211,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6295,7 +6295,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6385,7 +6385,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Easter 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6562,7 +6562,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6655,7 +6655,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Arcade Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6748,7 +6748,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Thanksgiving 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6856,7 +6856,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -6949,7 +6949,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7042,7 +7042,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7135,7 +7135,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Dr Seuss Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7225,7 +7225,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pokemon Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7315,7 +7315,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Toy Story Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7405,7 +7405,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Star Wars 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7488,7 +7488,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Valentines 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7758,7 +7758,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 2019 Christmas",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7841,7 +7841,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7919,7 +7919,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -7997,7 +7997,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pride Month 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8075,7 +8075,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8153,7 +8153,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8230,7 +8230,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chocolate Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8307,7 +8307,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 10 Year Anniversary",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8385,7 +8385,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive July 4th 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8558,7 +8558,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Valentines 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8723,7 +8723,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8804,7 +8804,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Arcade Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8885,7 +8885,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -8966,7 +8966,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9128,7 +9128,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pokemon Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9375,7 +9375,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive 10 Year Anniversary",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9456,7 +9456,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive July 4th 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9543,7 +9543,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9717,7 +9717,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive TeamTrees 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9801,7 +9801,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9882,7 +9882,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -9960,7 +9960,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Star Wars 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10035,7 +10035,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Star Wars 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10272,7 +10272,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10353,7 +10353,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10434,7 +10434,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Arcade Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10518,7 +10518,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10605,7 +10605,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10689,7 +10689,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10773,7 +10773,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Dr Seuss Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10860,7 +10860,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chocolate Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -10943,7 +10943,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pokemon Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11029,7 +11029,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Toy Story Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11201,7 +11201,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pride Month 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11285,7 +11285,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive July 4th 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11366,7 +11366,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive TeamTrees 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11447,7 +11447,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11531,7 +11531,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Valentines 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11693,7 +11693,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11771,7 +11771,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -11930,7 +11930,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Dr Seuss Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12008,7 +12008,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pokemon Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12089,7 +12089,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12160,7 +12160,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pride Month 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12231,7 +12231,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive July 4th 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12302,7 +12302,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Paradise 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12373,7 +12373,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Valentines 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12444,7 +12444,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive St Patricks 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12515,7 +12515,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Easter 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12728,7 +12728,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12799,7 +12799,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12870,7 +12870,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Thanksgiving 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -12941,7 +12941,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Arcade Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13089,7 +13089,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13164,7 +13164,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chinese New Year Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13238,7 +13238,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Toy Story Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13315,7 +13315,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13385,7 +13385,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Magic Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13455,7 +13455,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Halloween Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13525,7 +13525,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Arcade Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13595,7 +13595,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Toy Story Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13735,7 +13735,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Christmas 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13815,7 +13815,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Star Wars 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -13892,7 +13892,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14196,7 +14196,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Chocolate Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14339,7 +14339,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Thanksgiving 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14397,7 +14397,7 @@ var itemData = [{
 {
     "id": 159,
     "type": "misc",
-    "name": "xDacon Invites You To Play Striking Vipers X",
+    "name": "XDACON INVITES YOU TO PLAY",
     "stats": {
         "data": {
             "releaseDate": "June 2019",
@@ -14407,7 +14407,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pride Month 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14475,7 +14475,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Pride Month 2019",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14543,7 +14543,7 @@ var itemData = [{
             "customTexture": false,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Easter 2020",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14618,7 +14618,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive Arcade Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14688,7 +14688,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": false,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false
@@ -14756,7 +14756,7 @@ var itemData = [{
             "customTexture": true,
             "customEffect": true,
             "rarity": "Rare",
-            "lore": "Exclusive",
+            "lore": "Exclusive New Years Crate",
             "isWardrobe": false,
             "wardrobeType": null,
             "isFurniture": false

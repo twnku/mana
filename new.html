@@ -176,6 +176,22 @@
                                                     </label>
                                                 </div>
                                             </div>
+                                            <div class="col-12 mb-6"> 
+                                                <div class="form-check form-switch form-check-custom form-check-solid">
+                                                    <input onclick="($(this).is(':checked')) ? $('#wardrobetypec').removeClass('d-none') : $('#wardrobetypec').addClass('d-none')" class="form-check-input" type="checkbox" value="" id="iswardrobe" />
+                                                    <label class="form-check-label" for="iswardrobe">
+                                                        Wardrobe
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mb-6">
+                                                <div class="form-check form-switch form-check-custom form-check-solid">
+                                                    <input class="form-check-input" type="checkbox" value="" id="isfurniture" />
+                                                    <label class="form-check-label" for="isfurniture">
+                                                        Furniture
+                                                    </label>
+                                                </div>
+                                            </div>
                                             <div class="col-12 mb-6">
                                                 <input type="text" id="itemname" class="form-control" placeholder="Name" />
                                             </div>
@@ -224,8 +240,13 @@
                                             <div class="col-12 mb-6">
                                                 <input type="text" id="itemrare" class="form-control" placeholder="Rarity" value="Rare" />
                                             </div>
-                                            <div class="col-12 mb-6">
-
+                                            <div class="col-12 mb-6 d-none" id="wardrobetypec">
+                                                <input type="text" id="wardrobetype" class="form-control" placeholder="Wardrobe Type"/>
+                                                <div class="col-12 mt-2 d-flex justify-content-start">
+                                                    <span onclick="$('#wardrobetype').val($(this).html());" class="text-muted fs-6 badge badge-light">Hand Gear</span>
+                                                    <span onclick="$('#wardrobetype').val($(this).html());" class="text-muted fs-6 badge badge-light">Hat Gear</span>
+                                                    <span onclick="$('#wardrobetype').val($(this).html());" class="text-muted fs-6 badge badge-light">Back Gear</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -327,7 +348,6 @@
                                                         </div>
                                                     </div>
                                                     <!--end::Form group-->
-
                                                     <!--begin::Form group-->
                                                     <div class="form-group mt-5">
                                                         <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
@@ -367,6 +387,142 @@
                                                     <div class="form-group mt-5">
                                                         <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
                                                             <i class="la la-plus"></i>Add Enchantment (Earth)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+                                            </div>
+                                            <div class="col-12 mb-6">
+                                                <!--begin::Repeater-->
+                                                <div id="enchantisland">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row mb-2">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantislandname" name="enchantislandname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantislandlvl" name="enchantislandlvl" class="form-control" placeholder="Enchantment Level" />
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Island)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+                                            </div>
+                                            <div class="col-12 mb-6">
+                                                <!--begin::Repeater-->
+                                                <div id="enchantparkour">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row mb-2">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantparkourname" name="enchantparkourname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantparkourlvl" name="enchantparkourlvl" class="form-control" placeholder="Enchantment Level" />
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Parkour)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+                                            </div>
+                                            <div class="col-12 mb-6">
+                                                <!--begin::Repeater-->
+                                                <div id="enchantkitpvp">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row mb-2">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantkitpvpname" name="enchantkitpvpname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantkitpvplvl" name="enchantkitpvplvl" class="form-control" placeholder="Enchantment Level" />
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Kitpvp)
+                                                        </a>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                </div>
+                                                <!--end::Repeater-->
+                                            </div>
+                                            <div class="col-12 mb-6">
+                                                <!--begin::Repeater-->
+                                                <div id="enchantfaction">
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group">
+                                                        <div data-repeater-list>
+                                                            <div data-repeater-item>
+                                                                <div class="form-group row mb-2">
+                                                                    <div class="col-5">
+                                                                        <input type="text" id="enchantfactionname" name="enchantfactionname" class="form-control" placeholder="Enchantment Name" />
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <input type="text" id="enchantfactionlvl" name="enchantfactionlvl" class="form-control" placeholder="Enchantment Level" />
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                            <i class="la la-trash-o"></i>Delete
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Form group-->
+                                                    <!--begin::Form group-->
+                                                    <div class="form-group mt-5">
+                                                        <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                            <i class="la la-plus"></i>Add Enchantment (Faction)
                                                         </a>
                                                     </div>
                                                     <!--end::Form group-->
@@ -497,11 +653,134 @@
                                                             </div>
                                                         </div>
                                                         <!--end::Form group-->
-
                                                         <!--begin::Form group-->
                                                         <div class="form-group mt-5">
                                                             <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
                                                                 <i class="la la-plus"></i>Add Custom Effects (Earth)
+                                                            </a>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                    </div>
+                                                    <!--end::Repeater-->
+                                                </div>
+                                                <div class="col-12 mb-6">
+                                                    <!--begin::Repeater-->
+                                                    <div id="effectisland">
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group">
+                                                            <div data-repeater-list>
+                                                                <div data-repeater-item>
+                                                                    <div class="form-group row mb-2">
+                                                                        <div class="col-10">
+                                                                            <input type="text" id="effectnameisland" name="effectnameisland" class="form-control" placeholder="Effects" />
+                                                                        </div>
+                                                                        <div class="col-2">
+                                                                            <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                <i class="la la-trash-o"></i>Delete
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group mt-5">
+                                                            <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                <i class="la la-plus"></i>Add Custom Effects (Island)
+                                                            </a>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                    </div>
+                                                    <!--end::Repeater-->
+                                                </div>
+                                                <div class="col-12 mb-6">
+                                                    <!--begin::Repeater-->
+                                                    <div id="effectparkour">
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group">
+                                                            <div data-repeater-list>
+                                                                <div data-repeater-item>
+                                                                    <div class="form-group row mb-2">
+                                                                        <div class="col-10">
+                                                                            <input type="text" id="effectnameparkour" name="effectnameparkour" class="form-control" placeholder="Effects" />
+                                                                        </div>
+                                                                        <div class="col-2">
+                                                                            <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                <i class="la la-trash-o"></i>Delete
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group mt-5">
+                                                            <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                <i class="la la-plus"></i>Add Custom Effects (Parkour)
+                                                            </a>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                    </div>
+                                                    <!--end::Repeater-->
+                                                </div>
+                                                <div class="col-12 mb-6">
+                                                    <!--begin::Repeater-->
+                                                    <div id="effectkitpvp">
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group">
+                                                            <div data-repeater-list>
+                                                                <div data-repeater-item>
+                                                                    <div class="form-group row mb-2">
+                                                                        <div class="col-10">
+                                                                            <input type="text" id="effectnamekitpvp" name="effectnamekitpvp" class="form-control" placeholder="Effects" />
+                                                                        </div>
+                                                                        <div class="col-2">
+                                                                            <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                <i class="la la-trash-o"></i>Delete
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group mt-5">
+                                                            <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                <i class="la la-plus"></i>Add Custom Effects (Kitpvp)
+                                                            </a>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                    </div>
+                                                    <!--end::Repeater-->
+                                                </div>
+                                                <div class="col-12 mb-6">
+                                                    <!--begin::Repeater-->
+                                                    <div id="effectfaction">
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group">
+                                                            <div data-repeater-list>
+                                                                <div data-repeater-item>
+                                                                    <div class="form-group row mb-2">
+                                                                        <div class="col-10">
+                                                                            <input type="text" id="effectnamefaction" name="effectnamefaction" class="form-control" placeholder="Effects" />
+                                                                        </div>
+                                                                        <div class="col-2">
+                                                                            <a href="javascript:;" data-repeater-delete class="btn btn-sm btn-light-danger">
+                                                                                <i class="la la-trash-o"></i>Delete
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--end::Form group-->
+                                                        <!--begin::Form group-->
+                                                        <div class="form-group mt-5">
+                                                            <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
+                                                                <i class="la la-plus"></i>Add Custom Effects (Faction)
                                                             </a>
                                                         </div>
                                                         <!--end::Form group-->
@@ -694,6 +973,47 @@
                     $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
                 }
             });
+
+            var enchantisland = $('#enchantisland').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            var enchantparkour = $('#enchantparkour').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            var enchantkitpvp = $('#enchantkitpvp').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            var enchantfaction = $('#enchantfaction').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
             
             var effectsurvival = $('#effectsurvival').repeater({
                 initEmpty: false,
@@ -738,6 +1058,46 @@
                     $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
                 }
             });
+            var effectisland = $('#effectisland').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            var effectparkour = $('#effectparkour').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            var effectkitpvp = $('#effectkitpvp').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
+            var effectfaction = $('#effectfaction').repeater({
+                initEmpty: false,
+                show: function () {
+                    $(this).slideDown();
+                },
+            
+                hide: function (deleteElement) {
+                    $(this).slideUp(deleteElement).setTimeout(function() {$(this).remove();}, 1000);
+                }
+            });
             var outputDataAll = [];
             function saveDataAll(){
                 var outputdata = { 
@@ -753,20 +1113,47 @@
                             "customTexture": $('#customtexture').is(':checked'),
                             "customEffect": $('#customeffect').is(':checked'),
                             "rarity": $('#itemrare').val(),
-                            "lore": $('#itemlore').val()
+                            "lore": $('#itemlore').val(),
+                            "isWardrobe": $('#iswardrobe').is(':checked'),
+                            "wardrobeType": $('#wardrobetype').val(), 
+                            "isFurniture": $('#isfurniture').is(':checked')
                         },
                         "enchant": {
-                            "survival": [{"Unknown": 0}],
-                            "skyblock": [{"Unknown": 0}],
-                            "earth": [{"Unknown": 0}],
-                            "olympus": [{"Unknown": 0}]
-                        },
-                        "effects": {
-                            "survival": ["No Effects"],
-                            "skyblock": ["No Effects"],
-                            "earth": ["No Effects"],
-                            "olympus": ["No Effects"]
-                        }
+                          "survival": [{
+                              "Unknown": 0
+                          }],
+                          "skyblock": [{
+                              "Unknown": 0
+                          }],
+                          "earth": [{
+                              "Unknown": 0
+                          }],
+                          "prison": [{
+                              "Unknown": 0
+                          }],
+                          "parkour": [{
+                              "Unknown": 0
+                          }],
+                          "kitpvp": [{
+                              "Unknown": 0
+                          }],
+                          "island": [{
+                              "Unknown": 0
+                          }],
+                          "faction": [{
+                              "Unknown": 0
+                          }]
+                      },
+                      "effects": {
+                          "survival": [],
+                          "skyblock": [],
+                          "earth": [],
+                          "prison": [],
+                          "parkour": [],
+                          "kitpvp": [],
+                          "island": [],
+                          "faction": []
+                      }
                     },
                     "model": {
                         "model": $('#customjson').val(),
@@ -808,12 +1195,12 @@
                 });
                 $.each($('#enchantolympus').repeaterVal(), function(rk, rv) {
                     if(rv.length > 1){
-                        outputdata.stats.enchant.olympus = [];
+                        outputdata.stats.enchant.prison = [];
                         $.each(rv, function(key, val) {
                             if(val.enchantolympusname.length > 0){
                                 let push = {};
                                 push[val.enchantolympusname] = parseInt(val.enchantolympuslvl);
-                                outputdata.stats.enchant.olympus.push(push);
+                                outputdata.stats.enchant.prison.push(push);
                             }
                         });   
                     }
@@ -826,6 +1213,54 @@
                                 let push = {};
                                 push[val.enchantearthname] = parseInt(val.enchantearthlvl);
                                 outputdata.stats.enchant.earth.push(push);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#enchantisland').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.island = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantislandname.length > 0){
+                                let push = {};
+                                push[val.enchantislandname] = parseInt(val.enchantislandlvl);
+                                outputdata.stats.enchant.island.push(push);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#enchantparkour').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.parkour = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantparkourname.length > 0){
+                                let push = {};
+                                push[val.enchantparkourname] = parseInt(val.enchantparkourlvl);
+                                outputdata.stats.enchant.parkour.push(push);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#enchantkitpvp').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.kitpvp = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantkitpvpname.length > 0){
+                                let push = {};
+                                push[val.enchantkitpvpname] = parseInt(val.enchantkitpvplvl);
+                                outputdata.stats.enchant.kitpvp.push(push);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#enchantfaction').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 1){
+                        outputdata.stats.enchant.faction = [];
+                        $.each(rv, function(key, val) {
+                            if(val.enchantfactionname.length > 0){
+                                let push = {};
+                                push[val.enchantfactionname] = parseInt(val.enchantfactionlvl);
+                                outputdata.stats.enchant.faction.push(push);
                             }
                         });   
                     }
@@ -854,10 +1289,10 @@
                 });
                 $.each($('#effectolympus').repeaterVal(), function(rk, rv) {
                     if(rv.length > 0){
-                        outputdata.stats.effects.olympus = [];
+                        outputdata.stats.effects.prison = [];
                         $.each(rv, function(key, val) {
                             if(val.effectnameolympus.length > 0){
-                                outputdata.stats.effects.olympus.push(val.effectnameolympus);
+                                outputdata.stats.effects.prison.push(val.effectnameolympus);
                             }
                         });   
                     }
@@ -868,6 +1303,46 @@
                         $.each(rv, function(key, val) {
                             if(val.effectnameearth.length > 0){
                                 outputdata.stats.effects.earth.push(val.effectnameearth);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#effectisland').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.island = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnameisland.length > 0){
+                                outputdata.stats.effects.island.push(val.effectnameisland);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#effectparkour').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.parkour = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnameparkour.length > 0){
+                                outputdata.stats.effects.parkour.push(val.effectnameparkour);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#effectkitpvp').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.kitpvp = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnamekitpvp.length > 0){
+                                outputdata.stats.effects.kitpvp.push(val.effectnamekitpvp);
+                            }
+                        });   
+                    }
+                });
+                $.each($('#effectfaction').repeaterVal(), function(rk, rv) {
+                    if(rv.length > 0){
+                        outputdata.stats.effects.faction = [];
+                        $.each(rv, function(key, val) {
+                            if(val.effectnamefaction.length > 0){
+                                outputdata.stats.effects.faction.push(val.effectnamefaction);
                             }
                         });   
                     }
