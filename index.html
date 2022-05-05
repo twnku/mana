@@ -406,7 +406,7 @@
                 											<!--end::Nav item-->
                 											<!--begin::Nav item-->
                 											<li class="nav-item">
-                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#olympus_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Olympus</span>
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#prison_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Prison</span>
                 											</li>
                 											<!--end::Nav item-->
                 											<!--begin::Nav item-->
@@ -417,6 +417,26 @@
                 											<!--begin::Nav item-->
                 											<li class="nav-item">
                 												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#earth_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Earth</span>
+                											</li>
+                											<!--end::Nav item-->
+															<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#earth_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Island</span>
+                											</li>
+                											<!--end::Nav item-->
+															<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#earth_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Parkour</span>
+                											</li>
+                											<!--end::Nav item-->
+															<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#earth_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">KitPVP</span>
+                											</li>
+                											<!--end::Nav item-->
+															<!--begin::Nav item-->
+                											<li class="nav-item">
+                												<span onclick="$('.nav-link').removeClass('active');$(this).addClass('active'); $('.cstats').addClass('d-none'); $('#earth_stats').removeClass('d-none');" class="nav-link text-active-primary me-6">Faction</span>
                 											</li>
                 											<!--end::Nav item-->
                 										</ul>
@@ -455,13 +475,13 @@
                                             </div>
                                         </div>
 							        </div>
-							        <div id="olympus_stats" class="d-none cstats">
+							        <div id="prison_stats" class="d-none cstats">
 							           <div class="row g-5">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card card-stretch card-bordered mb-2">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Custom Effects</h5>
-    							                        <div id="olympus_custom_effect">
+    							                        <div id="prison_custom_effect">
     							                            Unknown
     							                        </div>
                                                     </div>
@@ -471,7 +491,7 @@
                                                 <div class="card card-stretch card-bordered mb-2">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Enchantments</h5>
-    							                        <div id="olympus_enchantment">
+    							                        <div id="prison_enchantment">
     							                            <span class="mr-2 fw-bolder text-gray-600">Unknown <span class="badge badge-light badge-inline font-weight-bolder">0</span></span>
                                                             <div class="progress mt-1 mb-1">
                                                                 <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1782,11 +1802,11 @@
                         });
                     });
                 }
-                if(itemData[itemID].stats.enchant.olympus.length >= 1){
-                    $('#olympus_enchantment').empty();
-                    $.each(itemData[itemID].stats.enchant.olympus, function(key, val) {
+                if(itemData[itemID].stats.enchant.prison.length >= 1){
+                    $('#prison_enchantment').empty();
+                    $.each(itemData[itemID].stats.enchant.prison, function(key, val) {
                         $.each(val, function(key2, val2) {
-                           $('#olympus_enchantment').append(`
+                           $('#prison_enchantment').append(`
                             <span class="mr-2 fw-bolder text-gray-600">`+key2+` <span class="badge badge-light badge-inline font-weight-bolder">`+val2+`</span></span>
                             <div class="progress mt-1 mb-1">
                                 <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: `+((100/10)*val2)+`%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1830,10 +1850,10 @@
                     });
                 };
                 
-                if(itemData[itemID].stats.effects.olympus.length >= 1){
-                    $('#olympus_custom_effect').empty();
-                    $.each(itemData[itemID].stats.effects.olympus, function(key, val) {
-                        $('#olympus_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder">`+val+`</span></div>
+                if(itemData[itemID].stats.effects.prison.length >= 1){
+                    $('#prison_custom_effect').empty();
+                    $.each(itemData[itemID].stats.effects.prison, function(key, val) {
+                        $('#prison_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder">`+val+`</span></div>
                         `);
                     });
                 };
