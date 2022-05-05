@@ -928,8 +928,13 @@
         <script src="/mana/Assets/lib/three.min.js"></script>
         <script src="/mana/Assets/lib/OrbitControls.js"></script>
         <script src="/mana/Assets/repeater/formrepeater.bundle.js"></script>
-        
+        <script src="/mana/Assets/list_item.js"></script>
         <script>
+            var loadCounts = 0;
+            $.each(itemData, function(key, val) {
+                loadCounts++;
+            });
+            $('#itemid') = loadCounts;
             var enchantsurvival = $('#enchantsurvival').repeater({
                 initEmpty: false,
                 show: function () {
