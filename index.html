@@ -221,11 +221,10 @@
         <script src="/mana/Assets/lib/three.min.js"></script>
         <script src="/mana/Assets/lib/OrbitControls.js"></script>
         <script src="/mana/Assets/repeater/formrepeater.bundle.js"></script>
-    <script>
-		$.get("https://twnku.github.io/mana/itemList.json", function(data, status){
-			$('#output_container').html(JSON.stringify(data, null, '\t'));
-		});
-    </script>
+		<script src="/mana/Assets/list_item.js"></script>
+		<script>
+			$('#output_container').html(JSON.stringify(itemData, null, '\t'));
+		</script>
 		<!--end::Javascript-->
 	</body>
 	<!--end::Body-->
