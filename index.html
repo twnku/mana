@@ -1859,7 +1859,7 @@
             var model = new JsonModel('preview', itemData[0].model.model, itemData[0].model.texture);
             container.addEventListener('click', viewer.resize);
             viewer.load(model).hideGrid();
-            
+            var newmodel;
             
             function loadCategory(category){
                 $('#item_container_list').empty();
@@ -2154,14 +2154,30 @@
 					$('#faction_custom_effect').empty();
 					$('#faction_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder mt-1 mb-1"></span></div>`);
 				};
-                try {
+				
+                for (let i = 0; i < 2; i++) {
+					try {
+						newmodel = new JsonModel('preview', itemData[itemID].model.model, itemData[itemID].model.texture)
+						try {
+							viewer.remove('preview')
+						} catch (e) {
+							console.log(e.message)
+						}
+						model = newmodel
+						viewer.load(model)
+						viewer.hideGrid()
+					} catch (e) {
+						console.log(e.message)
+					}
+				}
+				/*try {
 					viewer.remove('preview');
 				} catch (e) {
 					console.log(e.message);
 				}
 				var newmodel = new JsonModel('preview', itemData[itemID].model.model, itemData[itemID].model.texture)
 				viewer.load(newmodel)
-				viewer.hideGrid()
+				viewer.hideGrid()*/
                 /*try {
                     viewer.remove('preview');
                 } catch (e) {
