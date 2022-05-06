@@ -2154,8 +2154,15 @@
 					$('#faction_custom_effect').empty();
 					$('#faction_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder mt-1 mb-1"></span></div>`);
 				};
-                
                 try {
+					viewer.remove('preview');
+				} catch (e) {
+					console.log(e.message);
+				}
+				var newmodel = new JsonModel('preview', itemData[itemID].model.model, itemData[itemID].model.texture)
+				viewer.load(newmodel)
+				viewer.hideGrid()
+                /*try {
                     viewer.remove('preview');
                 } catch (e) {
                     console.log(e.message);
@@ -2168,7 +2175,7 @@
                 }
                 model = newmodel;
                 viewer.load(model);
-                viewer.hideGrid();
+                viewer.hideGrid();*/
                 
                 //alert(itemID);
             }
