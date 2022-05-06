@@ -13430,7 +13430,7 @@ var itemData = [{
 },
 {
     "id": 144,
-    "type": "misc",
+    "type": "hoe",
     "name": "Snowball Blaster",
     "stats": {
         "data": {
@@ -13500,7 +13500,7 @@ var itemData = [{
 },
 {
     "id": 145,
-    "type": "misc",
+    "type": "hoe",
     "name": "Magic Wand",
     "stats": {
         "data": {
@@ -13570,7 +13570,7 @@ var itemData = [{
 },
 {
     "id": 146,
-    "type": "misc",
+    "type": "hoe",
     "name": "Serpent Wand",
     "stats": {
         "data": {
@@ -13640,7 +13640,7 @@ var itemData = [{
 },
 {
     "id": 147,
-    "type": "misc",
+    "type": "hoe",
     "name": "Space Blaster Gun",
     "stats": {
         "data": {
@@ -13710,7 +13710,7 @@ var itemData = [{
 },
 {
     "id": 148,
-    "type": "misc",
+    "type": "hoe",
     "name": "Zurg Blaster",
     "stats": {
         "data": {
@@ -14021,7 +14021,7 @@ var itemData = [{
         "data": {
             "releaseDate": "January 2021",
             "crates": "New Years Chest",
-            "type": "Diamond Sword",
+            "type": "Diamond Pickaxe",
             "slot": "Others",
             "customTexture": true,
             "customEffect": true,
