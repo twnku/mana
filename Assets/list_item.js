@@ -20827,5 +20827,1135 @@ var itemData = [{
             "z": 25
         }
     }
+},{
+    "id": 214,
+    "type": "boot",
+    "name": "Arctic Boots",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Netherite Boots",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Boots ",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "earth": [{
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "skyblock": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "earth": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "prison": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVQ4y2NgGF7AUEPjv4q8wn9c8iA5kBoGfArKssqwGgKTExcUxG9AbFgsTgN8PX2JM8Ddzh5FIUgcJEaUASBF6ApxiVPXAGRF+LyALodVs6muLoYBIDGchsBsQNaMrADGR1eDYgBMEb5AQlaDNzCHFgAA/kp+LYQKlYsAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 215,
+    "type": "legging",
+    "name": "Arctic Leggings",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Netherite Leggings",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Leggings",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "earth": [{
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Protection": 3
+            },{
+                "Unbreaking": 3
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "skyblock": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "earth": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "prison": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "parkour": [],
+            "kitpvp": [
+              "Jump Boost I"
+            ],
+            "island": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVQ4y2NgGHRARV7hPy4sLij4n6Dm2LDY/2VZZWAMYoOwr6cvGJvq6uI3BGYAsiZk7G5nT5wByBpAmCwDYIpBGOR0og2A2YasEMQmyQB0hbjEaWMALODQvYBNHKcB6PENM4BgOoCFODYDsIljNQAZExIfHAAAlOmjA1lsLV8AAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 216,
+    "type": "chestplate",
+    "name": "Arctic Chestplate",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Netherite Chestplate",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Chestplate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "earth": [{
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Protection": 3
+            },{
+                "Unbreaking": 3
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "skyblock": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "earth": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "prison": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "parkour": [],
+            "kitpvp": [
+                "Speed I",
+                "Night Vision"
+            ],
+            "island": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAu0lEQVQ4jc2RPQ6DMAyFuQITC6gMSEyMiK0dKwbWblyAA3D9oK/SQy4GAluRLJy8Hzt2kvzFVz3KsI1bHA5DP4T38xW6tjs0AIMD1xlILLDOi5VAriIycQYAbdP8VEBoxWBwXJccxs8Y5mn+gsr1VnLuwJQ7gyxNV3cqyUQCPREOXMJtg0uJaZm/zcF2hdaAKvYZtn0iakAVtWtD95c6OJtB1IAhaZ2agdanAR4ayMRuJDr5M5NtXBLf/RYLleFbbMLEzAAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 217,
+    "type": "helmet",
+    "name": "Arctic Helmet",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Netherite Helmet",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Helmet",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "earth": [{
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Blast Protection": 7
+                },
+                {
+                    "Fire Protection": 7
+                },
+                {
+                    "Projectile Protection": 7
+                },
+                {
+                    "Protection": 7
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "skyblock": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "earth": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "prison": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Jump Boost I",
+                "Speed I",
+                "Strength II",
+                "Increase Speed at low health"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVQ4y2NgGJ5ARV7hPzZMtGZ3O/v/vp6+KNhUV/e/uKDgf6I1l2WV/Y8Ni4UbABInaAjIAHSbYZphmCgDYH6GuQDGJ8kAkEKYC0BskgxANgSGiQpI5EBEN4CoQIQZgk0RzCCGUYABAAZaejAOgOBtAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 218,
+    "type": "misc",
+    "name": "Northern Light Firework",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Firework",
+            "slot": "Others",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Exclusive 2022 Arctic Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Uses: Infinite",
+                "Cooldown: 10 seconds",
+                "Effect: Put on a nice firework show!"
+            ],
+            "skyblock": [
+                "Uses: Infinite",
+                "Cooldown: 10 seconds",
+                "Effect: Put on a nice firework show!"
+            ],
+            "earth": [
+                "Uses: Infinite",
+                "Cooldown: 10 seconds",
+                "Effect: Put on a nice firework show!"
+            ],
+            "prison": [
+                "Uses: Infinite",
+                "Cooldown: 10 seconds",
+                "Effect: Put on a nice firework show!"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Uses: Infinite",
+                "Cooldown: 10 seconds",
+                "Effect: Put on a nice firework show!"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVQ4y2NgGPRgp6bmf7I1zwRqvqal9T9XXPw/WZpBtoNokAEkG7ITyQAQbpGWJt0Vm85c/A/CZGkGgS9fvsBdQXYMgDDIFWQbAHIF2QaANIMw2V6gSRjoinD+B2GiDQAphhlAtEZ0QJKtpAIAiKxhA9IBieYAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 219,
+    "type": "misc",
+    "name": "Ice Wings",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Elytra",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Elytra",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unbreakable": 1
+            }],
+            "skyblock": [{
+                "Unbreakable": 1
+            }],
+            "earth": [{
+                "Unbreakable": 1
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unbreakable": 1
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [],
+            "skyblock": [],
+            "earth": [],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[80,0,60]},\"firstperson_righthand\":{\"rotation\":[80,0,60]},\"fixed\":{\"rotation\":[90,0,0],\"translation\":[0,0,7.25]},\"ground\":{\"scale\":[0.8,0.8,0.8],\"translation\":[0,4,0]},\"gui\":{\"rotation\":[90,0,0]},\"thirdperson_lefthand\":{\"rotation\":[-55,-180,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,3,-4]},\"thirdperson_righthand\":{\"rotation\":[-55,-180,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,3,-4]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3,1.5,3.5,1]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3,1,3.5,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,1,3,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[3,1,3.5,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3,1,3.5,1.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[3,1,3.5,1.5]}},\"from\":[3,0,1],\"name\":\"wings_0\",\"to\":[3.5,0.5,1.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,1.5,13,1]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12.5,1,13,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[13,1,12.5,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,1,13,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,1,13,1.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12.5,1,13,1.5]}},\"from\":[12.5,0,1],\"name\":\"wings_1\",\"to\":[13,0.5,1.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.5,9,3,1.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2.5,1.5,3,9]},\"north\":{\"texture\":\"#0\",\"uv\":[3,1.5,2.5,2]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,8.5,3,9]},\"up\":{\"texture\":\"#0\",\"uv\":[2.5,1.5,3,9]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2.5,1.5,3,9]}},\"from\":[2.5,0,1.5],\"name\":\"wings_2\",\"to\":[3,0.5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13,9,13.5,1.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[13,1.5,13.5,9]},\"north\":{\"texture\":\"#0\",\"uv\":[13.5,1.5,13,2]},\"south\":{\"texture\":\"#0\",\"uv\":[13,8.5,13.5,9]},\"up\":{\"texture\":\"#0\",\"uv\":[13,1.5,13.5,9]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[13,1.5,13.5,9]}},\"from\":[13,0,1.5],\"name\":\"wings_3\",\"to\":[13.5,0.5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3,10,3.5,2]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3,2,3.5,10]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,2,3,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[3,9.5,3.5,10]},\"up\":{\"texture\":\"#0\",\"uv\":[3,2,3.5,10]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[3,2,3.5,10]}},\"from\":[3,0,2],\"name\":\"wings_4\",\"to\":[3.5,0.5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,10,13,2]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12.5,2,13,10]},\"north\":{\"texture\":\"#0\",\"uv\":[13,2,12.5,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12.5,9.5,13,10]},\"up\":{\"texture\":\"#0\",\"uv\":[12.5,2,13,10]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12.5,2,13,10]}},\"from\":[12.5,0,2],\"name\":\"wings_5\",\"to\":[13,0.5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2,4.5,2.5,2.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2,2.5,2.5,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,2.5,2,3]},\"south\":{\"texture\":\"#0\",\"uv\":[2,4,2.5,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2,2.5,2.5,4.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2,2.5,2.5,4.5]}},\"from\":[2,0,2.5],\"name\":\"wings_6\",\"to\":[2.5,0.5,4.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.5,9,4,2.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3.5,2.5,4,9]},\"north\":{\"texture\":\"#0\",\"uv\":[4,2.5,3.5,3]},\"south\":{\"texture\":\"#0\",\"uv\":[3.5,8.5,4,9]},\"up\":{\"texture\":\"#0\",\"uv\":[3.5,2.5,4,9]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[3.5,2.5,4,9]}},\"from\":[3.5,0,2.5],\"name\":\"wings_7\",\"to\":[4,0.5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,9,12.5,2.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12,2.5,12.5,9]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,2.5,12,3]},\"south\":{\"texture\":\"#0\",\"uv\":[12,8.5,12.5,9]},\"up\":{\"texture\":\"#0\",\"uv\":[12,2.5,12.5,9]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12,2.5,12.5,9]}},\"from\":[12,0,2.5],\"name\":\"wings_8\",\"to\":[12.5,0.5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13.5,4.5,14,2.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[13.5,2.5,14,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[14,2.5,13.5,3]},\"south\":{\"texture\":\"#0\",\"uv\":[13.5,4,14,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[13.5,2.5,14,4.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[13.5,2.5,14,4.5]}},\"from\":[13.5,0,2.5],\"name\":\"wings_9\",\"to\":[14,0.5,4.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,3.5,6,3]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[5.5,3,6,3.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6,3,5.5,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,3,6,3.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,3,6,3.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[5.5,3,6,3.5]}},\"from\":[5.5,0,3],\"name\":\"wings_10\",\"to\":[6,0.5,3.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,3.5,10.5,3]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[10,3,10.5,3.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10.5,3,10,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10,3,10.5,3.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10,3,10.5,3.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[10,3,10.5,3.5]}},\"from\":[10,0,3],\"name\":\"wings_11\",\"to\":[10.5,0.5,3.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,9.5,4.5,3.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[4,3.5,4.5,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,3.5,4,4]},\"south\":{\"texture\":\"#0\",\"uv\":[4,9,4.5,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4,3.5,4.5,9.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[4,3.5,4.5,9.5]}},\"from\":[4,0,3.5],\"name\":\"wings_12\",\"to\":[4.5,0.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,4,6.5,3.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6,3.5,6.5,4]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,3.5,6,4]},\"south\":{\"texture\":\"#0\",\"uv\":[6,3.5,6.5,4]},\"up\":{\"texture\":\"#0\",\"uv\":[6,3.5,6.5,4]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[6,3.5,6.5,4]}},\"from\":[6,0,3.5],\"name\":\"wings_13\",\"to\":[6.5,0.5,4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,4,10,3.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[9.5,3.5,10,4]},\"north\":{\"texture\":\"#0\",\"uv\":[10,3.5,9.5,4]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,3.5,10,4]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,3.5,10,4]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[9.5,3.5,10,4]}},\"from\":[9.5,0,3.5],\"name\":\"wings_14\",\"to\":[10,0.5,4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,9.5,12,3.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[11.5,3.5,12,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12,3.5,11.5,4]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,9,12,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,3.5,12,9.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[11.5,3.5,12,9.5]}},\"from\":[11.5,0,3.5],\"name\":\"wings_15\",\"to\":[12,0.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.5,9.5,5,4]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[4.5,4,5,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5,4,4.5,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,9,5,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,4,5,9.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[4.5,4,5,9.5]}},\"from\":[4.5,0,4],\"name\":\"wings_16\",\"to\":[5,0.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,12,6,4]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[5.5,4,6,12]},\"north\":{\"texture\":\"#0\",\"uv\":[6,4,5.5,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,11.5,6,12]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,4,6,12]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[5.5,4,6,12]}},\"from\":[5.5,0,4],\"name\":\"wings_17\",\"to\":[6,0.5,12]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,12,10.5,4]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[10,4,10.5,12]},\"north\":{\"texture\":\"#0\",\"uv\":[10.5,4,10,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10,11.5,10.5,12]},\"up\":{\"texture\":\"#0\",\"uv\":[10,4,10.5,12]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[10,4,10.5,12]}},\"from\":[10,0,4],\"name\":\"wings_18\",\"to\":[10.5,0.5,12]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,9.5,11.5,4]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[11,4,11.5,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[11.5,4,11,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11,9,11.5,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11,4,11.5,9.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[11,4,11.5,9.5]}},\"from\":[11,0,4],\"name\":\"wings_19\",\"to\":[11.5,0.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.5,5,1,4.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[0.5,4.5,1,5]},\"north\":{\"texture\":\"#0\",\"uv\":[1,4.5,0.5,5]},\"south\":{\"texture\":\"#0\",\"uv\":[0.5,4.5,1,5]},\"up\":{\"texture\":\"#0\",\"uv\":[0.5,4.5,1,5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0.5,4.5,1,5]}},\"from\":[0.5,0,4.5],\"name\":\"wings_20\",\"to\":[1,0.5,5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5,12.5,5.5,4.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[5,4.5,5.5,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,4.5,5,5]},\"south\":{\"texture\":\"#0\",\"uv\":[5,12,5.5,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5,4.5,5.5,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[5,4.5,5.5,12.5]}},\"from\":[5,0,4.5],\"name\":\"wings_21\",\"to\":[5.5,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,11.5,6.5,4.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6,4.5,6.5,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,4.5,6,5]},\"south\":{\"texture\":\"#0\",\"uv\":[6,11,6.5,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6,4.5,6.5,11.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[6,4.5,6.5,11.5]}},\"from\":[6,0,4.5],\"name\":\"wings_22\",\"to\":[6.5,0.5,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,11.5,10,4.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[9.5,4.5,10,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10,4.5,9.5,5]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,11,10,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,4.5,10,11.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[9.5,4.5,10,11.5]}},\"from\":[9.5,0,4.5],\"name\":\"wings_23\",\"to\":[10,0.5,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.5,12.5,11,4.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[10.5,4.5,11,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[11,4.5,10.5,5]},\"south\":{\"texture\":\"#0\",\"uv\":[10.5,12,11,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,4.5,11,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[10.5,4.5,11,12.5]}},\"from\":[10.5,0,4.5],\"name\":\"wings_24\",\"to\":[11,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[15,5,15.5,4.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[15,4.5,15.5,5]},\"north\":{\"texture\":\"#0\",\"uv\":[15.5,4.5,15,5]},\"south\":{\"texture\":\"#0\",\"uv\":[15,4.5,15.5,5]},\"up\":{\"texture\":\"#0\",\"uv\":[15,4.5,15.5,5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[15,4.5,15.5,5]}},\"from\":[15,0,4.5],\"name\":\"wings_25\",\"to\":[15.5,0.5,5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,6.5,0.5,5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[0,5,0.5,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,5,0,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0,6,0.5,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0,5,0.5,6.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0,5,0.5,6.5]}},\"from\":[0,0,5],\"name\":\"wings_26\",\"to\":[0.5,0.5,6.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,9,2.5,5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2,5,2.5,9]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,5,1.5,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,8.5,2.5,9]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,5,2.5,9]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[1.5,5,2,9]}},\"from\":[1.5,0,5],\"name\":\"wings_27\",\"to\":[2.5,0.5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13.5,9,14.5,5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[14,5,14.5,9]},\"north\":{\"texture\":\"#0\",\"uv\":[14.5,5,13.5,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[13.5,8.5,14.5,9]},\"up\":{\"texture\":\"#0\",\"uv\":[13.5,5,14.5,9]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[13.5,5,14,9]}},\"from\":[13.5,0,5],\"name\":\"wings_28\",\"to\":[14.5,0.5,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[15.5,6.5,16,5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[15.5,5,16,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[16,5,15.5,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[15.5,6,16,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[15.5,5,16,6.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[15.5,5,16,6.5]}},\"from\":[15.5,0,5],\"name\":\"wings_29\",\"to\":[16,0.5,6.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.5,7.5,1.5,5.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[1,5.5,1.5,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[1.5,5.5,0.5,6]},\"south\":{\"texture\":\"#0\",\"uv\":[0.5,7,1.5,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0.5,5.5,1.5,7.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0.5,5.5,1,7.5]}},\"from\":[0.5,0,5.5],\"name\":\"wings_30\",\"to\":[1.5,0.5,7.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,12.5,7,5.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6.5,5.5,7,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7,5.5,6.5,6]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,12,7,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6.5,5.5,7,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[6.5,5.5,7,12.5]}},\"from\":[6.5,0,5.5],\"name\":\"wings_31\",\"to\":[7,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,12.5,9.5,5.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[9,5.5,9.5,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,5.5,9,6]},\"south\":{\"texture\":\"#0\",\"uv\":[9,12,9.5,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9,5.5,9.5,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[9,5.5,9.5,12.5]}},\"from\":[9,0,5.5],\"name\":\"wings_32\",\"to\":[9.5,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.5,7.5,15.5,5.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[15,5.5,15.5,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[15.5,5.5,14.5,6]},\"south\":{\"texture\":\"#0\",\"uv\":[14.5,7,15.5,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[14.5,5.5,15.5,7.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[14.5,5.5,15,7.5]}},\"from\":[14.5,0,5.5],\"name\":\"wings_33\",\"to\":[15.5,0.5,7.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,12,7.5,6]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[7,6,7.5,12]},\"north\":{\"texture\":\"#0\",\"uv\":[7.5,6,7,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[7,11.5,7.5,12]},\"up\":{\"texture\":\"#0\",\"uv\":[7,6,7.5,12]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[7,6,7.5,12]}},\"from\":[7,0,6],\"name\":\"wings_34\",\"to\":[7.5,0.5,12]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.5,12,9,6]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[8.5,6,9,12]},\"north\":{\"texture\":\"#0\",\"uv\":[9,6,8.5,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,11.5,9,12]},\"up\":{\"texture\":\"#0\",\"uv\":[8.5,6,9,12]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[8.5,6,9,12]}},\"from\":[8.5,0,6],\"name\":\"wings_35\",\"to\":[9,0.5,12]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.5,11.5,8.5,6.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[8,6.5,8.5,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,6.5,7.5,7]},\"south\":{\"texture\":\"#0\",\"uv\":[7.5,11,8.5,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[7.5,6.5,8.5,11.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[7.5,6.5,8,11.5]}},\"from\":[7.5,0,6.5],\"name\":\"wings_36\",\"to\":[8.5,0.5,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1,8,1.5,7.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[1,7.5,1.5,8]},\"north\":{\"texture\":\"#0\",\"uv\":[1.5,7.5,1,8]},\"south\":{\"texture\":\"#0\",\"uv\":[1,7.5,1.5,8]},\"up\":{\"texture\":\"#0\",\"uv\":[1,7.5,1.5,8]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[1,7.5,1.5,8]}},\"from\":[1,0,7.5],\"name\":\"wings_37\",\"to\":[1.5,0.5,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.5,8,15,7.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[14.5,7.5,15,8]},\"north\":{\"texture\":\"#0\",\"uv\":[15,7.5,14.5,8]},\"south\":{\"texture\":\"#0\",\"uv\":[14.5,7.5,15,8]},\"up\":{\"texture\":\"#0\",\"uv\":[14.5,7.5,15,8]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[14.5,7.5,15,8]}},\"from\":[14.5,0,7.5],\"name\":\"wings_38\",\"to\":[15,0.5,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1,9.5,2,9]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[1.5,9,2,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2,9,1,9.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1,9,2,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1,9,2,9.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[1,9,1.5,9.5]}},\"from\":[1,0,9],\"name\":\"wings_39\",\"to\":[2,0.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14,9.5,15,9]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[14.5,9,15,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[15,9,14,9.5]},\"south\":{\"texture\":\"#0\",\"uv\":[14,9,15,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[14,9,15,9.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[14,9,14.5,9.5]}},\"from\":[14,0,9],\"name\":\"wings_40\",\"to\":[15,0.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,10,2,9.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[1.5,9.5,2,10]},\"north\":{\"texture\":\"#0\",\"uv\":[2,9.5,1.5,10]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,9.5,2,10]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,9.5,2,10]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[1.5,9.5,2,10]}},\"from\":[1.5,0,9.5],\"name\":\"wings_41\",\"to\":[2,0.5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14,10,14.5,9.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[14,9.5,14.5,10]},\"north\":{\"texture\":\"#0\",\"uv\":[14.5,9.5,14,10]},\"south\":{\"texture\":\"#0\",\"uv\":[14,9.5,14.5,10]},\"up\":{\"texture\":\"#0\",\"uv\":[14,9.5,14.5,10]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[14,9.5,14.5,10]}},\"from\":[14,0,9.5],\"name\":\"wings_42\",\"to\":[14.5,0.5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.5,10.5,3,10]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2.5,10,3,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3,10,2.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,10,3,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.5,10,3,10.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2.5,10,3,10.5]}},\"from\":[2.5,0,10],\"name\":\"wings_43\",\"to\":[3,0.5,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.5,13.5,5,10]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[4.5,10,5,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5,10,4.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,13,5,13.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,10,5,13.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[4.5,10,5,13.5]}},\"from\":[4.5,0,10],\"name\":\"wings_44\",\"to\":[5,0.5,13.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,13.5,11.5,10]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[11,10,11.5,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[11.5,10,11,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11,13,11.5,13.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11,10,11.5,13.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[11,10,11.5,13.5]}},\"from\":[11,0,10],\"name\":\"wings_45\",\"to\":[11.5,0.5,13.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13,10.5,13.5,10]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[13,10,13.5,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[13.5,10,13,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[13,10,13.5,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[13,10,13.5,10.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[13,10,13.5,10.5]}},\"from\":[13,0,10],\"name\":\"wings_46\",\"to\":[13.5,0.5,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,13,4.5,10.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[4,10.5,4.5,13]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,10.5,4,11]},\"south\":{\"texture\":\"#0\",\"uv\":[4,12.5,4.5,13]},\"up\":{\"texture\":\"#0\",\"uv\":[4,10.5,4.5,13]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[4,10.5,4.5,13]}},\"from\":[4,0,10.5],\"name\":\"wings_47\",\"to\":[4.5,0.5,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,13,12,10.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[11.5,10.5,12,13]},\"north\":{\"texture\":\"#0\",\"uv\":[12,10.5,11.5,11]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,12.5,12,13]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,10.5,12,13]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[11.5,10.5,12,13]}},\"from\":[11.5,0,10.5],\"name\":\"wings_48\",\"to\":[12,0.5,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.5,11.5,3,11]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2.5,11,3,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3,11,2.5,11.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,11,3,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.5,11,3,11.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2.5,11,3,11.5]}},\"from\":[2.5,0,11],\"name\":\"wings_49\",\"to\":[3,0.5,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13,11.5,13.5,11]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[13,11,13.5,11.5]},\"north\":{\"texture\":\"#0\",\"uv\":[13.5,11,13,11.5]},\"south\":{\"texture\":\"#0\",\"uv\":[13,11,13.5,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[13,11,13.5,11.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[13,11,13.5,11.5]}},\"from\":[13,0,11],\"name\":\"wings_50\",\"to\":[13.5,0.5,11.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3,12,4,11.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3.5,11.5,4,12]},\"north\":{\"texture\":\"#0\",\"uv\":[4,11.5,3,12]},\"south\":{\"texture\":\"#0\",\"uv\":[3,11.5,4,12]},\"up\":{\"texture\":\"#0\",\"uv\":[3,11.5,4,12]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[3,11.5,3.5,12]}},\"from\":[3,0,11.5],\"name\":\"wings_51\",\"to\":[4,0.5,12]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,12,13,11.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12.5,11.5,13,12]},\"north\":{\"texture\":\"#0\",\"uv\":[13,11.5,12,12]},\"south\":{\"texture\":\"#0\",\"uv\":[12,11.5,13,12]},\"up\":{\"texture\":\"#0\",\"uv\":[12,11.5,13,12]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12,11.5,12.5,12]}},\"from\":[12,0,11.5],\"name\":\"wings_52\",\"to\":[13,0.5,12]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.5,12.5,3,12]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[2.5,12,3,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3,12,2.5,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,12,3,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.5,12,3,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[2.5,12,3,12.5]}},\"from\":[2.5,0,12],\"name\":\"wings_53\",\"to\":[3,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.5,12.5,4,12]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[3.5,12,4,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4,12,3.5,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[3.5,12,4,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3.5,12,4,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[3.5,12,4,12.5]}},\"from\":[3.5,0,12],\"name\":\"wings_54\",\"to\":[4,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,12.5,12.5,12]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[12,12,12.5,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,12,12,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12,12,12.5,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[12,12,12.5,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[12,12,12.5,12.5]}},\"from\":[12,0,12],\"name\":\"wings_55\",\"to\":[12.5,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13,12.5,13.5,12]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[13,12,13.5,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[13.5,12,13,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[13,12,13.5,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[13,12,13.5,12.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[13,12,13.5,12.5]}},\"from\":[13,0,12],\"name\":\"wings_56\",\"to\":[13.5,0.5,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,13,6.5,12.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[6,12.5,6.5,13]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,12.5,6,13]},\"south\":{\"texture\":\"#0\",\"uv\":[6,12.5,6.5,13]},\"up\":{\"texture\":\"#0\",\"uv\":[6,12.5,6.5,13]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[6,12.5,6.5,13]}},\"from\":[6,0,12.5],\"name\":\"wings_57\",\"to\":[6.5,0.5,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,13,10,12.5]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[9.5,12.5,10,13]},\"north\":{\"texture\":\"#0\",\"uv\":[10,12.5,9.5,13]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,12.5,10,13]},\"up\":{\"texture\":\"#0\",\"uv\":[9.5,12.5,10,13]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[9.5,12.5,10,13]}},\"from\":[9.5,0,12.5],\"name\":\"wings_58\",\"to\":[10,0.5,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,13.5,6,13]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[5.5,13,6,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6,13,5.5,13.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,13,6,13.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,13,6,13.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[5.5,13,6,13.5]}},\"from\":[5.5,0,13],\"name\":\"wings_59\",\"to\":[6,0.5,13.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,13.5,10.5,13]},\"east\":{\"rotation\":90,\"texture\":\"#0\",\"uv\":[10,13,10.5,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10.5,13,10,13.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10,13,10.5,13.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10,13,10.5,13.5]},\"west\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[10,13,10.5,13.5]}},\"from\":[10,0,13],\"name\":\"wings_60\",\"to\":[10.5,0.5,13.5]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],\"color\":0,\"name\":\"wings\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"textures\":{\"0\":\"arctic21_crate/wings\",\"particle\":\"arctic21_crate/wings\"}}",
+        "texture": [{
+            "name": "wings",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEVHcEzm/P+o6PJ+3uxpy9k60OYyxNkmsscfobT1vmH9AAAAAXRSTlMAQObYZgAAAQtJREFUeNqMkLFuwjAURa9jPsAWAx2jUEFHwytJRtR+AkrZifrwGiIwaxvJ+LMby4oqdepZ3vXxnS7+hZqCmM6fL/nbMIhU3SQWfRIDROrXffLWQAEC0ndJ8CDjNTVHISBvTAaQxOdYVUJrbaPwY1ACm0XtAhFAFNzQzVG1JZWnYGRYtdSWPSTzKfC2r5YcVswG8njjbWi9LcOSz1cD7I6OC18PtmB3PQCQu8bxy+P+za45GACzd2o+eH3hz4Ze9wCesScqrW+JZniLDeyhfV9ZjRhHMoh7XbbDQyFH4ol4hL6QkJif9WWtbxuYZMh1Is/UwlF6Z3KjMiAXc5MjUaTFCkxkadMcP6MVAAD8VTxvvQgeaAAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 220,
+    "type": "pickaxe",
+    "name": "Ice Climbing Pickaxe",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Netherite Pickaxe",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Pickaxe",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 100
+                },
+                {
+                    "Fortune": 30
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Haste II",
+                "Snow Particles On Mining"
+            ],
+            "skyblock": [
+                "Haste II",
+                "Snow Particles On Mining"
+            ],
+            "earth": [
+                "Haste II",
+                "Snow Particles On Mining"
+            ],
+            "prison": [
+                "Haste II",
+                "Snow Particles On Mining"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Haste II",
+                "Snow Particles On Mining"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[1.63,-0.55,1.13]},\"firstperson_righthand\":{\"scale\":[0.5,0.5,0.5],\"translation\":[1.63,-0.55,1.13]},\"fixed\":{\"rotation\":[0,90,0],\"translation\":[0.5,-3.5,-0.75]},\"ground\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,2,0]},\"gui\":{\"rotation\":[90,45,-90],\"scale\":[0.8,0.8,0.8],\"translation\":[-1.75,-3,0]},\"head\":{\"rotation\":[0,180,0],\"translation\":[0,13,-0.5]},\"thirdperson_lefthand\":{\"translation\":[0,-2.25,1]},\"thirdperson_righthand\":{\"translation\":[0,-2.25,1]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,9,8,10]},\"east\":{\"texture\":\"#0\",\"uv\":[6,10,7,11]},\"north\":{\"texture\":\"#0\",\"uv\":[7,10,8,11]},\"south\":{\"texture\":\"#0\",\"uv\":[9,10,10,11]},\"up\":{\"texture\":\"#0\",\"uv\":[8,10,7,9]},\"west\":{\"texture\":\"#0\",\"uv\":[8,10,9,11]}},\"from\":[7,1.25,7.25],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,1.75,8.75]},\"to\":[9,3.25,9.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2,0,1.5,1]},\"east\":{\"texture\":\"#0\",\"uv\":[0,1,1,9]},\"north\":{\"texture\":\"#0\",\"uv\":[1,1,1.5,9]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,1,3,9]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,1,1,0]},\"west\":{\"texture\":\"#0\",\"uv\":[1.5,1,2.5,9]}},\"from\":[7.5,2,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,1.5,8.5]},\"to\":[8.5,18,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,4.5,6,7]},\"east\":{\"texture\":\"#0\",\"uv\":[3,7,5.5,8]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,7,6,8]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,7,9,8]},\"up\":{\"texture\":\"#0\",\"uv\":[6,7,5.5,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6,7,8.5,8]}},\"from\":[7.5,18.25,2],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,1.5,8.5]},\"to\":[8.5,20.25,7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.5,0,10,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[8,1.5,9.5,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,1.5,10,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,1.5,12,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10,1.5,9.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[10,1.5,11.5,2.5]}},\"from\":[7.5,18.25,8],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,1.5,8.5]},\"to\":[8.5,20.25,11]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,8,4.5,8.5]},\"east\":{\"texture\":\"#0\",\"uv\":[3,8.5,3.5,11]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,8.5,4.5,11]},\"south\":{\"texture\":\"#0\",\"uv\":[5,8.5,6,11]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,8.5,3.5,8]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,8.5,5,11]}},\"from\":[6.9,14.65,1.8],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,19.75,2.5]},\"to\":[9.1,19.85,3]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,6.5,10,8.5]},\"east\":{\"texture\":\"#0\",\"uv\":[7,8.5,9,9]},\"north\":{\"texture\":\"#0\",\"uv\":[9,8.5,10,9]},\"south\":{\"texture\":\"#0\",\"uv\":[12,8.5,13,9]},\"up\":{\"texture\":\"#0\",\"uv\":[10,8.5,9,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[10,8.5,12,9]}},\"from\":[6.9,23.95,8.3],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,19.75,4]},\"to\":[9.1,25.15,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,0,5.5,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[3,1.5,4.5,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,1.5,5.5,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[7,1.5,8,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,1.5,4.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[5.5,1.5,7,4.5]}},\"from\":[7,5,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.5,1.5,8.5]},\"to\":[9,11,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,3,9,4.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,4.5,8,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[8,4.5,9,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10.5,4.5,11.5,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9,4.5,8,3]},\"west\":{\"texture\":\"#0\",\"uv\":[9,4.5,10.5,6.5]}},\"from\":[7,17,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.5,1.5,8.5]},\"to\":[9,21,9.5]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7],\"color\":0,\"name\":\"root\",\"origin\":[7.5,1.5,8.5]}],\"gui_light\":\"front\",\"texture_size\":[32,32],\"textures\":{\"0\":\"arctic21_crate/ice_climbing_pickaxe\",\"particle\":\"arctic21_crate/ice_climbing_pickaxe\"}}",
+        "texture": [{
+            "name": "ice_climbing_pickaxe",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEVHcEz43XK01OEM8f9D6I30hoZbvPQAzfkAmNxTYXRZV2MAaapEQ1AxMDovMDogHicUExvnEZOKAAAAAXRSTlMAQObYZgAAALlJREFUeNqMkgWOQzEMRKfo7IR8/9Oux8VPUp8UfmEDIHH+Ay6XUpBMxwLyer+dYFbrnsAEixUmvmgkW7vYJVA2n6yFIkGZe4y6+6GANSOEMaxYoIw02xOqBGVkKUuhtTZGqSVQRuY261tATKdame0K3TkkjGOhacPMDrawx23N7ECA8ABrYfY+RRaRNoKLmflaeDwUZn+vuxbyoR6LA577BC7/i4egcjXws+DJJlj+h6kAQjPQAIwCANQnEILzrsocAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 221,
+    "type": "sword",
+    "name": "Arctic Sword",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Netherite Sword",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Sword",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Sweeping Edge": 4
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Sweeping Edge": 4
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Sweeping Edge": 4
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Sweeping Edge": 4
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Looting": 3
+                },
+                {
+                    "Sharpness": 6
+                },
+                {
+                    "Sweeping Edge": 4
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Get hits with the sword to evolve it for better enchants and effects",
+                "Level 1:",
+                "Speed II",
+                "Level 2:",
+                "Speed II",
+                "Strength II",
+                "Snow Particles On Hit"
+            ],
+            "skyblock": [
+                "Get hits with the sword to evolve it for better enchants and effects",
+                "Level 1:",
+                "Speed II",
+                "Level 2:",
+                "Speed II",
+                "Strength II",
+                "Snow Particles On Hit"
+            ],
+            "earth": [
+                "Get hits with the sword to evolve it for better enchants and effects",
+                "Level 1:",
+                "Speed II",
+                "Level 2:",
+                "Speed II",
+                "Strength II",
+                "Snow Particles On Hit"
+            ],
+            "prison": [
+                "Get hits with the sword to evolve it for better enchants and effects",
+                "Level 1:",
+                "Speed II",
+                "Level 2:",
+                "Speed II",
+                "Strength II",
+                "Snow Particles On Hit"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Get hits with the sword to evolve it for better enchants and effects",
+                "Level 1:",
+                "Speed II",
+                "Level 2:",
+                "Speed II",
+                "Strength II",
+                "Snow Particles On Hit"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,8,0],\"scale\":[0.6,0.6,0.6],\"translation\":[2.25,-0.25,0]},\"firstperson_righthand\":{\"rotation\":[0,8,0],\"scale\":[0.6,0.6,0.6],\"translation\":[2.25,-0.25,0]},\"fixed\":{\"rotation\":[0,90,0],\"scale\":[0.8,0.8,0.8],\"translation\":[0,-5.5,-1.25]},\"ground\":{\"rotation\":[-57,-80,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,3,1.75]},\"gui\":{\"rotation\":[90,45.5,-90],\"scale\":[0.7,0.7,0.7],\"translation\":[-4.25,-3.25,0]},\"thirdperson_lefthand\":{\"translation\":[0,-1.25,1]},\"thirdperson_righthand\":{\"translation\":[0,-1.25,1]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.5,0,7,0.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6,0.5,6.5,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,0.5,7,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[7.5,0.5,8,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[7,0.5,6.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[7,0.5,7.5,2.5]}},\"from\":[7,4.5,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[-1,0.25,1]},\"to\":[9,12.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,5.5,3.75,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,6.5,3.5,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,6.5,3.75,7.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4.75,6.5,5,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,6.5,3.5,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3.75,6.5,4.75,7.5]}},\"from\":[7.5,12,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,14.25,8.5]},\"to\":[8.5,16,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.25,0,1.25,1.25]},\"east\":{\"texture\":\"#0\",\"uv\":[0,1.25,1.25,5]},\"north\":{\"texture\":\"#0\",\"uv\":[1.25,1.25,1.25,5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,1.25,2.5,5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.25,1.25,1.25,0]},\"west\":{\"texture\":\"#0\",\"uv\":[1.25,1.25,2.5,5]}},\"from\":[8,12,5.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.5,14.25,8.5]},\"to\":[8,27,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.25,0.75,9.25,1.25]},\"east\":{\"texture\":\"#0\",\"uv\":[8.75,1.25,9.25,5]},\"north\":{\"texture\":\"#0\",\"uv\":[9.25,1.25,9.25,5]},\"south\":{\"texture\":\"#0\",\"uv\":[9.75,1.25,9.75,5]},\"up\":{\"texture\":\"#0\",\"uv\":[9.25,1.25,9.25,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[9.25,1.25,9.75,5]}},\"from\":[8,10,10.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.5,14.25,8.5]},\"to\":[8,25,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,5,1.25,6]},\"east\":{\"texture\":\"#0\",\"uv\":[0,6,1,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[1,6,1.25,7.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2.25,6,2.5,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.25,6,1,5]},\"west\":{\"texture\":\"#0\",\"uv\":[1.25,6,2.25,7.5]}},\"from\":[7.5,20,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,14.25,8.5]},\"to\":[8.5,26,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,4.5,6.25,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[5,5.5,6,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6,5.5,6.25,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[7.25,5.5,7.5,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6.25,5.5,6,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6.25,5.5,7.25,6.5]}},\"from\":[7.6,21.1,-1.15],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,14.25,8.5]},\"to\":[8.4,24.9,2.65]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.25,2.5,4.25,4.25]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,4.25,4.25,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,4.25,4.25,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[6,4.25,6,5.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,4.25,4.25,2.5]},\"west\":{\"texture\":\"#0\",\"uv\":[4.25,4.25,6,5.5]}},\"from\":[8,22,-2.25],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8.5,14.25,8.5]},\"to\":[8,27,4.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.25,2.5,7,3.25]},\"east\":{\"texture\":\"#0\",\"uv\":[6,3.25,6.75,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[6.75,3.25,7,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[7.75,3.25,8,4.25]},\"up\":{\"texture\":\"#0\",\"uv\":[7,3.25,6.75,2.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7,3.25,7.75,4.25]}},\"from\":[7.5,16,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,14.25,8.5]},\"to\":[8.5,20,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,0,1.5,0.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0.75,0.75,1.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0.75,0.75,1.5,1.25]},\"south\":{\"texture\":\"#0\",\"uv\":[2.25,0.75,3,1.25]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,0.75,0.75,0]},\"west\":{\"texture\":\"#0\",\"uv\":[1.5,0.75,2.25,1.25]}},\"from\":[6.5,3,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[-0.5,0,1]},\"to\":[9.5,5,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,0,4.25,0.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3,0.75,3.75,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,0.75,4.25,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5,0.75,5.5,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,0.75,3.75,0]},\"west\":{\"texture\":\"#0\",\"uv\":[4.25,0.75,5,1.5]}},\"from\":[6.9,10.4,6.9],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,12,8.5]},\"to\":[9.1,13.6,10.1]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.25,1.25,4.25,3]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,3,4.25,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,3,4.25,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[6,3,6,4.25]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,3,4.25,1.25]},\"west\":{\"texture\":\"#0\",\"uv\":[4.25,3,6,4.25]}},\"from\":[8,8.5,2.5],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,12.5,5]},\"to\":[8,13.5,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.25,0,4.25,1.75]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,1.75,4.25,3]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,1.75,4.25,3]},\"south\":{\"texture\":\"#0\",\"uv\":[6,1.75,6,3]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,1.75,4.25,0]},\"west\":{\"texture\":\"#0\",\"uv\":[4.25,1.75,6,3]}},\"from\":[8,8.5,7.5],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,12.5,12]},\"to\":[8,13.5,14.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,4.25,7.5,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,4.75,7,5.25]},\"north\":{\"texture\":\"#0\",\"uv\":[7,4.75,7.5,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[8,4.75,8.5,5.25]},\"up\":{\"texture\":\"#0\",\"uv\":[7.5,4.75,7,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,4.75,8,5.25]}},\"from\":[7.1,1.6,8.1],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,2.25,8]},\"to\":[8.9,3.4,9.9]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12],\"color\":0,\"name\":\"root\",\"origin\":[0,0,0]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"arctic21_crate/ice_sword_2\",\"particle\":\"arctic21_crate/ice_sword_2\"}}",
+        "texture": [{
+            "name": "ice_sword_2",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAMFBMVEVHcEzu/v7s+P3/+JmU/f/43XK01OH/yCUM8f//ohQAzfkAmNxTYXQAaaoAOW0BI0ud/PN4AAAAAXRSTlMAQObYZgAAAr1JREFUeNq8lIGG3UwUx08I+D64Q9DuA/QNCkDCoZELqH2BYp/gcm2BEpwmoGCbgi6h6QkUi8jYN7hvsPoK9xXak0lk3Fh3Z7K1v51Zgfk558z/DgiJinJMwVBVN9cw8lsAJyJMMqr/keDbz6p6ZgX7/bMF83FXhR2il8Cenlc14yEgpHntktdV9SV6J0WI4OF+2PAUzJbdp0Hwygge7oc/B4F0P68dfa6qr2QExz/C8XgEH3b8Y7//yIsKPKhu9sK1hHGlwOLZQhzCAlvBywgQwfBfC4b+u08LVhAqZBAYVbyuAshYA2iu17aQXOhBoG8jgH0lyKU6C+wUZAKeP2crwFb/+l/3CIarAwg+giACDbKSzakgjOE8UQITQQZQj8etIAzj2FkAwlIQRFLSOVAphCU+glip0EbQBlIEdkZnBcEmhDmCUyBLXVOmOwKDm0AiaANZ9jmlraMgjEeBRHAOZNYQUVGjyzUOZdsJTFPIaGAUBBsngY3gEMiUGioox+F8sDlvQLNsBE0g00IEzShIog24IBG0gUxZBGwEYRLF4IQVAGRGMM4gieA8SsGjXF0hggubAB7lwxvE1a8yHgaBUh4CFaWEICDliRKBtOAlAMR8FKSIwAfKEVO6vIRVzIL3b+FpiBYvl3zRgW6VuvARhMoKVEwHVAJKC26CJXQAywsJ7DEkyiklQlwraM171q8W5KzvaKs5pZWCouCGZDcuAm51Q4XumayASHdUaiJ2Eehe+m31qaDsZLkJSs0ycdbdicA8iI6CvpEKinYhEFwFXMjEG+6kj05qKfsawYeiaUXQF1LzNI2GwIeskBOya9xqvqULiQCCDymbO+cctz1LBdx6CjK+E8GWa8zYCLj2FLRG0BuBfHkLCok9SfDNxU//wIdyEnRkgb/twbEAAAAAwCB/60nsrFYAAAAABKCP74XU23VOAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 222,
+    "type": "misc",
+    "name": "Arctic Wand",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctics Crates",
+            "type": "Blaze Rod",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Wand",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Shoots magical ice projectiles that damage entities and players"
+            ],
+            "skyblock": [
+                "Shoots magical ice projectiles that damage entities and players"
+            ],
+            "earth": [
+                "Shoots magical ice projectiles that damage entities and players"
+            ],
+            "prison": [
+                "Shoots magical ice projectiles that damage entities and players"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Shoots magical ice projectiles that damage entities and players"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,-76,9],\"scale\":[0.68,0.68,0.68],\"translation\":[1.38,-0.8,1.13]},\"firstperson_righthand\":{\"rotation\":[0,-76,9],\"scale\":[0.68,0.68,0.68],\"translation\":[1.38,-0.8,1.13]},\"fixed\":{\"rotation\":[0,180,41],\"translation\":[-1,-2,-1.75]},\"ground\":{\"scale\":[0.5,0.5,0.5],\"translation\":[0,2,0]},\"gui\":{\"rotation\":[0,0,45],\"translation\":[1.75,-2,0]},\"head\":{\"rotation\":[0,180,0],\"translation\":[0,13,7]},\"thirdperson_lefthand\":{\"rotation\":[0,90,0],\"scale\":[1.1,1.1,1.1],\"translation\":[0,-1,2]},\"thirdperson_righthand\":{\"rotation\":[0,90,0],\"scale\":[1.1,1.1,1.1],\"translation\":[0,-1,2]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,0,5.5,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4,1.5,5.5,3]},\"north\":{\"texture\":\"#0\",\"uv\":[4,0,5.5,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4,3,5.5,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,7,0,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[4,4.5,5.5,6]}},\"from\":[6.58,11.08,6.58],\"rotation\":{\"angle\":45,\"axis\":\"y\",\"origin\":[8,10.25,8]},\"to\":[9.42,13.92,9.42]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,1.5,5.5,3]},\"east\":{\"texture\":\"#0\",\"uv\":[2,7,3.5,8]},\"north\":{\"texture\":\"#0\",\"uv\":[7,1,8.5,2]},\"south\":{\"texture\":\"#0\",\"uv\":[7,2,8.5,3]},\"up\":{\"texture\":\"#0\",\"uv\":[3,7,1.5,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7,3,8.5,4]}},\"from\":[6.5,13,6.5],\"rotation\":{\"angle\":45,\"axis\":\"y\",\"origin\":[8,10.25,8]},\"to\":[9.5,15,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,4.5,5.5,6]},\"east\":{\"texture\":\"#0\",\"uv\":[7,4,8.5,5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,7,5,8]},\"south\":{\"texture\":\"#0\",\"uv\":[5,7,6.5,8]},\"up\":{\"texture\":\"#0\",\"uv\":[7,4.5,5.5,3]},\"west\":{\"texture\":\"#0\",\"uv\":[7,5,8.5,6]}},\"from\":[6.5,2,6.5],\"rotation\":{\"angle\":45,\"axis\":\"y\",\"origin\":[8,10.25,8]},\"to\":[9.5,4,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.5,4,8.5,5]},\"east\":{\"texture\":\"#0\",\"uv\":[8.5,2,9.5,3]},\"north\":{\"texture\":\"#0\",\"uv\":[5,8,6,9]},\"south\":{\"texture\":\"#0\",\"uv\":[2.5,8.5,3.5,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,9.5,3.5,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[8.5,3,9.5,4]}},\"from\":[6.9,-0.1,6.9],\"rotation\":{\"angle\":45,\"axis\":\"y\",\"origin\":[8,10.25,8]},\"to\":[9.1,2.1,9.1]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,5.5,3.5,6]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,7,7,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7,6,7.5,8.5]},\"south\":{\"texture\":\"#0\",\"uv\":[7.5,6,8,8.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3.5,6,3,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[0,8,0.5,10.5]}},\"from\":[7.6,16.6,7.6],\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[8,19,8]},\"to\":[8.4,21.4,8.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,9,5.5,10]},\"east\":{\"texture\":\"#0\",\"uv\":[7,8.5,8,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,5,9.5,6]},\"south\":{\"texture\":\"#0\",\"uv\":[8,8.5,9,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,10,4.5,9]},\"west\":{\"texture\":\"#0\",\"uv\":[9,0,10,1]}},\"from\":[7,18,7],\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[7.5,19,8]},\"to\":[9,20,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10,5.5,9.5,6]},\"east\":{\"texture\":\"#0\",\"uv\":[1,8,1.5,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,8,1,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,8,2,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5,9,4.5,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2,8,2.5,10.5]}},\"from\":[7.6,16.6,7.6],\"rotation\":{\"angle\":45,\"axis\":\"z\",\"origin\":[8,19,8]},\"to\":[8.4,21.4,8.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.5,7,8,7.5]},\"east\":{\"texture\":\"#0\",\"uv\":[7.5,9.5,8,10]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,8,5,8.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8,6,10.5,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,7,8,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[8,9.5,8.5,10]}},\"from\":[5.6,18.6,7.6],\"rotation\":{\"angle\":0,\"axis\":\"z\",\"origin\":[7.5,19,8]},\"to\":[10.4,19.4,8.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,1.5,8.5,2]},\"east\":{\"texture\":\"#0\",\"uv\":[8.5,9.5,9,10]},\"north\":{\"texture\":\"#0\",\"uv\":[8,7.5,10.5,8]},\"south\":{\"texture\":\"#0\",\"uv\":[8,8,10.5,8.5]},\"up\":{\"texture\":\"#0\",\"uv\":[11,1.5,8.5,1]},\"west\":{\"texture\":\"#0\",\"uv\":[9,9.5,9.5,10]}},\"from\":[5.6,18.6,7.6],\"rotation\":{\"angle\":45,\"axis\":\"z\",\"origin\":[8,19,8]},\"to\":[10.4,19.4,8.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.5,2,9.5,3]},\"east\":{\"texture\":\"#0\",\"uv\":[1,0,2,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,1,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[2,0,3,5.5]},\"up\":{\"texture\":\"#0\",\"uv\":[10,9.5,9,8.5]},\"west\":{\"texture\":\"#0\",\"uv\":[3,0,4,5.5]}},\"from\":[7.1,3.1,7.1],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,8,8]},\"to\":[8.9,13.9,8.9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,3,9.5,3.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6,8,6.5,9]},\"north\":{\"texture\":\"#0\",\"uv\":[3,6,5,7]},\"south\":{\"texture\":\"#0\",\"uv\":[5,6,7,7]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,10,2.5,9.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9.5,4.5,10,5.5]}},\"from\":[7,13,7.5],\"rotation\":{\"angle\":45,\"axis\":\"z\",\"origin\":[8,15.25,7.5]},\"to\":[11,15,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4,10,3.5,10.5]},\"east\":{\"texture\":\"#0\",\"uv\":[10,0,10.5,0.5]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,9.5,10,10]},\"south\":{\"texture\":\"#0\",\"uv\":[10,0.5,10.5,1]},\"up\":{\"texture\":\"#0\",\"uv\":[3.5,10.5,3,10]},\"west\":{\"texture\":\"#0\",\"uv\":[2.5,10,3,10.5]}},\"from\":[10,12,7.5],\"rotation\":{\"angle\":45,\"axis\":\"z\",\"origin\":[8,15.25,7.5]},\"to\":[11,13,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,10,5.5,10.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.5,10,5,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4,10,4.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10,4.5,10.5,5]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,5.5,10,5]},\"west\":{\"texture\":\"#0\",\"uv\":[5,10,5.5,10.5]}},\"from\":[5,12,7.5],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[8,15.25,7.5]},\"to\":[6,13,8.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,4,9.5,4.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,9.5,7,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,7,2,8]},\"south\":{\"texture\":\"#0\",\"uv\":[7,0,9,1]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,4,9.5,3.5]},\"west\":{\"texture\":\"#0\",\"uv\":[7,9.5,7.5,10.5]}},\"from\":[5,13,7.5],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[8,15.25,7.5]},\"to\":[9,15,8.5]}],\"groups\":[{\"children\":[0,1,2,3,{\"children\":[4,5,6,7,8],\"color\":0,\"name\":\"group\",\"origin\":[8,13,8]},9,10,11,12,13],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"texture_size\":[32,32],\"textures\":{\"0\":\"arctic21_crate/ice_wand\",\"particle\":\"arctic21_crate/ice_wand\"}}",
+        "texture": [{
+            "name": "ice_wand",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAG1BMVEVHcEzu/v6U/f8M8f8AzfkAmNwAaaoAOW0BI0tYnvynAAAAAXRSTlMAQObYZgAAAZpJREFUeNp004mBIiEQBVA0gik0APn0BjB8JgClEtiDzWA3BVMw7Cm87S6/tz6p/n2E/9eEc5Cn1ruEp9xAZDqDyhn49/dyq9rsU9Zm4PMZnI4nux+PIM5ADSRvhRU+7JPEJiTFA2EAUC9gOcLeklTVyR4HZ4XIRBKgCy4tSEpsJdtO8VuQBHW9MeC3uGzD+uMNCAMgMwzgt0gSa5KSqUq3hUCUWPtgtIhIYxt29VDgtjBAYB0GcFsIJEkMwR9hLexXgnOwOBb2unlzRpEsoIHogcuxsCnaSQ+AoAXcf70Cy/hfvB+LX18xzNIGsBYFuYC9LwAoyBPH/olpfsaNCIFMshVs97MT6gIi8+hQtdTmrhBbViXVABeANrmmcRDsLpWLEWSBEgQJusAm6y30RthkAgXZ7qxtsQKipMvlVjK43S9W0K3sL5db2YExTY318AIqm5YcQlwZUO1/7KyfAWrZDRAG+L31wMqA9t6l998/XBBuwOIB5KkNQIhlMwftCYzEMKvZlIyflBSIsAiiAGBMeAO+N+zAKBgFAP8GvGfhAWHmAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
 }
 ];
