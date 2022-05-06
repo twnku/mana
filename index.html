@@ -1905,7 +1905,7 @@
 			}
 
             function loadPreviewData(itemID){
-				$('#txtrsrcs').val(itemData[itemID].model.texture);
+				$('#txtrsrcs').val(JSON.stringify(itemData[itemID].model.texture));
 				$('#txtrsmdl').val(itemData[itemID].model.model);
                 $('#item_container_list').empty();
                 $('#item_container_preview').removeClass('d-none');
