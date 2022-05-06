@@ -23686,5 +23686,2184 @@ var itemData = [{
             "z": 25
         }
     }
+},,{
+    "id": 236,
+    "type": "sword",
+    "name": "Banana Sword",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Netherite Sword",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Banana Sword",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sweeping Edge": 2
+                },
+                {
+                    "Knockback": 2
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "skyblock": [{
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Knockback": 2
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "earth": [{
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sweeping Edge": 2
+                },
+                {
+                    "Knockback": 2
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "prison": [{
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sweeping Edge": 2
+                },
+                {
+                    "Knockback": 2
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "parkour": [{
+                    "Sharpness": 3
+                },
+                {
+                    "Unbreaking": 5
+                }
+            ],
+            "kitpvp": [{
+                    "Sharpness": 3
+                },
+                {
+                    "Unbreaking": 5
+                }
+            ],
+            "island": [{
+                    "Sharpness": 7
+                },
+                {
+                    "Looting": 5
+                },
+                {
+                    "Sweeping Edge": 2
+                },
+                {
+                    "Knockback": 2
+                },
+                {
+                    "Unbreakable": 1
+                }
+            ],
+            "faction": [{
+                    "Sharpness": 6
+                },
+                {
+                    "Unbreaking": 10
+                },
+                {
+                    "Knockback": 2
+                }
+            ]
+        },
+        "effects": {
+            "survival": [
+                "Banana Particles",
+                "Satruation I",
+                "Haste II"
+            ],
+            "skyblock": [
+                "Banana Particles",
+                "Satruation I",
+                "Haste II"
+            ],
+            "earth": [
+                "Banana Particles",
+                "Satruation I",
+                "Haste II"
+            ],
+            "prison": [
+                "Banana Particles",
+                "Satruation I",
+                "Haste II"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Banana Particles",
+                "Satruation I",
+                "Haste II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.4,0.4,0.4],\"translation\":[2.75,0,0]},\"firstperson_righthand\":{\"scale\":[0.4,0.4,0.4],\"translation\":[2.75,0,0]},\"fixed\":{\"rotation\":[0,90,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,-4,-1.5]},\"ground\":{\"scale\":[0.25,0.25,0.25],\"translation\":[0,3,0]},\"gui\":{\"rotation\":[87.31,41.94,-88.23],\"scale\":[0.8,0.8,0.8],\"translation\":[-3.25,-2,0]},\"thirdperson_lefthand\":{\"translation\":[0,0.5,5.25]},\"thirdperson_righthand\":{\"translation\":[0,0.5,5.25]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,9.5,0,11]},\"east\":{\"texture\":\"#0\",\"uv\":[4.5,5,6,9]},\"north\":{\"texture\":\"#0\",\"uv\":[3,5,4.5,9]},\"south\":{\"texture\":\"#0\",\"uv\":[0,5.5,1.5,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[8.5,10.5,7,9]},\"west\":{\"texture\":\"#0\",\"uv\":[5.5,0,7,4]}},\"from\":[6.5,-1,5],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7.5,2.5,1]},\"to\":[9.5,7,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12,8,11,9]},\"east\":{\"texture\":\"#0\",\"uv\":[10,8,11,10]},\"north\":{\"texture\":\"#0\",\"uv\":[10,6,11,8]},\"south\":{\"texture\":\"#0\",\"uv\":[10,10,11,12]},\"up\":{\"texture\":\"#0\",\"uv\":[12,8,11,7]},\"west\":{\"texture\":\"#0\",\"uv\":[4,10.5,5,12.5]}},\"from\":[7,-4,4.5],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,2.5,1]},\"to\":[9,0,6.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,10.5,8,12]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[1.5,5.5,2.5,11]},\"south\":{\"texture\":\"#0\",\"uv\":[6,4,7,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[8,12,7,10.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1.5,0,3,5.5]}},\"from\":[7,13.75,-1.75],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,2,1.25]},\"to\":[9,24.75,1.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3,7.5,2.5,8.5]},\"east\":{\"texture\":\"#0\",\"uv\":[5,10.5,6,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2.5,5.5,3,7.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11,9,11.5,11]},\"up\":{\"texture\":\"#0\",\"uv\":[6,5,5.5,4]},\"west\":{\"texture\":\"#0\",\"uv\":[6,10.5,7,12.5]}},\"from\":[7.5,22.4987,10.04754],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,25.2487,9.79754]},\"to\":[8.5,26.4987,12.04754]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11.5,4.5,10,6]},\"east\":{\"texture\":\"#0\",\"uv\":[7,3,8.5,6]},\"north\":{\"texture\":\"#0\",\"uv\":[7,0,8.5,3]},\"south\":{\"texture\":\"#0\",\"uv\":[7,6,8.5,9]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,4.5,10,3]},\"west\":{\"texture\":\"#0\",\"uv\":[8.5,0,10,3]}},\"from\":[6.5,8,3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.5,2,1.25]},\"to\":[9.5,14,6]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,2.5,3,5]},\"east\":{\"texture\":\"#0\",\"uv\":[10,0,12.5,1]},\"north\":{\"texture\":\"#0\",\"uv\":[4,9.5,6.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[10,1,12.5,2]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,2.5,3,0]},\"west\":{\"texture\":\"#0\",\"uv\":[10,2,12.5,3]}},\"from\":[5.7,8.2,2.2],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[6.5,2,1.25]},\"to\":[10.3,9.8,6.8]},{\"faces\":{\"down\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[1.5,12,0,13]},\"east\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"north\":{\"texture\":\"#0\",\"uv\":[1,0,0,0]},\"south\":{\"texture\":\"#0\",\"uv\":[1,0,0,0]},\"up\":{\"texture\":\"#0\",\"uv\":[9,12,10,10.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]}},\"from\":[4.75,10,3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[9.5,2,1.25]},\"to\":[6.75,10,6]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[13.5,6.5,12,9]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0,1.5,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[10,8,8.5,10.5]}},\"from\":[4.75,5,3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[9.5,2,1.25]},\"to\":[4.75,10,6]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,13,0,12]},\"east\":{\"texture\":\"#0\",\"uv\":[1,0,0,0]},\"north\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,11,0,12]},\"west\":{\"texture\":\"#0\",\"uv\":[1,0,0,0]}},\"from\":[6.5,10,1],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[5.5,2,14.75]},\"to\":[9.5,10,3]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10,5.5,8.5,8]},\"south\":{\"texture\":\"#0\",\"uv\":[13.5,6.5,12,9]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]}},\"from\":[6.5,5,1],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[5.5,2,14.75]},\"to\":[9.5,10,1]},{\"faces\":{\"down\":{\"rotation\":270,\"texture\":\"#0\",\"uv\":[0,13,1.5,12]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,0]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,1,0]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,1,0]},\"up\":{\"texture\":\"#0\",\"uv\":[10,12,9,10.5]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,0]}},\"from\":[9.25,10,3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[6.5,2,1.25]},\"to\":[11.25,10,6]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[8.5,8,10,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0,1.5,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[12,6.5,13.5,9]}},\"from\":[11.25,5,3],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[6.5,2,1.25]},\"to\":[11.25,10,6]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,12,0,13]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,1,0]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,0]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,0]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,12,0,11]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,1,0]}},\"from\":[6.5,10,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[5.5,2,1.25]},\"to\":[9.5,10,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]},\"north\":{\"texture\":\"#0\",\"uv\":[12,6.5,13.5,9]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,5.5,10,8]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,0,2.5]}},\"from\":[6.5,5,8],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[5.5,2,1.25]},\"to\":[9.5,10,8]}],\"groups\":[{\"children\":[0,1,2,3,4,5,{\"children\":[6,7,8,9,10,11,12,13],\"color\":0,\"name\":\"group\",\"origin\":[5.5,2,1.25]}],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"texture_size\":[32,32],\"textures\":{\"0\":\"banana_crate/banana_sword\",\"particle\":\"banana_crate/banana_sword\"}}",
+        "texture": [{
+            "name": "banana_sword",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJFBMVEVHcEz//MP06Zz/61fp1Hz/yCXbvGX/ohTtdhROTEk1MzAhHxxustccAAAAAXRSTlMAQObYZgAAAi1JREFUeNqM0kFqHDsQBmBh8AEkhNfWj25QGL+tRB3ggSkmW29yATPI+xDcV7BzArdPEPflotK0Zqa7J0l+elX6aKmKMoEBdqIhEa7JeKBCZOaEDERHek4vwmBOK8A1HdABiAwiR+BraQbfiC3nhFKGUjqAYw4oFRR6IlggWdF0YPUP9hzkNcgx2XaFghrGEjggHAG3FE0H8EACSRGSBgAQFbr7dxCBjKKRvTSwnAO0ixl8n0Gbw7ZNBYhcawD68Qb434ChguGvoLwU+FhrGfEEaikntCsAWI8NcDGHA7AVxDXoc9gPOwVgLN/QJ9k655iZ+TKggUQoZgAbEJlzA8/k0wUgIgDrlj6TtQA80hrE/FXBfzOwG8DcwD0FB8DZMI7mlHqU4wwAsF6xBdyAdmERbVZwL09HkPwlQCcQHOvG3YtP9QFX9nasuaOHLbCaK76dpnE8XTEQAF3CXQWRs2GjYEf7NfhSATMbmLf3M1CPYp5Bm4O2WXNN/x8B8wwABbaCj8/rcg5MB32SP36aYs6BrsNziblf8fZupANRcEjMItIGBXNMKSX3DQQO4HOyJ7CXXQOkszIV1ElOK5D8AvDt+IoFCE7foo0oMGwWbxiGoYG21w1gCWodMKYWg08ONRZrwNyA9cm6ADAvgEcypgF38xhyBIJdrJy3HeDmEcwKpukMRJs7iFm/ii6C6UNP+yPPQF+taYJPMNv0zXkdAVwCQmL+mJ3sza8NDTAKAP1hKKA4Vyi4AAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 237,
+    "type": "fishingrod",
+    "name": "Banana Rod",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Fishing Rod",
+            "slot": "Tools",
+            "customTexture": false,
+            "customEffect": false,
+            "rarity": "Rare",
+            "lore": "Banana Fishing Rod",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                    "Unbreaking": 10
+                },
+                {
+                    "Knockback": 2
+                },
+                {
+                    "Luck of the Sea": 3
+                },
+                {
+                    "Lure": 3
+                }
+            ],
+            "kitpvp": [{
+                    "Unbreaking": 10
+                },
+                {
+                    "Knockback": 2
+                },
+                {
+                    "Luck of the Sea": 3
+                },
+                {
+                    "Lure": 3
+                }
+            ],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                    "Unbreaking": 10
+                },
+                {
+                    "Knockback": 3
+                },
+                {
+                    "Luck of the Sea": 3
+                },
+                {
+                    "Lure": 3
+                }
+            ]
+        },
+        "effects": {
+            "survival": [],
+            "skyblock": [],
+            "earth": [],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVQ4y2NgGAiQkpLy38XF5T/Zmj3NRP9ryHGTbgDIVpDmDD850g2Aae5MVwdrJskL6JphYmRrhoUF2ZqJMoBQgJWUlPynKLTxuoAqmrds3gzGpqam/7G5EKdmWCqbNm0aVgOI0gzigzQia/4PBMg0BgBpxJc8QS7CqZkSAADs7H6sIgQ4AAAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 238,
+    "type": "bow",
+    "name": "Banana Bow",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Bow",
+            "slot": "Tools",
+            "customTexture": false,
+            "customEffect": false,
+            "rarity": "Rare",
+            "lore": "Banana Bow",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                    "Power": 3
+                },
+                {
+                    "Punch": 3
+                },
+                {
+                    "Unbreaking": 5
+                },
+                {
+                    "Flame": 1
+                },
+                {
+                    "Infinity": 1
+                }
+            ],
+            "kitpvp": [{
+                    "Power": 3
+                },
+                {
+                    "Punch": 3
+                },
+                {
+                    "Unbreaking": 5
+                },
+                {
+                    "Flame": 1
+                },
+                {
+                    "Infinity": 1
+                }
+            ],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                    "Power": 5
+                },
+                {
+                    "Punch": 3
+                },
+                {
+                    "Unbreaking": 10
+                },
+                {
+                    "Flame": 1
+                },
+                {
+                    "Infinity": 1
+                }
+            ]
+        },
+        "effects": {
+            "survival": [],
+            "skyblock": [],
+            "earth": [],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgoCfwNBP9j4xJ1tSZrv4/w08OjEFsDTnu/wQ1wjTBNCBjvJqzs7PBGrFpcHFxIax52rRpYBpdnnaaYQaAnE22ZlwhS1Azsu3oBhClGZcL6KMZm/NJ0oxuAMmaCcUA0YBczQDVGni1vuKfywAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 239,
+    "type": "misc",
+    "name": "Banana Scepter",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Stick",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Banana Scepter",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Slap a container (chest) with it to sell all items inside.",
+                "Uses: Unlimited"
+            ],
+            "skyblock": [
+                "Slap a container (chest) with it to sell all items inside.",
+                "Uses: Unlimited",
+                "Multiplier: 15%"
+            ],
+            "earth": [
+                "Slap a container (chest) with it to sell all items inside.",
+                "Uses: Unlimited"
+            ],
+            "prison": [
+                "Slap a container (chest) with it to sell all items inside.",
+                "Uses: Unlimited",
+                "Multiplier: 15%"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Slap a container (chest) with it to sell all items inside.",
+                "Uses: Unlimited",
+                "Multiplier: 15%"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,15,0],\"scale\":[0.3,0.3,0.3],\"translation\":[0.25,3.25,1.25]},\"firstperson_righthand\":{\"rotation\":[0,15,0],\"scale\":[0.3,0.3,0.3],\"translation\":[0.25,3.25,1.25]},\"fixed\":{\"rotation\":[-90,43,90],\"scale\":[0.6,0.6,0.6],\"translation\":[-1.5,1,-1.5]},\"ground\":{\"scale\":[0.25,0.25,0.25],\"translation\":[0,3,0]},\"gui\":{\"rotation\":[86.95,48.94,-87.73],\"scale\":[0.47,0.47,0.47],\"translation\":[0.25,1.25,0]},\"thirdperson_lefthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,5.5,2]},\"thirdperson_righthand\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,5.5,2]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.5,1,6.5,2]},\"east\":{\"texture\":\"#0\",\"uv\":[4.25,1.5,5.25,3]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,0,5.25,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4.25,3,5.25,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[7.5,1,6.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,4.5,1,6]}},\"from\":[6,-16,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,0,1]},\"to\":[10,-10,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,7,5,8]},\"east\":{\"texture\":\"#0\",\"uv\":[1,6.75,2,7.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,4,7.5,5]},\"south\":{\"texture\":\"#0\",\"uv\":[2,6.75,3,7.75]},\"up\":{\"texture\":\"#0\",\"uv\":[5,8,4,7]},\"west\":{\"texture\":\"#0\",\"uv\":[3,7,4,8]}},\"from\":[6,6,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,0,1]},\"to\":[10,10,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,2.25,0,4.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.25,2.5,8.5,3]},\"north\":{\"texture\":\"#0\",\"uv\":[6.25,2,8.5,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[6.25,3,8.5,3.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,2.25,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[6.25,3.5,8.5,4]}},\"from\":[3.5,10,3.5],\"rotation\":{\"angle\":45,\"axis\":\"y\",\"origin\":[8,11,8]},\"to\":[12.5,12,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.75,8.75,1.25,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[2.75,0,3.25,4.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2.25,0,2.75,4.5]},\"south\":{\"texture\":\"#0\",\"uv\":[3.25,0,3.75,4.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.25,9.25,0.75,8.75]},\"west\":{\"texture\":\"#0\",\"uv\":[3.75,0,4.25,4.5]}},\"from\":[7,-11,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,0,1]},\"to\":[9,7,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.75,8.75,2.25,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[3.5,8,4,9.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3,8,3.5,9.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4,8,4.5,9.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,9.25,1.75,8.75]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,8,5,9.5]}},\"from\":[7,11,7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0,0,1]},\"to\":[9,17,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,4.5,4.5,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[1,4.5,2.25,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7,5,8,6]},\"south\":{\"texture\":\"#0\",\"uv\":[6,7,7,8]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,5.75,3.5,4.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2.25,4.5,3.5,5.5]}},\"from\":[6,14.17034,3.27623],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,20.6016,7.60262]},\"to\":[10,18.17034,8.27623]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.25,3.25,5.25,4.5]},\"east\":{\"texture\":\"#0\",\"uv\":[5.25,0,6.5,1]},\"north\":{\"texture\":\"#0\",\"uv\":[7,6,8,7]},\"south\":{\"texture\":\"#0\",\"uv\":[7,7,8,8]},\"up\":{\"texture\":\"#0\",\"uv\":[6.25,3.25,5.25,2]},\"west\":{\"texture\":\"#0\",\"uv\":[5.25,1,6.5,2]}},\"from\":[5.8,14.22034,5.07623],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,20.6016,7.60262]},\"to\":[10.2,18.62034,10.47623]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.75,6,8,7]},\"east\":{\"texture\":\"#0\",\"uv\":[0,7.25,1,8.25]},\"north\":{\"texture\":\"#0\",\"uv\":[5,8,5.75,9]},\"south\":{\"texture\":\"#0\",\"uv\":[8,5,8.75,6]},\"up\":{\"texture\":\"#0\",\"uv\":[6.5,9,5.75,8]},\"west\":{\"texture\":\"#0\",\"uv\":[7.5,0,8.5,1]}},\"from\":[6.5,13,5],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,20.6016,7.60262]},\"to\":[9.5,17,9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,0,8.5,1]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,8,7.5,8.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,5,7,5.75]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,1,9,1.75]},\"up\":{\"texture\":\"#0\",\"uv\":[8.75,8.75,8.25,7.75]},\"west\":{\"texture\":\"#0\",\"uv\":[8,7,9,7.75]}},\"from\":[7,13.67832,5.84489],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,20.6016,7.60262]},\"to\":[9,16.67832,9.84489]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,4,8.5,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[7.5,8,8.25,8.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.5,1.75,9,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,2.5,9,3.25]},\"up\":{\"texture\":\"#0\",\"uv\":[9,4,8.5,3.25]},\"west\":{\"texture\":\"#0\",\"uv\":[0,8.25,0.75,9]}},\"from\":[7,24.80065,7.70742],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,26.05065,9.20742]},\"to\":[9,27.80065,10.70742]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.5,4,7.5,5]},\"east\":{\"texture\":\"#0\",\"uv\":[2,5.5,3,6.75]},\"north\":{\"texture\":\"#0\",\"uv\":[1,5.5,2,6.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,4.5,6.5,5.75]},\"up\":{\"texture\":\"#0\",\"uv\":[8.5,2,7.5,1]},\"west\":{\"texture\":\"#0\",\"uv\":[3,5.75,4,7]}},\"from\":[6,19.90562,10.01152],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,20.6016,7.60262]},\"to\":[10,24.90562,14.01152]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3,7.75,2,8.75]},\"east\":{\"texture\":\"#0\",\"uv\":[5,5.75,6,7]},\"north\":{\"texture\":\"#0\",\"uv\":[4,5.75,5,7]},\"south\":{\"texture\":\"#0\",\"uv\":[0,6,1,7.25]},\"up\":{\"texture\":\"#0\",\"uv\":[2,8.75,1,7.75]},\"west\":{\"texture\":\"#0\",\"uv\":[6,5.75,7,7]}},\"from\":[5.9,17.80562,9.66152],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,20.6016,7.60262]},\"to\":[10.1,23.00562,13.86152]}],\"groups\":[{\"children\":[0,1,2,3,4,{\"children\":[5,6,7,8,9,10,11],\"color\":0,\"name\":\"group\",\"origin\":[7.5,30,8.5]}],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"banana_crate/banana_wand\",\"particle\":\"banana_crate/banana_wand\"}}",
+        "texture": [{
+            "name": "banana_wand",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAG1BMVEVHcEz/61f/yCX/ohTtdhSvaD+YUTKGOyRtJxD8REutAAAAAXRSTlMAQObYZgAAAddJREFUeNps0jGv0zAQB/CKgd2uBCv+O4j1xefu1D5gp3LK+EQVNyOiUtwPgGg+Nj6hJ4STi+zFv7PuztkN5TwPOeeLduSMVg67/+NbKfdUUvmqYBSgsQJjmoYlLxf2vdaGHDXgmtL5upRlvv+K5CwTt2DI5+tU5hs7cs76iBbkfB3zkC/oFbbAuYKUUz4ZpzwqWRX5KIt0ceotsYDSgCGl4W8XDu/HlMbcAGIyH2oXZb6QjEq1NzBT96WUcmPiQ8pjWt/A/DmP+eQsKBqF9gYEhIN0oWoNOQ2rGnTA8SBdwHPQxNQCFbrjYRnkLeiT1LC0gDlIF/N0o16TD6UBhnr1toLaBZ4QgNwAS1Bv5IeBgLgGvQURAZCHog1gCAYaqIzZV7Brwkd0HGq+s6GjCt814DGT50hEoQsdbwAvh7yTfGc5dCsAcjZarnu/7/cbwFmlonG+Hlu3B+hpBWqe1d5oB9gNIDNwcB1kinWPHxsQvRVhXwC3gLmDDZVApiS2AVb56IMLQOgEhBbAVFA/AbJiCyxJngBZzK/aORALyDW0Buz0swX353/Aobt/b8H04wW4vofPt3ZQs5w959/LxEez24rXAspjuf8ZAz4AMoaBbmAUjIJRAACPl5/dkgPTmwAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 240,
+    "type": "hoe",
+    "name": "Banana Scythe",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Netherite Hoe",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Banana Scythe",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Automatically haervests and replants in 4x4 area",
+                "Uses: Unlimited",
+                "Multiplier: 15%"
+            ],
+            "skyblock": [
+                "Automatically haervests and replants in 4x4 area",
+                "Uses: Unlimited",
+                "Multiplier: 15%"
+            ],
+            "earth": [
+                "Automatically haervests and replants in 4x4 area",
+                "Uses: Unlimited"
+            ],
+            "prison": [
+                "Automatically haervests and replants in 4x4 area",
+                "Uses: Unlimited",
+                "Multiplier: 15%"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Automatically haervests and replants in 4x4 area",
+                "Uses: Unlimited",
+                "Multiplier: 15%"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,8.75,0],\"scale\":[0.4,0.4,0.4],\"translation\":[2.75,0,0]},\"firstperson_righthand\":{\"rotation\":[0,8.75,0],\"scale\":[0.4,0.4,0.4],\"translation\":[2.75,0,0]},\"fixed\":{\"rotation\":[89.59,51.75,-89.69],\"translation\":[2.25,2,-1.75]},\"ground\":{\"scale\":[0.2,0.2,0.2],\"translation\":[0,2,0]},\"gui\":{\"rotation\":[89.59,51.75,-89.69],\"scale\":[0.4,0.4,0.4],\"translation\":[-1.25,0,-1.75]},\"thirdperson_lefthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[0,5.25,2.25]},\"thirdperson_righthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[0,5.25,2.25]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.5,4.5,13.25,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[2,11.25,3.25,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7,10.75,8.25,13]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,9.25,12.75,11.5]},\"up\":{\"texture\":\"#0\",\"uv\":[14.5,4.5,13.25,3.25]},\"west\":{\"texture\":\"#0\",\"uv\":[11.5,11.5,12.75,13.75]}},\"from\":[5.5,-13,5.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,-5,1.5]},\"to\":[10.5,-4,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,12.5,3.25,14]},\"east\":{\"texture\":\"#0\",\"uv\":[9.25,3.5,10.75,5.75]},\"north\":{\"texture\":\"#0\",\"uv\":[2,9,3.5,11.25]},\"south\":{\"texture\":\"#0\",\"uv\":[9.25,5.75,10.75,8]},\"up\":{\"texture\":\"#0\",\"uv\":[14,3.25,12.5,1.75]},\"west\":{\"texture\":\"#0\",\"uv\":[9.25,8,10.75,10.25]}},\"from\":[5,-13,5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[1,-5,1]},\"to\":[11,-4,11]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,5.75,10.75,7.5]},\"east\":{\"texture\":\"#0\",\"uv\":[10.75,2.25,12.5,4]},\"north\":{\"texture\":\"#0\",\"uv\":[9.75,10.25,11.5,12]},\"south\":{\"texture\":\"#0\",\"uv\":[3.5,10.75,5.25,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[7,12.5,5.25,10.75]},\"west\":{\"texture\":\"#0\",\"uv\":[10.75,4,12.5,5.75]}},\"from\":[4.6,15.6,-1.9],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8.5,18,6.5]},\"to\":[11.4,22.4,4.9]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,5.5,6.25,7.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,5.5,2.25,7.25]},\"north\":{\"texture\":\"#0\",\"uv\":[10.75,7.5,12.5,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,0,13.25,1.75]},\"up\":{\"texture\":\"#0\",\"uv\":[6.25,7.75,4.5,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[2.25,5.5,4.5,7.25]}},\"from\":[4.5,15,3],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[7.5,18,5.5]},\"to\":[11.5,22,12]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,4.75,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.75]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.75]},\"up\":{\"texture\":\"#0\",\"uv\":[0,4.75,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,1.75,4.75,3.5]}},\"from\":[8,14,3],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[6,18,5.5]},\"to\":[8,21,22]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,4]},\"east\":{\"texture\":\"#0\",\"uv\":[0,3.5,4,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0,2]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,0,2]},\"up\":{\"texture\":\"#0\",\"uv\":[0,4,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[4,3.5,8,5.5]}},\"from\":[8,12,8],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[6,17,6.5]},\"to\":[8,20,24]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,1.75,4.75,0]},\"north\":{\"texture\":\"#0\",\"uv\":[0,1.75,0,0]},\"south\":{\"texture\":\"#0\",\"uv\":[0,1.75,0,0]},\"up\":{\"texture\":\"#0\",\"uv\":[0,4.75,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,3.5,4.75,1.75]}},\"from\":[7.75,14,3],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[5.75,17,5.5]},\"to\":[7.75,21,22]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,4]},\"east\":{\"texture\":\"#0\",\"uv\":[0,5.5,4,3.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,2,0,0]},\"south\":{\"texture\":\"#0\",\"uv\":[0,2,0,0]},\"up\":{\"texture\":\"#0\",\"uv\":[0,4,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[4,5.5,8,3.5]}},\"from\":[7.75,15,8],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[5.75,18,6.5]},\"to\":[7.75,23,24]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.75,10.25,8.25,12.5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,7.25,2.25,9]},\"north\":{\"texture\":\"#0\",\"uv\":[9.75,12,11.25,13.75]},\"south\":{\"texture\":\"#0\",\"uv\":[0,12.5,1.5,14.25]},\"up\":{\"texture\":\"#0\",\"uv\":[11.5,2.25,10,0]},\"west\":{\"texture\":\"#0\",\"uv\":[2.25,7.25,4.5,9]}},\"from\":[5,20.25,-8.25],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,18,11.5]},\"to\":[11,27.25,0.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2.25,13.5,1.5,15.25]},\"east\":{\"texture\":\"#0\",\"uv\":[6.25,13,8,14]},\"north\":{\"texture\":\"#0\",\"uv\":[10,2.25,10.75,3.25]},\"south\":{\"texture\":\"#0\",\"uv\":[10.75,9.25,11.5,10.25]},\"up\":{\"texture\":\"#0\",\"uv\":[4.25,10.75,3.5,9]},\"west\":{\"texture\":\"#0\",\"uv\":[13.25,0,15,1]}},\"from\":[6.5,27.5,-9.25],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[6.5,18,10.5]},\"to\":[9.5,31.5,-2.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.75,8.25,13.75,9.25]},\"east\":{\"texture\":\"#0\",\"uv\":[0,9,1,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,6.5,9.25,10]},\"south\":{\"texture\":\"#0\",\"uv\":[9,0,10,3.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3.25,14.5,2.25,13.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1,9,2,12.5]}},\"from\":[6,-5,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,-5,1.5]},\"to\":[10,9,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.75,9.25,13.75,10.25]},\"east\":{\"texture\":\"#0\",\"uv\":[12.75,8.75,13.75,10.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.25,12.5,9.25,14.5]},\"south\":{\"texture\":\"#0\",\"uv\":[12.75,10.75,13.75,12.75]},\"up\":{\"texture\":\"#0\",\"uv\":[10.25,14.75,9.25,13.75]},\"west\":{\"texture\":\"#0\",\"uv\":[12.75,12.75,13.75,14.75]}},\"from\":[6,9,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,-5,1.5]},\"to\":[10,17,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14.5,7,13.25,8.25]},\"east\":{\"texture\":\"#0\",\"uv\":[5.75,7.75,7,10.75]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,7.75,5.75,10.75]},\"south\":{\"texture\":\"#0\",\"uv\":[7,7.75,8.25,10.75]},\"up\":{\"texture\":\"#0\",\"uv\":[14.5,7,13.25,5.75]},\"west\":{\"texture\":\"#0\",\"uv\":[8,3.5,9.25,6.5]}},\"from\":[5.5,-4,5.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[1,-5,1]},\"to\":[10.5,8,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,13.75,10.25,14.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4.75,12.5,5.5,15.25]},\"north\":{\"texture\":\"#0\",\"uv\":[12.5,3.25,13.25,6]},\"south\":{\"texture\":\"#0\",\"uv\":[5.5,12.5,6.25,15.25]},\"up\":{\"texture\":\"#0\",\"uv\":[14,1.75,13.25,1]},\"west\":{\"texture\":\"#0\",\"uv\":[12.5,6,13.25,8.75]}},\"from\":[6.5,9,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,-5,1.5]},\"to\":[9.5,20,9.5]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"banana_crate/banana_scythe\",\"particle\":\"banana_crate/banana_scythe\"}}",
+        "texture": [{
+            "name": "banana_scythe",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAANlBMVEVHcEz/61d7/6P/yCX/p6T/ohRD6I30hoZsvTXtdhSvaD9GoSSYUTIegA+GOyRtJxADXgNUGgePAcHgAAAAAXRSTlMAQObYZgAAA4ZJREFUeNqUlQF2rSoMRfHx0xpBuM5/sj+Hg2pUutotWHuXbCGJGIyUwtxa5+tOyblIFGuqGq3nKtMUY2ikeZ7DPKd1XXfBP89XNRQCtY6LUnWKXZA4dk5p/XwGglJr0UlkUuu4KKJxF3w+NvxjZ+tDgSH2yElUTaBqAjlmwAnM6w9LyKVkCiROdkjOORxYCBI06QfBsmSdDFVMXdUJMInWwjgLy1I0WtzVEHWCuwWa7ztIIxYtGoZYBCwfXM/3f57vmnNVMYYC5CKlmZb0FJRijiyq0LwLmEimtAn+eYG1YmlA/Q2XwFymtxkYFBhDQbKhrOuHINeaIWhLiGEA36jXLGSmLYJpysZiR/gdW+9NIADj0cOBJb+lMBy015NFsW1oDYxXldwJBGPXsOL29QgIlPajWWDYAmnj9T4D5A3pA6kr+R9/Dyc9jT4GmCvvxoCjKPB/L06CaTCL0cYW5PWMQF+CmRInYJdcAqJwEbQlQFDBJWSjIM4c25qd7PGgLIWC3wJBQ0CMNderQA05UCLHr8o6wPggqjDUUq8xEBGEZorW7AJjJNqhbdczAehZILm4IhQkB51njJHJDtUI9FoHcRK3IbolsE4VtPtUIpBAxgLhw88TloRm92JEwH52TBbtMQMBmH8PYxdo+6OhGqwDbQK9C2DwJy/AZ+kngXAY4BXnfhEYLKQelZugJ0CMngph24OIz9IGDsHyFNDSL1vpnCd8llhIkVgpO8E9jbFtIecJnyVXSDVXJwBTJwKWznFCGr2gmODckrja6zl48Fm6l7ITMHXaTyIPQSleEMApwAzdLMOrYNtGgtp5CJh73nAIXj4IKDT0oQCfJV4PBOQiuNeBsTVaDSCpDkQAnfeLSNg8AbSLgcAKDZ0CrtfVQbxSsyW1azsoNHQuk7F1SBRrRxFl5IT4NPZlEmFrIRPsLacASX0UGrp7X/qu1gSKl0x3AXjWCToTFEnfC1rInID7+V8FBgWvdVA7TFAkfVNqMbcL/DcUIALorwLEvO3SomJoeKuDTkUPPgst5udeI0KBr4P9DbtkmMZ9eefGpTHwMeQhKA9BjzkFSC4fMxAYTmDJQxgDmQSRwWMGAj7NCZD+WvxtFTwEJBtOYKjsAmnwMb8XCAXk+Z6NBQuvCZM2FhBVPQeVpZTsJuoEVD4F1xe0QvAnROUiKMhW+BNuQC7ZWvh/IwYAAP2qTWAkf7vBAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 241,
+    "type": "pickaxe",
+    "name": "Potassium Pickaxe",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Netherite Pickaxe",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Banana Pickaxe",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "skyblock": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "earth": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "prison": [{
+                    "Efficiency": 99
+                },
+                {
+                    "Fortune": 30
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Efficiency": 10
+                },
+                {
+                    "Fortune": 5
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Banana Particles",
+                "Speed I",
+                "Haste II"
+            ],
+            "skyblock": [
+                "Banana Particles",
+                "Speed I",
+                "Haste II"
+            ],
+            "earth": [
+                "Banana Particles",
+                "Speed I",
+                "Haste II"
+            ],
+            "prison": [
+                "Banana Particles",
+                "Speed I",
+                "Haste II"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Banana Particles",
+                "Speed I",
+                "Haste II"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[0,2,0],\"scale\":[0.3,0.3,0.3],\"translation\":[0.25,3.75,2.75]},\"firstperson_righthand\":{\"rotation\":[0,2,0],\"scale\":[0.3,0.3,0.3],\"translation\":[0.25,3.75,2.75]},\"fixed\":{\"rotation\":[0,90,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,1.75,-1.5]},\"ground\":{\"scale\":[0.25,0.25,0.25],\"translation\":[0,3,0]},\"gui\":{\"rotation\":[87.31,41.94,-88.23],\"scale\":[0.6,0.6,0.6],\"translation\":[0.25,0.5,0]},\"thirdperson_lefthand\":{\"scale\":[0.8,0.8,0.8],\"translation\":[0,4.25,2.75]},\"thirdperson_righthand\":{\"scale\":[0.8,0.8,0.8],\"translation\":[0,4.75,2.75]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.75,10.5,6,11.25]},\"east\":{\"texture\":\"#0\",\"uv\":[4.5,6,5.25,10.75]},\"north\":{\"texture\":\"#0\",\"uv\":[3.75,6,4.5,10.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.25,6,6,10.75]},\"up\":{\"texture\":\"#0\",\"uv\":[11,2.75,10.25,2]},\"west\":{\"texture\":\"#0\",\"uv\":[6,5.75,6.75,10.5]}},\"from\":[6.5,-9,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8.5,-9,-1.5]},\"to\":[9.5,10,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.75,3.5,6,5.75]},\"east\":{\"texture\":\"#0\",\"uv\":[6,0,8.25,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[7.75,3.5,9.5,5.25]},\"south\":{\"texture\":\"#0\",\"uv\":[0,8,1.75,9.75]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,6.5,2,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[6,1.75,8.25,3.5]}},\"from\":[4.8,9.55,3.8],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.5,-9.75,-0.5]},\"to\":[11.2,15.95,12.2]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[13.5,1.5,11.5,1.75]},\"east\":{\"texture\":\"#0\",\"uv\":[1.5,11.25,1.75,13.25]},\"north\":{\"texture\":\"#0\",\"uv\":[4,0,6,2]},\"south\":{\"texture\":\"#0\",\"uv\":[4,2,6,4]},\"up\":{\"texture\":\"#0\",\"uv\":[2,6.5,0,6.25]},\"west\":{\"texture\":\"#0\",\"uv\":[1.75,12,2,14]}},\"from\":[4,8.75,3.4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-9,0.5]},\"to\":[12,16.75,4.4]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,0.75]},\"north\":{\"texture\":\"#0\",\"uv\":[11,3.5,12.5,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,0,13,0.75]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,0,0.75]}},\"from\":[5,14.75,3.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[9,-9,0.5]},\"to\":[11,17.75,3.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.75,9.25,8.25,11]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,1.75,0]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,0]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,1.5,0]},\"up\":{\"texture\":\"#0\",\"uv\":[10.5,7,9,5.25]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,1.75,0]}},\"from\":[5,19.10698,3.57702],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7.5,17.60698,6.82702]},\"to\":[11,19.10698,10.57702]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.75]},\"north\":{\"texture\":\"#0\",\"uv\":[9.5,3,11,4.75]},\"south\":{\"texture\":\"#0\",\"uv\":[6.75,9.5,8.25,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.75]}},\"from\":[5,1.25,3.25],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8.5,8.25,3.25]},\"to\":[11,8.25,3.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,0.75]},\"north\":{\"texture\":\"#0\",\"uv\":[11.5,0.75,13,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,6.75,13,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,0,0.75]}},\"from\":[5,8.25,3.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[10,25,0.5]},\"to\":[11,11.25,3.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.5,0,0,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[3.25,8.75,3.75,10.25]},\"south\":{\"texture\":\"#0\",\"uv\":[11.5,9.75,12,11.25]},\"up\":{\"texture\":\"#0\",\"uv\":[0.5,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]}},\"from\":[11,9.75,3.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-9.5,0.5]},\"to\":[13,15.75,3.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,9.75,1.75,11.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0,1.75,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,7,11.5,8.5]}},\"from\":[12.3273,9.75,5.37313],\"rotation\":{\"angle\":22.5,\"axis\":\"y\",\"origin\":[7.3273,-9.5,2.62313]},\"to\":[12.3273,15.75,12.37313]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.75]},\"east\":{\"texture\":\"#0\",\"uv\":[9.75,8.5,11.5,10]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[0,1.75,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,10,11.5,11.5]}},\"from\":[3.6727,9.75,5.37313],\"rotation\":{\"angle\":-22.5,\"axis\":\"y\",\"origin\":[8.6727,-9.5,2.62313]},\"to\":[3.6727,15.75,12.37313]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.5,0,0,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[10.5,11.5,11,13]},\"south\":{\"texture\":\"#0\",\"uv\":[11,11.5,11.5,13]},\"up\":{\"texture\":\"#0\",\"uv\":[0.5,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,0,0,1.5]}},\"from\":[3,9.75,3.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-9.5,0.5]},\"to\":[5,15.75,3.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.75,10.75,3.75,12]},\"east\":{\"texture\":\"#0\",\"uv\":[10.25,0,11.5,2]},\"north\":{\"texture\":\"#0\",\"uv\":[4,4,6,6]},\"south\":{\"texture\":\"#0\",\"uv\":[0,4.25,2,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,12,1.75,10.75]},\"west\":{\"texture\":\"#0\",\"uv\":[10.5,4.75,11.75,6.75]}},\"from\":[4.2,8.95,5.7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-9,-0.5]},\"to\":[11.8,16.55,10.3]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.25,8.75,1.75,10.75]},\"east\":{\"texture\":\"#0\",\"uv\":[8.25,0,10.25,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[11,2,12.5,3.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.25,11,9.75,12.5]},\"up\":{\"texture\":\"#0\",\"uv\":[9.75,9.25,8.25,7.25]},\"west\":{\"texture\":\"#0\",\"uv\":[8.25,1.5,10.25,3]}},\"from\":[5.3,4.05,17.3],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[7,-8.5,0]},\"to\":[10.7,9.45,24.7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8.25,7.25,6.75,9.5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,6.5,2.25,8]},\"north\":{\"texture\":\"#0\",\"uv\":[0,11.25,1.5,12.75]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,11.25,7.25,12.75]},\"up\":{\"texture\":\"#0\",\"uv\":[3.75,8.75,2.25,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[6.75,5.75,9,7.25]}},\"from\":[5.3,10.05,-2.7],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,-7.75,15]},\"to\":[10.7,15.45,5.7]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.25,5.5,11.75,6.25]},\"east\":{\"texture\":\"#0\",\"uv\":[11.5,8.5,12.25,9.75]},\"north\":{\"texture\":\"#0\",\"uv\":[11.5,11.25,12,12.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11.75,4.25,12.25,5.5]},\"up\":{\"texture\":\"#0\",\"uv\":[2.25,8.75,1.75,8]},\"west\":{\"texture\":\"#0\",\"uv\":[9.75,11.5,10.5,12.75]}},\"from\":[7.3,10.8,21.05],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8.5,20,23.5]},\"to\":[8.7,15.2,23.45]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[12.5,7.5,11.5,8.5]},\"east\":{\"texture\":\"#0\",\"uv\":[1,0,2,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,1,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[2,0,3,4.25]},\"up\":{\"texture\":\"#0\",\"uv\":[8.25,12.25,7.25,11.25]},\"west\":{\"texture\":\"#0\",\"uv\":[3,0,4,4.25]}},\"from\":[6,-8,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[9,-9,-1.5]},\"to\":[10,9,10]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"texture_size\":[64,64],\"textures\":{\"0\":\"banana_crate/potassium_pickaxe\",\"particle\":\"banana_crate/potassium_pickaxe\"}}",
+        "texture": [{
+            "name": "potassium_pickaxe",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAP1BMVEVHcEz//MP06Zz/61fp1Hz/yCXSq17/ohRsvTXtdhStcEGvaD9GoSSYUTIegA+GOyR7LBRtJxADXgNgFwhUGgezaZFoAAAAAXRSTlMAQObYZgAAAzRJREFUeNqclgdirCAQQIc6sivWf/+z/mkGE9GUFzRteU4RFL6CRggppUDnYj+PA4wDplISwpmBGPkg+BseJBOgfKU0iUCAM9M4TtNEx7bJNzRSUBKrWLAN9NmOAP79+3SgUQgRFYEEI0yDF34kSIxFQEME25CjczHDA02AJuBA+Dvluo3ZO+d/JgiGBoJYqEAblKLp/SQCncwnbQQXGTq07PXQ8pmAQD0Qa61J+Cr4QrEmpJZCEfqCaxc+BEcvOQJ8iOC5BtZLq9tfBKifj9y++CNBq4FhAuJ3goCpJAxJ0QiiI+JNG4+f7VYhQeAjKZCdy5bITRuPn8EIiac3gfcZvAB9LOT2OxewCSDqlZcFbrCQbwXEsyAlEpw+KXtROAuGkcajAD8L6PeLYPq1ABSuwDjBsNUKfdoE45y8NnGYYPyFoNbqXeS7hxpHR6TL/0RQP3jX6OTG8V53QtrRxukq+NhAFJqnY65z9BaB7YTbRGW4QMFFiVWZ3/NcZcxrjjHmnL3XpQT87OgK2O+iCVb6krGu8i+OoK0BFHoReLlajOtBXVsRbeadIGeJVQU0z8a7eoGLhLIsaWbn4coROMuSzq2I79kEPMd2KISHIjqXs3M0z0adNSaNoOip1//EhGXRj8+1dUH/EjgC2+ChAyYGXy/qNPWbJ9qgLnAPVSAVgAdBrVoDmqeDcI53wSRYB5bX5U4siSmaaf7URk3BBIic6X4VJEUF3p3bqEklwbqw1+VR4CLNO8bs7S7iBKwT+1JvNlOLgAWzjjrbXYOEXEgXK1zhXLXWri0mKgImpAF81nXQb0XkOK1ZOdI8G/N63IMEcjlZEi7zc3ZMCKXwfnRuo15bHEXu9AiInQA8zfdJIMEBZ8sx2/pxTM5YblJw8rrJL2L8KkQnYIFc8GiwPF07KRC87QzDgEinjSQkMwFjDbYUUn81egRjUsHUnqO6Z9I1uIidLkYWxHKk0BMgjfpaYkZac1eBI2KR93U6wSRAE+g9WF+78wE7T7Yse9mlPU2gXVjqHh1iJwXvPA0sdwIrYl326AsL+kUs94LTky4g3FEQviXm9H94DaAQcA5tA0bBKAAAmM06h/z30B8AAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 242,
+    "type": "helmet",
+    "name": "Pineapple Helmet",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Netherite Helmet",
+            "slot": "Armor",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Banana Helmet",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 7
+                },
+                {
+                    "Respiration": 5
+                },
+                {
+                    "Aqua Affinity": 5
+                },
+                {
+                    "Fire Protection": 5
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 7
+                },
+                {
+                    "Respiration": 5
+                },
+                {
+                    "Aqua Affinity": 5
+                },
+                {
+                    "Fire Protection": 5
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 7
+                },
+                {
+                    "Respiration": 5
+                },
+                {
+                    "Aqua Affinity": 5
+                },
+                {
+                    "Fire Protection": 5
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 7
+                },
+                {
+                    "Respiration": 5
+                },
+                {
+                    "Aqua Affinity": 5
+                },
+                {
+                    "Fire Protection": 5
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 7
+                },
+                {
+                    "Respiration": 5
+                },
+                {
+                    "Aqua Affinity": 5
+                },
+                {
+                    "Fire Protection": 5
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [],
+            "skyblock": [],
+            "earth": [],
+            "prison": [],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Made with Blockbench\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[-180,78.75,-180],\"scale\":[0.5,0.5,0.5],\"translation\":[1.5,1.5,0]},\"firstperson_righthand\":{\"rotation\":[-180,78.75,-180],\"scale\":[0.5,0.5,0.5],\"translation\":[1.5,1.5,0]},\"ground\":{\"scale\":[0.6,0.6,0.6]},\"gui\":{\"rotation\":[-153,54.25,-180],\"translation\":[0,-1.5,0]},\"head\":{\"scale\":[1.7,1.7,1.7],\"translation\":[0,1,0]},\"thirdperson_lefthand\":{\"rotation\":[57,0,0],\"scale\":[0.6,0.6,0.6]},\"thirdperson_righthand\":{\"rotation\":[57,0,0],\"scale\":[0.6,0.6,0.6]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9,7.5,4.5,10]},\"east\":{\"texture\":\"#0\",\"uv\":[9,4.5,11.5,7]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,0,9,2.5]},\"south\":{\"texture\":\"#0\",\"uv\":[4.5,2.5,9,5]},\"up\":{\"texture\":\"#0\",\"uv\":[9,7.5,4.5,5]},\"west\":{\"texture\":\"#0\",\"uv\":[9,7,11.5,9.5]}},\"from\":[3.5,4,7.5],\"name\":\"head\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[12.5,9,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.5,4.5,0,9]},\"east\":{\"texture\":\"#0\",\"uv\":[9,0,13.5,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,9,4.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[9,1.5,13.5,3]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,4.5,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[9,3,13.5,4.5]}},\"from\":[3.5,9,3.5],\"name\":\"head\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[12.5,12,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[14,9.5,11.5,12]},\"east\":{\"texture\":\"#0\",\"uv\":[4.5,10,7,12.5]},\"north\":{\"texture\":\"#0\",\"uv\":[9,9.5,11.5,12]},\"south\":{\"texture\":\"#0\",\"uv\":[0,10.5,2.5,13]},\"up\":{\"texture\":\"#0\",\"uv\":[14,9.5,11.5,7]},\"west\":{\"texture\":\"#0\",\"uv\":[11.5,4.5,14,7]}},\"from\":[5.5,12,5.5],\"name\":\"head\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[10.5,17,10.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,12.5,4,14]},\"east\":{\"texture\":\"#0\",\"uv\":[2.5,10.5,4,13.5]},\"north\":{\"texture\":\"#0\",\"uv\":[7,10,8.5,13]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,12,10,15]},\"up\":{\"texture\":\"#0\",\"uv\":[13,13.5,11.5,12]},\"west\":{\"texture\":\"#0\",\"uv\":[10,12,11.5,15]}},\"from\":[6.5,12,6.5],\"name\":\"head\",\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[9.5,18,9.5]}],\"groups\":[{\"children\":[0,1,2,3],\"color\":0,\"name\":\"group\",\"origin\":[8,8,8]},{\"children\":[],\"color\":0,\"name\":\"steve\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"texture_size\":[32,32],\"textures\":{\"0\":\"banana_crate/pineapple_helmet\",\"particle\":\"banana_crate/pineapple_helmet\"}}",
+        "texture": [{
+            "name": "pineapple_helmet",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAG1BMVEVHcEz/61f/yCX/ohRsvTXtdhRGoSQegA8DXgOB/Ci/AAAAAXRSTlMAQObYZgAAAoBJREFUeNp81UFuqzAQBmCvoFv7iQM4kQ/wgrgBKt3GyHsWFWbJIvKw7CKyOfYbgzuueCVjKUrLZ2YMvxRmtDEXY5SxsJfTJi22lVRcGMm1INBct3VrdnBvJALRVwQqrnA1MgHdXGpTX3p11gIBFoIugQfeXsCyrmEHSm9AaQIVb/ijfR/HNIPagK4I0LkSSC3ykLWqL+ZS6zrNkO6Qh+SV5IaLOz/MQIBaHGaQlZRGiLugFocZaCO1ODyHa7Nt7G/KpHWYgatto+b9tb9tK7UQ6s4rLSsEwsgIRM81rnsCfxrJRf83z3BoobH31vmWhr/G1wCSWqi4E72WaXgxjp9tx/vvFuN34bZYy6pwGodXCgJUbdviZ8yCGwpWHsDluxQGzs0ls8UJiJFDMLwC8uHehqk8AfFUTz/Niz0BGPjrM7wAMfQ+TA6mE7CuAB6sW5cdALjRAmSAD7IdYYEEKMwErNBcs1hnIL3JI6BHbTEsOgMKc/5CYTkBnfgdUK+PmI+X4IaxzYBmIzDxdMxD5DIAWNcM+lpd65uuGwJ4x/cxA80rfuF3rmgYunRoQWBgIysywBiv2DMAG9ge5ZkBK385BV7Yo+wKGGwGuGfYNg6O7Ul9IOhYrhK34geCYgfPEcYPRjWU7VzE/8+++LIzRtlbcFMGn+U4vw9TwVwoY5RLFibwSwaPt/Grw40bWBxGOSxr+AnQd/OHZZhTv/h1YoAAfoAFQucQhNU6QLANzHJ5BJNfJgQQIGCUp/isqPaOEWyFAAfGE/8H0lT4x7AUg8+ANtJ3POnsywOgXw8st5TumUGuDKx72hcAT+rD9G9kKUA4uJ2QAiDCr6ACmOwHEwAAn8yc3g7bvq0AAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 243,
+    "type": "misc",
+    "name": "Banana Firework",
+    "stats": {
+        "data": {
+            "releaseDate": "March 2022",
+            "crates": "Banana Crates",
+            "type": "Firework",
+            "slot": "Others",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Banana Firework",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [],
+            "skyblock": [],
+            "earth": [],
+            "prison": [],
+            "parkour": [
+                "Design: Banana",
+                "Uses: Unlimited",
+                "Cooldown: 10 seconds"
+            ],
+            "kitpvp": [
+                "Design: Banana",
+                "Uses: Unlimited",
+                "Cooldown: 10 seconds"
+            ],
+            "island": [],
+            "faction": [
+                "Design: Banana",
+                "Uses: Unlimited",
+                "Cooldown: 10 seconds"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVQ4y2NgGPRgp6bmf7I1zwRqvqal9T9XXPw/WZpBtoNokAEkG7ITyQAQbpGWJt0Vm85c/A/CZGkGgS9fvsBdQXYMgDDIFWQbAHIF2QaANIMw2V6gSRjoinD+B2GiDQAphhlAtEZ0QJKtpAIAiKxhA9IBieYAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+},{
+    "id": 244,
+    "type": "misc",
+    "name": "Magic Watering Can",
+    "stats": {
+        "data": {
+            "releaseDate": "April 2022",
+            "crates": "Blossom Crates",
+            "type": "Water Bucket",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Watering Can",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Uses: Unlimited"
+            ],
+            "skyblock": [
+                "Uses: Unlimited"
+            ],
+            "earth": [
+                "Uses: Unlimited"
+            ],
+            "prison": [
+                "Uses: Unlimited"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Uses: Unlimited"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[-180,89.75,-180],\"scale\":[0.4,0.4,0.4],\"translation\":[1.5,1.5,0]},\"firstperson_righthand\":{\"rotation\":[-180,89.75,-180],\"scale\":[0.4,0.4,0.4],\"translation\":[1.5,1.5,0]},\"fixed\":{\"translation\":[0,0.5,-0.75]},\"ground\":{\"scale\":[0.4,0.4,0.4]},\"gui\":{\"rotation\":[16,148,0],\"scale\":[0.8,0.8,0.8],\"translation\":[0,0.75,0]},\"thirdperson_lefthand\":{\"rotation\":[42.25,0,0],\"scale\":[0.8,0.8,0.8],\"translation\":[0,4,-3]},\"thirdperson_righthand\":{\"rotation\":[42.25,0,0],\"scale\":[0.8,0.8,0.8],\"translation\":[0,4,-3]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6,0,4,2]},\"east\":{\"texture\":\"#0\",\"uv\":[0,2,2,4.25]},\"north\":{\"texture\":\"#0\",\"uv\":[2,2,4,4.25]},\"south\":{\"texture\":\"#0\",\"uv\":[6,2,8,4.25]},\"up\":{\"texture\":\"#0\",\"uv\":[4,2,2,0]},\"west\":{\"texture\":\"#0\",\"uv\":[4,2,6,4.25]}},\"from\":[4,0,4.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[1,0,0]},\"to\":[12,9,12.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.25,6.5,9,7]},\"east\":{\"texture\":\"#0\",\"uv\":[8.25,7,8.75,8.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.75,7,9,8.75]},\"south\":{\"texture\":\"#0\",\"uv\":[9.5,7,9.75,8.75]},\"up\":{\"texture\":\"#0\",\"uv\":[9,7,8.75,6.5]},\"west\":{\"texture\":\"#0\",\"uv\":[9,7,9.5,8.75]}},\"from\":[2.5,7,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[1,0,0]},\"to\":[3.5,14,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,4.25,4.5,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3.75,4.75,4.25,6.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,4.75,4.5,6.5]},\"south\":{\"texture\":\"#0\",\"uv\":[5,4.75,5.25,6.5]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,4.75,4.25,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,4.75,5,6.5]}},\"from\":[12.5,7,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[15,0,0]},\"to\":[13.5,14,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,0,8.75,0.5]},\"east\":{\"texture\":\"#0\",\"uv\":[6,0.5,6.5,0.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,0.5,8.75,0.75]},\"south\":{\"texture\":\"#0\",\"uv\":[9.25,0.5,11.5,0.75]},\"up\":{\"texture\":\"#0\",\"uv\":[8.75,0.5,6.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[8.75,0.5,9.25,0.75]}},\"from\":[3.5,13,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[1,0,0]},\"to\":[12.5,14,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1,5.5,0.75,6]},\"east\":{\"texture\":\"#0\",\"uv\":[0,6,0.5,6.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,6,0.75,6.25]},\"south\":{\"texture\":\"#0\",\"uv\":[1.25,6,1.5,6.25]},\"up\":{\"texture\":\"#0\",\"uv\":[0.75,6,0.5,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[0.75,6,1.25,6.25]}},\"from\":[3.5,7,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[1,0,0]},\"to\":[4.5,8,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,0.75,1.25,1.25]},\"east\":{\"texture\":\"#0\",\"uv\":[0.5,1.25,1,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[1,1.25,1.25,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.75,1.25,2,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.25,1.25,1,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[1.25,1.25,1.75,1.5]}},\"from\":[11.5,7,7.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[15,0,0]},\"to\":[12.5,8,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[4.75,7.5,4.5,8.75]},\"east\":{\"texture\":\"#0\",\"uv\":[3,8.75,4.25,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[4.25,8.75,4.5,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[5.75,8.75,6,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[4.5,8.75,4.25,7.5]},\"west\":{\"texture\":\"#0\",\"uv\":[4.5,8.75,5.75,9.25]}},\"from\":[7.5,8,11.5],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,8,16.5]},\"to\":[8.5,10,16.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.75,7.5,1.5,8.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,8.75,1.25,9.25]},\"north\":{\"texture\":\"#0\",\"uv\":[1.25,8.75,1.5,9.25]},\"south\":{\"texture\":\"#0\",\"uv\":[2.75,8.75,3,9.25]},\"up\":{\"texture\":\"#0\",\"uv\":[1.5,8.75,1.25,7.5]},\"west\":{\"texture\":\"#0\",\"uv\":[1.5,8.75,2.75,9.25]}},\"from\":[7.5,4,10.5],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,8,16.5]},\"to\":[8.5,6,15.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[0.75,0,0.5,0.25]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0.25,0.25,1.25]},\"north\":{\"texture\":\"#0\",\"uv\":[0.25,0.25,0.5,1.25]},\"south\":{\"texture\":\"#0\",\"uv\":[0.75,0.25,1,1.25]},\"up\":{\"texture\":\"#0\",\"uv\":[0.5,0.25,0.25,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0.5,0.25,0.75,1.25]}},\"from\":[7.5,4,15.5],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8,8,16.5]},\"to\":[8.5,8,16.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.75,4.25,3.25,7]},\"east\":{\"texture\":\"#0\",\"uv\":[0,7,2.75,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[2.75,7,3.25,7.5]},\"south\":{\"texture\":\"#0\",\"uv\":[6,7,6.5,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[3.25,7,2.75,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[3.25,7,6,7.5]}},\"from\":[7,4,-6.5],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,1,0.5]},\"to\":[9,6,4.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7,7,6.75,8.25]},\"east\":{\"texture\":\"#0\",\"uv\":[5.25,8.25,6.5,8.75]},\"north\":{\"texture\":\"#0\",\"uv\":[6.5,8.25,6.75,8.75]},\"south\":{\"texture\":\"#0\",\"uv\":[8,8.25,8.25,8.75]},\"up\":{\"texture\":\"#0\",\"uv\":[6.75,8.25,6.5,7]},\"west\":{\"texture\":\"#0\",\"uv\":[6.75,8.25,8,8.75]}},\"from\":[7.5,6,0.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.5,1,0.5]},\"to\":[8.5,8,5.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[2,4.25,1.25,4.75]},\"east\":{\"texture\":\"#0\",\"uv\":[0,4.75,0.5,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,4.75,1.25,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.75,4.75,2.5,5.5]},\"up\":{\"texture\":\"#0\",\"uv\":[1.25,4.75,0.5,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[1.25,4.75,1.75,5.5]}},\"from\":[6.5,3.5,-7.5],\"rotation\":{\"angle\":45,\"axis\":\"x\",\"origin\":[8,1,0.5]},\"to\":[9.5,6.5,-5.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.25,2,9,4.25]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,4.25,8.75,4.75]},\"north\":{\"texture\":\"#0\",\"uv\":[8.75,4.25,9,4.75]},\"south\":{\"texture\":\"#0\",\"uv\":[11.25,4.25,11.5,4.75]},\"up\":{\"texture\":\"#0\",\"uv\":[9,4.25,8.75,2]},\"west\":{\"texture\":\"#0\",\"uv\":[9,4.25,11.25,4.75]}},\"from\":[3.5,8,4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[4.5,10,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[6.5,4.25,6.25,6.5]},\"east\":{\"texture\":\"#0\",\"uv\":[3.75,6.5,6,7]},\"north\":{\"texture\":\"#0\",\"uv\":[6,6.5,6.25,7]},\"south\":{\"texture\":\"#0\",\"uv\":[8.5,6.5,8.75,7]},\"up\":{\"texture\":\"#0\",\"uv\":[6.25,6.5,6,4.25]},\"west\":{\"texture\":\"#0\",\"uv\":[6.25,6.5,8.5,7]}},\"from\":[11.5,8,4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[12.5,10,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[10.25,4.75,8.5,5]},\"east\":{\"texture\":\"#0\",\"uv\":[6.5,5,6.75,5.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6.75,5,8.5,5.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.75,5,10.5,5.5]},\"up\":{\"texture\":\"#0\",\"uv\":[8.5,5,6.75,4.75]},\"west\":{\"texture\":\"#0\",\"uv\":[8.5,5,8.75,5.5]}},\"from\":[4.5,8,12],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[11.5,10,13]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[9.75,0.75,8,1]},\"east\":{\"texture\":\"#0\",\"uv\":[6,1,6.25,1.5]},\"north\":{\"texture\":\"#0\",\"uv\":[6.25,1,8,1.5]},\"south\":{\"texture\":\"#0\",\"uv\":[8.25,1,10,1.5]},\"up\":{\"texture\":\"#0\",\"uv\":[8,1,6.25,0.75]},\"west\":{\"texture\":\"#0\",\"uv\":[8,1,8.25,1.5]}},\"from\":[4.5,8,4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[0.5,0,0]},\"to\":[11.5,10,5]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"texture_size\":[64,64],\"textures\":{\"0\":\"blossom_crate/watering_can\",\"particle\":\"blossom_crate/watering_can\"}}",
+        "texture": [{
+            "name": "watering_can",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJFBMVEVHcEzm6On+0crP0tT8oaC5vMKkp7D7fIaIi5RqbHY4OkElJStBR5obAAAAAXRSTlMAQObYZgAAAa9JREFUeNqU0sGL2lAQx/ERSfH6CCk9i7BXwxDpeRF6VcJP7E0oGTwvgldhUSbHXkryHxR6L6V/XWciBM1bC/vV9xD85DHio2RH9DydHWFRAYDhUZ9/Ph4OVxCY8zAAzAZeZkt4DrISQIkeZAEOZrAmIntVPdFtlYCmz8fuBDXgi+4CMF0ep7DqRlu1aNjTYdkBetSXl+nTQ4BBNDkNAOdpHkKap4yyKIsISFUyA8zFRgSQCLQ2et22tjW21y19GICSQ+YnrAMX6zTPIgBwyLN1GkzZEIhAJVIW/pXIRr4tJAJS4QpgQ1abGLStNrW/1GZs2zr6FSZaSrAar4hULyLd0hvg/16yPY0ceHaYP9P34+/vRpPta8Cc9K0L0fz6eQXZnPbxhfAT/jQ6/nwO2cqA5ZeCboOt0UfhYkf9kzH4dGE8AICJ8ULQg7ge6EMwyrY+fLdeVxSX4Ktfhkat7wMA2JUD7MoBULPrdH4Htnq5VMBmv9dzB8IA2AC7bk4/uQPZcIjxPeDF7v+gjECy6/bVRL0zNu8EaQFwxoySmd5KpPJ3BYjQvw0WMApGwSgAABfiw56kj+npAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 245,
+    "type": "misc",
+    "name": "Spring Cleaning Wand",
+    "stats": {
+        "data": {
+            "releaseDate": "April 2022",
+            "crates": "Blossom Crates",
+            "type": "Stick",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Spring Cleaning Wand",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "LEFT click a container with this wand to SORT all items inside",
+                "RIGHT click a container with this wand to SELL all items inside",
+                "Uses: 50.000",
+                "Multiplier: 20%"
+            ],
+            "skyblock": [
+                "LEFT click a container with this wand to SORT all items inside",
+                "RIGHT click a container with this wand to SELL all items inside",
+                "Uses: 50.000",
+                "Multiplier: 20%"
+            ],
+            "earth": [
+                "Click a container with this wand to SORT all items inside",
+                "Uses: 50.000"
+            ],
+            "prison": [
+                "LEFT click a container with this wand to SORT all items inside",
+                "RIGHT click a container with this wand to SELL all items inside",
+                "Uses: 50.000",
+                "Multiplier: 20%"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "LEFT click a container with this wand to SORT all items inside",
+                "RIGHT click a container with this wand to SELL all items inside",
+                "Uses: 50.000",
+                "Multiplier: 20%"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[-10.5,0,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,2,0]},\"firstperson_righthand\":{\"rotation\":[-10.5,0,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,2,0]},\"fixed\":{\"translation\":[0,0,-3.25]},\"ground\":{\"rotation\":[-10.5,0,0],\"scale\":[0.6,0.6,0.6],\"translation\":[0,2,0]},\"gui\":{\"rotation\":[-8.11,-51.48,-18.08],\"scale\":[0.8,0.8,0.8],\"translation\":[1,0.5,0]},\"thirdperson_lefthand\":{\"translation\":[0,2.25,0]},\"thirdperson_righthand\":{\"translation\":[0,2.25,0]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1.5,0,1,0.5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0.5,0.5,5]},\"north\":{\"texture\":\"#0\",\"uv\":[0.5,0.5,1,5]},\"south\":{\"texture\":\"#0\",\"uv\":[1.5,0.5,2,5]},\"up\":{\"texture\":\"#0\",\"uv\":[1,0.5,0.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[1,0.5,1.5,5]}},\"from\":[7.85355,0,9],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.85355,0,9]},\"to\":[8.85355,9,10]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3.5,0,3.5,1.5]},\"east\":{\"texture\":\"#0\",\"uv\":[2,1.5,3.5,3]},\"north\":{\"texture\":\"#0\",\"uv\":[3.5,1.5,3.5,3]},\"south\":{\"texture\":\"#0\",\"uv\":[5,1.5,5,3]},\"up\":{\"texture\":\"#0\",\"uv\":[3.5,1.5,3.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[3.5,1.5,5,3]}},\"from\":[8.35355,-2,8],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.85355,0,9]},\"to\":[8.35355,1,11]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[11,5.5,5.5,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,5.5,0,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,5.5,5.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[0,5.5,5.5,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,5.5,0,5.5]},\"west\":{\"texture\":\"#0\",\"uv\":[5.5,5.5,5.5,10.5]}},\"from\":[2.85308,9,9.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8.85308,13,9.5]},\"to\":[13.85308,19,9.5]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5.5,0,5.5,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,5.5,5.5,10.5]},\"north\":{\"texture\":\"#0\",\"uv\":[5.5,5.5,5.5,10.5]},\"south\":{\"texture\":\"#0\",\"uv\":[11,5.5,11,10.5]},\"up\":{\"texture\":\"#0\",\"uv\":[5.5,5.5,5.5,0]},\"west\":{\"texture\":\"#0\",\"uv\":[0,5.5,5.5,10.5]}},\"from\":[8.35355,9,4],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8.35355,13,8.5]},\"to\":[8.35355,19,15]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[5,3,4,4]},\"east\":{\"texture\":\"#0\",\"uv\":[2,4,3,5]},\"north\":{\"texture\":\"#0\",\"uv\":[3,4,4,5]},\"south\":{\"texture\":\"#0\",\"uv\":[5,4,6,5]},\"up\":{\"texture\":\"#0\",\"uv\":[4,4,3,3]},\"west\":{\"texture\":\"#0\",\"uv\":[4,4,5,5]}},\"from\":[7.35355,8,8.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[7.85355,0,9]},\"to\":[9.35355,10,10.5]}],\"groups\":[{\"children\":[0,1,2,3,4],\"color\":0,\"name\":\"root\",\"origin\":[8.35355,0,0]}],\"gui_light\":\"front\",\"texture_size\":[32,32],\"textures\":{\"0\":\"blossom_crate/spring_cleaning_wand\"}}",
+        "texture": [{
+            "name": "spring_cleaning_wand",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEVHcEzy8eni3M7zzprXzbzqtIbhm3FeZHFCR1UyNkMkJjJs6XHNAAAAAXRSTlMAQObYZgAAAMlJREFUeNrtkMFtxCAQRT8+7ZFZuYDd1XSA4jujdBCRBiy7BSc330IHES1QZXCUK0Nk31Z+DLfH/wDgAnRagiscE97DpHcMYdQTXsKbu2AtowgLljJ7hWEe3YpLmdor5ik0heUXRQBizFm5A/D5fVRQKrZ/+PqIcdtVIeVCSklJKKuWEAr5Dzw5Bg0IDbhxvJObFmKunbd3qwSI8ZarEaYXvvursLcVAfzw0j8E1ZJORJhvwG4BJMwEBdOzt6pAr6QKICKcnJz8nx91S0U7OnX6swAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 246,
+    "type": "misc",
+    "name": "Blossom Staff",
+    "stats": {
+        "data": {
+            "releaseDate": "April 2022",
+            "crates": "Blossom Crates",
+            "type": "Stick",
+            "slot": "Others",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Blossom Staff",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Use this staff to fully grow all crops in a 10x10 radius",
+                "Uses: 50.000"
+            ],
+            "skyblock": [
+                "Use this staff to fully grow all crops in a 10x10 radius",
+                "Uses: 50.000"
+            ],
+            "earth": [
+                "Use this staff to fully grow all crops in a 10x10 radius",
+                "Uses: 50.000"
+            ],
+            "prison": [
+                "Use this staff to fully grow all crops in a 10x10 radius",
+                "Uses: 50.000"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Use this staff to fully grow all crops in a 10x10 radius",
+                "Uses: 50.000"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[2.25,0,0]},\"firstperson_righthand\":{\"scale\":[0.6,0.6,0.6],\"translation\":[2.25,0,0]},\"gui\":{\"rotation\":[-154.63,-65.32,-177.14],\"scale\":[0.925,0.925,0.925],\"translation\":[-0.75,-2.5,0]},\"thirdperson_righthand\":{\"rotation\":[0,-90,0],\"translation\":[-1.75,3,1.75]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[6.5,5.5,6,6]},\"east\":{\"texture\":\"#1\",\"uv\":[5,6,5.5,7.75]},\"north\":{\"texture\":\"#1\",\"uv\":[5.5,6,6,7.75]},\"south\":{\"texture\":\"#1\",\"uv\":[6.5,6,7,7.75]},\"up\":{\"texture\":\"#1\",\"uv\":[6,6,5.5,5.5]},\"west\":{\"texture\":\"#1\",\"uv\":[6,6,6.5,7.75]}},\"from\":[7,3,6],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,6.5,7]},\"to\":[9,10,8]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[1.75,5,1.75,6.75]},\"east\":{\"texture\":\"#1\",\"uv\":[0,6.75,1.75,8.25]},\"north\":{\"texture\":\"#1\",\"uv\":[1.75,6.75,1.75,8.25]},\"south\":{\"texture\":\"#1\",\"uv\":[3.5,6.75,3.5,8.25]},\"up\":{\"texture\":\"#1\",\"uv\":[1.75,6.75,1.75,5]},\"west\":{\"texture\":\"#1\",\"uv\":[1.75,6.75,0,8.25]}},\"from\":[8,4,1],\"rotation\":{\"angle\":22.5,\"axis\":\"x\",\"origin\":[8,6.5,7]},\"to\":[8,10,8]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8.5,5.25,7.75,5.5]},\"east\":{\"texture\":\"#1\",\"uv\":[6.75,5.5,7,6]},\"north\":{\"texture\":\"#1\",\"uv\":[7,5.5,7.75,6]},\"south\":{\"texture\":\"#1\",\"uv\":[8,5.5,8.75,6]},\"up\":{\"texture\":\"#1\",\"uv\":[7.75,5.5,7,5.25]},\"west\":{\"texture\":\"#1\",\"uv\":[7.75,5.5,8,6]}},\"from\":[9.10355,8.75,7],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[8.35355,14.5,7]},\"to\":[12.10355,10.75,8]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[3.5,0,1.75,0]},\"east\":{\"texture\":\"#1\",\"uv\":[0,0,0,1]},\"north\":{\"texture\":\"#1\",\"uv\":[0,0,1.75,1]},\"south\":{\"texture\":\"#1\",\"uv\":[1.75,0,0,1]},\"up\":{\"texture\":\"#1\",\"uv\":[1.75,0,0,0]},\"west\":{\"texture\":\"#1\",\"uv\":[1.75,0,1.75,1]}},\"from\":[6.10355,7.75,7.5],\"rotation\":{\"angle\":-45,\"axis\":\"z\",\"origin\":[8.35355,14.5,7]},\"to\":[13.10355,11.75,7.5]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[6.5,3.25,6,3.75]},\"east\":{\"texture\":\"#1\",\"uv\":[5,3.75,5.5,5.5]},\"north\":{\"texture\":\"#1\",\"uv\":[5.5,3.75,6,5.5]},\"south\":{\"texture\":\"#1\",\"uv\":[6.5,3.75,7,5.5]},\"up\":{\"texture\":\"#1\",\"uv\":[6,3.75,5.5,3.25]},\"west\":{\"texture\":\"#1\",\"uv\":[6,3.75,6.5,5.5]}},\"from\":[7.1,6.85,6.35],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,6.5,7]},\"to\":[8.9,13.65,8.15]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8.25,3.25,7.75,3.5]},\"east\":{\"texture\":\"#1\",\"uv\":[7,3.5,7.25,5]},\"north\":{\"texture\":\"#1\",\"uv\":[7.25,3.5,7.75,5]},\"south\":{\"texture\":\"#1\",\"uv\":[8,3.5,8.5,5]},\"up\":{\"texture\":\"#1\",\"uv\":[7.75,3.5,7.25,3.25]},\"west\":{\"texture\":\"#1\",\"uv\":[7.75,3.5,8,5]}},\"from\":[7,12.5,9.25],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8.5,15.75,6.75]},\"to\":[9,18.5,10.25]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[6,0,5.5,1]},\"east\":{\"texture\":\"#1\",\"uv\":[4,1,5,1.25]},\"north\":{\"texture\":\"#1\",\"uv\":[5,1,5.5,1.25]},\"south\":{\"texture\":\"#1\",\"uv\":[6.5,1,7,1.25]},\"up\":{\"texture\":\"#1\",\"uv\":[5.5,1,5,0]},\"west\":{\"texture\":\"#1\",\"uv\":[5.5,1,6.5,1.25]}},\"from\":[7,17.5,5.25],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8.5,15.75,6.75]},\"to\":[9,18.5,9.25]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[4,1,3.5,2]},\"east\":{\"texture\":\"#1\",\"uv\":[2,2,3,2.25]},\"north\":{\"texture\":\"#1\",\"uv\":[3,2,3.5,2.25]},\"south\":{\"texture\":\"#1\",\"uv\":[4.5,2,5,2.25]},\"up\":{\"texture\":\"#1\",\"uv\":[3.5,2,3,1]},\"west\":{\"texture\":\"#1\",\"uv\":[3.5,2,4.5,2.25]}},\"from\":[7,12.5,5.25],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8.5,15.75,6.75]},\"to\":[9,13.5,9.25]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[4.75,6.75,4.25,7]},\"east\":{\"texture\":\"#1\",\"uv\":[3.5,7,3.75,8.5]},\"north\":{\"texture\":\"#1\",\"uv\":[3.75,7,4.25,8.5]},\"south\":{\"texture\":\"#1\",\"uv\":[4.5,7,5,8.5]},\"up\":{\"texture\":\"#1\",\"uv\":[4.25,7,3.75,6.75]},\"west\":{\"texture\":\"#1\",\"uv\":[4.25,7,4.5,8.5]}},\"from\":[7,12.5,4.25],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8.5,15.75,6.75]},\"to\":[9,18.5,5.25]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[4,10.5,4,12.75]},\"east\":{\"texture\":\"#1\",\"uv\":[1.75,12.75,4,15]},\"north\":{\"texture\":\"#1\",\"uv\":[4,12.75,4,15]},\"south\":{\"texture\":\"#1\",\"uv\":[6.25,12.75,6.25,15]},\"up\":{\"texture\":\"#1\",\"uv\":[4,12.75,4,10.5]},\"west\":{\"texture\":\"#1\",\"uv\":[4,12.75,1.75,15]}},\"from\":[8,18.15,4.27817],\"rotation\":{\"angle\":-45,\"axis\":\"x\",\"origin\":[8,17.65,15.77817]},\"to\":[8,27.15,13.27817]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[6.5,0,6.5,1.5]},\"east\":{\"texture\":\"#1\",\"uv\":[5,1.5,6.5,3.25]},\"north\":{\"texture\":\"#1\",\"uv\":[6.5,1.5,6.5,3.25]},\"south\":{\"texture\":\"#1\",\"uv\":[8,1.5,8,3.25]},\"up\":{\"texture\":\"#1\",\"uv\":[6.5,1.5,6.5,0]},\"west\":{\"texture\":\"#1\",\"uv\":[6.5,1.5,5,3.25]}},\"from\":[8,12.65,4.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8.5,15.75,6.75]},\"to\":[8,19.65,10.25]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[8,0,7.75,0.5]},\"east\":{\"texture\":\"#1\",\"uv\":[7,0.5,7.5,1.25]},\"north\":{\"texture\":\"#1\",\"uv\":[7.5,0.5,7.75,1.25]},\"south\":{\"texture\":\"#1\",\"uv\":[8.25,0.5,8.5,1.25]},\"up\":{\"texture\":\"#1\",\"uv\":[7.75,0.5,7.5,0]},\"west\":{\"texture\":\"#1\",\"uv\":[7.75,0.5,8.25,1.25]}},\"from\":[7.5,2,4.5],\"rotation\":{\"angle\":-22.5,\"axis\":\"x\",\"origin\":[8.5,6.5,7]},\"to\":[8.5,5,6.5]},{\"faces\":{\"down\":{\"texture\":\"#1\",\"uv\":[1,0,1,1]},\"east\":{\"texture\":\"#1\",\"uv\":[0,1,1,2.5]},\"north\":{\"texture\":\"#1\",\"uv\":[1,1,1,2.5]},\"south\":{\"texture\":\"#1\",\"uv\":[2,1,2,2.5]},\"up\":{\"texture\":\"#1\",\"uv\":[1,1,1,0]},\"west\":{\"texture\":\"#1\",\"uv\":[1,1,0,2.5]}},\"from\":[8,2,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,6.5,7]},\"to\":[8,8,10.5]}],\"groups\":[{\"children\":[0,1,2,3,4,5,6,7,8,9,10,11,12],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"texture_size\":[64,64],\"textures\":{\"1\":\"blossom_crate/blossom_staff\",\"particle\":\"blossom_crate/blossom_staff\"}}",
+        "texture": [{
+            "name": "blossom_staff",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAG1BMVEVHcEzr7vH/29TX2eT9tK63uM37jpP7fIaKh6RiuWAFAAAAAXRSTlMAQObYZgAAAoxJREFUeNrt14GG5FgUxvEzXd0DoI8rBDBGP0Dic7iA3bYagDgOAfSa0vsGOwDKdcljb6Vma9TVWSfpu+wiv1Jw8K9AfYR+6OgWNCe6ANMaD1oGVOwaAK1wEH2jMiCnTU8gdE+3kGVwAk4wN0pnuCBfVxPg7tDzKxVEfgQigOQG5u+RCjnmS6BVyIlpPdMwiNkIZDMFWmbeFBhVNINbIIFHIDBzvymQxKhGTHGizX5huhKNmTZ7ebwJQGizz0uBuy+0XkdXgH4kcKCZjbjIBhA9P9FWYTQDzHI/B16OVOXljz+rCl+fvn9//lrza+XNLRy9m+P5ybs57r74t/+5peEUvdwkBCYX9/8c0HUBs+UAznolT4DociACyQ30DHAA6Ab+FnPyA+McyCqfuvcBk2SDeQGc5VF6KgKKvk1Dkxo3wAIoR+5uAxyYEc8BXRHIwMjCKAINMwRzQL1AmyTFkzDdMJUgZlCZP05AuDnxICjnLbe5Z14ZCAMrigBijgngKeuUJi8AVii0CIiJApgAP9CgTxiaYSnAAHPvBNopT9OpPS0FaI0wpXHqQ//xgELlfSArZjywl8EcwOKfyQ84KzUHmLGlUK4UxJjZ9GMBM4KZQszIt7xSGBgAN+TzV8q3tFLkclaKXM5KkctZKfL5K7VVjikurJTj7nYe5kC5Uq77Z7o6CVqgXCnf27EMoFwp37dXuhoEjWi5Uq5PgX5SUYmpXClX/0g/2Zgs5mKltr01TmcylSu1iaipKG3T1QbwehsQP7CgCAAVgQmY/q3Abrfb7Xa73e7+m1CVz68PVOVAh64yUOlBaVb/CPdUqTrwRpV+pUpMlQLVOTzWBjr6b4GqHENd4LffA33MbvcXQlvNRQvBX2gAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 247,
+    "type": "shovel",
+    "name": "Gardening Trowel",
+    "stats": {
+        "data": {
+            "releaseDate": "April 2022",
+            "crates": "Blossom Crates",
+            "type": "Netherite Shovel",
+            "slot": "Tools",
+            "customTexture": true,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Gardening Trowel",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 11
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 11
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 11
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 11
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Efficiency": 11
+                },
+                {
+                    "Fortune": 4
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Haste I",
+                "Cannot Trample Crops",
+                "Water Particles On Break"
+            ],
+            "skyblock": [
+                "Haste I",
+                "Cannot Trample Crops",
+                "Water Particles On Break"
+            ],
+            "earth": [
+                "Haste I",
+                "Cannot Trample Crops",
+                "Water Particles On Break"
+            ],
+            "prison": [
+                "Haste I",
+                "Cannot Trample Crops",
+                "Water Particles On Break"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Haste I",
+                "Cannot Trample Crops",
+                "Water Particles On Break"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"credit\":\"Copyright ManaLabs Inc\",\"display\":{\"firstperson_lefthand\":{\"rotation\":[-70.03,-36.58,-12.52],\"scale\":[0.68,0.68,0.68],\"translation\":[1.38,3.2,0.13]},\"firstperson_righthand\":{\"rotation\":[-70.03,-36.58,-12.52],\"scale\":[0.68,0.68,0.68],\"translation\":[1.38,2.2,0.13]},\"fixed\":{\"rotation\":[0,0,-46],\"scale\":[0.9,0.9,0.9]},\"ground\":{\"scale\":[0.7,0.7,0.7],\"translation\":[0,3,0]},\"gui\":{\"rotation\":[30,135,0],\"translation\":[0.75,0.5,0]},\"thirdperson_lefthand\":{\"rotation\":[0.5,-11.98,5.04],\"scale\":[0.8,0.8,0.8],\"translation\":[-1.5,4.75,2.25]},\"thirdperson_righthand\":{\"rotation\":[0.5,-11.98,5.04],\"scale\":[0.8,0.8,0.8],\"translation\":[-1.5,4.75,2.25]}},\"elements\":[{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[3,5,2,6]},\"east\":{\"texture\":\"#0\",\"uv\":[0,6,1,9]},\"north\":{\"texture\":\"#0\",\"uv\":[1,6,2,9]},\"south\":{\"texture\":\"#0\",\"uv\":[3,6,4,9]},\"up\":{\"texture\":\"#0\",\"uv\":[2,6,1,5]},\"west\":{\"texture\":\"#0\",\"uv\":[2,6,3,9]}},\"from\":[7,0,6],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,0,0]},\"to\":[9,6,8]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[7.5,5,6,5.5]},\"east\":{\"texture\":\"#0\",\"uv\":[4,5.5,4.5,7.5]},\"north\":{\"texture\":\"#0\",\"uv\":[4.5,5.5,6,7.5]},\"south\":{\"texture\":\"#0\",\"uv\":[6.5,5.5,8,7.5]},\"up\":{\"texture\":\"#0\",\"uv\":[6,5.5,4.5,5]},\"west\":{\"texture\":\"#0\",\"uv\":[6,5.5,6.5,7.5]}},\"from\":[6.5,8,6.25],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[9,0,0]},\"to\":[9.5,12,7.25]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[8,0,4,0]},\"east\":{\"texture\":\"#0\",\"uv\":[0,0,0,5]},\"north\":{\"texture\":\"#0\",\"uv\":[0,0,4,5]},\"south\":{\"texture\":\"#0\",\"uv\":[4,0,8,5]},\"up\":{\"texture\":\"#0\",\"uv\":[4,0,0,0]},\"west\":{\"texture\":\"#0\",\"uv\":[4,0,4,5]}},\"from\":[4,8,6.75],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8.5,0,0]},\"to\":[12,18,6.75]},{\"faces\":{\"down\":{\"texture\":\"#0\",\"uv\":[1,5,0.5,5]},\"east\":{\"texture\":\"#0\",\"uv\":[0,5,0,6]},\"north\":{\"texture\":\"#0\",\"uv\":[0,5,0.5,6]},\"south\":{\"texture\":\"#0\",\"uv\":[0.5,5,1,6]},\"up\":{\"texture\":\"#0\",\"uv\":[0.5,5,0,5]},\"west\":{\"texture\":\"#0\",\"uv\":[0.5,5,0.5,6]}},\"from\":[7.5,6,6.5],\"rotation\":{\"angle\":0,\"axis\":\"y\",\"origin\":[8,0,0]},\"to\":[8.5,8,6.5]}],\"groups\":[{\"children\":[0,1,2,3],\"color\":0,\"name\":\"root\",\"origin\":[8,8,8]}],\"gui_light\":\"front\",\"texture_size\":[32,32],\"textures\":{\"0\":\"blossom_crate/trowel\",\"particle\":\"blossom_crate/trowel\"}}",
+        "texture": [{
+            "name": "trowel",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAG1BMVEVHcEzQ0NKnqLCAgpKqcz9lZHuUWCx+Oh9kHxLxvXkiAAAAAXRSTlMAQObYZgAAAOtJREFUeNrtjEFKA0EQRSeK+64WXNvVutcuPIAwmCyDoS4gYZIDhOABQry28wlYSHUjCIKBec3jD9Rjuv/BjCjYVuAU2bZCLrnYemY4BFsfSIoSbH1QiHKw9QFfP3KwrQS5cLB1XNx+13GJw4PtHwRXOCxtfxHg90tbDw62DpF+GIbxI3EUFh+snp5vvgKtBK/3b3cIeAxgJRh6BERC0AXjtYcUJUEf7Dc9/DFgFoYueNnN15BZGfrgsFhDzlqgC+aHxQ6KqMBm0LXYHLd72Ay2x9NrBu8fp9cMUkyRiWIzUBHVlWh3VkxMTHwC88xEEXZWOtsAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 248,
+    "type": "boot",
+    "name": "Spring Boots",
+    "stats": {
+        "data": {
+            "releaseDate": "April 2022",
+            "crates": "Blossom Crates",
+            "type": "Leather Boots",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "Spring Boots",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 10
+                },
+                {
+                    "Depth Strider": 3
+                },
+                {
+                    "Soul Speed": 3
+                },
+                {
+                    "Feather Falling": 10
+                }
+            ],
+            "skyblock": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 10
+                },
+                {
+                    "Depth Strider": 3
+                },
+                {
+                    "Soul Speed": 3
+                },
+                {
+                    "Feather Falling": 10
+                }
+            ],
+            "earth": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 10
+                },
+                {
+                    "Depth Strider": 3
+                },
+                {
+                    "Soul Speed": 3
+                },
+                {
+                    "Feather Falling": 10
+                }
+            ],
+            "prison": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 10
+                },
+                {
+                    "Depth Strider": 3
+                },
+                {
+                    "Soul Speed": 3
+                },
+                {
+                    "Feather Falling": 10
+                }
+            ],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                    "Unbreakable": 1
+                },
+                {
+                    "Thorns": 5
+                },
+                {
+                    "Protection": 10
+                },
+                {
+                    "Depth Strider": 3
+                },
+                {
+                    "Soul Speed": 3
+                },
+                {
+                    "Feather Falling": 10
+                }
+            ],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Speed II",
+                "Cannot Trample Crops",
+                "Double Jump"
+            ],
+            "skyblock": [
+                "Speed II",
+                "Cannot Trample Crops",
+                "Double Jump"
+            ],
+            "earth": [
+                "Speed II",
+                "Cannot Trample Crops",
+                "Double Jump"
+            ],
+            "prison": [
+                "Speed II",
+                "Cannot Trample Crops",
+                "Double Jump"
+            ],
+            "parkour": [],
+            "kitpvp": [],
+            "island": [
+                "Speed II",
+                "Cannot Trample Crops",
+                "Double Jump"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJBlWElmTU0AKgAAAAgABgEGAAMAAAABAAIAAAESAAMAAAABAAEAAAEaAAUAAAABAAAAVgEbAAUAAAABAAAAXgEoAAMAAAABAAIAAIdpAAQAAAABAAAAZgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAABAAAAAAjw+h1QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAm1pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDYuMC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPjI8L3RpZmY6UGhvdG9tZXRyaWNJbnRlcnByZXRhdGlvbj4KICAgICAgICAgPHRpZmY6WFJlc29sdXRpb24+NzI8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOllSZXNvbHV0aW9uPjcyPC90aWZmOllSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpDb21wcmVzc2lvbj4xPC90aWZmOkNvbXByZXNzaW9uPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KsVruIwAAAkhJREFUOBGFU81vEkEUn4+FJUCB3ZYUKlBsKDGiSdVejJeNadomxosJiWmMd8/+A/w/HntBYw2J8eDBY6+KJB4sSojQ7rLMh+8NrCWExLeZeTO/93tv3rx5S8mSeIRYBCaUTocI1J4H2FwiLNova7oMrNj/l+PUCul8s1FywRnJ9KiRwXWeZLPOcsAoGmr9/FahmoqztxOhKr5UPWbpB+hAJf2SsnhFaNLrX/pH7e6wizAMzTy8MyxguKkYPTu5XagfVN3EZSiL44lkb877LBe3ii/vbCUeV5x6qOgZctHHA18WFQwARihdtxgo+LTSkxhnGFgzRicwCIcBpnXDhQmFzZSZKZhDrTWkA3702gYQMzjAnJIQ2Ji+ETbq/NuEU6mNATNYJRj4aqrQiEHICAKxp4TIOXkjY3PIEtI3HzU9gDaABKaH1yum4jybtTcQR1/WIkTtlTK7r/fL7Wf1TQciBGjkjCR/9s1pVCqdRKzupoJX98rOi518m9j2bgt8sQbOvps+fVLL12yLid6fgPtCwV3pxefBQDUbeXUl5MW3oU+EUjwZ4+J+IVM73kqfoi8+oRVKvQ2OWDoWCMU+fB98/fhrdAi2MTwjKWftw0Dod8c39Y7FqYKM8IBt9KUndytOMPE/jUJ5A9KZWpwNz3+PD7rDoNuavxJotVfIVTcT/D1UKAcHxXypfyiqHhEkNbFV19awMDgW2xUrjiMStBnew5Jp78U2iDhGLzpFhlXYLLrnQTt3Ih78xmT2G18js5UHd17EOsD7C1vixXmxPA28AAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 249,
+    "type": "sword",
+    "name": "Blossom Sword",
+    "stats": {
+        "data": {
+            "releaseDate": "April 2022",
+            "crates": "Blossom Crates",
+            "type": "Golden Sword",
+            "slot": "Tools",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Slowness V"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVQ4y2NgIAM0xYr9h2GyNMOAvR7ff7I0v3oXTroBVNP8938ZjTRjC1UQH6SJKJtBiu9ME4YbQpJmZENebhQFKwZpArFJ8jPMABAGuYbkAEP3CsmaPc1E/2f4yYE1wgKVaENAmjvT1f9ryHGDNYA0wgwiGPogDLIZphkZwAwi6GeS/YtuA7kGAAA7UMGUTmMzfwAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+},{
+    "id": 250,
+    "type": "bow",
+    "name": "Spooky Bow",
+    "stats": {
+        "data": {
+            "releaseDate": "October 2020",
+            "crates": "Halloween Crates",
+            "type": "Bow",
+            "slot": "Tools",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Non-SVA Items",
+            "lore": "Exclusive Halloween Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Comes with +1 Arrow!"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgoCfwNBP9j4xJ1tSZrv4/w08OjEFsDTnu/wQ1wjTBNCBjvJqzs7PBGrFpcHFxIax52rRpYBpdnnaaYQaAnE22ZlwhS1Azsu3oBhClGZcL6KMZm/NJ0oxuAMmaCcUA0YBczQDVGni1vuKfywAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 251,
+    "type": "misc",
+    "name": "Space Blaster Gun",
+    "stats": {
+        "data": {
+            "releaseDate": "November 2020",
+            "crates": "Arcade Crates",
+            "type": "Stick",
+            "slot": "Others",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Non-SVA Items",
+            "lore": "Exclusive Arcade Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Shoot away the space invaders with this gun!"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVQ4y2NgGAjg4uICxmRr9jQT/a8hx/2fbM2d6eqkG0AVzRl+cqM2EwvIthmmGWbztGnTGExNTcmzGaSZJAPQnQ3SSJLtII1k+ZlSAAChYkrlEehYfgAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 252,
+    "type": "misc",
+    "name": "Arcade Firework",
+    "stats": {
+        "data": {
+            "releaseDate": "November 2020",
+            "crates": "Arcade Crates",
+            "type": "Firework",
+            "slot": "Others",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Non-SVA Items",
+            "lore": "Exclusive Arcade Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Design: Arcade",
+                "Uses: Infinite",
+                "Cooldown: 10 seconds"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVQ4y2NgGPRgp6bmf7I1zwRqvqal9T9XXPw/WZpBtoNokAEkG7ITyQAQbpGWJt0Vm85c/A/CZGkGgS9fvsBdQXYMgDDIFWQbAHIF2QaANIMw2V6gSRjoinD+B2GiDQAphhlAtEZ0QJKtpAIAiKxhA9IBieYAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 253,
+    "type": "misc",
+    "name": "Canadian Firework",
+    "stats": {
+        "data": {
+            "releaseDate": "July 2020",
+            "crates": "Canada Crates",
+            "type": "Firework",
+            "slot": "Others",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Non-SVA Items",
+            "lore": "Exclusive Canada Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Design: Canada",
+                "Uses: Infinite",
+                "Cooldown: 10 seconds"
+            ],
+            "skyblock": [
+                "Design: Canada",
+                "Uses: Infinite",
+                "Cooldown: 10 seconds"
+            ],
+            "earth": [],
+            "prison": [
+                "Design: Canada",
+                "Uses: Infinite",
+                "Cooldown: 10 seconds"
+            ],
+            "parkour": [
+                "Design: Canada",
+                "Uses: Infinite",
+                "Cooldown: 10 seconds"
+            ],
+            "kitpvp": [],
+            "island": [
+                "Design: Canada",
+                "Uses: Infinite",
+                "Cooldown: 10 seconds"
+            ],
+            "faction": []
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVQ4y2NgGPRgp6bmf7I1zwRqvqal9T9XXPw/WZpBtoNokAEkG7ITyQAQbpGWJt0Vm85c/A/CZGkGgS9fvsBdQXYMgDDIFWQbAHIF2QaANIMw2V6gSRjoinD+B2GiDQAphhlAtEZ0QJKtpAIAiKxhA9IBieYAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 254,
+    "type": "bow",
+    "name": "Mapple Bow",
+    "stats": {
+        "data": {
+            "releaseDate": "July 2020",
+            "crates": "Canada Crates",
+            "type": "Bow",
+            "slot": "Tools",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Non-SVA Items",
+            "lore": "Exclusive Canada Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Unknown": 0
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Comes with +1 Arrow!"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgoCfwNBP9j4xJ1tSZrv4/w08OjEFsDTnu/wQ1wjTBNCBjvJqzs7PBGrFpcHFxIax52rRpYBpdnnaaYQaAnE22ZlwhS1Azsu3oBhClGZcL6KMZm/NJ0oxuAMmaCcUA0YBczQDVGni1vuKfywAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 255,
+    "type": "misc",
+    "name": "Arctic Aurora Firework",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctic Crates",
+            "type": "Firework",
+            "slot": "Others",
+            "customTexture": false,
+            "customEffect": false,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                    "Protection": 3
+                },
+                {
+                    "Depth Strider": 4
+                },
+                {
+                    "Fire Protection": 1
+                },
+                {
+                    "Unbreaking": 3
+                }
+            ],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Only Available on Parkour"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVQ4y2NgGPRgp6bmf7I1zwRqvqal9T9XXPw/WZpBtoNokAEkG7ITyQAQbpGWJt0Vm85c/A/CZGkGgS9fvsBdQXYMgDDIFWQbAHIF2QaANIMw2V6gSRjoinD+B2GiDQAphhlAtEZ0QJKtpAIAiKxhA9IBieYAAAAASUVORK5CYII="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 256,
+    "type": "pickaxe",
+    "name": "Ice Climber Pickaxe",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctic Crates",
+            "type": "Diamond Pickaxe",
+            "slot": "Tools",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                "Efficiency": 10
+            }],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Night Vision"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAAIJSAoHgtJNhUnspoOPzYrx6yJZydoTh4z68uk6/rmAAAAAXRSTlMAQObYZgAAAEpJREFUGJWNjDECwCAIA4lEqv//cNGhBqdmyx3B7Gf6ivYZZHQfhwAgn1ZmHkTpozGEeN5DTtKbAt//8E22TzChfpHire4l7epXXpodAQa2BjFiAAAAAElFTkSuQmCC"
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
+}, {
+    "id": 257,
+    "type": "boot",
+    "name": "Mountain Hiker Boots",
+    "stats": {
+        "data": {
+            "releaseDate": "January 2022",
+            "crates": "Arctic Crates",
+            "type": "Diamond Boots",
+            "slot": "Armor",
+            "customTexture": false,
+            "customEffect": true,
+            "rarity": "Rare",
+            "lore": "2022 Arctic Crate",
+            "isWardrobe": false,
+            "wardrobeType": "",
+            "isFurniture": false
+        },
+        "enchant": {
+            "survival": [{
+                "Unknown": 0
+            }],
+            "skyblock": [{
+                "Unknown": 0
+            }],
+            "earth": [{
+                "Unknown": 0
+            }],
+            "prison": [{
+                "Unknown": 0
+            }],
+            "parkour": [{
+                    "Protection": 5
+                },
+                {
+                    "Fire Protection": 5
+                },
+                {
+                    "Unbreaking": 5
+                }
+            ],
+            "kitpvp": [{
+                "Unknown": 0
+            }],
+            "island": [{
+                "Unknown": 0
+            }],
+            "faction": [{
+                "Unknown": 0
+            }]
+        },
+        "effects": {
+            "survival": [
+                "Only Available on Parkour"
+            ],
+            "skyblock": [
+                "Only Available on Parkour"
+            ],
+            "earth": [
+                "Only Available on Parkour"
+            ],
+            "prison": [
+                "Only Available on Parkour"
+            ],
+            "parkour": [
+                "Jump Boost I"
+            ],
+            "kitpvp": [
+                "Only Available on Parkour"
+            ],
+            "island": [
+                "Only Available on Parkour"
+            ],
+            "faction": [
+                "Only Available on Parkour"
+            ]
+        }
+    },
+    "model": {
+        "model": "{\"textures\":{\"top\": \"blocks/texture\"}, \"elements\": [{\"from\": [1, 0, 1], \"to\": [15, 15, 15], \"faces\":{\"south\":{\"uv\": [0, 0, 15, 15], \"texture\": \"#top\"}}}]}",
+        "texture": [{
+            "name": "texture",
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbWh++gaqqf///+Sb4flAAAAAXRSTlMAQObYZgAAAEVJREFUGFediEESwCAIA00E+/8flyDW8VhzgN1t7W4k65Q/jnVn8AzedxCy75B4BDtCUAbLN30ojCq08ABAoACpho/+7QV5hQDq80bh+AAAAABJRU5ErkJggg=="
+        }],
+        "viewer": {
+            "x": 0,
+            "y": 0,
+            "z": 25
+        }
+    }
 }
 ];
