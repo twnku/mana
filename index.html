@@ -373,14 +373,14 @@
                 										</div>
                 									</div>
                 									<div class="separator separator-dashed border-gray-200"></div>
-                									<div class="row mb-1">
+                									<div class="row mb-5">
                 										<label class="col-4 fw-bold text-muted">Rarity</label>
                 										<div class="col-8">
                 											<span id="irarity" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
                 										</div>
                 									</div>
 													<input id="txtrsrcs" hidden><input id="txtrsmdl" hidden>
-													<button id="hdiedas" onclick="reloadTexture();" class="btn btn-sm btn-light w-100 pb-1 pt-1 mt-1">Reload Texture</button>
+													<button id="hdiedas" onclick="reloadTexture();" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to reload the model" class="btn btn-sm btn-light-warning w-100 pb-1 pt-1 mt-1">Reload Model</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -1896,12 +1896,17 @@
             
 			function reloadTexture(){
 				try {
-					viewer.remove('preview');
+					try {
+						viewer.remove('preview');
+					} catch (e) {
+						console.log(e.message);
+					}
+					model = new JsonModel('preview', $('#txtrsmdl').val(), jQuery.parseJSON($('#txtrsrcs').val()));
+					viewer.load(model);
 				} catch (e) {
+					toastr.warning("Please reload the model");
 					console.log(e.message);
 				}
-				model = new JsonModel('preview', $('#txtrsmdl').val(), jQuery.parseJSON($('#txtrsrcs').val()));
-				viewer.load(model);
 			}
 
             function loadPreviewData(itemID){
@@ -2170,13 +2175,19 @@
 				};
 				
 				try {
+					try {
 					viewer.remove('preview');
+					} catch (e) {
+						console.log(e.message);
+					}
+					var newmodel = new JsonModel('preview', itemData[itemID].model.model, itemData[itemID].model.texture)
+					viewer.load(newmodel)
+					viewer.hideGrid()
 				} catch (e) {
+					toastr.warning("Please reload the model");
 					console.log(e.message);
 				}
-				var newmodel = new JsonModel('preview', itemData[itemID].model.model, itemData[itemID].model.texture)
-				viewer.load(newmodel)
-				viewer.hideGrid()
+				
                 /*try {
                     viewer.remove('preview');
                 } catch (e) {
