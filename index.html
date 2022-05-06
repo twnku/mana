@@ -379,6 +379,8 @@
                 											<span id="irarity" class="fw-bolder fs-6 text-gray-800">Placeholder</span>
                 										</div>
                 									</div>
+													<input id="txtrsrcs" hidden><input id="txtrsmdl" hidden>
+													<button id="hdiedas" onclick="reloadTexture();" class="btn btn-sm btn-light w-100 pb-1 pt-1 mt-1">Reload Texture</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -1892,7 +1894,19 @@
                 });
             }
             
+			function reloadTexture(){
+				try {
+					viewer.remove('preview');
+				} catch (e) {
+					console.log(e.message);
+				}
+				model = new JsonModel('preview', $('#txtrsmdl').val(), jQuery.parseJSON($('#txtrsrcs').val()));
+				viewer.load(model);
+			}
+
             function loadPreviewData(itemID){
+				$('#txtrsrcs').val(itemData[itemID].model.texture);
+				$('#txtrsmdl').val(itemData[itemID].model.model);
                 $('#item_container_list').empty();
                 $('#item_container_preview').removeClass('d-none');
                 $('.menu-accordion, .menu-sub-accordion').removeClass('show').removeClass('hover'); $('.menu-link').removeClass('active');$('#catPrevC').addClass('active');
@@ -2155,22 +2169,6 @@
 					$('#faction_custom_effect').append(`<div class="row"><span class="text-gray-500 fw-bolder mt-1 mb-1"></span></div>`);
 				};
 				
-				/*newmodel = new JsonModel('preview', itemData[itemID].model.model, itemData[itemID].model.texture)
-				model = newmodel
-                for (let i = 0; i < 3; i++) {
-					try {
-						
-						try {
-							viewer.remove('preview')
-						} catch (e) {
-							console.log(e.message)
-						}
-						viewer.load(model)
-						viewer.hideGrid()
-					} catch (e) {
-						console.log(e.message)
-					}
-				}*/
 				try {
 					viewer.remove('preview');
 				} catch (e) {
