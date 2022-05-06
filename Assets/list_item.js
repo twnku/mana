@@ -23686,7 +23686,7 @@ var itemData = [{
             "z": 25
         }
     }
-},,{
+},{
     "id": 236,
     "type": "sword",
     "name": "Banana Sword",
