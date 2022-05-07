@@ -1,8 +1,15 @@
-### https://twnku.github.io/mana/
-#
-### You can use https://twnku.github.io/mana/new.html
-### or
-### Sample format
+<!-- https://twnku.github.io/mana/ -->
+# Manacube Seasonal Vault List 
+![preview](https://i.imgur.com/yxteoCe.png)
+### Click here to [Preview](https://twnku.github.io/mana/)
+A compiled a list of Manacube's seasonal vault items across all game modes/realms, including Armor, Tools, and Misc items, with their stats, custom effects and custom texture.
+<br>
+<!--# How to submit a new items? 📝 -->
+## 📝 How to contribute 
+### 🙋 Some items still missing or inaccurate? 
+If you'd like to contribute to the list, thats great, just fork the repository and submit a pull request on the Master branch. you can add new items or edit the existing one to `list_item.js` with the following sample format or you can [submit it here](https://forms.gle/TtjfjTwBEgBWYmG8A).
+We are always looking for motivated people to contribute. If you feel like it could be you, please have do :)
+### 📚 Sample format 
 ```json
 [
 	{
@@ -95,12 +102,15 @@
 	}
 ]
 ```
+### or
+You can use https://twnku.github.io/mana/test/new.html to helps you create it
+###
 <details>
-  <summary>Spoiler</summary>
+  <summary>How?</summary>
   
 ### 
-- go to https://twnku.github.io/mana/new.html
-- fill in all input values 
+1. Open https://twnku.github.io/mana/test/new.html
+2. Fill in all input values 
   - Name (e.g: `Valentines Sword`)
   - Release Date (e.g; `February 2022`)
   - Crates Name (e.g; `Valentines Crates`)
@@ -112,23 +122,25 @@
   - Rarity (e.g: `Rare` / `Limited Edition` / `Super Rare`)
   - Enchantments list
   - etc
-- Click `Generate JSON Output`
+3. Click `Generate JSON Output`
 
 #
 ### Use 2d Model
-- Scroll down to the bottom
-- Click the `Default` Label to use default format
-- Upload the texture pack file (e.g: diamond_sword.png from the texture pack)
-- Scroll up again to the top
-- Click `Load From Input`
+1. Scroll down to the bottom
+2. Click the `Default` Label to use default format
+3. Upload the texture pack file (e.g: diamond_sword.png from the texture pack)
+4. Scroll up again to the top
+5. Click `Load From Input`
 
 ### Use 3d Model
-- Upload the custom model `json` file 
-- Upload the custom model texture image
-- Upload `mcmeta` file if needed
-- Click `Load Texture` (if model doesnt load click the `Load From Input` after load texture)
+1. Upload the custom model `json` file 
+2. Upload the custom model texture image
+3. Upload `mcmeta` file if needed
+4. Click `Load Texture` (if model doesnt load click the `Load From Input` after load texture)
 #
 if there is only 1 enchantments or effects and the `enchant` or `effects` is empty, click the `+ Add Custom Enchant` or `+ Add Custom Effect` and leave 1 row empty 
   
 </details>
   
+##
+[![Issues](https://img.shields.io/github/issues-raw/twnku/mana)](https://github.com/twnku/mana/issues)  [![fork](https://shields.io/github/forks/twnku/mana)](https://github.com/twnku/mana/fork)  
